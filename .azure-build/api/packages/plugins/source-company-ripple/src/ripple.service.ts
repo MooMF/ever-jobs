@@ -1,0 +1,123 @@
+import { SourcePlugin } from '@ever-jobs/plugin';
+
+import { Injectable, Logger } from '@nestjs/common';
+import {
+  IScraper, ScraperInputDto, JobResponseDto, JobPostDto, Site, LocationDto,
+} from '@ever-jobs/models';
+import { createHttpClient, decodeHtmlEntities, stripHtmlTags } from '@ever-jobs/common';
+
+/**
+ * Ripple — Enterprise blockchain and crypto solutions for cross-border payments.
+ *
+ * Ripple provides enterprise blockchain and crypto infrastructure for
+ * cross-border payments, custody, and tokenization, built around the
+ * XRP Ledger. Its products help financial institutions move and manage
+ * value globally.
+ *
+ * Sector: Crypto-enabled payments & blockchain. HQ: San Francisco, CA, USA.
+ *
+ * Highlights:
+ *   - Cross-border payments built on the XRP Ledger
+ *   - Institutional digital-asset custody and tokenization products
+ *   - Works with banks and payment providers across many markets
+ *
+ * Source profile (Spec 428):
+ *   - D-04 — Greenhouse canonical hosted-board host (variant 2):
+ *     `https://job-boards.greenhouse.io/ripple/jobs/<id>`.
+ *   - D-08 — entity-decode-then-tag-strip description pipeline.
+ *   - D-09 — wire `company_name` pass-through (`'Ripple'`).
+ *   - D-10 — defensive `.trim()` on wire titles (padding observed
+ *     on the run-398 batch probe).
+ *   - D-11 — defensive `.trim()` on wire department names.
+ *
+ * Probed 128 live role(s) on the run-398 batch sweep.
+ */
+const API_URL = 'https://api.greenhouse.io/v1/boards/ripple/jobs';
+
+@SourcePlugin({
+  site: Site.RIPPLE,
+  name: 'Ripple',
+  category: 'company',
+})
+@Injectable()
+export class RippleService implements IScraper {
+  private readonly logger = new Logger(RippleService.name);
+
+  async scrape(input: ScraperInputDto): Promise<JobResponseDto> {
+    const jobs: JobPostDto[] = [];
+    const resultsWanted = input.resultsWanted ?? 50;
+
+    try {
+      const client = createHttpClient({
+        proxies: input.proxies,
+        timeout: input.requestTimeout ?? 30,
+      });
+
+      const url = `${API_URL}?content=true`;
+      this.logger.log(`Ripple: fetching ${url}`);
+
+      const { data } = await client.get<any>(url);
+      const listings = data?.jobs ?? [];
+
+      for (const listing of listings) {
+        if (jobs.length >= resultsWanted) break;
+
+        // D-10: defensive trim of wire title padding.
+        const title = (listing.title ?? '').trim();
+        if (!title) continue;
+
+        if (input.searchTerm) {
+          const term = input.searchTerm.toLowerCase();
+          const titleMatch = title.toLowerCase().includes(term);
+          const deptMatch = (listing.departments?.[0]?.name ?? '')
+            .toLowerCase()
+            .includes(term);
+          if (!titleMatch && !deptMatch) continue;
+        }
+
+        const jobId = listing.id ?? '';
+        const id = `ripple-${jobId}`;
+
+        const locationStr = listing.location?.name ?? null;
+        const location = locationStr
+          ? new LocationDto({ city: locationStr })
+          : null;
+
+        if (input.location && locationStr) {
+          if (!locationStr.toLowerCase().includes(input.location.toLowerCase())) continue;
+        }
+
+        // D-11: defensive trim of wire department padding.
+        const deptRaw = listing.departments?.[0]?.name ?? null;
+        const department = deptRaw ? deptRaw.trim() : null;
+
+        jobs.push(
+          new JobPostDto({
+            id,
+            site: Site.RIPPLE,
+            title,
+            // D-09 pass-through: wire `company_name`.
+            companyName: listing.company_name ?? 'Ripple',
+            // D-04: wire `absolute_url` flows through (variant 2).
+            jobUrl:
+              listing.absolute_url ??
+              `https://job-boards.greenhouse.io/ripple/jobs/${listing.id}`,
+            location,
+            description: listing.content
+              ? stripHtmlTags(decodeHtmlEntities(listing.content))
+              : null,
+            datePosted: listing.updated_at ?? null,
+            isRemote: locationStr?.toLowerCase().includes('remote') ?? false,
+            department,
+          }),
+        );
+      }
+
+      this.logger.log(`Ripple: scraped ${jobs.length} jobs`);
+    } catch (err: any) {
+      this.logger.error(`Ripple scrape failed: ${err.message}`);
+    }
+
+    return { jobs };
+  }
+}

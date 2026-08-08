@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7686866003,
+      "title": "Account Executive, Air (T1200 - Northeast) ",
+      "company_name": "Axon",
+      "absolute_url": "https://job-boards.greenhouse.io/axon/jobs/7686866003",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "Boston, MA" },
+      "departments": [{ "id": 1, "name": "1105 SCM - Distribution &  Warehousing - Skybridge" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Account Executive, Air (T1200 - Northeast)&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Axon is the US-public-safety + connected-policing platform pioneered around TASER-conducted-energy-weapon-as-platform &amp; body-worn-camera-as-cloud-service.&lt;/p&gt;"
+    },
+    {
+      "id": 7795031002,
+      "title": "Senior Software Engineer, Evidence.com",
+      "company_name": "Axon",
+      "absolute_url": "https://job-boards.greenhouse.io/axon/jobs/7795031002",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Scottsdale, AZ" },
+      "departments": [{ "id": 2, "name": "1501 Software Services" }],
+      "content": "&lt;p&gt;Lead Axon's Evidence.com engineering function across the DEMS / Records / Justice platform.&lt;/p&gt;"
+    }
+  ]
+}

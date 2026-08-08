@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7821447002,
+      "title": "Application Security Engineer",
+      "company_name": "BitGo",
+      "absolute_url": "https://job-boards.greenhouse.io/bitgo/jobs/7821447002",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "Palo Alto, CA" },
+      "departments": [{ "id": 1, "name": "Security" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Application Security Engineer&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;BitGo is the dominant institutional-crypto-custody and digital-asset-trust platform pioneered around the multi-signature cold-storage data model.&lt;/p&gt;"
+    },
+    {
+      "id": 8121419002,
+      "title": " Senior Director Risk Management",
+      "company_name": "BitGo",
+      "absolute_url": "https://job-boards.greenhouse.io/bitgo/jobs/8121419002",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 2, "name": "Risk" }],
+      "content": "&lt;p&gt;Lead BitGo's Risk Management function across the institutional-crypto-custody platform stack &amp; regulated-trust ecosystem.&lt;/p&gt;"
+    }
+  ]
+}

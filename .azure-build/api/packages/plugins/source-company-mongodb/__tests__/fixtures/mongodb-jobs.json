@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 9601234,
+      "title": "Senior Software Engineer, Atlas Storage",
+      "absolute_url": "https://boards.greenhouse.io/mongodb/jobs/9601234",
+      "updated_at": "2026-04-29T15:00:00.000Z",
+      "first_published": "2026-04-19T08:00:00.000Z",
+      "location": { "name": "New York, NY" },
+      "departments": [{ "id": 1020, "name": "Engineering" }],
+      "offices": [{ "id": 1031, "name": "New York" }],
+      "content": "<p><strong>About the role</strong></p><p>Own the MongoDB Atlas storage tier that powers tens of millions of operations per second across the global cloud-database fleet's distributed query layer.</p><ul><li>C++, distributed-systems, and high-throughput storage-engine experience required</li></ul>"
+    },
+    {
+      "id": 9602345,
+      "title": "Senior Manager, Customer Success — Vector Search",
+      "absolute_url": "https://boards.greenhouse.io/mongodb/jobs/9602345",
+      "updated_at": "2026-04-30T11:30:00.000Z",
+      "first_published": "2026-04-23T07:00:00.000Z",
+      "location": { "name": "Remote — North America" },
+      "departments": [{ "id": 1021, "name": "Customer Success" }],
+      "offices": [{ "id": 1032, "name": "Remote" }],
+      "content": "<p>Own MongoDB's customer-success strategy roadmap across enterprise-account adoption of Atlas Vector Search, retrieval-augmented-generation rollouts, and AI-platform engagement motion.</p>"
+    }
+  ],
+  "meta": { "total": 2 }
+}

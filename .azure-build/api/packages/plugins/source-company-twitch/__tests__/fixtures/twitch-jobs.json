@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 9301234,
+      "title": "Senior Software Engineer, Live Video Ingest",
+      "absolute_url": "https://boards.greenhouse.io/twitch/jobs/9301234",
+      "updated_at": "2026-04-29T15:00:00.000Z",
+      "first_published": "2026-04-19T08:00:00.000Z",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 810, "name": "Engineering" }],
+      "offices": [{ "id": 821, "name": "San Francisco" }],
+      "content": "<p><strong>About the role</strong></p><p>Own the Twitch Live Video Ingest pipeline that powers millions of concurrent streamers across the global creator-economy platform's distributed media infrastructure.</p><ul><li>Go, FFmpeg, and low-latency streaming experience required</li></ul>"
+    },
+    {
+      "id": 9302345,
+      "title": "Senior Manager, Creator-Success Strategy",
+      "absolute_url": "https://boards.greenhouse.io/twitch/jobs/9302345",
+      "updated_at": "2026-04-30T11:30:00.000Z",
+      "first_published": "2026-04-23T07:00:00.000Z",
+      "location": { "name": "Remote — North America" },
+      "departments": [{ "id": 811, "name": "Creator Success" }],
+      "offices": [{ "id": 822, "name": "Remote" }],
+      "content": "<p>Own Twitch's creator-success strategy roadmap across partner-program adoption, education, and community-engagement motion.</p>"
+    }
+  ],
+  "meta": { "total": 2 }
+}

@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5221535008,
+      "title": "Accounts Receivable Officer ",
+      "company_name": "Air North",
+      "absolute_url": "https://job-boards.greenhouse.io/airnorth/jobs/5221535008",
+      "updated_at": "2026-05-29T13:44:08-04:00",
+      "location": {
+        "name": "Whitehorse, YT"
+      },
+      "departments": [
+        {
+          "id": 5221535009,
+          "name": "Finance "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Air North.&lt;/strong&gt; Now hiring a Accounts Receivable Officer on the Finance team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5167196008,
+      "title": "Aircraft Grooming Agent",
+      "company_name": "Air North",
+      "absolute_url": "https://job-boards.greenhouse.io/airnorth/jobs/5167196008",
+      "updated_at": "2026-05-20T12:35:15-04:00",
+      "location": {
+        "name": "Whitehorse, YT"
+      },
+      "departments": [
+        {
+          "id": 5167196009,
+          "name": "Cabin Services (YXY)"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Air North.&lt;/strong&gt; Now hiring a Aircraft Grooming Agent on the Cabin Services (YXY) team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5222670008,
+      "title": "Aircraft Maintenance Engineer (ACA \"E\")",
+      "company_name": "Air North",
+      "absolute_url": "https://job-boards.greenhouse.io/airnorth/jobs/5222670008",
+      "updated_at": "2026-05-19T11:30:53-04:00",
+      "location": {
+        "name": "Whitehorse, YT"
+      },
+      "departments": [
+        {
+          "id": 5222670009,
+          "name": "Aircraft Maintenance"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Air North.&lt;/strong&gt; Now hiring a Aircraft Maintenance Engineer (ACA \"E\") on the Aircraft Maintenance team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 7340050,
+      "title": "Account Manager",
+      "company_name": "Adyen",
+      "absolute_url": "https://job-boards.greenhouse.io/adyen/jobs/7340050",
+      "updated_at": "2026-04-30T12:15:32-04:00",
+      "first_published": "2026-03-21T09:00:00-04:00",
+      "location": { "name": "Amsterdam, Netherlands" },
+      "departments": [{ "id": 4063436015, "name": "Account Management" }],
+      "offices": [{ "id": 21001, "name": "Amsterdam" }],
+      "content": "&lt;p&gt;Adyen is the financial technology platform of choice for leading companies. The Account Management team partners with merchants worldwide to drive payment-platform adoption across the unified-acquiring-and-issuing single-payment-platform.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Account Manager partners with Merchant Operations &amp; Compliance to grow Adyen&#8217;s European merchant footprint.&lt;/p&gt;"
+    },
+    {
+      "id": 7436701,
+      "title": "Senior Software Engineer ",
+      "company_name": "Adyen",
+      "absolute_url": "https://job-boards.greenhouse.io/adyen/jobs/7436701",
+      "updated_at": "2026-04-29T10:42:11-04:00",
+      "first_published": "2026-03-15T08:30:00-04:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 4089992015, "name": "Infrastructure" }],
+      "offices": [{ "id": 21002, "name": "San Francisco" }],
+      "content": "&lt;p&gt;Adyen is the financial technology platform of choice for leading companies. The Infrastructure team owns the unified-acquiring-and-issuing payment platform&#8217;s server-side pipelines.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Senior Software Engineer partners with Engineering and Risk Management to ship the tokenisation core that powers Adyen&#8217;s global merchant network.&lt;/p&gt;"
+    }
+  ]
+}

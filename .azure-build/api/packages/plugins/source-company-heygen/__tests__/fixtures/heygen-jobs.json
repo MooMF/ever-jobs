@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 5071438007,
+      "title": "B2B Field Marketer ",
+      "company_name": "HeyGen",
+      "absolute_url": "https://job-boards.greenhouse.io/heygen/jobs/5071438007",
+      "updated_at": "2026-05-08T01:52:01-04:00",
+      "location": {
+        "name": "Los Angeles, San Francisco"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About HeyGen.&lt;/strong&gt; Now hiring a B2B Field Marketer on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4172070007,
+      "title": "Backend Engineer",
+      "company_name": "HeyGen",
+      "absolute_url": "https://job-boards.greenhouse.io/heygen/jobs/4172070007",
+      "updated_at": "2025-02-19T12:45:03-05:00",
+      "location": {
+        "name": "San Francisco, Palo Alto, Los Angeles, Toronto"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About HeyGen.&lt;/strong&gt; Now hiring a Backend Engineer on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4352234007,
+      "title": "Backend Engineer - Infrastructure",
+      "company_name": "HeyGen",
+      "absolute_url": "https://job-boards.greenhouse.io/heygen/jobs/4352234007",
+      "updated_at": "2026-02-11T16:53:29-05:00",
+      "location": {
+        "name": "Los Angeles, San Francisco, Palo Alto, Toronto"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About HeyGen.&lt;/strong&gt; Now hiring a Backend Engineer - Infrastructure on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

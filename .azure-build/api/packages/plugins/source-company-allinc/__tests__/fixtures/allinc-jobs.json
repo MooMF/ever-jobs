@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 8098726002,
+      "title": "Administrative Coordinator ",
+      "company_name": "Aspire Living & Learning ",
+      "absolute_url": "https://job-boards.greenhouse.io/allinc/jobs/8098726002",
+      "updated_at": "2026-05-27T15:15:23-04:00",
+      "location": {
+        "name": "Bel Air, Maryland"
+      },
+      "departments": [
+        {
+          "id": 8098726003,
+          "name": "Adult Services "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Aspire Living & Learning .&lt;/strong&gt; Now hiring a Administrative Coordinator on the Adult Services team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8558554002,
+      "title": "Assistive Technology Technician",
+      "company_name": "Aspire Living & Learning ",
+      "absolute_url": "https://job-boards.greenhouse.io/allinc/jobs/8558554002",
+      "updated_at": "2026-05-22T14:50:44-04:00",
+      "location": {
+        "name": "Leominster, MA"
+      },
+      "departments": [
+        {
+          "id": 8558554003,
+          "name": "Clinical Services"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Aspire Living & Learning .&lt;/strong&gt; Now hiring a Assistive Technology Technician on the Clinical Services team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8570725002,
+      "title": "Behavior Therapist (BT)",
+      "company_name": "Aspire Living & Learning ",
+      "absolute_url": "https://job-boards.greenhouse.io/allinc/jobs/8570725002",
+      "updated_at": "2026-05-29T09:20:26-04:00",
+      "location": {
+        "name": "Trumbull, Connecticut"
+      },
+      "departments": [
+        {
+          "id": 8570725003,
+          "name": "ALL Academy"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Aspire Living & Learning .&lt;/strong&gt; Now hiring a Behavior Therapist (BT) on the ALL Academy team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

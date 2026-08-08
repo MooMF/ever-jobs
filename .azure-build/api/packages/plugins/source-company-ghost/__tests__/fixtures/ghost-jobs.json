@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 4698089005,
+      "title": "Chief of Staff ",
+      "company_name": "Ghost",
+      "absolute_url": "https://job-boards.greenhouse.io/ghost/jobs/4698089005",
+      "updated_at": "2026-05-26T21:41:16-04:00",
+      "location": {
+        "name": "Los Angeles, California"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Ghost.&lt;/strong&gt; Now hiring a Chief of Staff on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4669716005,
+      "title": "Controller",
+      "company_name": "Ghost",
+      "absolute_url": "https://job-boards.greenhouse.io/ghost/jobs/4669716005",
+      "updated_at": "2026-05-20T17:10:15-04:00",
+      "location": {
+        "name": "Los Angeles, California"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Ghost.&lt;/strong&gt; Now hiring a Controller on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4694683005,
+      "title": "Senior Director, Financial Planning & Analysis",
+      "company_name": "Ghost",
+      "absolute_url": "https://job-boards.greenhouse.io/ghost/jobs/4694683005",
+      "updated_at": "2026-06-02T15:29:01-04:00",
+      "location": {
+        "name": "Los Angeles, California"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Ghost.&lt;/strong&gt; Now hiring a Senior Director, Financial Planning & Analysis on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 8420453002,
+      "title": "Accountant ",
+      "company_name": "AppDirect",
+      "absolute_url": "https://job-boards.greenhouse.io/appdirect/jobs/8420453002",
+      "updated_at": "2026-05-07T16:13:25-04:00",
+      "location": {
+        "name": "Buenos Aires, Argentina"
+      },
+      "departments": [
+        {
+          "id": 8420453003,
+          "name": "Controller's Organization "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AppDirect.&lt;/strong&gt; Now hiring a Accountant on the Controller's Organization team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8508691002,
+      "title": "Account Executive",
+      "company_name": "AppDirect",
+      "absolute_url": "https://job-boards.greenhouse.io/appdirect/jobs/8508691002",
+      "updated_at": "2026-05-11T16:34:34-04:00",
+      "location": {
+        "name": "San Francisco, CA, US"
+      },
+      "departments": [
+        {
+          "id": 8508691003,
+          "name": "Provider Sales"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AppDirect.&lt;/strong&gt; Now hiring a Account Executive on the Provider Sales team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8540194002,
+      "title": "Account Executive",
+      "company_name": "AppDirect",
+      "absolute_url": "https://job-boards.greenhouse.io/appdirect/jobs/8540194002",
+      "updated_at": "2026-05-22T13:48:15-04:00",
+      "location": {
+        "name": "Toronto, Canada "
+      },
+      "departments": [
+        {
+          "id": 8540194003,
+          "name": "Revenue, PartnerStack"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AppDirect.&lt;/strong&gt; Now hiring a Account Executive on the Revenue, PartnerStack team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 5711779004,
+      "title": "Customer Support Manager",
+      "company_name": "Maven",
+      "absolute_url": "https://job-boards.greenhouse.io/maven/jobs/5711779004",
+      "updated_at": "2026-04-30T10:00:00-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 1, "name": "Operations" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Customer Support Manager&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Maven is the cohort-based-online-learning platform pioneered around the live-instructor-led-cohort data model &amp; the cohort-based-online-learning segment.&lt;/p&gt;"
+    },
+    {
+      "id": 4023548004,
+      "title": "Senior/Staff Software Engineer",
+      "company_name": "Maven",
+      "absolute_url": "https://job-boards.greenhouse.io/maven/jobs/4023548004",
+      "updated_at": "2026-04-29T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 2, "name": "Engineering" }],
+      "content": "&lt;p&gt;Lead Maven's engineering function across the Courses / Lightning Lessons / Maven for Teams / Operator platform.&lt;/p&gt;"
+    }
+  ]
+}

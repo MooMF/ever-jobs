@@ -1,0 +1,29 @@
+{
+  "jobs": [
+    {
+      "id": 5820682004,
+      "title": "Account Development Manager",
+      "company_name": "Mercury",
+      "absolute_url": "https://job-boards.greenhouse.io/mercury/jobs/5820682004",
+      "updated_at": "2026-04-30T19:21:08-04:00",
+      "first_published": "2026-03-06T13:40:08-05:00",
+      "location": { "name": "San Francisco, CA, New York, NY, Portland, OR, or Remote within United States" },
+      "departments": [{ "id": 4012345004, "name": "Sales and Partnerships" }],
+      "offices": [{ "id": 4013100023, "name": "San Francisco" }],
+      "content": "&lt;p&gt;Railroads didn&amp;#39;t change the world because tracks were laid once. The steam locomotive existed for decades before it transformed commerce. What changed everything was the expansion of connected networks: routes multiplied, standards emerged, and usage deepened over time.&lt;/p&gt;&lt;p&gt;Mercury&amp;rsquo;s mission is similar — more than 300,000 ambitious businesses already rely on Mercury to run their finances on Mercury Checking, Mercury Savings, Mercury Treasury, and Mercury Credit.&lt;/p&gt;"
+    },
+    {
+      "id": 5820682005,
+      "title": "Senior Software Engineer, Mercury IO",
+      "company_name": "Mercury",
+      "absolute_url": "https://job-boards.greenhouse.io/mercury/jobs/5820682005",
+      "updated_at": "2026-04-29T10:00:00-04:00",
+      "first_published": "2026-04-15T08:00:00-04:00",
+      "location": { "name": "Remote within United States" },
+      "departments": [{ "id": 4012345005, "name": "Engineering" }],
+      "offices": [{ "id": 4013021045, "name": "Remote US" }],
+      "content": "&lt;p&gt;Build the Mercury IO API platform that thousands of vertical-SaaS partners run on Mercury&amp;rsquo;s ledger — the ACH / wire / RTP rails, the BSA-AML transaction-screening pipeline, and the audit-trail generator the compliance team opens every Friday.&lt;/p&gt;"
+    }
+  ],
+  "meta": { "total": 2 }
+}

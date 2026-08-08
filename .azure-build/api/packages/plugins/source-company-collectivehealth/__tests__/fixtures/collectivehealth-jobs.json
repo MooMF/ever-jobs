@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7872568,
+      "title": "Customer Service Representative (6-month Contract)",
+      "company_name": "Collective Health",
+      "absolute_url": "https://jobs.collectivehealth.com/apply/?gh_jid=7872568",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "Lehi, UT" },
+      "departments": [{ "id": 1, "name": "Health Plan Operations" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Customer Service Representative&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Collective Health is the integrated employer-sponsored health-benefits platform pioneered around the unified-claims-and-care-navigation data model.&lt;/p&gt;"
+    },
+    {
+      "id": 7760151,
+      "title": "Senior Software Engineer",
+      "company_name": "Collective Health",
+      "absolute_url": "https://jobs.collectivehealth.com/apply/?gh_jid=7760151",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 2, "name": "Engineering" }],
+      "content": "&lt;p&gt;Lead Collective Health's Engineering function across the integrated employer-health-benefits platform stack &amp; care-navigation infrastructure.&lt;/p&gt;"
+    }
+  ]
+}

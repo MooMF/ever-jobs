@@ -1,0 +1,34 @@
+{
+  "jobs": [
+    {
+      "id": 5747183,
+      "title": " Commercial Account Executive ",
+      "company_name": "Samsara",
+      "absolute_url": "https://www.samsara.com/company/careers/roles/5747183?gh_jid=5747183",
+      "updated_at": "2026-04-30T10:00:00-07:00",
+      "location": { "name": "Remote - US" },
+      "departments": [{ "id": 1, "name": "US Commercial AE1" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Commercial Account Executive&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Samsara is the Connected Operations &amp; IoT-fleet-and-sensor-data platform pioneered around the unified-physical-operations data model.&lt;/p&gt;"
+    },
+    {
+      "id": 5891234,
+      "title": "Solutions Architect ",
+      "company_name": "Samsara",
+      "absolute_url": "https://www.samsara.com/company/careers/roles/5891234?gh_jid=5891234",
+      "updated_at": "2026-04-29T10:00:00-07:00",
+      "location": { "name": "Atlanta, GA" },
+      "departments": [{ "id": 2, "name": "Sales Engineering" }],
+      "content": "&lt;p&gt;Lead Samsara's Solutions Architecture function across the Connected Operations Cloud / Vehicle Telematics / Equipment Monitoring platform.&lt;/p&gt;"
+    },
+    {
+      "id": 5912045,
+      "title": "Senior Software Engineer, Platform",
+      "company_name": "Samsara",
+      "absolute_url": "https://www.samsara.com/company/careers/roles/5912045?gh_jid=5912045",
+      "updated_at": "2026-04-28T10:00:00-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 3, "name": "Platform" }],
+      "content": "&lt;p&gt;Build Samsara's Connected Operations Cloud platform &amp; APIs at industrial-IoT scale.&lt;/p&gt;"
+    }
+  ]
+}

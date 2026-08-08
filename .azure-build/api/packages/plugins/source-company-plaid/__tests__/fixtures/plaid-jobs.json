@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 8001234,
+      "title": "Senior Software Engineer, Open-Banking Platform",
+      "absolute_url": "https://boards.greenhouse.io/plaid/jobs/8001234",
+      "updated_at": "2026-04-29T15:00:00.000Z",
+      "first_published": "2026-04-19T08:00:00.000Z",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 410, "name": "Engineering" }],
+      "offices": [{ "id": 421, "name": "San Francisco" }],
+      "content": "<p><strong>About the role</strong></p><p>Lead service development for Plaid's open-banking infrastructure handling tens of billions of API-calls per month across 12,000+ financial institutions.</p><ul><li>Distributed-systems and TLS pinning experience required</li></ul>"
+    },
+    {
+      "id": 8002345,
+      "title": "Senior Manager, Risk-and-Identity Policy",
+      "absolute_url": "https://boards.greenhouse.io/plaid/jobs/8002345",
+      "updated_at": "2026-04-30T11:30:00.000Z",
+      "first_published": "2026-04-23T07:00:00.000Z",
+      "location": { "name": "Remote — USA" },
+      "departments": [{ "id": 411, "name": "Trust and Safety" }],
+      "offices": [{ "id": 422, "name": "Remote" }],
+      "content": "<p>Own Plaid's risk-and-identity policy roadmap across consumer-consent flows, fraud-vector response, and KYC/KYB onboarding controls.</p>"
+    }
+  ],
+  "meta": { "total": 2 }
+}

@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7689620003,
+      "title": "Senior Software Engineer, Platform",
+      "company_name": "Branch",
+      "absolute_url": "https://job-boards.greenhouse.io/branch/jobs/7689620003",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "Palo Alto, CA" },
+      "departments": [{ "id": 1, "name": "Engineering" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Senior Software Engineer, Platform&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Branch is the mobile deep-linking + cross-platform attribution platform pioneered around universal-deferred-deep-link-as-a-service &amp; Mobile Linking Platform.&lt;/p&gt;"
+    },
+    {
+      "id": 7754201002,
+      "title": "Senior Application Security Engineer",
+      "company_name": "Branch",
+      "absolute_url": "https://job-boards.greenhouse.io/branch/jobs/7754201002",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 2, "name": "Security" }],
+      "content": "&lt;p&gt;Lead Branch's Application Security function across the Universal Links / Attribution / Journeys stack.&lt;/p&gt;"
+    }
+  ]
+}

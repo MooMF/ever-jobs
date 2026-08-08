@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 8562964002,
+      "title": "Store Supervisor ",
+      "company_name": "Upside",
+      "absolute_url": "https://job-boards.greenhouse.io/upside/jobs/8562964002",
+      "updated_at": "2026-05-22T16:15:57-04:00",
+      "location": {
+        "name": "Springfield, IL"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Upside.&lt;/strong&gt; Now hiring a Store Supervisor on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8573488002,
+      "title": "Store Supervisor",
+      "company_name": "Upside",
+      "absolute_url": "https://job-boards.greenhouse.io/upside/jobs/8573488002",
+      "updated_at": "2026-06-01T12:54:35-04:00",
+      "location": {
+        "name": "Oswego, IL"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Upside.&lt;/strong&gt; Now hiring a Store Supervisor on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8367408002,
+      "title": "Wellness Advisor - Part Time",
+      "company_name": "Upside",
+      "absolute_url": "https://job-boards.greenhouse.io/upside/jobs/8367408002",
+      "updated_at": "2026-05-22T13:43:11-04:00",
+      "location": {
+        "name": "Springfield, IL"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Upside.&lt;/strong&gt; Now hiring a Wellness Advisor - Part Time on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

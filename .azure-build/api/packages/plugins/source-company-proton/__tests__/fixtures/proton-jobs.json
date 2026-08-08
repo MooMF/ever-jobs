@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 4868034101,
+      "title": "Account Management Lead ",
+      "company_name": "Proton",
+      "absolute_url": "https://job-boards.greenhouse.io/proton/jobs/4868034101",
+      "updated_at": "2026-05-31T01:00:34-04:00",
+      "location": {
+        "name": "London, Barcelona, Paris, Skopje"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Proton.&lt;/strong&gt; Now hiring a Account Management Lead on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4826341101,
+      "title": "Android Test Automation Engineer (Native App)",
+      "company_name": "Proton",
+      "absolute_url": "https://job-boards.greenhouse.io/proton/jobs/4826341101",
+      "updated_at": "2026-05-31T01:00:33-04:00",
+      "location": {
+        "name": "Skopje; Vilnius; Barcelona;"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Proton.&lt;/strong&gt; Now hiring a Android Test Automation Engineer (Native App) on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4540771101,
+      "title": "Backend Engineer (B2B)",
+      "company_name": "Proton",
+      "absolute_url": "https://job-boards.greenhouse.io/proton/jobs/4540771101",
+      "updated_at": "2026-05-31T01:00:25-04:00",
+      "location": {
+        "name": "Taipei; Geneva; Skopje"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Proton.&lt;/strong&gt; Now hiring a Backend Engineer (B2B) on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

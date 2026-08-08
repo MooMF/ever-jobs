@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 5001234,
+      "title": "Member of Technical Staff, Alignment Science",
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5001234",
+      "updated_at": "2026-04-28T12:00:00.000Z",
+      "first_published": "2026-04-15T08:00:00.000Z",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 1, "name": "Research" }],
+      "offices": [{ "id": 11, "name": "San Francisco" }],
+      "content": "<p><strong>About the role</strong></p><p>We are hiring researchers to work on alignment.</p><ul><li>PhD or equivalent</li></ul>"
+    },
+    {
+      "id": 5002345,
+      "title": "Senior Software Engineer, Inference",
+      "absolute_url": "https://job-boards.greenhouse.io/anthropic/jobs/5002345",
+      "updated_at": "2026-04-30T09:30:00.000Z",
+      "first_published": "2026-04-20T08:00:00.000Z",
+      "location": { "name": "Remote — Americas" },
+      "departments": [{ "id": 2, "name": "Engineering" }],
+      "offices": [{ "id": 12, "name": "Remote" }],
+      "content": "<p>Help us scale Claude inference.</p>"
+    }
+  ],
+  "meta": { "total": 2 }
+}

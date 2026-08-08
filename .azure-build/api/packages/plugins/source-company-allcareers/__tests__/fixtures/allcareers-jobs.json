@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 8533595002,
+      "title": "ABA Behavior Technician (Paid-Training) ",
+      "company_name": "Cortica - Neurodevelopmental",
+      "absolute_url": "https://job-boards.greenhouse.io/allcareers/jobs/8533595002",
+      "updated_at": "2026-05-13T14:58:26-04:00",
+      "location": {
+        "name": "Costa Mesa, CA"
+      },
+      "departments": [
+        {
+          "id": 8533595003,
+          "name": "Behavioral Intervention "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Cortica - Neurodevelopmental.&lt;/strong&gt; Now hiring a ABA Behavior Technician (Paid-Training) on the Behavioral Intervention team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8442796002,
+      "title": "ABA Child Interventionist",
+      "company_name": "Cortica - Neurodevelopmental",
+      "absolute_url": "https://job-boards.greenhouse.io/allcareers/jobs/8442796002",
+      "updated_at": "2026-05-12T18:24:55-04:00",
+      "location": {
+        "name": "Boston, Massachusetts"
+      },
+      "departments": [
+        {
+          "id": 8442796003,
+          "name": "Behavioral Intervention"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Cortica - Neurodevelopmental.&lt;/strong&gt; Now hiring a ABA Child Interventionist on the Behavioral Intervention team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8549416002,
+      "title": "ABA Supervisor - BCBA",
+      "company_name": "Cortica - Neurodevelopmental",
+      "absolute_url": "https://job-boards.greenhouse.io/allcareers/jobs/8549416002",
+      "updated_at": "2026-05-28T19:27:49-04:00",
+      "location": {
+        "name": "Goodyear, AZ"
+      },
+      "departments": [
+        {
+          "id": 8549416003,
+          "name": "Behavioral Analysis"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Cortica - Neurodevelopmental.&lt;/strong&gt; Now hiring a ABA Supervisor - BCBA on the Behavioral Analysis team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

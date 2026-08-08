@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7711660003,
+      "title": "Therapy Associate - Connecticut ",
+      "company_name": "Cerebral",
+      "absolute_url": "https://job-boards.greenhouse.io/cerebral/jobs/7711660003",
+      "updated_at": "2026-04-15T10:00:00-07:00",
+      "location": { "name": "Remote (United States)" },
+      "departments": [{ "id": 1, "name": "Behavioral Care" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Therapy Associate - Connecticut&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Cerebral is a telehealth platform delivering accessible mental-health care; help us build the &amp; subscription-first virtual psychiatry stack.&lt;/p&gt;"
+    },
+    {
+      "id": 5895663003,
+      "title": "Direct Care Physician (1099 Contract) - Tennessee",
+      "company_name": "Cerebral",
+      "absolute_url": "https://job-boards.greenhouse.io/cerebral/jobs/5895663003",
+      "updated_at": "2026-04-20T10:00:00-07:00",
+      "location": { "name": "Tennessee" },
+      "departments": [{ "id": 2, "name": "Medical Care" }],
+      "content": "&lt;p&gt;Provide direct virtual care for Cerebral patients across Tennessee.&lt;/p&gt;"
+    }
+  ]
+}

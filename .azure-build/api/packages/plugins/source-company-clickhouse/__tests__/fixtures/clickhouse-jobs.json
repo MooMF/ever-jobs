@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 5778617004,
+      "title": "Cloud Database Infrastructure Engineer ",
+      "company_name": "ClickHouse",
+      "absolute_url": "https://job-boards.greenhouse.io/clickhouse/jobs/5778617004",
+      "updated_at": "2026-05-19T09:23:38-04:00",
+      "location": {
+        "name": "United States (Remote)"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About ClickHouse.&lt;/strong&gt; Now hiring a Cloud Database Infrastructure Engineer on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5802320004,
+      "title": "Cloud Platform Engineer - Control Plane",
+      "company_name": "ClickHouse",
+      "absolute_url": "https://job-boards.greenhouse.io/clickhouse/jobs/5802320004",
+      "updated_at": "2026-03-27T09:46:40-04:00",
+      "location": {
+        "name": "United States (remote)"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About ClickHouse.&lt;/strong&gt; Now hiring a Cloud Platform Engineer - Control Plane on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5802319004,
+      "title": "Cloud Platform Engineer - Control Plane",
+      "company_name": "ClickHouse",
+      "absolute_url": "https://job-boards.greenhouse.io/clickhouse/jobs/5802319004",
+      "updated_at": "2026-03-27T09:46:40-04:00",
+      "location": {
+        "name": "Netherlands (remote)"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About ClickHouse.&lt;/strong&gt; Now hiring a Cloud Platform Engineer - Control Plane on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

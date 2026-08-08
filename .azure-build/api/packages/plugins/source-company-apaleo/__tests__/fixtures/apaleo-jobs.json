@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 7723092003,
+      "title": "Account Executive - DACH ",
+      "company_name": "Apaleo",
+      "absolute_url": "https://job-boards.greenhouse.io/apaleo/jobs/7723092003",
+      "updated_at": "2026-05-04T04:17:02-04:00",
+      "location": {
+        "name": "Munich/ Berlin"
+      },
+      "departments": [
+        {
+          "id": 7723092004,
+          "name": "Business Development/Sales "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Apaleo.&lt;/strong&gt; Now hiring a Account Executive - DACH on the Business Development/Sales team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7699686003,
+      "title": "Head of Customer Success & Onboarding (f/m/d)",
+      "company_name": "Apaleo",
+      "absolute_url": "https://job-boards.greenhouse.io/apaleo/jobs/7699686003",
+      "updated_at": "2026-04-14T08:10:30-04:00",
+      "location": {
+        "name": "Munich/ remote"
+      },
+      "departments": [
+        {
+          "id": 7699686004,
+          "name": "Plattform Success"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Apaleo.&lt;/strong&gt; Now hiring a Head of Customer Success & Onboarding (f/m/d) on the Plattform Success team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7728116003,
+      "title": "IT Manager (f/m/d)",
+      "company_name": "Apaleo",
+      "absolute_url": "https://job-boards.greenhouse.io/apaleo/jobs/7728116003",
+      "updated_at": "2026-05-08T02:30:57-04:00",
+      "location": {
+        "name": "Munich"
+      },
+      "departments": [
+        {
+          "id": 7728116004,
+          "name": "People & Culture"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Apaleo.&lt;/strong&gt; Now hiring a IT Manager (f/m/d) on the People & Culture team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7863484,
+      "title": "Analytics Engineer II",
+      "company_name": "Earnest",
+      "absolute_url": "https://app.careerpuck.com/job-board/earnest/job/7863484?gh_jid=7863484",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 1, "name": "Analytics" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Analytics Engineer II&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Earnest is the dominant US-domestic refinance + private student-loan + personal-loan direct-lender.&lt;/p&gt;"
+    },
+    {
+      "id": 7875507,
+      "title": "Director of Collections ",
+      "company_name": "Earnest",
+      "absolute_url": "https://app.careerpuck.com/job-board/earnest/job/7875507?gh_jid=7875507",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 2, "name": "Engineering " }],
+      "content": "&lt;p&gt;Lead Earnest's Collections function across the consumer-fintech &amp; student-lending stack.&lt;/p&gt;"
+    }
+  ]
+}

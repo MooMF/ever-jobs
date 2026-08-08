@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 5176944004,
+      "title": "Commercial Account Executive ",
+      "company_name": "Builder.io",
+      "absolute_url": "https://job-boards.greenhouse.io/builder/jobs/5176944004",
+      "updated_at": "2025-12-31T16:33:54-05:00",
+      "location": {
+        "name": "Remote - San Francisco / Bay Area, CA preferred"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Builder.io.&lt;/strong&gt; Now hiring a Commercial Account Executive on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5739606004,
+      "title": "Commercial Account Executive",
+      "company_name": "Builder.io",
+      "absolute_url": "https://job-boards.greenhouse.io/builder/jobs/5739606004",
+      "updated_at": "2026-02-17T16:41:25-05:00",
+      "location": {
+        "name": "Remote - United Kingdom"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Builder.io.&lt;/strong&gt; Now hiring a Commercial Account Executive on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5739560004,
+      "title": "Enterprise Account Executive",
+      "company_name": "Builder.io",
+      "absolute_url": "https://job-boards.greenhouse.io/builder/jobs/5739560004",
+      "updated_at": "2026-02-24T17:01:02-05:00",
+      "location": {
+        "name": "Remote - United Kingdom"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Builder.io.&lt;/strong&gt; Now hiring a Enterprise Account Executive on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

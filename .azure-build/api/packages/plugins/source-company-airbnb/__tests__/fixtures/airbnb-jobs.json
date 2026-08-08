@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 7501234,
+      "title": "Senior Software Engineer, Trust & Safety Platform",
+      "absolute_url": "https://boards.greenhouse.io/airbnb/jobs/7501234",
+      "updated_at": "2026-04-29T14:00:00.000Z",
+      "first_published": "2026-04-19T08:00:00.000Z",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 80, "name": "Engineering" }],
+      "offices": [{ "id": 91, "name": "San Francisco" }],
+      "content": "<p><strong>About the role</strong></p><p>Build the platform that scores listings and reservations to detect fraud and protect the Airbnb community.</p><ul><li>Distributed-systems experience required</li></ul>"
+    },
+    {
+      "id": 7502345,
+      "title": "Lead Product Designer, Stays",
+      "absolute_url": "https://boards.greenhouse.io/airbnb/jobs/7502345",
+      "updated_at": "2026-04-30T11:30:00.000Z",
+      "first_published": "2026-04-23T07:00:00.000Z",
+      "location": { "name": "Remote — USA" },
+      "departments": [{ "id": 81, "name": "Design" }],
+      "offices": [{ "id": 92, "name": "Remote" }],
+      "content": "<p>Lead the search-and-discovery experience for Airbnb Stays across web, iOS, and Android.</p>"
+    }
+  ],
+  "meta": { "total": 2 }
+}

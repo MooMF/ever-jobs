@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4005823009,
+      "title": "Analyst - Co-op/Internship ",
+      "company_name": "AMEND Consulting",
+      "absolute_url": "https://job-boards.greenhouse.io/amendconsulting/jobs/4005823009",
+      "updated_at": "2026-04-20T14:34:50-04:00",
+      "location": {
+        "name": "Cincinnati, Ohio, United States"
+      },
+      "departments": [
+        {
+          "id": 4005823010,
+          "name": "Early Talent "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AMEND Consulting.&lt;/strong&gt; Now hiring a Analyst - Co-op/Internship on the Early Talent team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4005727009,
+      "title": "BI Consultant",
+      "company_name": "AMEND Consulting",
+      "absolute_url": "https://job-boards.greenhouse.io/amendconsulting/jobs/4005727009",
+      "updated_at": "2026-03-25T14:03:33-04:00",
+      "location": {
+        "name": "Cincinnati, Ohio, United States"
+      },
+      "departments": [
+        {
+          "id": 4005727010,
+          "name": "Consultants"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AMEND Consulting.&lt;/strong&gt; Now hiring a BI Consultant on the Consultants team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4005816009,
+      "title": "Data Engineer",
+      "company_name": "AMEND Consulting",
+      "absolute_url": "https://job-boards.greenhouse.io/amendconsulting/jobs/4005816009",
+      "updated_at": "2026-03-25T14:00:34-04:00",
+      "location": {
+        "name": "Cincinnati, Ohio, United States"
+      },
+      "departments": [
+        {
+          "id": 4005816010,
+          "name": "Consultants"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AMEND Consulting.&lt;/strong&gt; Now hiring a Data Engineer on the Consultants team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

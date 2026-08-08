@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 8045085002,
+      "title": "Account Executive, New Logo - Enterprise ",
+      "company_name": "A-LIGN External",
+      "absolute_url": "https://job-boards.greenhouse.io/align/jobs/8045085002",
+      "updated_at": "2026-03-31T11:15:30-04:00",
+      "location": {
+        "name": "United States – Remote"
+      },
+      "departments": [
+        {
+          "id": 8045085003,
+          "name": "Sales "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About A-LIGN External.&lt;/strong&gt; Now hiring a Account Executive, New Logo - Enterprise on the Sales team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8531872002,
+      "title": "Business Development Representative",
+      "company_name": "A-LIGN External",
+      "absolute_url": "https://job-boards.greenhouse.io/align/jobs/8531872002",
+      "updated_at": "2026-05-07T09:43:16-04:00",
+      "location": {
+        "name": "Tampa, United States – In-Office Hybrid"
+      },
+      "departments": [
+        {
+          "id": 8531872003,
+          "name": "Marketing "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About A-LIGN External.&lt;/strong&gt; Now hiring a Business Development Representative on the Marketing team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8556453002,
+      "title": "Business Development Representative",
+      "company_name": "A-LIGN External",
+      "absolute_url": "https://job-boards.greenhouse.io/align/jobs/8556453002",
+      "updated_at": "2026-05-21T15:24:52-04:00",
+      "location": {
+        "name": "London, United Kingdom – Hybrid"
+      },
+      "departments": [
+        {
+          "id": 8556453003,
+          "name": "Marketing "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About A-LIGN External.&lt;/strong&gt; Now hiring a Business Development Representative on the Marketing team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

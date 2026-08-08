@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 4833568101,
+      "title": "Account Manager (Anambra) ",
+      "company_name": "Moniepoint",
+      "absolute_url": "https://job-boards.greenhouse.io/moniepoint/jobs/4833568101",
+      "updated_at": "2026-06-02T08:14:53-04:00",
+      "location": {
+        "name": "Anambra, Nigeria"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Moniepoint.&lt;/strong&gt; Now hiring a Account Manager (Anambra) on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4118338101,
+      "title": "Business Relationship Manager (Ebonyi)",
+      "company_name": "Moniepoint",
+      "absolute_url": "https://job-boards.greenhouse.io/moniepoint/jobs/4118338101",
+      "updated_at": "2026-06-02T08:31:55-04:00",
+      "location": {
+        "name": "Ebonyi, Nigeria"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Moniepoint.&lt;/strong&gt; Now hiring a Business Relationship Manager (Ebonyi) on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4105670101,
+      "title": "Business Relationship Manager (Enugu)",
+      "company_name": "Moniepoint",
+      "absolute_url": "https://job-boards.greenhouse.io/moniepoint/jobs/4105670101",
+      "updated_at": "2026-06-02T08:33:04-04:00",
+      "location": {
+        "name": "Enugu, Nigeria"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Moniepoint.&lt;/strong&gt; Now hiring a Business Relationship Manager (Enugu) on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

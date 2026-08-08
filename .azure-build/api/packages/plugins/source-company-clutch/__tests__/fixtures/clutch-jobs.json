@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 5999707004,
+      "title": "Apprentice Automotive Service Technician ",
+      "company_name": "Clutch",
+      "absolute_url": "https://job-boards.greenhouse.io/clutch/jobs/5999707004",
+      "updated_at": "2026-05-19T08:03:48-04:00",
+      "location": {
+        "name": "Mississauga, Ontario, Canada"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Clutch.&lt;/strong&gt; Now hiring a Apprentice Automotive Service Technician on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5972194004,
+      "title": "Arrivals Vehicle Inspector",
+      "company_name": "Clutch",
+      "absolute_url": "https://job-boards.greenhouse.io/clutch/jobs/5972194004",
+      "updated_at": "2026-04-16T10:31:03-04:00",
+      "location": {
+        "name": "Etobicoke, Ontario, Canada"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Clutch.&lt;/strong&gt; Now hiring a Arrivals Vehicle Inspector on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5841754004,
+      "title": "Auto Body Estimator",
+      "company_name": "Clutch",
+      "absolute_url": "https://job-boards.greenhouse.io/clutch/jobs/5841754004",
+      "updated_at": "2026-03-31T08:18:34-04:00",
+      "location": {
+        "name": "Mississauga, Ontario, Canada"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Clutch.&lt;/strong&gt; Now hiring a Auto Body Estimator on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

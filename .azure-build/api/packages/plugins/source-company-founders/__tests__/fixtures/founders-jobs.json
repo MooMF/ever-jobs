@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 8478469002,
+      "title": "Registered Veterinary Technician",
+      "company_name": "Founders Green Animal Hospital",
+      "absolute_url": "https://boards.greenhouse.io/founders/jobs/8478469002?gh_jid=8478469002",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "Pasadena, CA" },
+      "departments": [{ "id": 1, "name": "Technicians" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Registered Veterinary Technician&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Founders Green Animal Hospital is a veterinary-specialty animal-hospital + emergency / referral practice.&lt;/p&gt;"
+    },
+    {
+      "id": 8519059002,
+      "title": "Veterinary Receptionist",
+      "company_name": "Founders Green Animal Hospital",
+      "absolute_url": "https://boards.greenhouse.io/founders/jobs/8519059002?gh_jid=8519059002",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Pasadena, CA" },
+      "departments": [{ "id": 2, "name": "Reception" }],
+      "content": "&lt;p&gt;Lead Founders Green Animal Hospital's Reception &amp; client-services function across the companion-animal-care practice.&lt;/p&gt;"
+    }
+  ]
+}

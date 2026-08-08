@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 8369239002,
+      "title": "Senior Software Engineer, Learning Platform",
+      "absolute_url": "https://careers.duolingo.com/jobs/8369239002?gh_jid=8369239002",
+      "updated_at": "2026-04-22T17:53:15.000Z",
+      "first_published": "2026-04-15T12:00:00.000Z",
+      "location": { "name": "Remote - Pittsburgh, PA" },
+      "departments": [{ "id": 4080026003, "name": "Engineering" }],
+      "offices": [{ "id": 4013021003, "name": "Remote US" }],
+      "content": "&lt;p&gt;Own the learning-platform that anchors Duolingo&amp;#39;s mobile language-learning consumer app — the spaced-repetition exercise pipeline, the Duolingo English Test high-stakes proficiency exam, and the gamified streaks engine that hundreds of millions of learners hit every day.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Distributed-systems / mobile-services experience required&lt;/li&gt;&lt;/ul&gt;"
+    },
+    {
+      "id": 8483526002,
+      "title": "Business Development and Partnerships Lead, LATAM",
+      "absolute_url": "https://careers.duolingo.com/jobs/8483526002?gh_jid=8483526002",
+      "updated_at": "2026-04-28T14:30:00.000Z",
+      "first_published": "2026-04-20T09:00:00.000Z",
+      "location": { "name": "São Paulo, Brazil" },
+      "departments": [{ "id": 4049810002, "name": "Business Development" }],
+      "offices": [{ "id": 4013100003, "name": "São Paulo - Hub" }],
+      "content": "&lt;p&gt;Lead Duolingo&amp;rsquo;s LATAM business-development and partnerships across Brazil, Mexico, and the Spanish-speaking Andes — Duolingo for Schools, Duolingo English Test institutional channels, and Duolingo Math / Music verticals targeting K–12 districts and university-prep cohorts.&lt;/p&gt;"
+    }
+  ],
+  "meta": { "total": 2 }
+}

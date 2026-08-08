@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 5199076008,
+      "title": "Senior Software Engineer, Cash App Pay Risk Platform",
+      "absolute_url": "http://block.xyz/careers/jobs/5199076008?gh_jid=5199076008",
+      "updated_at": "2026-04-29T16:30:00.000Z",
+      "first_published": "2026-04-19T08:00:00.000Z",
+      "location": { "name": "San Francisco, CA, United States of America" },
+      "departments": [{ "id": 80401, "name": "Engineering" }],
+      "offices": [{ "id": 80501, "name": "US - CA - SF" }],
+      "content": "<p><strong>About the role</strong></p><p>Own the Cash App Pay risk-platform rules engine across the merchant-acceptance hot path so consumers can pay at millions of US merchants with sub-second decisioning and chargeback-rate floors below 5 bps.</p><ul><li>JVM / Kafka / risk-rules-engine experience required</li></ul>"
+    },
+    {
+      "id": 5183780008,
+      "title": "Senior Manager, Trust & Safety — Square Seller Marketplace Integrity",
+      "absolute_url": "http://block.xyz/careers/jobs/5183780008?gh_jid=5183780008",
+      "updated_at": "2026-04-30T11:30:00.000Z",
+      "first_published": "2026-04-23T07:00:00.000Z",
+      "location": { "name": "United States - Remote" },
+      "departments": [{ "id": 80402, "name": "Trust & Safety" }],
+      "offices": [{ "id": 80502, "name": "Remote" }],
+      "content": "<p>Own the Square seller marketplace integrity motion across merchant-application review, payment-volume abuse signals, and the AfterPay BNPL-eligibility surface to keep the Block ecosystem safe for sellers, buyers, and AfterPay shoppers.</p>"
+    }
+  ],
+  "meta": { "total": 2 }
+}

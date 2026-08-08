@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5150360007,
+      "title": "Account Manager (Ref. L-2606) ",
+      "company_name": "ALTEN Technology USA",
+      "absolute_url": "https://job-boards.greenhouse.io/altentechnologyusa/jobs/5150360007",
+      "updated_at": "2026-05-29T14:42:18-04:00",
+      "location": {
+        "name": "Westminster, CO"
+      },
+      "departments": [
+        {
+          "id": 5150360008,
+          "name": "Business Development/Sales "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About ALTEN Technology USA.&lt;/strong&gt; Now hiring a Account Manager (Ref. L-2606) on the Business Development/Sales team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5099206007,
+      "title": "Aircraft Exterior Lighting Engineer",
+      "company_name": "ALTEN Technology USA",
+      "absolute_url": "https://job-boards.greenhouse.io/altentechnologyusa/jobs/5099206007",
+      "updated_at": "2026-04-14T10:19:15-04:00",
+      "location": {
+        "name": "Greensboro, North Carolina, United States"
+      },
+      "departments": [
+        {
+          "id": 5099206008,
+          "name": "Aerospace"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About ALTEN Technology USA.&lt;/strong&gt; Now hiring a Aircraft Exterior Lighting Engineer on the Aerospace team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5099197007,
+      "title": "Aircraft Exterior Lighting Engineer",
+      "company_name": "ALTEN Technology USA",
+      "absolute_url": "https://job-boards.greenhouse.io/altentechnologyusa/jobs/5099197007",
+      "updated_at": "2026-04-14T10:19:15-04:00",
+      "location": {
+        "name": "Burlington, Vermont, United States"
+      },
+      "departments": [
+        {
+          "id": 5099197008,
+          "name": "Aerospace"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About ALTEN Technology USA.&lt;/strong&gt; Now hiring a Aircraft Exterior Lighting Engineer on the Aerospace team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

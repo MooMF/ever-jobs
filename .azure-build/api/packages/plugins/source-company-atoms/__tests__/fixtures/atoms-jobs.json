@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 8041037002,
+      "title": "Backend Engineer - Infrastructure - Vilnius, LTU ",
+      "company_name": "Atoms Tech",
+      "absolute_url": "https://job-boards.greenhouse.io/atoms/jobs/8041037002",
+      "updated_at": "2026-05-05T13:52:24-04:00",
+      "location": {
+        "name": "Vilnius, LTU"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Atoms Tech.&lt;/strong&gt; Now hiring a Backend Engineer - Infrastructure - Vilnius, LTU on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8453303002,
+      "title": "Benefits Manager- San Francisco, CA",
+      "company_name": "Atoms Tech",
+      "absolute_url": "https://job-boards.greenhouse.io/atoms/jobs/8453303002",
+      "updated_at": "2026-05-13T13:38:01-04:00",
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Atoms Tech.&lt;/strong&gt; Now hiring a Benefits Manager- San Francisco, CA on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8560167002,
+      "title": "Corporate Recruiter - Bogotá, COL",
+      "company_name": "Atoms Tech",
+      "absolute_url": "https://job-boards.greenhouse.io/atoms/jobs/8560167002",
+      "updated_at": "2026-05-21T11:26:04-04:00",
+      "location": {
+        "name": "Bogotá, COL"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Atoms Tech.&lt;/strong&gt; Now hiring a Corporate Recruiter - Bogotá, COL on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

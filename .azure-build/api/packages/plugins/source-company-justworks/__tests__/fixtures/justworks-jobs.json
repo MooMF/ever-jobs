@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7814842,
+      "title": "Overnight Customer Support Advocate (Remote)  ",
+      "company_name": "Justworks",
+      "absolute_url": "https://boards.greenhouse.io/justworks/jobs/7814842?gh_jid=7814842",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 1, "name": "Customer Success" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Overnight Customer Support Advocate (Remote)&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Justworks is the SMB-PEO + all-in-one HR platform pioneered around certified-professional-employer-organization-as-a-service &amp; the SMB-PEO segment.&lt;/p&gt;"
+    },
+    {
+      "id": 7926531,
+      "title": "Senior Engineer, Knowledge Systems ",
+      "company_name": "Justworks",
+      "absolute_url": "https://boards.greenhouse.io/justworks/jobs/7926531?gh_jid=7926531",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "New York, NY" },
+      "departments": [{ "id": 2, "name": "Engineering" }],
+      "content": "&lt;p&gt;Lead Justworks's Knowledge Systems engineering function across the PEO Plus / Payroll / Time Tracking / EOR platforms.&lt;/p&gt;"
+    }
+  ]
+}

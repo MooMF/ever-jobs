@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5978187004,
+      "title": "Customer Success Manager, EMEA ",
+      "company_name": "Anteriad ",
+      "absolute_url": "https://job-boards.greenhouse.io/anteriad/jobs/5978187004",
+      "updated_at": "2026-04-21T16:59:46-04:00",
+      "location": {
+        "name": "Remote -London, UK"
+      },
+      "departments": [
+        {
+          "id": 5978187005,
+          "name": "Support "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Anteriad .&lt;/strong&gt; Now hiring a Customer Success Manager, EMEA on the Support team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5980230004,
+      "title": "Data Engineer",
+      "company_name": "Anteriad ",
+      "absolute_url": "https://job-boards.greenhouse.io/anteriad/jobs/5980230004",
+      "updated_at": "2026-05-14T16:29:38-04:00",
+      "location": {
+        "name": "Remote-US"
+      },
+      "departments": [
+        {
+          "id": 5980230005,
+          "name": "Database Solutions"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Anteriad .&lt;/strong&gt; Now hiring a Data Engineer on the Database Solutions team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5618241004,
+      "title": "Manager, Client Partnerships",
+      "company_name": "Anteriad ",
+      "absolute_url": "https://job-boards.greenhouse.io/anteriad/jobs/5618241004",
+      "updated_at": "2026-02-25T10:14:09-05:00",
+      "location": {
+        "name": "Remote-US"
+      },
+      "departments": [
+        {
+          "id": 5618241005,
+          "name": "Programmatic"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Anteriad .&lt;/strong&gt; Now hiring a Manager, Client Partnerships on the Programmatic team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

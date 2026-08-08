@@ -1,0 +1,29 @@
+{
+  "jobs": [
+    {
+      "id": 4951727008,
+      "title": "Account Executive",
+      "company_name": "Buildkite",
+      "absolute_url": "https://job-boards.greenhouse.io/buildkite/jobs/4951727008",
+      "updated_at": "2026-04-30T14:05:08+10:00",
+      "first_published": "2026-03-12T09:00:08+10:00",
+      "location": { "name": "United States" },
+      "departments": [{ "id": 4012345010, "name": "Sales" }],
+      "offices": [{ "id": 4013100024, "name": "Remote US" }],
+      "content": "&lt;p&gt;At Buildkite, our mission is to unblock every developer on the planet. We&amp;rsquo;ve rethought how software delivery pipelines should work — your agents, your control, our orchestrator.&lt;/p&gt;&lt;p&gt;You&amp;#39;ll own the full sales cycle for Buildkite Pipelines and Buildkite Test Engine across the US Mid-Market segment, partnering with our Solutions Architects to land and expand into engineering teams running CI on their own infrastructure.&lt;/p&gt;"
+    },
+    {
+      "id": 5170976008,
+      "title": "Staff Engineer - Compute & Agents ",
+      "company_name": "Buildkite",
+      "absolute_url": "https://job-boards.greenhouse.io/buildkite/jobs/5170976008",
+      "updated_at": "2026-04-29T11:30:00+11:00",
+      "first_published": "2026-04-08T10:00:00+11:00",
+      "location": { "name": "ANZ Region, Remote" },
+      "departments": [{ "id": 4012345011, "name": "Engineering" }],
+      "offices": [{ "id": 4013021046, "name": "Remote ANZ" }],
+      "content": "&lt;p&gt;Build the Buildkite Compute & Agents platform that thousands of engineering teams run their CI on — the agent-orchestration runtime, the autoscaling group integrator, and the spot-instance reclamation pipeline that the SRE team monitors every day. Buildkite&amp;rsquo;s mission depends on this platform staying reliable across every cloud region.&lt;/p&gt;"
+    }
+  ],
+  "meta": { "total": 2 }
+}

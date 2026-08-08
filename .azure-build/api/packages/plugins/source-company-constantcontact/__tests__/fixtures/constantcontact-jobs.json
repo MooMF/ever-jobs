@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7394405,
+      "title": "AI Solutions Engineer ",
+      "company_name": "Constant Contact",
+      "absolute_url": "https://job-boards.greenhouse.io/constantcontact/jobs/7394405",
+      "updated_at": "2026-04-15T10:00:00-07:00",
+      "location": { "name": "Waterloo, CA" },
+      "departments": [{ "id": 1, "name": "100 Engineering" }],
+      "content": "&lt;p&gt;&lt;strong&gt;AI Solutions Engineer&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Constant Contact is the SMB email-marketing platform &amp; we ship subscription marketing automation tools to small businesses.&lt;/p&gt;"
+    },
+    {
+      "id": 7762092,
+      "title": "Senior Product Designer",
+      "company_name": "Constant Contact",
+      "absolute_url": "https://job-boards.greenhouse.io/constantcontact/jobs/7762092",
+      "updated_at": "2026-04-20T10:00:00-07:00",
+      "location": { "name": "Waltham, MA" },
+      "departments": [{ "id": 2, "name": "126 Design" }],
+      "content": "&lt;p&gt;Lead Constant Contact's product-design function across the email-marketing stack.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 8308240002,
+      "title": "Associate Director, MLOps Engineering ",
+      "company_name": "PathAI",
+      "absolute_url": "https://job-boards.greenhouse.io/pathai/jobs/8308240002",
+      "updated_at": "2026-04-22T17:22:12-04:00",
+      "location": {
+        "name": "Boston Preferred, New York, or Remote"
+      },
+      "departments": [
+        {
+          "id": 8308240003,
+          "name": "Machine Learning "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About PathAI.&lt;/strong&gt; Now hiring a Associate Director, MLOps Engineering on the Machine Learning team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8282600002,
+      "title": "Implementation Engineer, Digital Diagnostics, Europe",
+      "company_name": "PathAI",
+      "absolute_url": "https://job-boards.greenhouse.io/pathai/jobs/8282600002",
+      "updated_at": "2026-04-22T17:22:12-04:00",
+      "location": {
+        "name": "EU Based"
+      },
+      "departments": [
+        {
+          "id": 8282600003,
+          "name": "Customer Operations"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About PathAI.&lt;/strong&gt; Now hiring a Implementation Engineer, Digital Diagnostics, Europe on the Customer Operations team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8062963002,
+      "title": "Machine Learning Engineer",
+      "company_name": "PathAI",
+      "absolute_url": "https://job-boards.greenhouse.io/pathai/jobs/8062963002",
+      "updated_at": "2026-04-22T17:22:12-04:00",
+      "location": {
+        "name": "Boston, New York Preferred, or Remote"
+      },
+      "departments": [
+        {
+          "id": 8062963003,
+          "name": "Machine Learning"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About PathAI.&lt;/strong&gt; Now hiring a Machine Learning Engineer on the Machine Learning team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

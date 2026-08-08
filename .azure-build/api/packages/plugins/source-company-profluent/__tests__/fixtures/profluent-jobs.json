@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 4983485008,
+      "title": "Lead Bioinformatics Scientist, NGS ",
+      "company_name": "Profluent",
+      "absolute_url": "https://job-boards.greenhouse.io/profluent/jobs/4983485008",
+      "updated_at": "2026-04-24T17:41:56-04:00",
+      "location": {
+        "name": "Emeryville, California, United States; Hybrid (2-3 days on-site)"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Profluent.&lt;/strong&gt; Now hiring a Lead Bioinformatics Scientist, NGS on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5238462008,
+      "title": "Machine Learning Scientist, Reinforcement Learning",
+      "company_name": "Profluent",
+      "absolute_url": "https://job-boards.greenhouse.io/profluent/jobs/5238462008",
+      "updated_at": "2026-06-02T20:02:38-04:00",
+      "location": {
+        "name": "Emeryville, California, United States; Hybrid (2-3 days on-site)"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Profluent.&lt;/strong&gt; Now hiring a Machine Learning Scientist, Reinforcement Learning on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5154049008,
+      "title": "ML Platform / MLOps Engineer",
+      "company_name": "Profluent",
+      "absolute_url": "https://job-boards.greenhouse.io/profluent/jobs/5154049008",
+      "updated_at": "2026-06-02T20:03:53-04:00",
+      "location": {
+        "name": "Emeryville, California, United States; Hybrid (2-3 days on-site)"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Profluent.&lt;/strong&gt; Now hiring a ML Platform / MLOps Engineer on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

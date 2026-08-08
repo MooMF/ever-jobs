@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5148737007,
+      "title": "Associate Director, Biomarker Development ",
+      "company_name": "Apogee Therapeutics",
+      "absolute_url": "https://job-boards.greenhouse.io/apogeetherapeutics/jobs/5148737007",
+      "updated_at": "2026-05-29T12:32:42-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 5148737008,
+          "name": "Research & Translational "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Apogee Therapeutics.&lt;/strong&gt; Now hiring a Associate Director, Biomarker Development on the Research & Translational team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5015149007,
+      "title": "Associate Director, Biostatistics",
+      "company_name": "Apogee Therapeutics",
+      "absolute_url": "https://job-boards.greenhouse.io/apogeetherapeutics/jobs/5015149007",
+      "updated_at": "2026-03-06T10:54:48-05:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 5015149008,
+          "name": "Biometrics"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Apogee Therapeutics.&lt;/strong&gt; Now hiring a Associate Director, Biostatistics on the Biometrics team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5146485007,
+      "title": "Associate Director, Clinical Development (Clinical Science) – Immunology",
+      "company_name": "Apogee Therapeutics",
+      "absolute_url": "https://job-boards.greenhouse.io/apogeetherapeutics/jobs/5146485007",
+      "updated_at": "2026-05-28T14:36:10-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 5146485008,
+          "name": "Clinical Development"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Apogee Therapeutics.&lt;/strong&gt; Now hiring a Associate Director, Clinical Development (Clinical Science) – Immunology on the Clinical Development team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

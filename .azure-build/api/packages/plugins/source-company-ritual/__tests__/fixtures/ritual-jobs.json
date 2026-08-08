@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 4981486007,
+      "title": "Controller ",
+      "company_name": "Ritual",
+      "absolute_url": "https://job-boards.greenhouse.io/ritual/jobs/4981486007",
+      "updated_at": "2025-11-14T10:12:30-05:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Ritual.&lt;/strong&gt; Now hiring a Controller on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4614221007,
+      "title": "Core Protocol Engineer",
+      "company_name": "Ritual",
+      "absolute_url": "https://job-boards.greenhouse.io/ritual/jobs/4614221007",
+      "updated_at": "2025-01-03T16:59:42-05:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Ritual.&lt;/strong&gt; Now hiring a Core Protocol Engineer on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4614247007,
+      "title": "Developer Experience Engineer",
+      "company_name": "Ritual",
+      "absolute_url": "https://job-boards.greenhouse.io/ritual/jobs/4614247007",
+      "updated_at": "2025-01-03T17:03:09-05:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Ritual.&lt;/strong&gt; Now hiring a Developer Experience Engineer on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

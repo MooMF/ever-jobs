@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 7731648,
+      "title": "AI Application Packaging Engineer ",
+      "company_name": "Agilisys",
+      "absolute_url": "https://job-boards.greenhouse.io/agilisys/jobs/7731648",
+      "updated_at": "2026-05-22T07:10:16-04:00",
+      "location": {
+        "name": "Mumbai, Maharashtra, India"
+      },
+      "departments": [
+        {
+          "id": 7731649,
+          "name": "IT & Infrastructure "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Agilisys.&lt;/strong&gt; Now hiring a AI Application Packaging Engineer on the IT & Infrastructure team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7078003,
+      "title": "Customer Service Advisor",
+      "company_name": "Agilisys",
+      "absolute_url": "https://job-boards.greenhouse.io/agilisys/jobs/7078003",
+      "updated_at": "2026-05-22T07:10:16-04:00",
+      "location": {
+        "name": "Maidstone, Kent"
+      },
+      "departments": [
+        {
+          "id": 7078004,
+          "name": "Customer Operations"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Agilisys.&lt;/strong&gt; Now hiring a Customer Service Advisor on the Customer Operations team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7796175,
+      "title": "DBA Services Specialist",
+      "company_name": "Agilisys",
+      "absolute_url": "https://job-boards.greenhouse.io/agilisys/jobs/7796175",
+      "updated_at": "2026-05-22T07:10:16-04:00",
+      "location": {
+        "name": "Wigan, United Kingdom"
+      },
+      "departments": [
+        {
+          "id": 7796176,
+          "name": "Operations"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Agilisys.&lt;/strong&gt; Now hiring a DBA Services Specialist on the Operations team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

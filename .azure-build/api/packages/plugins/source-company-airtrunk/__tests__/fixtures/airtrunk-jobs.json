@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 7679872003,
+      "title": "Accountant - Financial Operations ",
+      "company_name": "AirTrunk",
+      "absolute_url": "https://job-boards.greenhouse.io/airtrunk/jobs/7679872003",
+      "updated_at": "2026-05-10T20:52:48-04:00",
+      "location": {
+        "name": "Singapore HQ"
+      },
+      "departments": [
+        {
+          "id": 7679872004,
+          "name": "Finance "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AirTrunk.&lt;/strong&gt; Now hiring a Accountant - Financial Operations on the Finance team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7728027003,
+      "title": "Analytics Engineer",
+      "company_name": "AirTrunk",
+      "absolute_url": "https://job-boards.greenhouse.io/airtrunk/jobs/7728027003",
+      "updated_at": "2026-05-26T21:44:03-04:00",
+      "location": {
+        "name": "Melbourne, Victoria, Australia"
+      },
+      "departments": [
+        {
+          "id": 7728027004,
+          "name": "Technology"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AirTrunk.&lt;/strong&gt; Now hiring a Analytics Engineer on the Technology team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7496656003,
+      "title": "Associate Director, HV infrastructure ",
+      "company_name": "AirTrunk",
+      "absolute_url": "https://job-boards.greenhouse.io/airtrunk/jobs/7496656003",
+      "updated_at": "2026-05-10T20:52:48-04:00",
+      "location": {
+        "name": "AirTrunk HQ - North Sydney"
+      },
+      "departments": [
+        {
+          "id": 7496656004,
+          "name": "Development "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AirTrunk.&lt;/strong&gt; Now hiring a Associate Director, HV infrastructure on the Development team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

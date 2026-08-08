@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5096396007,
+      "title": "Customer Experience Associate (Bilingual; Spanish) (Remote) ",
+      "company_name": "Age Bold",
+      "absolute_url": "https://job-boards.greenhouse.io/agebold/jobs/5096396007",
+      "updated_at": "2026-04-01T13:35:22-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 5096396008,
+          "name": "Member Experience "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Age Bold.&lt;/strong&gt; Now hiring a Customer Experience Associate (Bilingual; Spanish) (Remote) on the Member Experience team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4665759007,
+      "title": "Customer Experience Associate (Remote)",
+      "company_name": "Age Bold",
+      "absolute_url": "https://job-boards.greenhouse.io/agebold/jobs/4665759007",
+      "updated_at": "2025-03-20T17:42:41-04:00",
+      "location": {
+        "name": "Los Angeles, California, United States; Remote"
+      },
+      "departments": [
+        {
+          "id": 4665759008,
+          "name": "Member Experience"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Age Bold.&lt;/strong&gt; Now hiring a Customer Experience Associate (Remote) on the Member Experience team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4073828007,
+      "title": "General Application",
+      "company_name": "Age Bold",
+      "absolute_url": "https://job-boards.greenhouse.io/agebold/jobs/4073828007",
+      "updated_at": "2024-07-24T16:09:49-04:00",
+      "location": {
+        "name": "Los Angeles, California, United States"
+      },
+      "departments": [
+        {
+          "id": 4073828008,
+          "name": "People Ops"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Age Bold.&lt;/strong&gt; Now hiring a General Application on the People Ops team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

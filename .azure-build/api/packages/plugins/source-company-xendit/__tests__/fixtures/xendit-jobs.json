@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 7754943003,
+      "title": "Account Manager ",
+      "company_name": "Xendit",
+      "absolute_url": "https://job-boards.greenhouse.io/xendit/jobs/7754943003",
+      "updated_at": "2026-06-08T04:31:32-04:00",
+      "location": {
+        "name": "Bangkok, Thailand"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Xendit.&lt;/strong&gt; Now hiring a Account Manager on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7733314003,
+      "title": "Banking Experiments Business Director",
+      "company_name": "Xendit",
+      "absolute_url": "https://job-boards.greenhouse.io/xendit/jobs/7733314003",
+      "updated_at": "2026-05-19T05:30:44-04:00",
+      "location": {
+        "name": "Jakarta, Indonesia"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Xendit.&lt;/strong&gt; Now hiring a Banking Experiments Business Director on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7698002003,
+      "title": "Customer Success Generalist (Daylight)",
+      "company_name": "Xendit",
+      "absolute_url": "https://job-boards.greenhouse.io/xendit/jobs/7698002003",
+      "updated_at": "2026-05-06T04:12:28-04:00",
+      "location": {
+        "name": "Jakarta, Indonesia; Manila, Philippines"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Xendit.&lt;/strong&gt; Now hiring a Customer Success Generalist (Daylight) on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

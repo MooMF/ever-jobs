@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 7401234,
+      "title": "Senior Software Engineer, Logistics Platform",
+      "absolute_url": "https://boards.greenhouse.io/doordash/jobs/7401234",
+      "updated_at": "2026-04-29T15:00:00.000Z",
+      "first_published": "2026-04-19T09:00:00.000Z",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 60, "name": "Engineering" }],
+      "offices": [{ "id": 71, "name": "San Francisco" }],
+      "content": "<p><strong>About the role</strong></p><p>Scale DoorDash's real-time delivery dispatch and ETA-prediction services to handle peak weekend volume.</p><ul><li>Distributed-systems experience required</li></ul>"
+    },
+    {
+      "id": 7402345,
+      "title": "Lead Operations Strategy Manager",
+      "absolute_url": "https://boards.greenhouse.io/doordash/jobs/7402345",
+      "updated_at": "2026-04-30T12:30:00.000Z",
+      "first_published": "2026-04-23T08:00:00.000Z",
+      "location": { "name": "Remote — USA" },
+      "departments": [{ "id": 61, "name": "Strategy & Operations" }],
+      "offices": [{ "id": 72, "name": "Remote" }],
+      "content": "<p>Lead market-launch programs that scale DoorDash to new metro areas across North America.</p>"
+    }
+  ],
+  "meta": { "total": 2 }
+}

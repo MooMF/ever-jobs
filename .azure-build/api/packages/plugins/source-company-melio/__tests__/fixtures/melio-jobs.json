@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7692118003,
+      "title": "Director of FP&A ",
+      "company_name": "Melio",
+      "absolute_url": "https://job-boards.greenhouse.io/melio/jobs/7692118003",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "New York, NY" },
+      "departments": [{ "id": 1, "name": "Finance" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Director of FP&amp;A&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Melio is the SMB B2B-payments platform pioneered around accounts-payable-bill-pay-as-a-service &amp; the SMB-B2B-payments segment.&lt;/p&gt;"
+    },
+    {
+      "id": 7783950002,
+      "title": "Senior Product Designer",
+      "company_name": "Melio",
+      "absolute_url": "https://job-boards.greenhouse.io/melio/jobs/7783950002",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Tel Aviv, Israel" },
+      "departments": [{ "id": 2, "name": "Design " }],
+      "content": "&lt;p&gt;Lead Melio's Design function across the AP / AR / Pay-by-Card / Marketing Partners platform.&lt;/p&gt;"
+    }
+  ]
+}

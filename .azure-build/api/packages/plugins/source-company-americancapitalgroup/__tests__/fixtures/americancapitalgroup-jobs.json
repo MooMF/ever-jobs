@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 6008545004,
+      "title": "Architect II ",
+      "company_name": "American Capital Group",
+      "absolute_url": "https://job-boards.greenhouse.io/americancapitalgroup/jobs/6008545004",
+      "updated_at": "2026-05-28T15:52:27-04:00",
+      "location": {
+        "name": "Bellevue, WA"
+      },
+      "departments": [
+        {
+          "id": 6008545005,
+          "name": "American Capital Group - Design "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About American Capital Group.&lt;/strong&gt; Now hiring a Architect II on the American Capital Group - Design team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 6008546004,
+      "title": "Architect III",
+      "company_name": "American Capital Group",
+      "absolute_url": "https://job-boards.greenhouse.io/americancapitalgroup/jobs/6008546004",
+      "updated_at": "2026-05-28T15:54:36-04:00",
+      "location": {
+        "name": "Bellevue, WA"
+      },
+      "departments": [
+        {
+          "id": 6008546005,
+          "name": "American Capital Group - Design"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About American Capital Group.&lt;/strong&gt; Now hiring a Architect III on the American Capital Group - Design team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 6008496004,
+      "title": "Assistant Project Manager (Multifamily Construction)",
+      "company_name": "American Capital Group",
+      "absolute_url": "https://job-boards.greenhouse.io/americancapitalgroup/jobs/6008496004",
+      "updated_at": "2026-05-28T15:07:30-04:00",
+      "location": {
+        "name": "Portland, OR"
+      },
+      "departments": [
+        {
+          "id": 6008496005,
+          "name": "American Home Builders - Corporate Project (On-Site)"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About American Capital Group.&lt;/strong&gt; Now hiring a Assistant Project Manager (Multifamily Construction) on the American Home Builders - Corporate Project (On-Site) team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

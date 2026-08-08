@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7859917,
+      "title": "2nd Shift Production Specialist",
+      "company_name": "Formlabs",
+      "absolute_url": "https://careers.formlabs.com/job/7859917/apply/?gh_jid=7859917",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "Somerville, MA" },
+      "departments": [{ "id": 1, "name": "Manufacturing" }],
+      "content": "&lt;p&gt;&lt;strong&gt;2nd Shift Production Specialist&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Formlabs is the dominant desktop &amp; benchtop SLA / SLS resin-and-powder 3D-printing platform.&lt;/p&gt;"
+    },
+    {
+      "id": 7649250,
+      "title": "Robotic Systems Integration Engineer (SLA & SLS)   ",
+      "company_name": "Formlabs",
+      "absolute_url": "https://careers.formlabs.com/job/7649250/apply/?gh_jid=7649250",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 2, "name": "Hardware Engineering" }],
+      "content": "&lt;p&gt;Lead Formlabs's Robotic Systems Integration function across the SLA &amp; SLS platform stack.&lt;/p&gt;"
+    }
+  ]
+}

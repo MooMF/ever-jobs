@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4232405009,
+      "title": "Director of Hardware ",
+      "company_name": "Albedo",
+      "absolute_url": "https://job-boards.greenhouse.io/albedo/jobs/4232405009",
+      "updated_at": "2026-05-06T16:03:40-04:00",
+      "location": {
+        "name": "Broomfield, CO"
+      },
+      "departments": [
+        {
+          "id": 4232405010,
+          "name": "Engineering Operations "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Albedo.&lt;/strong&gt; Now hiring a Director of Hardware on the Engineering Operations team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4232394009,
+      "title": "Director of Software",
+      "company_name": "Albedo",
+      "absolute_url": "https://job-boards.greenhouse.io/albedo/jobs/4232394009",
+      "updated_at": "2026-05-06T16:00:22-04:00",
+      "location": {
+        "name": "Broomfield, CO"
+      },
+      "departments": [
+        {
+          "id": 4232394010,
+          "name": "Engineering Operations"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Albedo.&lt;/strong&gt; Now hiring a Director of Software on the Engineering Operations team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4135187009,
+      "title": "GNSS Navigation and Estimation Engineer",
+      "company_name": "Albedo",
+      "absolute_url": "https://job-boards.greenhouse.io/albedo/jobs/4135187009",
+      "updated_at": "2026-02-24T14:25:07-05:00",
+      "location": {
+        "name": "Broomfield, CO"
+      },
+      "departments": [
+        {
+          "id": 4135187010,
+          "name": "Guidance, Navigation, and Control"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Albedo.&lt;/strong&gt; Now hiring a GNSS Navigation and Estimation Engineer on the Guidance, Navigation, and Control team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

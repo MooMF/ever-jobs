@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 7301234,
+      "title": "Senior Software Engineer, Exchange Infrastructure",
+      "absolute_url": "https://boards.greenhouse.io/coinbase/jobs/7301234",
+      "updated_at": "2026-04-29T15:00:00.000Z",
+      "first_published": "2026-04-19T09:00:00.000Z",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 50, "name": "Engineering" }],
+      "offices": [{ "id": 61, "name": "San Francisco" }],
+      "content": "<p><strong>About the role</strong></p><p>Scale Coinbase's regulated exchange matching engine to handle peak crypto-market volume.</p><ul><li>Distributed-systems experience required</li></ul>"
+    },
+    {
+      "id": 7302345,
+      "title": "Lead Compliance Operations Manager",
+      "absolute_url": "https://boards.greenhouse.io/coinbase/jobs/7302345",
+      "updated_at": "2026-04-30T12:30:00.000Z",
+      "first_published": "2026-04-23T08:00:00.000Z",
+      "location": { "name": "Remote — USA" },
+      "departments": [{ "id": 51, "name": "Compliance" }],
+      "offices": [{ "id": 62, "name": "Remote" }],
+      "content": "<p>Lead operational programs that keep the Coinbase platform compliant with US regulators.</p>"
+    }
+  ],
+  "meta": { "total": 2 }
+}

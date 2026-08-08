@@ -1,0 +1,102 @@
+[
+  {
+    "data": {
+      "publicBrandingTheme": {
+        "id": "theme-acme",
+        "theme": "{\"primary\":\"#000000\"}",
+        "__typename": "PublicBrandingTheme"
+      }
+    }
+  },
+  {
+    "data": {
+      "oatsExternalJobPostings": {
+        "jobPostings": [
+          {
+            "id": "post-1",
+            "extId": "ext-1001",
+            "title": "Staff Software Engineer",
+            "locations": [
+              {
+                "id": "loc-ny",
+                "name": "New York, NY",
+                "city": "New York",
+                "isoCountry": "US",
+                "isRemote": false,
+                "extId": "loc-ny"
+              }
+            ],
+            "job": {
+              "id": "job-1",
+              "department": {
+                "id": "dept-eng",
+                "name": "Engineering",
+                "extId": "dept-eng"
+              },
+              "locationType": "ONSITE",
+              "employmentType": "FULL_TIME"
+            }
+          },
+          {
+            "id": "post-2",
+            "extId": "ext-1002",
+            "title": "Remote Site Reliability Engineer",
+            "locations": [
+              {
+                "id": "loc-remote",
+                "name": "Remote — US",
+                "city": "",
+                "isoCountry": "US",
+                "isRemote": true,
+                "extId": "loc-remote"
+              }
+            ],
+            "job": {
+              "id": "job-2",
+              "department": {
+                "id": "dept-eng",
+                "name": "Engineering",
+                "extId": "dept-eng"
+              },
+              "locationType": "REMOTE",
+              "employmentType": "FULL_TIME"
+            }
+          },
+          {
+            "id": "post-3",
+            "extId": "ext-1003",
+            "title": "Product Designer",
+            "locations": [
+              {
+                "id": "loc-sf",
+                "name": "San Francisco, CA",
+                "city": "San Francisco",
+                "isoCountry": "US",
+                "isRemote": false,
+                "extId": "loc-sf"
+              }
+            ],
+            "job": {
+              "id": "job-3",
+              "department": {
+                "id": "dept-design",
+                "name": "Design",
+                "extId": "dept-design"
+              },
+              "locationType": "HYBRID",
+              "employmentType": "FULL_TIME"
+            }
+          }
+        ],
+        "__typename": "OatsExternalJobPostings"
+      },
+      "oatsExternalJobPostingsFilters": [],
+      "jobBoardExternal": {
+        "id": "acme-board",
+        "teamDisplayName": "Acme Corp",
+        "descriptionHtml": null,
+        "pageTitle": "Acme Careers"
+      }
+    }
+  }
+]

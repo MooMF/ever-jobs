@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 8432086002,
+      "title": "Accounting Lead ",
+      "company_name": "Wing",
+      "absolute_url": "https://job-boards.greenhouse.io/wing/jobs/8432086002",
+      "updated_at": "2026-03-19T13:45:30-04:00",
+      "location": {
+        "name": "Palo Alto, California"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Wing.&lt;/strong&gt; Now hiring a Accounting Lead on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8389529002,
+      "title": "Analytics Manager",
+      "company_name": "Wing",
+      "absolute_url": "https://job-boards.greenhouse.io/wing/jobs/8389529002",
+      "updated_at": "2026-05-03T21:31:21-04:00",
+      "location": {
+        "name": "Remote, USA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Wing.&lt;/strong&gt; Now hiring a Analytics Manager on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8183095002,
+      "title": "Android Software Engineer",
+      "company_name": "Wing",
+      "absolute_url": "https://job-boards.greenhouse.io/wing/jobs/8183095002",
+      "updated_at": "2026-03-05T23:50:50-05:00",
+      "location": {
+        "name": "Palo Alto, California"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Wing.&lt;/strong&gt; Now hiring a Android Software Engineer on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

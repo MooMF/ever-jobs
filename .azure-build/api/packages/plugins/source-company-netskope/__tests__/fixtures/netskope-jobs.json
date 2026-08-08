@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7495945,
+      "title": "Channel Sales Manager ",
+      "company_name": "Netskope",
+      "absolute_url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=7495945",
+      "updated_at": "2026-04-30T10:00:00-07:00",
+      "location": { "name": "Austin, TX" },
+      "departments": [{ "id": 1, "name": "Channel Sales" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Channel Sales Manager&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Netskope is the SASE / SSE security platform pioneered around the cloud-data-security &amp; the Zero-Trust-Network-Access segment.&lt;/p&gt;"
+    },
+    {
+      "id": 7646769,
+      "title": "AI Consulting Solutions Engineer",
+      "company_name": "Netskope",
+      "absolute_url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=7646769",
+      "updated_at": "2026-04-29T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 2, "name": "Sales Engineering" }],
+      "content": "&lt;p&gt;Lead Netskope's AI Consulting Solutions function across the Netskope One / CASB / SWG / ZTNA platform.&lt;/p&gt;"
+    }
+  ]
+}

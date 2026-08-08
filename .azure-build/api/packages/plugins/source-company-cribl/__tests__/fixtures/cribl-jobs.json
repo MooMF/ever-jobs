@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 5826710004,
+      "title": "Channel Sales Manager",
+      "company_name": "Cribl",
+      "absolute_url": "https://cribl.io/job-detail/?gh_jid=5826710004",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 1, "name": "Sales" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Channel Sales Manager&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Cribl is the dominant observability-data-pipeline platform pioneered around the vendor-agnostic event-routing data model.&lt;/p&gt;"
+    },
+    {
+      "id": 5842537004,
+      "title": "Senior Software Engineer, Cribl Stream",
+      "company_name": "Cribl",
+      "absolute_url": "https://cribl.io/job-detail/?gh_jid=5842537004",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 2, "name": "Engineering" }],
+      "content": "&lt;p&gt;Lead Cribl Stream's event-routing engine across the platform stack &amp; SIEM ecosystem.&lt;/p&gt;"
+    }
+  ]
+}

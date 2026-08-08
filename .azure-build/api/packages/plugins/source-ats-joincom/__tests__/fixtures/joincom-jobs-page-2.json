@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "id": 1003,
+      "title": "Product Manager",
+      "description": "<p>Lead product strategy.</p>",
+      "locations": [
+        { "id": 3, "name": "London", "city": "London", "country": "GB", "isRemote": false }
+      ],
+      "shareableUrl": "https://join.com/companies/acme-corp/jobs/1003-product-manager",
+      "publishedAt": "2026-04-23T12:00:00.000Z",
+      "employmentType": "FULL_TIME",
+      "remoteOption": "HYBRID",
+      "department": "Product"
+    }
+  ],
+  "pagination": {
+    "page": 2,
+    "pageSize": 50,
+    "total": 3,
+    "totalPages": 2
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5229692008,
+      "title": "AI Strategist ",
+      "company_name": "American Institutes for Research",
+      "absolute_url": "https://job-boards.greenhouse.io/americaninstitutesforresearch/jobs/5229692008",
+      "updated_at": "2026-06-01T18:01:52-04:00",
+      "location": {
+        "name": "US-Remote | US-VA-Arlington | US-NC-Chapel Hill | US-IL-Chicago | US-CA-Sacramento | US-TX-Austin"
+      },
+      "departments": [
+        {
+          "id": 5229692009,
+          "name": "SS4 - Growth Office "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About American Institutes for Research.&lt;/strong&gt; Now hiring a AI Strategist on the SS4 - Growth Office team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5222417008,
+      "title": "Director, Energy",
+      "company_name": "American Institutes for Research",
+      "absolute_url": "https://job-boards.greenhouse.io/americaninstitutesforresearch/jobs/5222417008",
+      "updated_at": "2026-05-27T10:52:27-04:00",
+      "location": {
+        "name": "US-Remote"
+      },
+      "departments": [
+        {
+          "id": 5222417009,
+          "name": "SS4 - Growth Office"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About American Institutes for Research.&lt;/strong&gt; Now hiring a Director, Energy on the SS4 - Growth Office team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5101196008,
+      "title": "Economist, Healthcare Innovations",
+      "company_name": "American Institutes for Research",
+      "absolute_url": "https://job-boards.greenhouse.io/americaninstitutesforresearch/jobs/5101196008",
+      "updated_at": "2026-05-27T10:52:27-04:00",
+      "location": {
+        "name": "US-Remote | US-VA-Arlington | US-NC-Chapel Hill | US-IL-Chicago | US-CA-Sacramento | US-TX-Austin"
+      },
+      "departments": [
+        {
+          "id": 5101196009,
+          "name": "R10 - Healthcare Innovations"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About American Institutes for Research.&lt;/strong&gt; Now hiring a Economist, Healthcare Innovations on the R10 - Healthcare Innovations team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

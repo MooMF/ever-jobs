@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 6007446004,
+      "title": "Accounts Payable Specialist ",
+      "company_name": "Apptronik",
+      "absolute_url": "https://job-boards.greenhouse.io/apptronik/jobs/6007446004",
+      "updated_at": "2026-05-27T14:10:05-04:00",
+      "location": {
+        "name": "Austin, TX"
+      },
+      "departments": [
+        {
+          "id": 6007446005,
+          "name": "Finance "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Apptronik.&lt;/strong&gt; Now hiring a Accounts Payable Specialist on the Finance team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5995708004,
+      "title": "CAM Programmer",
+      "company_name": "Apptronik",
+      "absolute_url": "https://job-boards.greenhouse.io/apptronik/jobs/5995708004",
+      "updated_at": "2026-05-14T11:40:33-04:00",
+      "location": {
+        "name": "Austin, TX"
+      },
+      "departments": [
+        {
+          "id": 5995708005,
+          "name": "Manufacturing"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Apptronik.&lt;/strong&gt; Now hiring a CAM Programmer on the Manufacturing team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5978948004,
+      "title": "Data Platform Engineer",
+      "company_name": "Apptronik",
+      "absolute_url": "https://job-boards.greenhouse.io/apptronik/jobs/5978948004",
+      "updated_at": "2026-05-08T13:26:15-04:00",
+      "location": {
+        "name": "Onsite - Austin, TX"
+      },
+      "departments": [
+        {
+          "id": 5978948005,
+          "name": "Engineering"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Apptronik.&lt;/strong&gt; Now hiring a Data Platform Engineer on the Engineering team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

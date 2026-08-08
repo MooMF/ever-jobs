@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 7696642003,
+      "title": "Account Executive, Mid Market ",
+      "company_name": "Affinity.co",
+      "absolute_url": "https://job-boards.greenhouse.io/affinity/jobs/7696642003",
+      "updated_at": "2026-04-10T12:21:10-04:00",
+      "location": {
+        "name": "USA (Remote)"
+      },
+      "departments": [
+        {
+          "id": 7696642004,
+          "name": "Sales "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Affinity.co.&lt;/strong&gt; Now hiring a Account Executive, Mid Market on the Sales team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7714522003,
+      "title": "Assistant Controller",
+      "company_name": "Affinity.co",
+      "absolute_url": "https://job-boards.greenhouse.io/affinity/jobs/7714522003",
+      "updated_at": "2026-04-27T11:53:32-04:00",
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "departments": [
+        {
+          "id": 7714522004,
+          "name": "Finance & Legal"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Affinity.co.&lt;/strong&gt; Now hiring a Assistant Controller on the Finance & Legal team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7734511003,
+      "title": "Customer Success Operations Analyst",
+      "company_name": "Affinity.co",
+      "absolute_url": "https://job-boards.greenhouse.io/affinity/jobs/7734511003",
+      "updated_at": "2026-05-14T18:39:40-04:00",
+      "location": {
+        "name": "Canada (Remote)"
+      },
+      "departments": [
+        {
+          "id": 7734511004,
+          "name": "Revenue Operations"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Affinity.co.&lt;/strong&gt; Now hiring a Customer Success Operations Analyst on the Revenue Operations team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

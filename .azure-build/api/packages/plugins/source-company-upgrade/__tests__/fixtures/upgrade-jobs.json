@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 4632941005,
+      "title": "Account Executive, Home Improvement ",
+      "company_name": "Upgrade",
+      "absolute_url": "https://job-boards.greenhouse.io/upgrade/jobs/4632941005",
+      "updated_at": "2026-05-27T11:30:14-04:00",
+      "location": {
+        "name": "Atlanta"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Upgrade.&lt;/strong&gt; Now hiring a Account Executive, Home Improvement on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4694656005,
+      "title": "Accounts Receivable Specialist",
+      "company_name": "Upgrade",
+      "absolute_url": "https://job-boards.greenhouse.io/upgrade/jobs/4694656005",
+      "updated_at": "2026-05-12T15:01:03-04:00",
+      "location": {
+        "name": "Atlanta"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Upgrade.&lt;/strong&gt; Now hiring a Accounts Receivable Specialist on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4646359005,
+      "title": "Customer Success Manager, Contractor Engagement",
+      "company_name": "Upgrade",
+      "absolute_url": "https://job-boards.greenhouse.io/upgrade/jobs/4646359005",
+      "updated_at": "2026-05-18T03:00:22-04:00",
+      "location": {
+        "name": "Atlanta"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Upgrade.&lt;/strong&gt; Now hiring a Customer Success Manager, Contractor Engagement on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

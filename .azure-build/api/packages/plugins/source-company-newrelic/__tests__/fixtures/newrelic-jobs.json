@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 5202780008,
+      "title": "Account Executive - Commercial - Fixed Term Contract (Maternity)",
+      "company_name": "New Relic",
+      "absolute_url": "https://job-boards.greenhouse.io/newrelic/jobs/5202780008",
+      "updated_at": "2026-04-30T12:15:32-04:00",
+      "first_published": "2026-03-21T09:00:00-04:00",
+      "location": { "name": "Remote, EU" },
+      "departments": [{ "id": 4063436011, "name": "Commercial" }],
+      "offices": [{ "id": 21001, "name": "Remote" }],
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;We are a global team of innovators and pioneers dedicated to shaping the future of observability. At New Relic, we build an intelligent platform that empowers companies to thrive in an AI-first world by ensuring their software operates reliably.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Account Executive partners with Sales Engineering &amp; Customer Success to grow the New Relic One unified observability footprint across enterprise cohorts in EMEA.&lt;/p&gt;"
+    },
+    {
+      "id": 5202777008,
+      "title": " Account Executive - Commercial ",
+      "company_name": "New Relic",
+      "absolute_url": "https://job-boards.greenhouse.io/newrelic/jobs/5202777008",
+      "updated_at": "2026-04-29T10:42:11-04:00",
+      "first_published": "2026-03-15T08:30:00-04:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 4089992011, "name": "Enterprise" }],
+      "offices": [{ "id": 21002, "name": "San Francisco HQ" }],
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;We are a global team of innovators and pioneers dedicated to shaping the future of observability. The Enterprise team owns the New Relic One unified observability platform pipeline across Fortune 500 cohorts.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Account Executive partners with Enterprise Sales and Customer Success to grow the New Relic One enterprise-observability footprint across Fortune 500 cohorts.&lt;/p&gt;"
+    }
+  ]
+}

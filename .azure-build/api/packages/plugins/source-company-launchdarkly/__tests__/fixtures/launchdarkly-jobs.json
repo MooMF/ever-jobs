@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7649833003,
+      "title": "Enterprise Account Executive - Germany ",
+      "company_name": "LaunchDarkly",
+      "absolute_url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7649833003",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "Remote, Germany" },
+      "departments": [{ "id": 1, "name": "Sales" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Enterprise Account Executive&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;LaunchDarkly is the feature-management platform pioneered around runtime-flag-evaluation-as-a-service &amp; experimentation engine.&lt;/p&gt;"
+    },
+    {
+      "id": 7717250003,
+      "title": "Senior Software Engineer, Core",
+      "company_name": "LaunchDarkly",
+      "absolute_url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7717250003",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Oakland, CA" },
+      "departments": [{ "id": 2, "name": "Core Engineering" }],
+      "content": "&lt;p&gt;Lead LaunchDarkly's Core Engineering function across the feature-flag-evaluation runtime.&lt;/p&gt;"
+    }
+  ]
+}

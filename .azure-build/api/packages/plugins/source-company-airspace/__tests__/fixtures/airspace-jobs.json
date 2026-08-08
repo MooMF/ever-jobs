@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5919452004,
+      "title": "Associate Technical Product Manager, Integrations ",
+      "company_name": "Airspace ",
+      "absolute_url": "https://job-boards.greenhouse.io/airspace/jobs/5919452004",
+      "updated_at": "2026-04-10T14:20:00-04:00",
+      "location": {
+        "name": "Carlsbad, CA, US"
+      },
+      "departments": [
+        {
+          "id": 5919452005,
+          "name": "R&D - Product "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Airspace .&lt;/strong&gt; Now hiring a Associate Technical Product Manager, Integrations on the R&D - Product team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 6000477004,
+      "title": "Chief of Staff to CBO, Industrials",
+      "company_name": "Airspace ",
+      "absolute_url": "https://job-boards.greenhouse.io/airspace/jobs/6000477004",
+      "updated_at": "2026-05-19T18:15:33-04:00",
+      "location": {
+        "name": "Carlsbad, CA, US"
+      },
+      "departments": [
+        {
+          "id": 6000477005,
+          "name": "Corporate"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Airspace .&lt;/strong&gt; Now hiring a Chief of Staff to CBO, Industrials on the Corporate team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5803797004,
+      "title": "Enterprise Account Manager (Medical Device)",
+      "company_name": "Airspace ",
+      "absolute_url": "https://job-boards.greenhouse.io/airspace/jobs/5803797004",
+      "updated_at": "2026-03-26T09:20:13-04:00",
+      "location": {
+        "name": "US - Remote"
+      },
+      "departments": [
+        {
+          "id": 5803797005,
+          "name": "Corporate"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Airspace .&lt;/strong&gt; Now hiring a Enterprise Account Manager (Medical Device) on the Corporate team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

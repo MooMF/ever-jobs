@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5133868008,
+      "title": "Associate Statistics Director ",
+      "company_name": "Adelphi Research",
+      "absolute_url": "https://job-boards.greenhouse.io/adelphiresearch/jobs/5133868008",
+      "updated_at": "2026-06-02T10:22:55-04:00",
+      "location": {
+        "name": "Bollington, UK"
+      },
+      "departments": [
+        {
+          "id": 5133868009,
+          "name": "Data & Analytics "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Adelphi Research.&lt;/strong&gt; Now hiring a Associate Statistics Director on the Data & Analytics team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5202104008,
+      "title": "Director, Qualitative Research  ",
+      "company_name": "Adelphi Research",
+      "absolute_url": "https://job-boards.greenhouse.io/adelphiresearch/jobs/5202104008",
+      "updated_at": "2026-06-02T10:22:55-04:00",
+      "location": {
+        "name": "Doylestown, PA"
+      },
+      "departments": [
+        {
+          "id": 5202104009,
+          "name": "Research "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Adelphi Research.&lt;/strong&gt; Now hiring a Director, Qualitative Research on the Research team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5227334008,
+      "title": "Director, Quantitative ",
+      "company_name": "Adelphi Research",
+      "absolute_url": "https://job-boards.greenhouse.io/adelphiresearch/jobs/5227334008",
+      "updated_at": "2026-06-02T10:22:55-04:00",
+      "location": {
+        "name": "Doylestown, PA"
+      },
+      "departments": [
+        {
+          "id": 5227334009,
+          "name": "Research "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Adelphi Research.&lt;/strong&gt; Now hiring a Director, Quantitative on the Research team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 4011657005,
+      "title": "General Application ",
+      "company_name": "UJET",
+      "absolute_url": "https://job-boards.greenhouse.io/ujet/jobs/4011657005",
+      "updated_at": "2026-04-24T18:38:12-04:00",
+      "location": {
+        "name": "Remote - US"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About UJET.&lt;/strong&gt; Now hiring a General Application on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4670554005,
+      "title": "National Channel Director",
+      "company_name": "UJET",
+      "absolute_url": "https://job-boards.greenhouse.io/ujet/jobs/4670554005",
+      "updated_at": "2026-04-24T18:38:12-04:00",
+      "location": {
+        "name": "Remote, US"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About UJET.&lt;/strong&gt; Now hiring a National Channel Director on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4587517005,
+      "title": "Product Manager - CCaaS Services",
+      "company_name": "UJET",
+      "absolute_url": "https://job-boards.greenhouse.io/ujet/jobs/4587517005",
+      "updated_at": "2026-04-24T18:38:12-04:00",
+      "location": {
+        "name": "Porto, Portugal"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About UJET.&lt;/strong&gt; Now hiring a Product Manager - CCaaS Services on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

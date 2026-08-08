@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 7688806003,
+      "title": "Director of Accounting ",
+      "company_name": "Altana ",
+      "absolute_url": "https://job-boards.greenhouse.io/altanaai/jobs/7688806003",
+      "updated_at": "2026-06-01T10:44:19-04:00",
+      "location": {
+        "name": "Brooklyn, NY"
+      },
+      "departments": [
+        {
+          "id": 7688806004,
+          "name": "Finance "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Altana .&lt;/strong&gt; Now hiring a Director of Accounting on the Finance team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7758513003,
+      "title": "Director of Government Affairs (EU)",
+      "company_name": "Altana ",
+      "absolute_url": "https://job-boards.greenhouse.io/altanaai/jobs/7758513003",
+      "updated_at": "2026-06-01T11:01:11-04:00",
+      "location": {
+        "name": "Brussels, Belgium"
+      },
+      "departments": [
+        {
+          "id": 7758513004,
+          "name": "Government Affairs"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Altana .&lt;/strong&gt; Now hiring a Director of Government Affairs (EU) on the Government Affairs team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7648048003,
+      "title": "Director of Product Management (Public Sector)",
+      "company_name": "Altana ",
+      "absolute_url": "https://job-boards.greenhouse.io/altanaai/jobs/7648048003",
+      "updated_at": "2026-06-01T10:44:19-04:00",
+      "location": {
+        "name": "Brooklyn, NY;  San Francisco, CA; Washington, DC; Boston, MA"
+      },
+      "departments": [
+        {
+          "id": 7648048004,
+          "name": "Product Management"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Altana .&lt;/strong&gt; Now hiring a Director of Product Management (Public Sector) on the Product Management team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

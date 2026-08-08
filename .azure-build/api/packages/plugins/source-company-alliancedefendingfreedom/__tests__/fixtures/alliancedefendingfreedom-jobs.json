@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5222759008,
+      "title": "Accounts Payable Specialist ",
+      "company_name": "Alliance Defending Freedom",
+      "absolute_url": "https://job-boards.greenhouse.io/alliancedefendingfreedom/jobs/5222759008",
+      "updated_at": "2026-05-15T17:27:08-04:00",
+      "location": {
+        "name": "Scottsdale, AZ"
+      },
+      "departments": [
+        {
+          "id": 5222759009,
+          "name": "Finance "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Alliance Defending Freedom.&lt;/strong&gt; Now hiring a Accounts Payable Specialist on the Finance team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5222815008,
+      "title": "Alliance Membership Manager",
+      "company_name": "Alliance Defending Freedom",
+      "absolute_url": "https://job-boards.greenhouse.io/alliancedefendingfreedom/jobs/5222815008",
+      "updated_at": "2026-05-20T13:52:50-04:00",
+      "location": {
+        "name": "Lansdowne, VA; Scottsdale, AZ"
+      },
+      "departments": [
+        {
+          "id": 5222815009,
+          "name": "Church and Ministry Alliance"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Alliance Defending Freedom.&lt;/strong&gt; Now hiring a Alliance Membership Manager on the Church and Ministry Alliance team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5159156008,
+      "title": "Blackstone Professional Development Specialist",
+      "company_name": "Alliance Defending Freedom",
+      "absolute_url": "https://job-boards.greenhouse.io/alliancedefendingfreedom/jobs/5159156008",
+      "updated_at": "2026-05-08T13:57:24-04:00",
+      "location": {
+        "name": "Lansdowne, VA"
+      },
+      "departments": [
+        {
+          "id": 5159156009,
+          "name": "Blackstone"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Alliance Defending Freedom.&lt;/strong&gt; Now hiring a Blackstone Professional Development Specialist on the Blackstone team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

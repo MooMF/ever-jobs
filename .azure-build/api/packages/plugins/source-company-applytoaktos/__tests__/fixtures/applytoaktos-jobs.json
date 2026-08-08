@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5567489004,
+      "title": "Founding Account Executive ",
+      "company_name": "Aktos",
+      "absolute_url": "https://job-boards.greenhouse.io/applytoaktos/jobs/5567489004",
+      "updated_at": "2026-02-27T21:10:20-05:00",
+      "location": {
+        "name": "Remote (US)"
+      },
+      "departments": [
+        {
+          "id": 5567489005,
+          "name": "Aktos "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Aktos.&lt;/strong&gt; Now hiring a Founding Account Executive on the Aktos team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5077985004,
+      "title": "Full Stack Engineer - LATAM (Remote)",
+      "company_name": "Aktos",
+      "absolute_url": "https://job-boards.greenhouse.io/applytoaktos/jobs/5077985004",
+      "updated_at": "2026-02-27T21:10:20-05:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 5077985005,
+          "name": "Aktos"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Aktos.&lt;/strong&gt; Now hiring a Full Stack Engineer - LATAM (Remote) on the Aktos team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5077986004,
+      "title": "Full Stack Engineer - Nigeria (Remote)",
+      "company_name": "Aktos",
+      "absolute_url": "https://job-boards.greenhouse.io/applytoaktos/jobs/5077986004",
+      "updated_at": "2026-02-27T21:10:20-05:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 5077986005,
+          "name": "Aktos"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Aktos.&lt;/strong&gt; Now hiring a Full Stack Engineer - Nigeria (Remote) on the Aktos team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

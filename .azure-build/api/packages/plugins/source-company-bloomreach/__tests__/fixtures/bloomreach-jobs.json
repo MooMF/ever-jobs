@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7422343,
+      "title": "AI Customer Lifecycle Manager",
+      "company_name": "Bloomreach",
+      "absolute_url": "https://job-boards.greenhouse.io/bloomreach/jobs/7422343",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "Slovakia" },
+      "departments": [{ "id": 7846, "name": "Marketing" }],
+      "content": "&lt;p&gt;&lt;strong&gt;AI Customer Lifecycle Manager&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Bloomreach is the dominant ecommerce-AI personalisation platform pioneered around the commerce-experience cloud + headless content + discovery / search + marketing-automation + customer-data segment.&lt;/p&gt;"
+    },
+    {
+      "id": 7814234,
+      "title": "Senior Security & Compliance AnalystÂ ",
+      "company_name": "Bloomreach",
+      "absolute_url": "https://job-boards.greenhouse.io/bloomreach/jobs/7814234",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 7847, "name": "G&A - GIST" }],
+      "content": "&lt;p&gt;Lead Bloomreach's Security &amp; Compliance Analyst function across the platform stack.&lt;/p&gt;"
+    }
+  ]
+}

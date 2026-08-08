@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4259078009,
+      "title": "Accounting Analyst ",
+      "company_name": "AgWest Farm Credit",
+      "absolute_url": "https://job-boards.greenhouse.io/agwestfarmcredit/jobs/4259078009",
+      "updated_at": "2026-05-29T13:25:30-04:00",
+      "location": {
+        "name": "Spokane, WA (HQ)"
+      },
+      "departments": [
+        {
+          "id": 4259078010,
+          "name": "Controllers "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AgWest Farm Credit.&lt;/strong&gt; Now hiring a Accounting Analyst on the Controllers team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4214451009,
+      "title": "Administrative Assistant - Crop Insurance",
+      "company_name": "AgWest Farm Credit",
+      "absolute_url": "https://job-boards.greenhouse.io/agwestfarmcredit/jobs/4214451009",
+      "updated_at": "2026-05-29T13:25:30-04:00",
+      "location": {
+        "name": "Sidney, MT"
+      },
+      "departments": [
+        {
+          "id": 4214451010,
+          "name": "Montana Lending and Insurance"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AgWest Farm Credit.&lt;/strong&gt; Now hiring a Administrative Assistant - Crop Insurance on the Montana Lending and Insurance team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4244643009,
+      "title": "Construction Loan Processor",
+      "company_name": "AgWest Farm Credit",
+      "absolute_url": "https://job-boards.greenhouse.io/agwestfarmcredit/jobs/4244643009",
+      "updated_at": "2026-05-29T13:25:30-04:00",
+      "location": {
+        "name": "Spokane, WA (HQ)"
+      },
+      "departments": [
+        {
+          "id": 4244643010,
+          "name": "Specialized Lending"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AgWest Farm Credit.&lt;/strong&gt; Now hiring a Construction Loan Processor on the Specialized Lending team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

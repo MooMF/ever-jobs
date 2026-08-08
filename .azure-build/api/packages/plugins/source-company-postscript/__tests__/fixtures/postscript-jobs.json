@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 8531822002,
+      "title": "Senior Customer Success Manager ",
+      "company_name": "Postscript",
+      "absolute_url": "https://job-boards.greenhouse.io/postscript/jobs/8531822002",
+      "updated_at": "2026-04-30T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 1, "name": "Customer Success" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Senior Customer Success Manager&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Postscript is the Shopify-native SMS-marketing platform pioneered around the e-commerce-conversational-SMS data model &amp; the Shopify-SMS-marketing segment.&lt;/p&gt;"
+    },
+    {
+      "id": 8525612002,
+      "title": "Senior Backend Engineer",
+      "company_name": "Postscript",
+      "absolute_url": "https://job-boards.greenhouse.io/postscript/jobs/8525612002",
+      "updated_at": "2026-04-29T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 2, "name": "Engineering" }],
+      "content": "&lt;p&gt;Lead Postscript's Backend Engineering function across the Subscriber Acquisition Tools / Campaigns / Sales Associates / Shop platform.&lt;/p&gt;"
+    }
+  ]
+}

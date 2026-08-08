@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 7642776,
+      "title": "Senior Software Engineer, Marketplace Order Fulfillment",
+      "absolute_url": "https://instacart.careers/job/?gh_jid=7642776",
+      "updated_at": "2026-04-29T16:30:00.000Z",
+      "first_published": "2026-04-19T08:00:00.000Z",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 70601, "name": "Engineering" }],
+      "offices": [{ "id": 80001, "name": "San Francisco" }],
+      "content": "<p><strong>About the role</strong></p><p>Own the Instacart Marketplace order-fulfillment pipeline that routes tens of millions of grocery orders per week across the global retailer-network distributed analysis layer.</p><ul><li>Go, distributed-systems, and high-throughput streaming experience required</li></ul>"
+    },
+    {
+      "id": 7642801,
+      "title": "Senior Manager, Ad Sales — Connected Stores",
+      "absolute_url": "https://instacart.careers/job/?gh_jid=7642801",
+      "updated_at": "2026-04-30T11:30:00.000Z",
+      "first_published": "2026-04-23T07:00:00.000Z",
+      "location": { "name": "United States - Remote" },
+      "departments": [{ "id": 70602, "name": "Ad Sales" }],
+      "offices": [{ "id": 80002, "name": "Remote" }],
+      "content": "<p>Own Instacart's ad-sales motion roadmap across enterprise-account adoption of the Connected Stores commerce-media platform, the Caper AI smart-cart in-aisle inventory, and the Eversight pricing-optimisation surface.</p>"
+    }
+  ],
+  "meta": { "total": 2 }
+}

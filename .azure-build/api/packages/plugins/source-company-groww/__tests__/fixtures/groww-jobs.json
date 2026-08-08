@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4880153101,
+      "title": "Associate - Content (Digest) ",
+      "company_name": "Groww",
+      "absolute_url": "https://job-boards.greenhouse.io/groww/jobs/4880153101",
+      "updated_at": "2026-06-03T02:46:08-04:00",
+      "location": {
+        "name": "Bengaluru-VTP, India"
+      },
+      "departments": [
+        {
+          "id": 4880153102,
+          "name": "Content "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Groww.&lt;/strong&gt; Now hiring a Associate - Content (Digest) on the Content team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4777615101,
+      "title": "Business Associate - Growth (Engagement)",
+      "company_name": "Groww",
+      "absolute_url": "https://job-boards.greenhouse.io/groww/jobs/4777615101",
+      "updated_at": "2026-05-18T01:22:08-04:00",
+      "location": {
+        "name": "Bengaluru-VTP, India"
+      },
+      "departments": [
+        {
+          "id": 4777615102,
+          "name": "Growth"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Groww.&lt;/strong&gt; Now hiring a Business Associate - Growth (Engagement) on the Growth team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4850792101,
+      "title": "Content - Intern",
+      "company_name": "Groww",
+      "absolute_url": "https://job-boards.greenhouse.io/groww/jobs/4850792101",
+      "updated_at": "2026-04-27T04:30:51-04:00",
+      "location": {
+        "name": "Bengaluru-VTP, India"
+      },
+      "departments": [
+        {
+          "id": 4850792102,
+          "name": "Content"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Groww.&lt;/strong&gt; Now hiring a Content - Intern on the Content team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

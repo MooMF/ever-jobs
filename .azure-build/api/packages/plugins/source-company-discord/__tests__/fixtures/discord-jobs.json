@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 7201234,
+      "title": "Senior Software Engineer, Voice Infrastructure",
+      "absolute_url": "https://job-boards.greenhouse.io/discord/jobs/7201234",
+      "updated_at": "2026-04-29T14:00:00.000Z",
+      "first_published": "2026-04-18T09:00:00.000Z",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 30, "name": "Engineering" }],
+      "offices": [{ "id": 41, "name": "San Francisco" }],
+      "content": "<p><strong>About the role</strong></p><p>Scale Discord's real-time voice infrastructure to serve millions of concurrent users.</p><ul><li>Distributed-systems experience</li></ul>"
+    },
+    {
+      "id": 7202345,
+      "title": "Staff Trust & Safety Operations Lead",
+      "absolute_url": "https://job-boards.greenhouse.io/discord/jobs/7202345",
+      "updated_at": "2026-04-30T11:30:00.000Z",
+      "first_published": "2026-04-22T08:00:00.000Z",
+      "location": { "name": "Remote — Americas" },
+      "departments": [{ "id": 31, "name": "Trust & Safety" }],
+      "offices": [{ "id": 42, "name": "Remote" }],
+      "content": "<p>Lead operational programs that keep the Discord platform safe.</p>"
+    }
+  ],
+  "meta": { "total": 2 }
+}

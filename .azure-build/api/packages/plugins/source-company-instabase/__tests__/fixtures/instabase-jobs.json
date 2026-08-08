@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7821445001,
+      "title": "Senior Accountant ",
+      "company_name": "Instabase",
+      "absolute_url": "https://job-boards.greenhouse.io/instabase/jobs/7821445001",
+      "updated_at": "2026-04-28T10:00:00-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 1, "name": "Finance/Accounting " }],
+      "content": "&lt;p&gt;&lt;strong&gt;Senior Accountant&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Instabase is the deep-document-understanding AI platform pioneered around the unstructured-document-to-structured-data data model &amp; the document-AI segment.&lt;/p&gt;"
+    },
+    {
+      "id": 7903112002,
+      "title": " Senior Technical Recruiter",
+      "company_name": "Instabase",
+      "absolute_url": "https://job-boards.greenhouse.io/instabase/jobs/7903112002",
+      "updated_at": "2026-04-29T10:00:00-07:00",
+      "location": { "name": "Bengaluru, India" },
+      "departments": [{ "id": 2, "name": "Recruiting " }],
+      "content": "&lt;p&gt;Lead Instabase's recruiting function across the AI Hub / Automation / Build / Apps platform.&lt;/p&gt;"
+    }
+  ]
+}

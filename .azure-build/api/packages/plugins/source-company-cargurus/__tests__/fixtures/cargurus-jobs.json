@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 7788362,
+      "title": "Account Executive ",
+      "company_name": "CarGurus",
+      "absolute_url": "https://job-boards.greenhouse.io/cargurus/jobs/7788362",
+      "updated_at": "2026-05-21T10:36:40-04:00",
+      "location": {
+        "name": "Boston, Massachusetts, United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About CarGurus.&lt;/strong&gt; Now hiring a Account Executive on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 6313131,
+      "title": "Account Executive - Level 3",
+      "company_name": "CarGurus",
+      "absolute_url": "https://job-boards.greenhouse.io/cargurus/jobs/6313131",
+      "updated_at": "2026-05-21T10:38:16-04:00",
+      "location": {
+        "name": "Boston, Massachusetts, United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About CarGurus.&lt;/strong&gt; Now hiring a Account Executive - Level 3 on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7843572,
+      "title": "Associate Business Systems Analyst",
+      "company_name": "CarGurus",
+      "absolute_url": "https://job-boards.greenhouse.io/cargurus/jobs/7843572",
+      "updated_at": "2026-04-27T08:24:55-04:00",
+      "location": {
+        "name": "Boston, Massachusetts, United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About CarGurus.&lt;/strong&gt; Now hiring a Associate Business Systems Analyst on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 6999346,
+      "title": "Account Manager, Advertising Solution - Taiwan ",
+      "company_name": "Appier",
+      "absolute_url": "https://job-boards.greenhouse.io/appier/jobs/6999346",
+      "updated_at": "2026-01-11T22:39:45-05:00",
+      "location": {
+        "name": "Taipei, Taiwan"
+      },
+      "departments": [
+        {
+          "id": 6999347,
+          "name": "Account Management "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Appier.&lt;/strong&gt; Now hiring a Account Manager, Advertising Solution - Taiwan on the Account Management team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 6783397,
+      "title": "Account Manager - Beijing, China",
+      "company_name": "Appier",
+      "absolute_url": "https://job-boards.greenhouse.io/appier/jobs/6783397",
+      "updated_at": "2026-04-15T06:00:01-04:00",
+      "location": {
+        "name": "Beijing, China"
+      },
+      "departments": [
+        {
+          "id": 6783398,
+          "name": "Account Management"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Appier.&lt;/strong&gt; Now hiring a Account Manager - Beijing, China on the Account Management team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 2044280,
+      "title": "Account Manager, South Korea (Advertising Solutions)",
+      "company_name": "Appier",
+      "absolute_url": "https://job-boards.greenhouse.io/appier/jobs/2044280",
+      "updated_at": "2026-03-31T06:38:14-04:00",
+      "location": {
+        "name": "Seoul, South Korea"
+      },
+      "departments": [
+        {
+          "id": 2044281,
+          "name": "Account Management"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Appier.&lt;/strong&gt; Now hiring a Account Manager, South Korea (Advertising Solutions) on the Account Management team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

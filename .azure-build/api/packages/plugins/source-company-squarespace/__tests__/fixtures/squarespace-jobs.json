@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 7557125,
+      "title": "Backend Engineer, Domains Registrar",
+      "company_name": "Squarespace",
+      "absolute_url": "http://www.squarespace.com/about/careers?gh_jid=7557125",
+      "updated_at": "2026-04-30T12:15:32-04:00",
+      "first_published": "2026-03-21T09:00:00-04:00",
+      "location": { "name": "Dublin, Ireland" },
+      "departments": [{ "id": 4063436013, "name": "Engineering (Domains & Apps)" }],
+      "offices": [{ "id": 21001, "name": "Dublin" }],
+      "content": "&lt;p&gt;Squarespace builds the all-in-one website-builder + ecommerce / scheduling / domains platform for SMBs worldwide. The Domains Registrar team owns the registrar pipeline that powers Squarespace&#8217;s domain product surface.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Backend Engineer, Domains Registrar partners with Engineering &amp; Product to ship the registrar core that powers Squarespace&#8217;s SMB customer footprint.&lt;/p&gt;"
+    },
+    {
+      "id": 7744285,
+      "title": "Connections & Community Lead ",
+      "company_name": "Squarespace",
+      "absolute_url": "http://www.squarespace.com/about/careers?gh_jid=7744285",
+      "updated_at": "2026-04-29T10:42:11-04:00",
+      "first_published": "2026-03-15T08:30:00-04:00",
+      "location": { "name": "New York, NY" },
+      "departments": [{ "id": 4089992013, "name": "People" }],
+      "offices": [{ "id": 21002, "name": "New York HQ" }],
+      "content": "&lt;p&gt;Squarespace is the all-in-one website-builder platform. The People team owns the talent acquisition pipeline across the SMB / ecommerce / domains business units.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Connections &amp; Community Lead partners with the People team to grow Squarespace&#8217;s talent-community footprint across early-career and mid-career cohorts.&lt;/p&gt;"
+    }
+  ]
+}

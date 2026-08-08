@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7578193003,
+      "title": "Senior Product Manager ",
+      "company_name": "Dremio",
+      "absolute_url": "https://www.dremio.com/careers/job-postings/?gh_jid=7578193003",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "Mountain View, CA" },
+      "departments": [{ "id": 1, "name": "Product" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Senior Product Manager&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Dremio is the data-lakehouse + open-table-format query-engine platform pioneered around SQL-on-Iceberg &amp; Apache-Arrow-acceleration.&lt;/p&gt;"
+    },
+    {
+      "id": 7689201006,
+      "title": "Future Opportunities",
+      "company_name": "Dremio",
+      "absolute_url": "https://www.dremio.com/careers/job-postings/?gh_jid=7689201006",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 2, "name": "Unsure what to apply for? No worries! Submit your resume here." }],
+      "content": "&lt;p&gt;Dremio's general-interest pool — no specific role attached. Submit your resume to be considered for future opportunities across the data-lakehouse / Sonar / Arctic platform.&lt;/p&gt;"
+    }
+  ]
+}

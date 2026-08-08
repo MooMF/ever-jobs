@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5844344004,
+      "title": "Account Executive ",
+      "company_name": "AMAROK",
+      "absolute_url": "https://job-boards.greenhouse.io/amarok/jobs/5844344004",
+      "updated_at": "2026-05-22T16:13:03-04:00",
+      "location": {
+        "name": "South Carolina, Columbia"
+      },
+      "departments": [
+        {
+          "id": 5844344005,
+          "name": "Inside Sales "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AMAROK.&lt;/strong&gt; Now hiring a Account Executive on the Inside Sales team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5752052004,
+      "title": "Account Executive",
+      "company_name": "AMAROK",
+      "absolute_url": "https://job-boards.greenhouse.io/amarok/jobs/5752052004",
+      "updated_at": "2026-05-22T16:13:03-04:00",
+      "location": {
+        "name": "South Carolina, Columbia"
+      },
+      "departments": [
+        {
+          "id": 5752052005,
+          "name": "Inside Sales"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AMAROK.&lt;/strong&gt; Now hiring a Account Executive on the Inside Sales team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5761023004,
+      "title": "Construction Subcontractor ",
+      "company_name": "AMAROK",
+      "absolute_url": "https://job-boards.greenhouse.io/amarok/jobs/5761023004",
+      "updated_at": "2026-05-22T16:13:03-04:00",
+      "location": {
+        "name": "Nationwide"
+      },
+      "departments": [
+        {
+          "id": 5761023005,
+          "name": "1099 Sub Contract"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AMAROK.&lt;/strong&gt; Now hiring a Construction Subcontractor on the 1099 Sub Contract team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

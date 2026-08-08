@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 7753967003,
+      "title": "Fractional Growth Product Manager ",
+      "company_name": "Parsley Health",
+      "absolute_url": "https://job-boards.greenhouse.io/parsleyhealth/jobs/7753967003",
+      "updated_at": "2026-06-01T13:42:12-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 7753967004,
+          "name": "Product "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Parsley Health.&lt;/strong&gt; Now hiring a Fractional Growth Product Manager on the Product team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5932403003,
+      "title": "NY Center Advanced Practice Provider",
+      "company_name": "Parsley Health",
+      "absolute_url": "https://job-boards.greenhouse.io/parsleyhealth/jobs/5932403003",
+      "updated_at": "2026-04-03T10:33:16-04:00",
+      "location": {
+        "name": "New York, New York, United States"
+      },
+      "departments": [
+        {
+          "id": 5932403004,
+          "name": "Clinical"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Parsley Health.&lt;/strong&gt; Now hiring a NY Center Advanced Practice Provider on the Clinical team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5386570003,
+      "title": "NY Center Physician (MD/DO)",
+      "company_name": "Parsley Health",
+      "absolute_url": "https://job-boards.greenhouse.io/parsleyhealth/jobs/5386570003",
+      "updated_at": "2026-04-03T10:33:16-04:00",
+      "location": {
+        "name": "New York, New York, United States"
+      },
+      "departments": [
+        {
+          "id": 5386570004,
+          "name": "Clinical"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Parsley Health.&lt;/strong&gt; Now hiring a NY Center Physician (MD/DO) on the Clinical team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

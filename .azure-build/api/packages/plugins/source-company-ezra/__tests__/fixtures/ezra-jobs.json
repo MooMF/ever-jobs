@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 7732788003,
+      "title": "Business Intelligence Specialist ",
+      "company_name": "Ezra",
+      "absolute_url": "https://job-boards.greenhouse.io/ezra/jobs/7732788003",
+      "updated_at": "2026-05-26T05:28:22-04:00",
+      "location": {
+        "name": "Nairobi"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Ezra.&lt;/strong&gt; Now hiring a Business Intelligence Specialist on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7234021003,
+      "title": "Compliance Manager (AMLRO & Data Protection Supervisor)",
+      "company_name": "Ezra",
+      "absolute_url": "https://job-boards.greenhouse.io/ezra/jobs/7234021003",
+      "updated_at": "2026-05-26T05:28:22-04:00",
+      "location": {
+        "name": "Ghana"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Ezra.&lt;/strong&gt; Now hiring a Compliance Manager (AMLRO & Data Protection Supervisor) on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7732786003,
+      "title": "Data Engineer",
+      "company_name": "Ezra",
+      "absolute_url": "https://job-boards.greenhouse.io/ezra/jobs/7732786003",
+      "updated_at": "2026-05-26T05:28:22-04:00",
+      "location": {
+        "name": "Nairobi"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Ezra.&lt;/strong&gt; Now hiring a Data Engineer on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

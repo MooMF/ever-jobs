@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 7974925,
+      "title": "Account Executive ",
+      "company_name": "Yotpo",
+      "absolute_url": "https://job-boards.greenhouse.io/yotpo/jobs/7974925",
+      "updated_at": "2026-06-01T18:36:03-04:00",
+      "location": {
+        "name": "Sydney"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Yotpo.&lt;/strong&gt; Now hiring a Account Executive on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7749016,
+      "title": "Account Executive, Mid Market",
+      "company_name": "Yotpo",
+      "absolute_url": "https://job-boards.greenhouse.io/yotpo/jobs/7749016",
+      "updated_at": "2026-03-25T10:03:37-04:00",
+      "location": {
+        "name": "Toronto"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Yotpo.&lt;/strong&gt; Now hiring a Account Executive, Mid Market on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7946438,
+      "title": "Business Analyst (GTM)",
+      "company_name": "Yotpo",
+      "absolute_url": "https://job-boards.greenhouse.io/yotpo/jobs/7946438",
+      "updated_at": "2026-05-21T04:54:50-04:00",
+      "location": {
+        "name": "Sofia"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Yotpo.&lt;/strong&gt; Now hiring a Business Analyst (GTM) on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

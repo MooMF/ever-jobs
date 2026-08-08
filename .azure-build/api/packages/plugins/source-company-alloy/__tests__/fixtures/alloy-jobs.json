@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 8427256002,
+      "title": "Account Executive, Banking ",
+      "company_name": "Alloy",
+      "absolute_url": "https://job-boards.greenhouse.io/alloy/jobs/8427256002",
+      "updated_at": "2026-05-18T11:16:06-04:00",
+      "location": {
+        "name": "New York City"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Alloy.&lt;/strong&gt; Now hiring a Account Executive, Banking on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8330417002,
+      "title": "Account Executive, Enterprise",
+      "company_name": "Alloy",
+      "absolute_url": "https://job-boards.greenhouse.io/alloy/jobs/8330417002",
+      "updated_at": "2026-05-18T11:14:25-04:00",
+      "location": {
+        "name": "London, UK"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Alloy.&lt;/strong&gt; Now hiring a Account Executive, Enterprise on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8239920002,
+      "title": "Account Executive, Strategic Fintech",
+      "company_name": "Alloy",
+      "absolute_url": "https://job-boards.greenhouse.io/alloy/jobs/8239920002",
+      "updated_at": "2026-05-18T11:17:49-04:00",
+      "location": {
+        "name": "New York City"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Alloy.&lt;/strong&gt; Now hiring a Account Executive, Strategic Fintech on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

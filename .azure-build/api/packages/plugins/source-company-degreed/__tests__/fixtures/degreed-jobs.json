@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5979186004,
+      "title": "Financial Analyst | US ",
+      "company_name": "Degreed",
+      "absolute_url": "https://job-boards.greenhouse.io/degreed/jobs/5979186004",
+      "updated_at": "2026-04-24T17:44:21-04:00",
+      "location": {
+        "name": "Utah, US | Hybrid"
+      },
+      "departments": [
+        {
+          "id": 5979186005,
+          "name": "Finance "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Degreed.&lt;/strong&gt; Now hiring a Financial Analyst | US on the Finance team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5968598004,
+      "title": "Sales Director, NAMER | US",
+      "company_name": "Degreed",
+      "absolute_url": "https://job-boards.greenhouse.io/degreed/jobs/5968598004",
+      "updated_at": "2026-05-14T17:45:42-04:00",
+      "location": {
+        "name": "US Based | Remote"
+      },
+      "departments": [
+        {
+          "id": 5968598005,
+          "name": "Sales"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Degreed.&lt;/strong&gt; Now hiring a Sales Director, NAMER | US on the Sales team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5998465004,
+      "title": "Senior Talent Acquisition Partner, Global | BR",
+      "company_name": "Degreed",
+      "absolute_url": "https://job-boards.greenhouse.io/degreed/jobs/5998465004",
+      "updated_at": "2026-05-19T16:33:17-04:00",
+      "location": {
+        "name": "Brazil Based | Remote"
+      },
+      "departments": [
+        {
+          "id": 5998465005,
+          "name": "People"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Degreed.&lt;/strong&gt; Now hiring a Senior Talent Acquisition Partner, Global | BR on the People team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 7601234,
+      "title": "Staff Software Engineer, Brokerage Platform",
+      "absolute_url": "https://boards.greenhouse.io/robinhoodjobs/jobs/7601234",
+      "updated_at": "2026-04-29T13:00:00.000Z",
+      "first_published": "2026-04-19T07:00:00.000Z",
+      "location": { "name": "Menlo Park, CA" },
+      "departments": [{ "id": 90, "name": "Engineering" }],
+      "offices": [{ "id": 101, "name": "Menlo Park" }],
+      "content": "<p><strong>About the role</strong></p><p>Scale Robinhood's brokerage order-management and clearing pipeline to handle peak weekday equities volume.</p><ul><li>Distributed-systems experience required</li></ul>"
+    },
+    {
+      "id": 7602345,
+      "title": "Senior Compliance Analyst, Crypto",
+      "absolute_url": "https://boards.greenhouse.io/robinhoodjobs/jobs/7602345",
+      "updated_at": "2026-04-30T10:30:00.000Z",
+      "first_published": "2026-04-23T06:00:00.000Z",
+      "location": { "name": "Remote — USA" },
+      "departments": [{ "id": 91, "name": "Compliance" }],
+      "offices": [{ "id": 102, "name": "Remote" }],
+      "content": "<p>Lead compliance reviews for Robinhood Crypto's trading and custody operations across US states.</p>"
+    }
+  ],
+  "meta": { "total": 2 }
+}

@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 8121873002,
+      "title": "AddeGrad Program (2026) - Client Solutions Analyst ",
+      "company_name": "Addepar",
+      "absolute_url": "https://job-boards.greenhouse.io/addepar1/jobs/8121873002",
+      "updated_at": "2026-05-21T06:05:20-04:00",
+      "location": {
+        "name": "Edinburgh, UK"
+      },
+      "departments": [
+        {
+          "id": 8121873003,
+          "name": "Client Support "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Addepar.&lt;/strong&gt; Now hiring a AddeGrad Program (2026) - Client Solutions Analyst on the Client Support team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8408891002,
+      "title": "Alts Data Operations Analyst",
+      "company_name": "Addepar",
+      "absolute_url": "https://job-boards.greenhouse.io/addepar1/jobs/8408891002",
+      "updated_at": "2026-05-21T06:05:20-04:00",
+      "location": {
+        "name": "Pune, India"
+      },
+      "departments": [
+        {
+          "id": 8408891003,
+          "name": "Data Operations"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Addepar.&lt;/strong&gt; Now hiring a Alts Data Operations Analyst on the Data Operations team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8526688002,
+      "title": "Alts Data Ops Analyst",
+      "company_name": "Addepar",
+      "absolute_url": "https://job-boards.greenhouse.io/addepar1/jobs/8526688002",
+      "updated_at": "2026-05-21T06:05:20-04:00",
+      "location": {
+        "name": "Edinburgh, UK"
+      },
+      "departments": [
+        {
+          "id": 8526688003,
+          "name": "Data Operations"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Addepar.&lt;/strong&gt; Now hiring a Alts Data Ops Analyst on the Data Operations team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

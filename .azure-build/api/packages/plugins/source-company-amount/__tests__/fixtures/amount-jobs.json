@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5127499007,
+      "title": "Account Specialist, Affiliate Growth ",
+      "company_name": "FIS® Amount™",
+      "absolute_url": "https://job-boards.greenhouse.io/amount/jobs/5127499007",
+      "updated_at": "2026-05-05T17:05:38-04:00",
+      "location": {
+        "name": "Chicago, IL"
+      },
+      "departments": [
+        {
+          "id": 5127499008,
+          "name": "Customer Success "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About FIS® Amount™.&lt;/strong&gt; Now hiring a Account Specialist, Affiliate Growth on the Customer Success team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5139729007,
+      "title": "Automation Engineer",
+      "company_name": "FIS® Amount™",
+      "absolute_url": "https://job-boards.greenhouse.io/amount/jobs/5139729007",
+      "updated_at": "2026-05-17T17:11:46-04:00",
+      "location": {
+        "name": "Chicago, IL"
+      },
+      "departments": [
+        {
+          "id": 5139729008,
+          "name": "Quality Engineering"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About FIS® Amount™.&lt;/strong&gt; Now hiring a Automation Engineer on the Quality Engineering team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5103654007,
+      "title": "Jr. Product Manager",
+      "company_name": "FIS® Amount™",
+      "absolute_url": "https://job-boards.greenhouse.io/amount/jobs/5103654007",
+      "updated_at": "2026-04-28T10:54:45-04:00",
+      "location": {
+        "name": "Chicago, IL"
+      },
+      "departments": [
+        {
+          "id": 5103654008,
+          "name": "Product Management"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About FIS® Amount™.&lt;/strong&gt; Now hiring a Jr. Product Manager on the Product Management team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

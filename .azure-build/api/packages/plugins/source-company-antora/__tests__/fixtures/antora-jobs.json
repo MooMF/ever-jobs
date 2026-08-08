@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5819980004,
+      "title": "Buyer/Planner ",
+      "company_name": "Antora Energy",
+      "absolute_url": "https://job-boards.greenhouse.io/antora/jobs/5819980004",
+      "updated_at": "2026-03-10T14:45:48-04:00",
+      "location": {
+        "name": "San Jose, CA"
+      },
+      "departments": [
+        {
+          "id": 5819980005,
+          "name": "Manufacturing Operations "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Antora Energy.&lt;/strong&gt; Now hiring a Buyer/Planner on the Manufacturing Operations team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5820400004,
+      "title": "Communications Intern",
+      "company_name": "Antora Energy",
+      "absolute_url": "https://job-boards.greenhouse.io/antora/jobs/5820400004",
+      "updated_at": "2026-05-19T12:17:01-04:00",
+      "location": {
+        "name": "San Jose, CA"
+      },
+      "departments": [
+        {
+          "id": 5820400005,
+          "name": "Internships"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Antora Energy.&lt;/strong&gt; Now hiring a Communications Intern on the Internships team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5835141004,
+      "title": "Electrical Engineering Manager",
+      "company_name": "Antora Energy",
+      "absolute_url": "https://job-boards.greenhouse.io/antora/jobs/5835141004",
+      "updated_at": "2026-03-25T15:13:38-04:00",
+      "location": {
+        "name": "San Jose, CA"
+      },
+      "departments": [
+        {
+          "id": 5835141005,
+          "name": "Product Development"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Antora Energy.&lt;/strong&gt; Now hiring a Electrical Engineering Manager on the Product Development team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

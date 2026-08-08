@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 7694808003,
+      "title": "Senior Software Engineer, Customer Data Platform",
+      "absolute_url": "https://www.klaviyo.com/careers/jobs?gh_jid=7694808003",
+      "updated_at": "2026-04-22T17:53:15.000Z",
+      "first_published": "2026-04-15T12:00:00.000Z",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 4080026003, "name": "Engineering" }],
+      "offices": [{ "id": 4013021003, "name": "Remote US" }],
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Own the customer-data platform that anchors Klaviyo&amp;#39;s e-commerce email and SMS marketing automation surface — the CDP profile-stitching pipeline, the events-ingestion API, and the segmentation engine that thousands of brands query in real time.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Distributed-systems / streaming experience required&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"
+    },
+    {
+      "id": 7529251003,
+      "title": "Account Executive, Large Enterprise",
+      "absolute_url": "https://www.klaviyo.com/careers/jobs?gh_jid=7529251003",
+      "updated_at": "2026-04-28T14:30:00.000Z",
+      "first_published": "2026-04-20T09:00:00.000Z",
+      "location": { "name": "New York, NY" },
+      "departments": [{ "id": 4080501003, "name": "Sales" }],
+      "offices": [{ "id": 4013100003, "name": "New York - HQ" }],
+      "content": "&lt;p&gt;Lead enterprise sales for Klaviyo&amp;rsquo;s email / SMS / Reviews marketing-automation platform across the US East coast — Shopify Plus, BigCommerce, and Magento merchants in the $500M+ GMV segment.&lt;/p&gt;"
+    }
+  ],
+  "meta": { "total": 2 }
+}

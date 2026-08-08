@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4926386008,
+      "title": "Customer Success Manager ",
+      "company_name": "Ansa",
+      "absolute_url": "https://job-boards.greenhouse.io/ansa/jobs/4926386008",
+      "updated_at": "2025-09-18T14:03:13-04:00",
+      "location": {
+        "name": "San Francisco "
+      },
+      "departments": [
+        {
+          "id": 4926386009,
+          "name": "GTM "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Ansa.&lt;/strong&gt; Now hiring a Customer Success Manager on the GTM team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4502717008,
+      "title": "Engineering Manager",
+      "company_name": "Ansa",
+      "absolute_url": "https://job-boards.greenhouse.io/ansa/jobs/4502717008",
+      "updated_at": "2025-11-24T15:59:09-05:00",
+      "location": {
+        "name": "San Francisco"
+      },
+      "departments": [
+        {
+          "id": 4502717009,
+          "name": "Engineering"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Ansa.&lt;/strong&gt; Now hiring a Engineering Manager on the Engineering team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4505595008,
+      "title": "Full Stack Engineer - Backend Focused",
+      "company_name": "Ansa",
+      "absolute_url": "https://job-boards.greenhouse.io/ansa/jobs/4505595008",
+      "updated_at": "2026-01-08T19:37:35-05:00",
+      "location": {
+        "name": "San Francisco"
+      },
+      "departments": [
+        {
+          "id": 4505595009,
+          "name": "Engineering"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Ansa.&lt;/strong&gt; Now hiring a Full Stack Engineer - Backend Focused on the Engineering team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

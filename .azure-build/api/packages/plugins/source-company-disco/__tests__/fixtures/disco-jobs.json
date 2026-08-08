@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 8523189002,
+      "title": "Account Executive ",
+      "company_name": "DISCO",
+      "absolute_url": "https://job-boards.greenhouse.io/disco/jobs/8523189002",
+      "updated_at": "2026-05-20T14:03:08-04:00",
+      "location": {
+        "name": "New York City, New York"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About DISCO.&lt;/strong&gt; Now hiring a Account Executive on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8556716002,
+      "title": "AI Transformation Lead",
+      "company_name": "DISCO",
+      "absolute_url": "https://job-boards.greenhouse.io/disco/jobs/8556716002",
+      "updated_at": "2026-05-20T17:54:57-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About DISCO.&lt;/strong&gt; Now hiring a AI Transformation Lead on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8556714002,
+      "title": "AI Transformation Lead",
+      "company_name": "DISCO",
+      "absolute_url": "https://job-boards.greenhouse.io/disco/jobs/8556714002",
+      "updated_at": "2026-05-19T12:41:53-04:00",
+      "location": {
+        "name": "Austin, TX"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About DISCO.&lt;/strong&gt; Now hiring a AI Transformation Lead on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "apiVersion": "1",
+  "jobs": [
+    {
+      "id": "a1b2c3d4-0001-4000-8000-000000000001",
+      "title": "Senior Backend Engineer",
+      "departmentName": "Engineering",
+      "teamName": "Platform",
+      "employmentType": "FullTime",
+      "location": "New York",
+      "address": {
+        "postalAddress": {
+          "addressLocality": "New York",
+          "addressRegion": "New York",
+          "addressCountry": "United States"
+        }
+      },
+      "isRemote": false,
+      "isListed": true,
+      "publishedDate": "2026-05-20",
+      "descriptionHtml": "<p>Build and scale our core platform services.</p>",
+      "descriptionPlain": "Build and scale our core platform services.",
+      "jobUrl": "https://jobs.ashbyhq.com/acme/a1b2c3d4-0001-4000-8000-000000000001",
+      "applyUrl": "https://jobs.ashbyhq.com/acme/a1b2c3d4-0001-4000-8000-000000000001/application",
+      "compensation": {
+        "compensationComponents": [
+          {
+            "compensationType": "Salary",
+            "label": "Base Salary",
+            "tiers": [
+              {
+                "title": "Tier 1",
+                "tierFloor": 150000,
+                "tierCeiling": 190000,
+                "currency": "USD",
+                "tierType": "salary",
+                "interval": "YEAR"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1b2c3d4-0002-4000-8000-000000000002",
+      "title": "Staff Product Engineer",
+      "departmentName": "Engineering",
+      "teamName": "Product",
+      "employmentType": "FullTime",
+      "location": "San Francisco",
+      "address": {
+        "postalAddress": {
+          "addressLocality": "San Francisco",
+          "addressRegion": "California",
+          "addressCountry": "United States"
+        }
+      },
+      "isRemote": true,
+      "isListed": true,
+      "publishedDate": "2026-05-28",
+      "descriptionHtml": "<p>Own product surfaces end to end.</p>",
+      "descriptionPlain": "Own product surfaces end to end.",
+      "jobUrl": "https://jobs.ashbyhq.com/acme/a1b2c3d4-0002-4000-8000-000000000002",
+      "applyUrl": "https://jobs.ashbyhq.com/acme/a1b2c3d4-0002-4000-8000-000000000002/application",
+      "compensation": {
+        "compensationTierSummary": "$211.4K – $290.6K • Offers Equity",
+        "scrapeableCompensationSalarySummary": "$211.4K - $290.6K",
+        "compensationTiers": [
+          {
+            "id": "5f7a903e-0000-4000-8000-000000000001",
+            "tierSummary": "$211.4K – $290.6K • Offers Equity",
+            "title": null,
+            "additionalInformation": null,
+            "components": [
+              {
+                "id": "3481c194-0000-4000-8000-000000000001",
+                "summary": "$211.4K – $290.6K",
+                "compensationType": "Salary",
+                "interval": "1 YEAR",
+                "currencyCode": "USD",
+                "minValue": 211400,
+                "maxValue": 290600
+              },
+              {
+                "id": "feaef96f-0000-4000-8000-000000000002",
+                "summary": "Offers Equity",
+                "compensationType": "EquityPercentage",
+                "interval": "NONE",
+                "currencyCode": null,
+                "minValue": null,
+                "maxValue": null
+              }
+            ]
+          }
+        ],
+        "summaryComponents": [
+          {
+            "compensationType": "Salary",
+            "interval": "1 YEAR",
+            "currencyCode": "USD",
+            "minValue": 211400,
+            "maxValue": 290600
+          },
+          {
+            "compensationType": "EquityPercentage",
+            "interval": "NONE",
+            "currencyCode": null,
+            "minValue": null,
+            "maxValue": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1b2c3d4-0003-4000-8000-000000000003",
+      "title": "Technical Recruiter",
+      "departmentName": "People",
+      "teamName": "Talent",
+      "employmentType": "FullTime",
+      "location": "Remote",
+      "address": null,
+      "isRemote": true,
+      "isListed": true,
+      "publishedDate": "2026-06-01",
+      "descriptionHtml": "<p>Hire the team that builds the product. Contact talent@example.com.</p>",
+      "descriptionPlain": "Hire the team that builds the product. Contact talent@example.com.",
+      "jobUrl": "https://jobs.ashbyhq.com/acme/a1b2c3d4-0003-4000-8000-000000000003",
+      "applyUrl": "https://jobs.ashbyhq.com/acme/a1b2c3d4-0003-4000-8000-000000000003/application",
+      "compensation": null
+    },
+    {
+      "id": "a1b2c3d4-0004-4000-8000-000000000004",
+      "title": "Unlisted Ghost Role",
+      "departmentName": "Engineering",
+      "teamName": "Internal",
+      "employmentType": "FullTime",
+      "location": "New York",
+      "isRemote": false,
+      "isListed": false,
+      "publishedDate": "2026-04-01",
+      "descriptionPlain": "Internal-only posting that must be filtered out.",
+      "jobUrl": "https://jobs.ashbyhq.com/acme/a1b2c3d4-0004-4000-8000-000000000004",
+      "compensation": null
+    }
+  ]
+}

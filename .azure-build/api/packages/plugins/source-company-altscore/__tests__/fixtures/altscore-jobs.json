@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5083173008,
+      "title": "Business  Development Representative ",
+      "company_name": "AltScore",
+      "absolute_url": "https://job-boards.greenhouse.io/altscore/jobs/5083173008",
+      "updated_at": "2026-04-21T19:34:00-04:00",
+      "location": {
+        "name": "Remote LATAM"
+      },
+      "departments": [
+        {
+          "id": 5083173009,
+          "name": "Demand Generation "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AltScore.&lt;/strong&gt; Now hiring a Business  Development Representative on the Demand Generation team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5168737008,
+      "title": "Customer Success Manager (Enterprise / EC)",
+      "company_name": "AltScore",
+      "absolute_url": "https://job-boards.greenhouse.io/altscore/jobs/5168737008",
+      "updated_at": "2026-03-27T15:36:51-04:00",
+      "location": {
+        "name": "Remote (Ecuador)"
+      },
+      "departments": [
+        {
+          "id": 5168737009,
+          "name": "Customer Success"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AltScore.&lt;/strong&gt; Now hiring a Customer Success Manager (Enterprise / EC) on the Customer Success team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4485912008,
+      "title": "Delivery Engineer",
+      "company_name": "AltScore",
+      "absolute_url": "https://job-boards.greenhouse.io/altscore/jobs/4485912008",
+      "updated_at": "2026-05-05T21:53:56-04:00",
+      "location": {
+        "name": "Remote (Latin America)"
+      },
+      "departments": [
+        {
+          "id": 4485912009,
+          "name": "Engineering"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AltScore.&lt;/strong&gt; Now hiring a Delivery Engineer on the Engineering team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

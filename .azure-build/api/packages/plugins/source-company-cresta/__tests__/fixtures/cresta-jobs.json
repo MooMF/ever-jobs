@@ -1,0 +1,34 @@
+{
+  "jobs": [
+    {
+      "id": 5140718008,
+      "title": "Account Manager ",
+      "company_name": "Cresta",
+      "absolute_url": "https://job-boards.greenhouse.io/cresta/jobs/5140718008",
+      "updated_at": "2026-04-21T14:49:12-04:00",
+      "location": { "name": "United States" },
+      "departments": [{ "id": 1, "name": "Sales" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Account Manager&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Cresta is the AI-contact-center platform pioneered around the conversational-intelligence-coaching data model &amp; the AI agent-assist segment.&lt;/p&gt;"
+    },
+    {
+      "id": 5140719008,
+      "title": "Applied Data Scientist ",
+      "company_name": "Cresta",
+      "absolute_url": "https://job-boards.greenhouse.io/cresta/jobs/5140719008",
+      "updated_at": "2026-04-22T11:03:00-04:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 2, "name": "Engineering" }],
+      "content": "&lt;p&gt;Build conversational-intelligence-coaching models for Cresta&apos;s real-time agent-assist surface.&lt;/p&gt;"
+    },
+    {
+      "id": 5140720008,
+      "title": " Senior Product Manager",
+      "company_name": "Cresta",
+      "absolute_url": "https://job-boards.greenhouse.io/cresta/jobs/5140720008",
+      "updated_at": "2026-04-23T09:00:00-04:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 3, "name": "Product" }],
+      "content": "&lt;p&gt;Drive the Cresta Director supervisor-side workflow roadmap.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "jobs": [
+    {
+      "id": 8533135002,
+      "title": "Compensation Consultant ",
+      "company_name": "Acumen",
+      "absolute_url": "https://job-boards.greenhouse.io/acumen/jobs/8533135002",
+      "updated_at": "2026-05-18T10:00:00-04:00",
+      "location": { "name": "New York City" },
+      "departments": [{ "id": 4135842009, "name": "Talent" }],
+      "content": "&lt;p&gt;&lt;strong&gt;About Acumen&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Acumen is hiring a Compensation Consultant to lead patient-capital compensation strategy across the Acumen Fund &amp; Acumen Academy regional teams.&lt;/p&gt;"
+    },
+    {
+      "id": 8452181002,
+      "title": "Investment Manager, Acumen India",
+      "company_name": "Acumen",
+      "absolute_url": "https://job-boards.greenhouse.io/acumen/jobs/8452181002",
+      "updated_at": "2026-05-15T09:00:00-04:00",
+      "location": { "name": "Mumbai, India" },
+      "departments": [{ "id": 4135850009, "name": "Investing" }],
+      "content": "&lt;p&gt;Lead Acumen India&amp;rsquo;s patient-capital investment portfolio across the South-Asia social-enterprise ecosystem.&lt;/p&gt;"
+    },
+    {
+      "id": 8499399002,
+      "title": "Data Systems Manager",
+      "company_name": "Acumen",
+      "absolute_url": "https://job-boards.greenhouse.io/acumen/jobs/8499399002",
+      "updated_at": "2026-05-10T08:00:00-04:00",
+      "location": { "name": "Colombia" },
+      "departments": [{ "id": 4135870009, "name": "Acumen Academy" }],
+      "content": "&lt;p&gt;Lead Acumen Academy&amp;rsquo;s data &amp; systems engineering across the Foundry incubator &amp; Latin-America leadership-development cohorts.&lt;/p&gt;"
+    }
+  ]
+}

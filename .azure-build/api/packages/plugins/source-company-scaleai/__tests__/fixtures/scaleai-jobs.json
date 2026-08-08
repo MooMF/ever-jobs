@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 4686014005,
+      "title": "AI Applications Ops Lead, GPS",
+      "company_name": "Scale AI",
+      "absolute_url": "https://job-boards.greenhouse.io/scaleai/jobs/4686014005",
+      "updated_at": "2026-04-22T10:14:18-07:00",
+      "first_published": "2026-03-02T08:00:00-08:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 51201, "name": "GPS Sales" }],
+      "offices": [{ "id": 9001, "name": "San Francisco" }],
+      "content": "&lt;p&gt;As an &lt;strong&gt;AI Applications Ops Lead&lt;/strong&gt; on the Global Public Sector team, you&#39;ll drive operational excellence across federal-government engagements on the Scale Donovan defence-AI surface and the Scale GenAI Platform. You&rsquo;ll partner with technical stakeholders to identify and win major opportunities and you&#39;ll work cross-functionally with Engineering, Product, and Customer Success to scale the public-sector book.&lt;/p&gt;&lt;p&gt;You&#39;ll work from our San Francisco headquarters and travel to Washington, DC and other federal sites as required. You&rsquo;ll also work with the Scale Spellbook team on workflow automation for federal customers.&lt;/p&gt;&lt;div class=&quot;content-intro&quot;&gt;&lt;em&gt;Scale AI is the data infrastructure for AI.&lt;/em&gt;&lt;/div&gt;"
+    },
+    {
+      "id": 4719882005,
+      "title": "Applied AI Engineer, Enterprise GenAI",
+      "company_name": "Scale AI",
+      "absolute_url": "https://job-boards.greenhouse.io/scaleai/jobs/4719882005",
+      "updated_at": "2026-04-28T16:42:51-07:00",
+      "first_published": "2026-04-05T09:30:00-07:00",
+      "location": { "name": "Remote, United States" },
+      "departments": [{ "id": 51202, "name": "Engineering" }],
+      "offices": [{ "id": 9002, "name": "Remote" }],
+      "content": "&lt;p&gt;Scale AI&rsquo;s &lt;strong&gt;Enterprise GenAI&lt;/strong&gt; team is looking for an Applied AI Engineer to build and deploy LLM-powered applications on the Scale GenAI Platform for Fortune 500 customers. You&#39;ll work across Python, TypeScript, and the Scale Data Engine to ship inference pipelines, fine-tuning workflows, and RAG systems used by enterprise teams across financial services, healthcare, and retail.&lt;/p&gt;&lt;p&gt;You&rsquo;ll partner with the Scale Studio annotation team and the Scale Forge synthetic-data team to drive a roadmap that scales the Enterprise GenAI flagship to global customers across North America, EMEA, and APAC. The role is fully remote within the United States.&lt;/p&gt;"
+    }
+  ]
+}

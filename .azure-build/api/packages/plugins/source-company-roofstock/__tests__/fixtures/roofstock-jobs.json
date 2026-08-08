@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 8533168002,
+      "title": "Analyst ",
+      "company_name": "Roofstock",
+      "absolute_url": "https://job-boards.greenhouse.io/roofstock/jobs/8533168002",
+      "updated_at": "2026-05-27T15:41:53-04:00",
+      "location": {
+        "name": "Atlanta, Georgia, United States; Charlotte, North Carolina, United States; Dallas, Texas, United States; Houston, Texas, United States; Tampa, Florida, United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Roofstock.&lt;/strong&gt; Now hiring a Analyst on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8550892002,
+      "title": "Asset Manager",
+      "company_name": "Roofstock",
+      "absolute_url": "https://job-boards.greenhouse.io/roofstock/jobs/8550892002",
+      "updated_at": "2026-05-27T15:41:53-04:00",
+      "location": {
+        "name": "Oakland, California, United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Roofstock.&lt;/strong&gt; Now hiring a Asset Manager on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8550893002,
+      "title": "Asset Manager",
+      "company_name": "Roofstock",
+      "absolute_url": "https://job-boards.greenhouse.io/roofstock/jobs/8550893002",
+      "updated_at": "2026-05-27T15:41:53-04:00",
+      "location": {
+        "name": "Dallas, Texas, United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Roofstock.&lt;/strong&gt; Now hiring a Asset Manager on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

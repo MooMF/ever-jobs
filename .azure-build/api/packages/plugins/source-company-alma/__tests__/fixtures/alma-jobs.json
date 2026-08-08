@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 8515071002,
+      "title": "Business Intelligence Group Manager, Ops & CX",
+      "company_name": "Alma",
+      "absolute_url": "https://job-boards.greenhouse.io/alma/jobs/8515071002",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "New York, NY" },
+      "departments": [{ "id": 1, "name": "Business Intelligence" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Business Intelligence Group Manager&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Alma is the dominant US-domestic mental-health provider-network and tele-therapy infrastructure platform.&lt;/p&gt;"
+    },
+    {
+      "id": 8525462002,
+      "title": "Senior Data Scientist ",
+      "company_name": "Alma",
+      "absolute_url": "https://job-boards.greenhouse.io/alma/jobs/8525462002",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 2, "name": "Data Science" }],
+      "content": "&lt;p&gt;Lead Alma's Data Science function across the mental-health platform stack &amp; behavioral-health-tech ecosystem.&lt;/p&gt;"
+    }
+  ]
+}

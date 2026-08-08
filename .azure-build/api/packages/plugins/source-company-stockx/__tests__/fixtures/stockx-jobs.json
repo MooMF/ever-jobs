@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 8510490002,
+      "title": "Accounts Payable Specialist",
+      "company_name": "StockX",
+      "absolute_url": "https://job-boards.greenhouse.io/stockx/jobs/8510490002",
+      "updated_at": "2026-04-15T10:00:00-07:00",
+      "location": { "name": "Bangalore, India" },
+      "departments": [{ "id": 1, "name": "Finance" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Accounts Payable Specialist&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;StockX is the live-bid-and-ask secondary marketplace &amp; we ship authentication centers across the globe.&lt;/p&gt;"
+    },
+    {
+      "id": 8465053002,
+      "title": "Customer Service Lead",
+      "company_name": "StockX",
+      "absolute_url": "https://job-boards.greenhouse.io/stockx/jobs/8465053002",
+      "updated_at": "2026-04-20T10:00:00-07:00",
+      "location": { "name": "Detroit, MI" },
+      "departments": [{ "id": 2, "name": "Customer Service " }],
+      "content": "&lt;p&gt;Lead StockX's customer-service team across the Detroit and Tokyo sites.&lt;/p&gt;"
+    }
+  ]
+}

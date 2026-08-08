@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 7606456,
+      "title": "AWS Partner Manager ",
+      "company_name": "SingleStore",
+      "absolute_url": "https://job-boards.greenhouse.io/singlestore/jobs/7606456",
+      "updated_at": "2026-05-26T05:10:41-04:00",
+      "location": {
+        "name": "United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About SingleStore.&lt;/strong&gt; Now hiring a AWS Partner Manager on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7977111,
+      "title": "Director Engineering",
+      "company_name": "SingleStore",
+      "absolute_url": "https://job-boards.greenhouse.io/singlestore/jobs/7977111",
+      "updated_at": "2026-06-03T07:56:02-04:00",
+      "location": {
+        "name": "United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About SingleStore.&lt;/strong&gt; Now hiring a Director Engineering on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 609602,
+      "title": "Don't see a fit? Fill out a general application!",
+      "company_name": "SingleStore",
+      "absolute_url": "https://job-boards.greenhouse.io/singlestore/jobs/609602",
+      "updated_at": "2026-01-14T11:25:59-05:00",
+      "location": {
+        "name": "Global"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About SingleStore.&lt;/strong&gt; Now hiring a Don't see a fit? Fill out a general application! on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

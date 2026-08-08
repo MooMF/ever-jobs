@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 9401234,
+      "title": "Senior Software Engineer, Programmable Messaging",
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/9401234",
+      "updated_at": "2026-04-29T15:00:00.000Z",
+      "first_published": "2026-04-19T08:00:00.000Z",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 910, "name": "Engineering" }],
+      "offices": [{ "id": 921, "name": "San Francisco" }],
+      "content": "<p><strong>About the role</strong></p><p>Own the Twilio Programmable Messaging delivery pipeline that powers billions of A2P SMS, WhatsApp, and RCS deliveries each month across the global cloud-communications platform's distributed message-routing infrastructure.</p><ul><li>Go, Kafka, and high-throughput messaging experience required</li></ul>"
+    },
+    {
+      "id": 9402345,
+      "title": "Senior Manager, Customer-Success Strategy",
+      "absolute_url": "https://boards.greenhouse.io/twilio/jobs/9402345",
+      "updated_at": "2026-04-30T11:30:00.000Z",
+      "first_published": "2026-04-23T07:00:00.000Z",
+      "location": { "name": "Remote — North America" },
+      "departments": [{ "id": 911, "name": "Customer Success" }],
+      "offices": [{ "id": 922, "name": "Remote" }],
+      "content": "<p>Own Twilio's customer-success strategy roadmap across enterprise-account adoption, education, and Flex-platform engagement motion.</p>"
+    }
+  ],
+  "meta": { "total": 2 }
+}

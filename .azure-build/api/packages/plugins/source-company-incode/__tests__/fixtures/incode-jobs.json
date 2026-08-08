@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 5814044004,
+      "title": "Account Executive ",
+      "company_name": "Incode Technologies",
+      "absolute_url": "https://job-boards.greenhouse.io/incode/jobs/5814044004",
+      "updated_at": "2026-05-25T18:55:39-04:00",
+      "location": {
+        "name": "United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Incode Technologies.&lt;/strong&gt; Now hiring a Account Executive on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5728670004,
+      "title": "Account Executive",
+      "company_name": "Incode Technologies",
+      "absolute_url": "https://job-boards.greenhouse.io/incode/jobs/5728670004",
+      "updated_at": "2026-05-25T18:55:39-04:00",
+      "location": {
+        "name": "Hybrid"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Incode Technologies.&lt;/strong&gt; Now hiring a Account Executive on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5476247004,
+      "title": "Account Manager",
+      "company_name": "Incode Technologies",
+      "absolute_url": "https://job-boards.greenhouse.io/incode/jobs/5476247004",
+      "updated_at": "2026-05-25T18:55:39-04:00",
+      "location": {
+        "name": "United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Incode Technologies.&lt;/strong&gt; Now hiring a Account Manager on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

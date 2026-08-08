@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7343996,
+      "title": "Android Engineer ",
+      "company_name": "Monzo",
+      "absolute_url": "https://job-boards.greenhouse.io/monzo/jobs/7343996",
+      "updated_at": "2026-04-15T10:00:00-07:00",
+      "location": { "name": "Barcelona" },
+      "departments": [{ "id": 1, "name": "Engineering" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Android Engineer&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Monzo is the UK challenger bank reimagining the personal current account &amp; we ship native iOS / Android apps to millions of customers.&lt;/p&gt;"
+    },
+    {
+      "id": 7817471,
+      "title": "Senior Brand Marketing Manager",
+      "company_name": "Monzo",
+      "absolute_url": "https://job-boards.greenhouse.io/monzo/jobs/7817471",
+      "updated_at": "2026-04-20T10:00:00-07:00",
+      "location": { "name": "London, UK" },
+      "departments": [{ "id": 2, "name": "Marketing & Community" }],
+      "content": "&lt;p&gt;Lead Monzo's brand-marketing function across the UK and EU.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5835792004,
+      "title": "Associate Director, Clinical Data Management ",
+      "company_name": "Relay Therapeutics",
+      "absolute_url": "https://job-boards.greenhouse.io/relaytherapeutics/jobs/5835792004",
+      "updated_at": "2026-05-21T13:34:45-04:00",
+      "location": {
+        "name": "Cambridge, MA"
+      },
+      "departments": [
+        {
+          "id": 5835792005,
+          "name": "Clinical Development "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Relay Therapeutics.&lt;/strong&gt; Now hiring a Associate Director, Clinical Data Management on the Clinical Development team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5983866004,
+      "title": "Associate Director, CMC Regulatory",
+      "company_name": "Relay Therapeutics",
+      "absolute_url": "https://job-boards.greenhouse.io/relaytherapeutics/jobs/5983866004",
+      "updated_at": "2026-04-30T14:28:18-04:00",
+      "location": {
+        "name": "Cambridge, MA"
+      },
+      "departments": [
+        {
+          "id": 5983866005,
+          "name": "Regulatory Affairs"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Relay Therapeutics.&lt;/strong&gt; Now hiring a Associate Director, CMC Regulatory on the Regulatory Affairs team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5986427004,
+      "title": "Executive Assistant",
+      "company_name": "Relay Therapeutics",
+      "absolute_url": "https://job-boards.greenhouse.io/relaytherapeutics/jobs/5986427004",
+      "updated_at": "2026-05-26T09:16:45-04:00",
+      "location": {
+        "name": "Cambridge, MA"
+      },
+      "departments": [
+        {
+          "id": 5986427005,
+          "name": "General & Administrative"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Relay Therapeutics.&lt;/strong&gt; Now hiring a Executive Assistant on the General & Administrative team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

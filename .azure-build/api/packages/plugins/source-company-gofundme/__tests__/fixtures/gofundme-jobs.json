@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7398335,
+      "title": "Account Executive, Mid-Market",
+      "company_name": "GoFundMe",
+      "absolute_url": "https://job-boards.greenhouse.io/gofundme/jobs/7398335",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "San Diego, CA" },
+      "departments": [{ "id": 1, "name": "Sales" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Account Executive, Mid-Market&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;GoFundMe is the dominant social-fundraising platform pioneered around the personal-cause &amp; community-giving data model.&lt;/p&gt;"
+    },
+    {
+      "id": 7759883,
+      "title": " Privacy Program Manager",
+      "company_name": "GoFundMe",
+      "absolute_url": "https://job-boards.greenhouse.io/gofundme/jobs/7759883",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 2, "name": "Technical Solutions & Partnerships " }],
+      "content": "&lt;p&gt;Lead GoFundMe's Privacy Program function across the social-fundraising platform stack &amp; nonprofit-tech ecosystem.&lt;/p&gt;"
+    }
+  ]
+}

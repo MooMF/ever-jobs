@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 5359541004,
+      "title": "Bobbie Medical Representative (Contract)",
+      "company_name": "Bobbie",
+      "absolute_url": "https://job-boards.greenhouse.io/bobbie/jobs/5359541004",
+      "updated_at": "2026-04-15T10:00:00-07:00",
+      "location": { "name": "Remote " },
+      "departments": [{ "id": 1, "name": "Commercial" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Bobbie Medical Representative&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Bobbie is the next-generation organic infant-formula brand built around &amp; clean-label nutrition.&lt;/p&gt;"
+    },
+    {
+      "id": 5820765004,
+      "title": "Chief Growth Officer",
+      "company_name": "Bobbie",
+      "absolute_url": "https://job-boards.greenhouse.io/bobbie/jobs/5820765004",
+      "updated_at": "2026-04-20T10:00:00-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 2, "name": "Brand & Marketing" }],
+      "content": "&lt;p&gt;Lead Bobbie's growth function across paid acquisition, brand, and retention.&lt;/p&gt;"
+    }
+  ]
+}

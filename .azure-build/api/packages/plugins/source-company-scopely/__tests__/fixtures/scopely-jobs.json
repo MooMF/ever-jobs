@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 5182665008,
+      "title": "2D Artist - Monopoly GO!",
+      "company_name": "Scopely",
+      "absolute_url": "https://job-boards.greenhouse.io/scopely/jobs/5182665008",
+      "updated_at": "2026-04-30T12:15:32-04:00",
+      "first_published": "2026-03-21T09:00:00-04:00",
+      "location": { "name": "Barcelona, Spain" },
+      "departments": [{ "id": 4063436010, "name": "MonopolyGo" }],
+      "offices": [{ "id": 21001, "name": "Barcelona" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Scopely&lt;/strong&gt; is the &lt;strong&gt;mobile-games publishing platform&lt;/strong&gt; behind Monopoly GO!, Star Trek Fleet Command, MARVEL Strike Force, and (via the Niantic acquisition) Pokémon GO and Pikmin Bloom.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The 2D Artist on Monopoly GO! crafts the visual language of the live-operations calendar across the Fortune 500 cohort.&lt;/p&gt;"
+    },
+    {
+      "id": 5198874002,
+      "title": "Accounting Specialist ",
+      "company_name": "Scopely",
+      "absolute_url": "https://job-boards.greenhouse.io/scopely/jobs/5198874002",
+      "updated_at": "2026-04-29T10:42:11-04:00",
+      "first_published": "2026-03-15T08:30:00-04:00",
+      "location": { "name": "Remote, USA" },
+      "departments": [{ "id": 4089992010, "name": "Finance" }],
+      "offices": [{ "id": 21002, "name": "Remote" }],
+      "content": "&lt;p&gt;Scopely is the modern mobile-games publishing platform powering live-operations across global IP-portfolio brands.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Accounting Specialist partners with Finance Operations and IP-licensing partners to scale month-end close cycles.&lt;/p&gt;"
+    }
+  ]
+}

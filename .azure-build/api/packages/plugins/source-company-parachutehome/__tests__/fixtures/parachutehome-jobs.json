@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 8511457002,
+      "title": "Account Executive ",
+      "company_name": "Parachute Home",
+      "absolute_url": "https://job-boards.greenhouse.io/parachutehome/jobs/8511457002",
+      "updated_at": "2026-05-20T21:06:31-04:00",
+      "location": {
+        "name": "Los Angeles, CA "
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Parachute Home.&lt;/strong&gt; Now hiring a Account Executive on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8489943002,
+      "title": "Graphic Designer",
+      "company_name": "Parachute Home",
+      "absolute_url": "https://job-boards.greenhouse.io/parachutehome/jobs/8489943002",
+      "updated_at": "2026-05-20T21:06:31-04:00",
+      "location": {
+        "name": "Los Angeles, CA "
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Parachute Home.&lt;/strong&gt; Now hiring a Graphic Designer on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8545660002,
+      "title": "Part-Time Sales Associate San Francisco ",
+      "company_name": "Parachute Home",
+      "absolute_url": "https://job-boards.greenhouse.io/parachutehome/jobs/8545660002",
+      "updated_at": "2026-05-20T21:06:31-04:00",
+      "location": {
+        "name": "San Francisco, California"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Parachute Home.&lt;/strong&gt; Now hiring a Part-Time Sales Associate San Francisco on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

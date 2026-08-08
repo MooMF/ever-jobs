@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5987500004,
+      "title": "Events Marketing Specialist ",
+      "company_name": "Akoya",
+      "absolute_url": "https://job-boards.greenhouse.io/akoya/jobs/5987500004",
+      "updated_at": "2026-05-19T15:39:03-04:00",
+      "location": {
+        "name": "Boston, Raleigh, NYC"
+      },
+      "departments": [
+        {
+          "id": 5987500005,
+          "name": "Marketing "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Akoya.&lt;/strong&gt; Now hiring a Events Marketing Specialist on the Marketing team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5831370004,
+      "title": "Head of Risk & Security",
+      "company_name": "Akoya",
+      "absolute_url": "https://job-boards.greenhouse.io/akoya/jobs/5831370004",
+      "updated_at": "2026-04-22T15:00:42-04:00",
+      "location": {
+        "name": "Remote in Boston, New York, Raleigh Areas"
+      },
+      "departments": [
+        {
+          "id": 5831370005,
+          "name": "Risk"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Akoya.&lt;/strong&gt; Now hiring a Head of Risk & Security on the Risk team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4817940004,
+      "title": "Open job Opportunities",
+      "company_name": "Akoya",
+      "absolute_url": "https://job-boards.greenhouse.io/akoya/jobs/4817940004",
+      "updated_at": "2026-04-22T15:00:42-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 4817940005,
+          "name": "General & Administrative"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Akoya.&lt;/strong&gt; Now hiring a Open job Opportunities on the General & Administrative team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

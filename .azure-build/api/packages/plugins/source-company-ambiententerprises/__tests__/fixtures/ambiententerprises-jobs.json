@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5214992008,
+      "title": "Accounting Manager ",
+      "company_name": "Ambient Enterprises",
+      "absolute_url": "https://job-boards.greenhouse.io/ambiententerprises/jobs/5214992008",
+      "updated_at": "2026-05-26T13:32:23-04:00",
+      "location": {
+        "name": "Orange, CA"
+      },
+      "departments": [
+        {
+          "id": 5214992009,
+          "name": "Finance "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Ambient Enterprises.&lt;/strong&gt; Now hiring a Accounting Manager on the Finance team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5233953008,
+      "title": "Administrative Assistant",
+      "company_name": "Ambient Enterprises",
+      "absolute_url": "https://job-boards.greenhouse.io/ambiententerprises/jobs/5233953008",
+      "updated_at": "2026-05-28T10:16:43-04:00",
+      "location": {
+        "name": "Columbus, OH"
+      },
+      "departments": [
+        {
+          "id": 5233953009,
+          "name": "Admin"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Ambient Enterprises.&lt;/strong&gt; Now hiring a Administrative Assistant on the Admin team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5227288008,
+      "title": "Administrative Coordinator",
+      "company_name": "Ambient Enterprises",
+      "absolute_url": "https://job-boards.greenhouse.io/ambiententerprises/jobs/5227288008",
+      "updated_at": "2026-05-22T09:36:57-04:00",
+      "location": {
+        "name": "Warrendale, PA"
+      },
+      "departments": [
+        {
+          "id": 5227288009,
+          "name": "Admin"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Ambient Enterprises.&lt;/strong&gt; Now hiring a Administrative Coordinator on the Admin team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

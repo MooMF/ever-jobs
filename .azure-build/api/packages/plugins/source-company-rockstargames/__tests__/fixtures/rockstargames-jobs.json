@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 7650920003,
+      "title": "Analytics Engineer ",
+      "company_name": "Rockstar Games",
+      "absolute_url": "https://job-boards.greenhouse.io/rockstargames/jobs/7650920003",
+      "updated_at": "2026-06-01T11:49:23-04:00",
+      "location": {
+        "name": "Leeds, England, United Kingdom"
+      },
+      "departments": [
+        {
+          "id": 7650920004,
+          "name": "Technology "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Rockstar Games.&lt;/strong&gt; Now hiring a Analytics Engineer on the Technology team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7618407003,
+      "title": "Animation Tools Programmer (All Levels)",
+      "company_name": "Rockstar Games",
+      "absolute_url": "https://job-boards.greenhouse.io/rockstargames/jobs/7618407003",
+      "updated_at": "2026-06-02T05:54:23-04:00",
+      "location": {
+        "name": "Edinburgh, Scotland, United Kingdom"
+      },
+      "departments": [
+        {
+          "id": 7618407004,
+          "name": "Programming"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Rockstar Games.&lt;/strong&gt; Now hiring a Animation Tools Programmer (All Levels) on the Programming team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7632962003,
+      "title": "Animation Tools Programmer (All Levels)",
+      "company_name": "Rockstar Games",
+      "absolute_url": "https://job-boards.greenhouse.io/rockstargames/jobs/7632962003",
+      "updated_at": "2026-06-02T05:54:23-04:00",
+      "location": {
+        "name": "Oakville, Ontario, Canada"
+      },
+      "departments": [
+        {
+          "id": 7632962004,
+          "name": "Programming"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Rockstar Games.&lt;/strong&gt; Now hiring a Animation Tools Programmer (All Levels) on the Programming team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

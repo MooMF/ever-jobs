@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 7546598003,
+      "title": "Associate Account Executive (Vintage) ",
+      "company_name": "Alt",
+      "absolute_url": "https://job-boards.greenhouse.io/alt/jobs/7546598003",
+      "updated_at": "2026-02-11T10:38:47-05:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 7546598004,
+          "name": "Sales "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Alt.&lt;/strong&gt; Now hiring a Associate Account Executive (Vintage) on the Sales team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7749782003,
+      "title": "Customer Experience Representative- Contractor ",
+      "company_name": "Alt",
+      "absolute_url": "https://job-boards.greenhouse.io/alt/jobs/7749782003",
+      "updated_at": "2026-05-29T13:24:00-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 7749782004,
+          "name": "Customer Experience"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Alt.&lt;/strong&gt; Now hiring a Customer Experience Representative- Contractor on the Customer Experience team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7588614003,
+      "title": "Data Engineer ",
+      "company_name": "Alt",
+      "absolute_url": "https://job-boards.greenhouse.io/alt/jobs/7588614003",
+      "updated_at": "2026-02-18T13:25:02-05:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 7588614004,
+          "name": "Engineering"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Alt.&lt;/strong&gt; Now hiring a Data Engineer on the Engineering team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4990281008,
+      "title": "Admissions Representative ",
+      "company_name": "American Institute",
+      "absolute_url": "https://job-boards.greenhouse.io/americaninstitute/jobs/4990281008",
+      "updated_at": "2026-02-03T12:53:22-05:00",
+      "location": {
+        "name": "Cherry Hill (CHH)"
+      },
+      "departments": [
+        {
+          "id": 4990281009,
+          "name": "AI Admissions "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About American Institute.&lt;/strong&gt; Now hiring a Admissions Representative on the AI Admissions team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4885813008,
+      "title": "Dental Assistant Instructor",
+      "company_name": "American Institute",
+      "absolute_url": "https://job-boards.greenhouse.io/americaninstitute/jobs/4885813008",
+      "updated_at": "2026-02-03T12:52:09-05:00",
+      "location": {
+        "name": "Cherry Hill (CHH); Clifton (CLF); Somerset (SOM); Toms River (TRV); West Hartford (WHF)"
+      },
+      "departments": [
+        {
+          "id": 4885813009,
+          "name": "AI Faculty"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About American Institute.&lt;/strong&gt; Now hiring a Dental Assistant Instructor on the AI Faculty team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5226466008,
+      "title": "Electrical Trades Instructor",
+      "company_name": "American Institute",
+      "absolute_url": "https://job-boards.greenhouse.io/americaninstitute/jobs/5226466008",
+      "updated_at": "2026-05-20T13:23:49-04:00",
+      "location": {
+        "name": "Somerset (SOM)"
+      },
+      "departments": [
+        {
+          "id": 5226466009,
+          "name": "AI Faculty"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About American Institute.&lt;/strong&gt; Now hiring a Electrical Trades Instructor on the AI Faculty team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

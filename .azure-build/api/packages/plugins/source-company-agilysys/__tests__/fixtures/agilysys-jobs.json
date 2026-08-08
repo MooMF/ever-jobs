@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4227790009,
+      "title": "Cash Applications Specialist ",
+      "company_name": "Agilysys",
+      "absolute_url": "https://job-boards.greenhouse.io/agilysys/jobs/4227790009",
+      "updated_at": "2026-06-02T09:41:36-04:00",
+      "location": {
+        "name": "Alpharetta, GA"
+      },
+      "departments": [
+        {
+          "id": 4227790010,
+          "name": "Finance "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Agilysys.&lt;/strong&gt; Now hiring a Cash Applications Specialist on the Finance team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4203370009,
+      "title": "Customer Success Manager - Spa & Wellness (Former Spa Operations Leaders Encouraged)",
+      "company_name": "Agilysys",
+      "absolute_url": "https://job-boards.greenhouse.io/agilysys/jobs/4203370009",
+      "updated_at": "2026-06-02T09:41:36-04:00",
+      "location": {
+        "name": "Alpharetta, GA ; Las Vegas, NV"
+      },
+      "departments": [
+        {
+          "id": 4203370010,
+          "name": "Professional Services"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Agilysys.&lt;/strong&gt; Now hiring a Customer Success Manager - Spa & Wellness (Former Spa Operations Leaders Encouraged) on the Professional Services team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4238573009,
+      "title": "Implementation Specialist - POS",
+      "company_name": "Agilysys",
+      "absolute_url": "https://job-boards.greenhouse.io/agilysys/jobs/4238573009",
+      "updated_at": "2026-06-02T09:41:36-04:00",
+      "location": {
+        "name": "Alpharetta, GA; Remote - US"
+      },
+      "departments": [
+        {
+          "id": 4238573010,
+          "name": "Professional Services"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Agilysys.&lt;/strong&gt; Now hiring a Implementation Specialist - POS on the Professional Services team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

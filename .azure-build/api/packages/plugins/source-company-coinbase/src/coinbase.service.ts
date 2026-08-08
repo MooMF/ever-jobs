@@ -1,0 +1,89 @@
+import { SourcePlugin } from '@ever-jobs/plugin';
+
+import { Injectable, Logger } from '@nestjs/common';
+import {
+  IScraper, ScraperInputDto, JobResponseDto, JobPostDto, Site, LocationDto,
+} from '@ever-jobs/models';
+import { createHttpClient, stripHtmlTags } from '@ever-jobs/common';
+
+/** Coinbase publishes its careers board through Greenhouse. */
+const API_URL = 'https://api.greenhouse.io/v1/boards/coinbase/jobs';
+
+@SourcePlugin({
+  site: Site.COINBASE,
+  name: 'Coinbase',
+  category: 'company',
+})
+@Injectable()
+export class CoinbaseService implements IScraper {
+  private readonly logger = new Logger(CoinbaseService.name);
+
+  async scrape(input: ScraperInputDto): Promise<JobResponseDto> {
+    const jobs: JobPostDto[] = [];
+    const resultsWanted = input.resultsWanted ?? 50;
+
+    try {
+      const client = createHttpClient({
+        proxies: input.proxies,
+        timeout: input.requestTimeout ?? 30,
+      });
+
+      const url = `${API_URL}?content=true`;
+      this.logger.log(`Coinbase: fetching ${url}`);
+
+      const { data } = await client.get<any>(url);
+      const listings = data?.jobs ?? [];
+
+      for (const listing of listings) {
+        if (jobs.length >= resultsWanted) break;
+
+        const title = listing.title ?? '';
+        if (!title) continue;
+
+        if (input.searchTerm) {
+          const term = input.searchTerm.toLowerCase();
+          const titleMatch = title.toLowerCase().includes(term);
+          const deptMatch = (listing.departments?.[0]?.name ?? '')
+            .toLowerCase()
+            .includes(term);
+          if (!titleMatch && !deptMatch) continue;
+        }
+
+        const jobId = listing.id ?? '';
+        const id = `coinbase-${jobId}`;
+
+        const locationStr = listing.location?.name ?? null;
+        const location = locationStr
+          ? new LocationDto({ city: locationStr })
+          : null;
+
+        if (input.location && locationStr) {
+          if (!locationStr.toLowerCase().includes(input.location.toLowerCase())) continue;
+        }
+
+        jobs.push(
+          new JobPostDto({
+            id,
+            site: Site.COINBASE,
+            title,
+            companyName: 'Coinbase',
+            jobUrl:
+              listing.absolute_url ??
+              `https://www.coinbase.com/careers/positions/${listing.id}`,
+            location,
+            description: listing.content ? stripHtmlTags(listing.content) : null,
+            datePosted: listing.updated_at ?? null,
+            isRemote: locationStr?.toLowerCase().includes('remote') ?? false,
+            department: listing.departments?.[0]?.name ?? null,
+          }),
+        );
+      }
+
+      this.logger.log(`Coinbase: scraped ${jobs.length} jobs`);
+    } catch (err: any) {
+      this.logger.error(`Coinbase scrape failed: ${err.message}`);
+    }
+
+    return { jobs };
+  }
+}

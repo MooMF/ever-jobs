@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 5798729004,
+      "title": "Application Engineer",
+      "company_name": "Markforged",
+      "absolute_url": "https://job-boards.greenhouse.io/markforged/jobs/5798729004",
+      "updated_at": "2026-04-30T10:00:00-07:00",
+      "location": { "name": "Watertown, MA" },
+      "departments": [{ "id": 1, "name": "Application Engineering" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Application Engineer&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Markforged is the industrial-additive-manufacturing platform pioneered around the continuous-fiber-composite-3D-printing data model &amp; the industrial-additive-manufacturing segment.&lt;/p&gt;"
+    },
+    {
+      "id": 5817888004,
+      "title": "Director of Hardware Engineering",
+      "company_name": "Markforged",
+      "absolute_url": "https://job-boards.greenhouse.io/markforged/jobs/5817888004",
+      "updated_at": "2026-04-29T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 2, "name": "Engineering" }],
+      "content": "&lt;p&gt;Lead Markforged's hardware engineering function across the Mark Two / X3 / X7 / FX10 / FX20 / Metal X / PX100 platform.&lt;/p&gt;"
+    }
+  ]
+}

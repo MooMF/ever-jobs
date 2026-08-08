@@ -1,0 +1,34 @@
+{
+  "jobs": [
+    {
+      "id": 4243539009,
+      "title": "Admissions Advisor (Dallas, TX)",
+      "company_name": "ACI Learning",
+      "absolute_url": "https://job-boards.greenhouse.io/acilearning/jobs/4243539009",
+      "updated_at": "2026-04-22T09:00:00-05:00",
+      "location": { "name": "Dallas, TX" },
+      "departments": [{ "id": 1, "name": "Tech Academy Admissions" }],
+      "content": "&lt;p&gt;&lt;strong&gt;About ACI Learning&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;ACI Learning is hiring an Admissions Advisor for our Dallas Tech Academy campus. The Admissions team is the first touch-point for prospective bootcamp students &amp; alumni.&lt;/p&gt;"
+    },
+    {
+      "id": 4238021009,
+      "title": "Director of Revenue Operations",
+      "company_name": "ACI Learning",
+      "absolute_url": "https://job-boards.greenhouse.io/acilearning/jobs/4238021009",
+      "updated_at": "2026-04-19T08:00:00-05:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 2, "name": "Rev Ops" }],
+      "content": "&lt;p&gt;Lead Revenue Operations across ACI Learning Hubs &amp; Tech Academy.&lt;/p&gt;"
+    },
+    {
+      "id": 4173570009,
+      "title": "Technical Instructor I - San Antonio (Part Time)",
+      "company_name": "ACI Learning",
+      "absolute_url": "https://job-boards.greenhouse.io/acilearning/jobs/4173570009",
+      "updated_at": "2026-04-15T11:30:00-05:00",
+      "location": { "name": "San Antonio, TX" },
+      "departments": [{ "id": 3, "name": "Tech Academy Instructors" }],
+      "content": "&lt;p&gt;Part-time Technical Instructor for the San Antonio Tech Academy campus.&lt;/p&gt;"
+    }
+  ]
+}

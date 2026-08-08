@@ -1,0 +1,44 @@
+{
+  "jobs": [
+    {
+      "id": 8558844002,
+      "title": "Data Analyst, Customer Success",
+      "company_name": "Acrisure Innovation",
+      "absolute_url": "https://job-boards.greenhouse.io/acrisureinnovation/jobs/8558844002",
+      "updated_at": "2026-05-15T10:00:00-04:00",
+      "location": { "name": "Atlanta, GA" },
+      "departments": [{ "id": 4150010001, "name": "Data" }],
+      "content": "&lt;p&gt;&lt;strong&gt;About Acrisure Innovation&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Acrisure Innovation is hiring a Data Analyst on the Customer Success team to lead claims-funnel telemetry &amp; broker-pipeline analytics.&lt;/p&gt;"
+    },
+    {
+      "id": 8464583002,
+      "title": " Forward Deployed (Echo)- Atlanta, GA",
+      "company_name": "Acrisure Innovation",
+      "absolute_url": "https://job-boards.greenhouse.io/acrisureinnovation/jobs/8464583002",
+      "updated_at": "2026-05-14T09:00:00-04:00",
+      "location": { "name": "Atlanta, GA" },
+      "departments": [{ "id": 4150020001, "name": "Engineering" }],
+      "content": "&lt;p&gt;Forward-deployed engineer (Echo squad) embedded with broker-network customers to ship Acrisure Innovation AI products onsite in Atlanta.&lt;/p&gt;"
+    },
+    {
+      "id": 8461186002,
+      "title": " Forward Deployed (Echo) - Austin, TX ",
+      "company_name": "Acrisure Innovation",
+      "absolute_url": "https://job-boards.greenhouse.io/acrisureinnovation/jobs/8461186002",
+      "updated_at": "2026-05-13T08:00:00-04:00",
+      "location": { "name": "Austin, TX" },
+      "departments": [{ "id": 4150020001, "name": "Engineering" }],
+      "content": "&lt;p&gt;Forward-deployed engineer (Echo squad) embedded with broker-network customers to ship Acrisure Innovation AI products onsite in Austin.&lt;/p&gt;"
+    },
+    {
+      "id": 8461205002,
+      "title": "Senior Product Marketing Manager",
+      "company_name": "Acrisure Innovation",
+      "absolute_url": "https://job-boards.greenhouse.io/acrisureinnovation/jobs/8461205002",
+      "updated_at": "2026-05-12T08:00:00-04:00",
+      "location": { "name": "Remote - United States" },
+      "departments": [{ "id": 4150030001, "name": "Marketing" }],
+      "content": "&lt;p&gt;Lead product marketing for Acrisure Innovation&amp;rsquo;s AI broker-tools across the global Acrisure broker-network.&lt;/p&gt;"
+    }
+  ]
+}

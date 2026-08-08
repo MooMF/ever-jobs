@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 5119301008,
+      "title": "Partner Solution Architect ",
+      "company_name": "Starburst",
+      "absolute_url": "https://job-boards.greenhouse.io/starburst/jobs/5119301008",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "Boston, MA" },
+      "departments": [{ "id": 1, "name": "Presales" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Partner Solution Architect&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Starburst is the enterprise-distribution Trino-managed-platform pioneered around SQL-federation-across-data-lakes &amp; the data-federation segment.&lt;/p&gt;"
+    },
+    {
+      "id": 5234718002,
+      "title": "Senior Software Engineer, Galaxy",
+      "company_name": "Starburst",
+      "absolute_url": "https://job-boards.greenhouse.io/starburst/jobs/5234718002",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Warsaw, Poland" },
+      "departments": [{ "id": 2, "name": "Engineering" }],
+      "content": "&lt;p&gt;Lead Starburst's Galaxy engineering function across the managed-Trino-SaaS / Stargate / Warp Speed platform.&lt;/p&gt;"
+    }
+  ]
+}

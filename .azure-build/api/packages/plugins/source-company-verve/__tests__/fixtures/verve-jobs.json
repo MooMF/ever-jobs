@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 8562245002,
+      "title": "Account Manager ",
+      "company_name": "Verve Group",
+      "absolute_url": "https://job-boards.greenhouse.io/verve/jobs/8562245002",
+      "updated_at": "2026-06-04T07:41:32-04:00",
+      "location": {
+        "name": "London, UK"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Verve Group.&lt;/strong&gt; Now hiring a Account Manager on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8407477002,
+      "title": "Ad Operations Coordinator",
+      "company_name": "Verve Group",
+      "absolute_url": "https://job-boards.greenhouse.io/verve/jobs/8407477002",
+      "updated_at": "2026-05-26T11:28:39-04:00",
+      "location": {
+        "name": "New York, US"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Verve Group.&lt;/strong&gt; Now hiring a Ad Operations Coordinator on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7909676002,
+      "title": "Associate Director, Media Sales (CHI)",
+      "company_name": "Verve Group",
+      "absolute_url": "https://job-boards.greenhouse.io/verve/jobs/7909676002",
+      "updated_at": "2026-05-20T15:16:34-04:00",
+      "location": {
+        "name": "Chicago, US"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Verve Group.&lt;/strong&gt; Now hiring a Associate Director, Media Sales (CHI) on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

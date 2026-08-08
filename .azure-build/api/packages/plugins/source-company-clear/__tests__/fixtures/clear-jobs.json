@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 7962818,
+      "title": "Accounting Manager ",
+      "company_name": "CLEAR",
+      "absolute_url": "https://job-boards.greenhouse.io/clear/jobs/7962818",
+      "updated_at": "2026-05-28T05:26:38-04:00",
+      "location": {
+        "name": "New York, New York, United States"
+      },
+      "departments": [
+        {
+          "id": 7962819,
+          "name": "Finance "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About CLEAR.&lt;/strong&gt; Now hiring a Accounting Manager on the Finance team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7931994,
+      "title": "Business Recruiter",
+      "company_name": "CLEAR",
+      "absolute_url": "https://job-boards.greenhouse.io/clear/jobs/7931994",
+      "updated_at": "2026-05-27T16:43:42-04:00",
+      "location": {
+        "name": "New York, New York, United States"
+      },
+      "departments": [
+        {
+          "id": 7931995,
+          "name": "People"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About CLEAR.&lt;/strong&gt; Now hiring a Business Recruiter on the People team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7911781,
+      "title": "CRM Marketing Analyst",
+      "company_name": "CLEAR",
+      "absolute_url": "https://job-boards.greenhouse.io/clear/jobs/7911781",
+      "updated_at": "2026-05-28T04:40:42-04:00",
+      "location": {
+        "name": "New York, New York, United States"
+      },
+      "departments": [
+        {
+          "id": 7911782,
+          "name": "Marketing"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About CLEAR.&lt;/strong&gt; Now hiring a CRM Marketing Analyst on the Marketing team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

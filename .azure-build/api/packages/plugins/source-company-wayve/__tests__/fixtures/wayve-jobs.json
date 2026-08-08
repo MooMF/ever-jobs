@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 8455160002,
+      "title": "Application Software Engineer ",
+      "company_name": "Wayve",
+      "absolute_url": "https://job-boards.greenhouse.io/wayve/jobs/8455160002",
+      "updated_at": "2026-05-14T11:23:01-04:00",
+      "location": {
+        "name": "Tokyo"
+      },
+      "departments": [
+        {
+          "id": 8455160003,
+          "name": "Engineering "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Wayve.&lt;/strong&gt; Now hiring a Application Software Engineer on the Engineering team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8431122002,
+      "title": "Application Software Engineer",
+      "company_name": "Wayve",
+      "absolute_url": "https://job-boards.greenhouse.io/wayve/jobs/8431122002",
+      "updated_at": "2026-05-14T11:23:01-04:00",
+      "location": {
+        "name": "Germany"
+      },
+      "departments": [
+        {
+          "id": 8431122003,
+          "name": "Engineering"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Wayve.&lt;/strong&gt; Now hiring a Application Software Engineer on the Engineering team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8478666002,
+      "title": "Application Software Engineer - Embedded Software",
+      "company_name": "Wayve",
+      "absolute_url": "https://job-boards.greenhouse.io/wayve/jobs/8478666002",
+      "updated_at": "2026-05-28T10:44:43-04:00",
+      "location": {
+        "name": "Detroit"
+      },
+      "departments": [
+        {
+          "id": 8478666003,
+          "name": "Engineering"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Wayve.&lt;/strong&gt; Now hiring a Application Software Engineer - Embedded Software on the Engineering team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

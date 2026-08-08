@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4991019008,
+      "title": "Administrative Director of Patient Services ",
+      "company_name": "Schwarzman Animal Medical Center",
+      "absolute_url": "https://job-boards.greenhouse.io/animalmedicalcenter/jobs/4991019008",
+      "updated_at": "2026-05-20T12:17:47-04:00",
+      "location": {
+        "name": "510 East 62nd Street, New York, NY 10065"
+      },
+      "departments": [
+        {
+          "id": 4991019009,
+          "name": "Client Services "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Schwarzman Animal Medical Center.&lt;/strong&gt; Now hiring a Administrative Director of Patient Services on the Client Services team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5226538008,
+      "title": "Care Coordinator",
+      "company_name": "Schwarzman Animal Medical Center",
+      "absolute_url": "https://job-boards.greenhouse.io/animalmedicalcenter/jobs/5226538008",
+      "updated_at": "2026-05-20T12:17:47-04:00",
+      "location": {
+        "name": "510 East 62nd Street, New York, NY 10065"
+      },
+      "departments": [
+        {
+          "id": 5226538009,
+          "name": "Coordinator"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Schwarzman Animal Medical Center.&lt;/strong&gt; Now hiring a Care Coordinator on the Coordinator team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5225409008,
+      "title": "Client Communications Specialist (CCS)",
+      "company_name": "Schwarzman Animal Medical Center",
+      "absolute_url": "https://job-boards.greenhouse.io/animalmedicalcenter/jobs/5225409008",
+      "updated_at": "2026-05-22T13:43:00-04:00",
+      "location": {
+        "name": "510 East 62nd Street, New York, NY 10065"
+      },
+      "departments": [
+        {
+          "id": 5225409009,
+          "name": "Client Communications Rep"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Schwarzman Animal Medical Center.&lt;/strong&gt; Now hiring a Client Communications Specialist (CCS) on the Client Communications Rep team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

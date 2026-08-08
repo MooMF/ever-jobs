@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 6003612004,
+      "title": "Account Advocate ",
+      "company_name": "Apollo.io",
+      "absolute_url": "https://job-boards.greenhouse.io/apolloio/jobs/6003612004",
+      "updated_at": "2026-05-22T10:20:44-04:00",
+      "location": {
+        "name": "Hybrid, Manila"
+      },
+      "departments": [
+        {
+          "id": 6003612005,
+          "name": "Support "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Apollo.io.&lt;/strong&gt; Now hiring a Account Advocate on the Support team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 6003155004,
+      "title": "Account Advocate",
+      "company_name": "Apollo.io",
+      "absolute_url": "https://job-boards.greenhouse.io/apolloio/jobs/6003155004",
+      "updated_at": "2026-05-22T10:19:15-04:00",
+      "location": {
+        "name": "Hybrid, Mexico City"
+      },
+      "departments": [
+        {
+          "id": 6003155005,
+          "name": "Support"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Apollo.io.&lt;/strong&gt; Now hiring a Account Advocate on the Support team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5870527004,
+      "title": "Account Executive, SMB",
+      "company_name": "Apollo.io",
+      "absolute_url": "https://job-boards.greenhouse.io/apolloio/jobs/5870527004",
+      "updated_at": "2026-04-08T13:38:09-04:00",
+      "location": {
+        "name": "Hybrid, Austin"
+      },
+      "departments": [
+        {
+          "id": 5870527005,
+          "name": "Sales"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Apollo.io.&lt;/strong&gt; Now hiring a Account Executive, SMB on the Sales team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

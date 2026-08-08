@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 5743828004,
+      "title": "Business Data Analyst ",
+      "company_name": "Insurify",
+      "absolute_url": "https://job-boards.greenhouse.io/insurify/jobs/5743828004",
+      "updated_at": "2026-02-24T09:55:16-05:00",
+      "location": {
+        "name": "Cambridge, MA - Hybrid"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Insurify.&lt;/strong&gt; Now hiring a Business Data Analyst on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5976839004,
+      "title": "Customer Service Representative",
+      "company_name": "Insurify",
+      "absolute_url": "https://job-boards.greenhouse.io/insurify/jobs/5976839004",
+      "updated_at": "2026-05-18T11:29:27-04:00",
+      "location": {
+        "name": "Remote - US"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Insurify.&lt;/strong&gt; Now hiring a Customer Service Representative on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5710471004,
+      "title": "Digital Insurance Agent",
+      "company_name": "Insurify",
+      "absolute_url": "https://job-boards.greenhouse.io/insurify/jobs/5710471004",
+      "updated_at": "2025-11-20T09:06:29-05:00",
+      "location": {
+        "name": "Remote - US"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Insurify.&lt;/strong&gt; Now hiring a Digital Insurance Agent on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

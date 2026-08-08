@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 5970283004,
+      "title": "Associate Fraud Strategy Data Scientist ",
+      "company_name": "BILL",
+      "absolute_url": "https://www.bill.com/job?5970283004&gh_jid=5970283004",
+      "updated_at": "2026-04-15T10:00:00-07:00",
+      "location": { "name": "Draper, Utah, United States" },
+      "departments": [{ "id": 1, "name": "Engineering " }],
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Innovate with purpose&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;At BILL, we build SMB financial-operations software that automates AP, AR, spend-and-expense, and integrated payments.&lt;/p&gt;&lt;/div&gt;"
+    },
+    {
+      "id": 5848551004,
+      "title": "\tSenior Product Manager - Developer Ecosystem & Partner Platform",
+      "company_name": "BILL",
+      "absolute_url": "https://www.bill.com/job?5848551004&gh_jid=5848551004",
+      "updated_at": "2026-04-20T10:00:00-07:00",
+      "location": { "name": "Remote, USA" },
+      "departments": [{ "id": 2, "name": "Product" }],
+      "content": "&lt;p&gt;Lead the partner-platform roadmap at BILL across the developer ecosystem.&lt;/p&gt;"
+    }
+  ]
+}

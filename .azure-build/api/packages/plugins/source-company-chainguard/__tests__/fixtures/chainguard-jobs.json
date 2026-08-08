@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 4673977006,
+      "title": "Enterprise Account Executive ",
+      "company_name": "Chainguard",
+      "absolute_url": "https://job-boards.greenhouse.io/chainguard/jobs/4673977006",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 1, "name": "International Sales" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Enterprise Account Executive&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Chainguard is the container-image + supply-chain-security platform pioneered around distroless-Wolfi-OS-images &amp; SBOM-attestation.&lt;/p&gt;"
+    },
+    {
+      "id": 4670626006,
+      "title": " Senior Software Engineer (Experience)",
+      "company_name": "Chainguard",
+      "absolute_url": "https://job-boards.greenhouse.io/chainguard/jobs/4670626006",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Kirkland, WA" },
+      "departments": [{ "id": 2, "name": "Developer Enablement" }],
+      "content": "&lt;p&gt;Lead Chainguard's Developer Enablement function across the Images / Enforce / Wolfi OS stack.&lt;/p&gt;"
+    }
+  ]
+}

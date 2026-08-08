@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 7589341,
+      "title": "Commercial Counsel ",
+      "company_name": "Nextdoor",
+      "absolute_url": "https://job-boards.greenhouse.io/nextdoor/jobs/7589341",
+      "updated_at": "2026-05-12T13:16:54-04:00",
+      "location": {
+        "name": "New York, NY"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Nextdoor.&lt;/strong&gt; Now hiring a Commercial Counsel on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7901866,
+      "title": "Commercial Counsel",
+      "company_name": "Nextdoor",
+      "absolute_url": "https://job-boards.greenhouse.io/nextdoor/jobs/7901866",
+      "updated_at": "2026-05-12T13:18:14-04:00",
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Nextdoor.&lt;/strong&gt; Now hiring a Commercial Counsel on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7901860,
+      "title": "Commercial Counsel",
+      "company_name": "Nextdoor",
+      "absolute_url": "https://job-boards.greenhouse.io/nextdoor/jobs/7901860",
+      "updated_at": "2026-05-12T13:17:27-04:00",
+      "location": {
+        "name": "Dallas, TX"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Nextdoor.&lt;/strong&gt; Now hiring a Commercial Counsel on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

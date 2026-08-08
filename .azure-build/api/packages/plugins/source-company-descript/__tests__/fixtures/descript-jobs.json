@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7633072003,
+      "title": "Account Executive ",
+      "company_name": "Descript",
+      "absolute_url": "https://boards.greenhouse.io/descript/jobs/7633072003?gh_jid=7633072003",
+      "updated_at": "2026-04-15T10:00:00-07:00",
+      "location": { "name": "San Francisco, CA or Remote, US" },
+      "departments": [{ "id": 1, "name": "Sales & Business Development" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Account Executive&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Descript is the audio-first collaborative editor &amp; we ship transcribe-then-edit-as-text tools to creators.&lt;/p&gt;"
+    },
+    {
+      "id": 7676250003,
+      "title": "Senior Software Engineer, Audio",
+      "company_name": "Descript",
+      "absolute_url": "https://boards.greenhouse.io/descript/jobs/7676250003?gh_jid=7676250003",
+      "updated_at": "2026-04-20T10:00:00-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 2, "name": "Engineering" }],
+      "content": "&lt;p&gt;Lead Descript's audio-engineering function across the Overdub voice-cloning stack.&lt;/p&gt;"
+    }
+  ]
+}

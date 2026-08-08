@@ -1,0 +1,34 @@
+{
+  "jobs": [
+    {
+      "id": 5157287008,
+      "title": "Accountant",
+      "company_name": "Ackermann Group",
+      "absolute_url": "https://boards.greenhouse.io/ackermanngroup/jobs/5157287008?gh_jid=5157287008",
+      "updated_at": "2026-04-29T11:19:23-04:00",
+      "location": { "name": "Cincinnati, OH" },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Ackermann Group:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Since 1938, the Ackermann Group has a long history in real estate development &amp; property management.&lt;/p&gt;"
+    },
+    {
+      "id": 5204623008,
+      "title": "Community Manager - Britton Woods Apartments",
+      "company_name": "Ackermann Group",
+      "absolute_url": "https://boards.greenhouse.io/ackermanngroup/jobs/5204623008?gh_jid=5204623008",
+      "updated_at": "2026-04-25T08:14:00-04:00",
+      "location": { "name": "Dublin, OH" },
+      "departments": [],
+      "content": "&lt;p&gt;Lead on-site multi-family property operations at Britton Woods Apartments.&lt;/p&gt;"
+    },
+    {
+      "id": 5165288008,
+      "title": "Leasing Consultant - Britton Woods Apartments",
+      "company_name": "Ackermann Group",
+      "absolute_url": "https://boards.greenhouse.io/ackermanngroup/jobs/5165288008?gh_jid=5165288008",
+      "updated_at": "2026-04-20T13:42:00-04:00",
+      "location": { "name": "Dublin, OH" },
+      "departments": [],
+      "content": "&lt;p&gt;Drive leasing pipeline conversion for Britton Woods Apartments.&lt;/p&gt;"
+    }
+  ]
+}

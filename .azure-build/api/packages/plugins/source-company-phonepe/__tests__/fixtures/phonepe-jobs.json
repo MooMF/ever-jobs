@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 7737482003,
+      "title": "ACM-Recovery, Mumbai ",
+      "company_name": "PhonePe",
+      "absolute_url": "https://job-boards.greenhouse.io/phonepe/jobs/7737482003",
+      "updated_at": "2026-05-28T23:50:47-04:00",
+      "location": {
+        "name": "Mumbai"
+      },
+      "departments": [
+        {
+          "id": 7737482004,
+          "name": "Collections "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About PhonePe.&lt;/strong&gt; Now hiring a ACM-Recovery, Mumbai on the Collections team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7650503003,
+      "title": "AI Creative Head",
+      "company_name": "PhonePe",
+      "absolute_url": "https://job-boards.greenhouse.io/phonepe/jobs/7650503003",
+      "updated_at": "2026-05-28T23:50:47-04:00",
+      "location": {
+        "name": "Bangalore"
+      },
+      "departments": [
+        {
+          "id": 7650503004,
+          "name": "Marketing"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About PhonePe.&lt;/strong&gt; Now hiring a AI Creative Head on the Marketing team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7735149003,
+      "title": "AI Production Lead",
+      "company_name": "PhonePe",
+      "absolute_url": "https://job-boards.greenhouse.io/phonepe/jobs/7735149003",
+      "updated_at": "2026-05-28T23:50:47-04:00",
+      "location": {
+        "name": "Bangalore"
+      },
+      "departments": [
+        {
+          "id": 7735149004,
+          "name": "Marketing"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About PhonePe.&lt;/strong&gt; Now hiring a AI Production Lead on the Marketing team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

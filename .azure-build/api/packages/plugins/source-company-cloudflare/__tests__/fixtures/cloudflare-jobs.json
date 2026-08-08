@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 9501234,
+      "title": "Senior Software Engineer, Workers Runtime",
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/9501234",
+      "updated_at": "2026-04-29T15:00:00.000Z",
+      "first_published": "2026-04-19T08:00:00.000Z",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 920, "name": "Engineering" }],
+      "offices": [{ "id": 931, "name": "San Francisco" }],
+      "content": "<p><strong>About the role</strong></p><p>Own the Cloudflare Workers V8 isolate runtime that powers tens of millions of requests per second across the global edge network's distributed serverless platform.</p><ul><li>Rust, V8, and high-throughput edge-runtime experience required</li></ul>"
+    },
+    {
+      "id": 9502345,
+      "title": "Senior Manager, Customer Trust & Safety",
+      "absolute_url": "https://boards.greenhouse.io/cloudflare/jobs/9502345",
+      "updated_at": "2026-04-30T11:30:00.000Z",
+      "first_published": "2026-04-23T07:00:00.000Z",
+      "location": { "name": "Remote — North America" },
+      "departments": [{ "id": 921, "name": "Customer Success" }],
+      "offices": [{ "id": 932, "name": "Remote" }],
+      "content": "<p>Own Cloudflare's customer trust-and-safety strategy roadmap across enterprise-account adoption, abuse-mitigation policy, and Zero Trust platform engagement motion.</p>"
+    }
+  ],
+  "meta": { "total": 2 }
+}

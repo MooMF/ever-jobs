@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 6101234,
+      "title": "Senior Software Engineer, Lakehouse",
+      "absolute_url": "https://job-boards.greenhouse.io/databricks/jobs/6101234",
+      "updated_at": "2026-04-29T14:00:00.000Z",
+      "first_published": "2026-04-18T09:00:00.000Z",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 10, "name": "Engineering" }],
+      "offices": [{ "id": 21, "name": "San Francisco" }],
+      "content": "<p><strong>About the role</strong></p><p>Build the next generation of the Databricks Lakehouse platform.</p><ul><li>Distributed-systems experience</li></ul>"
+    },
+    {
+      "id": 6102345,
+      "title": "Staff Machine Learning Researcher",
+      "absolute_url": "https://job-boards.greenhouse.io/databricks/jobs/6102345",
+      "updated_at": "2026-04-30T11:30:00.000Z",
+      "first_published": "2026-04-22T08:00:00.000Z",
+      "location": { "name": "Remote — Americas" },
+      "departments": [{ "id": 11, "name": "Mosaic AI Research" }],
+      "offices": [{ "id": 22, "name": "Remote" }],
+      "content": "<p>Research foundation-model training for the Mosaic AI stack.</p>"
+    }
+  ],
+  "meta": { "total": 2 }
+}

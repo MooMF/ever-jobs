@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 6018819004,
+      "title": "IT Generalist ",
+      "company_name": "Self Financial",
+      "absolute_url": "https://job-boards.greenhouse.io/selffinancial/jobs/6018819004",
+      "updated_at": "2026-06-10T15:09:01-04:00",
+      "location": {
+        "name": "Austin, TX"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Self Financial.&lt;/strong&gt; Now hiring a IT Generalist on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5999958004,
+      "title": "Senior Financial Reporting & Revenue Accountant",
+      "company_name": "Self Financial",
+      "absolute_url": "https://job-boards.greenhouse.io/selffinancial/jobs/5999958004",
+      "updated_at": "2026-06-04T18:50:47-04:00",
+      "location": {
+        "name": "Austin, TX"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Self Financial.&lt;/strong&gt; Now hiring a Senior Financial Reporting & Revenue Accountant on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 6016500004,
+      "title": "Staff Data Engineer",
+      "company_name": "Self Financial",
+      "absolute_url": "https://job-boards.greenhouse.io/selffinancial/jobs/6016500004",
+      "updated_at": "2026-06-08T15:14:45-04:00",
+      "location": {
+        "name": "Austin, TX"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Self Financial.&lt;/strong&gt; Now hiring a Staff Data Engineer on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

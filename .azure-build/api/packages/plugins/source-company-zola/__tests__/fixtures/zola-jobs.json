@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 8554986002,
+      "title": "Director of Brand Marketing ",
+      "company_name": "Zola",
+      "absolute_url": "https://job-boards.greenhouse.io/zola/jobs/8554986002",
+      "updated_at": "2026-05-18T14:15:03-04:00",
+      "location": {
+        "name": "New York"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Zola.&lt;/strong&gt; Now hiring a Director of Brand Marketing on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8476864002,
+      "title": "Senior Accountant",
+      "company_name": "Zola",
+      "absolute_url": "https://job-boards.greenhouse.io/zola/jobs/8476864002",
+      "updated_at": "2026-03-24T09:45:17-04:00",
+      "location": {
+        "name": "New York"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Zola.&lt;/strong&gt; Now hiring a Senior Accountant on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8437805002,
+      "title": "Senior Manager, Growth Marketing",
+      "company_name": "Zola",
+      "absolute_url": "https://job-boards.greenhouse.io/zola/jobs/8437805002",
+      "updated_at": "2026-05-08T11:12:38-04:00",
+      "location": {
+        "name": "New York"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Zola.&lt;/strong&gt; Now hiring a Senior Manager, Growth Marketing on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

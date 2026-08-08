@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 5711341004,
+      "title": "Concept Outsource Lead",
+      "company_name": "Epic Games",
+      "absolute_url": "https://epicgames.com/careers/jobs/5711341004?gh_jid=5711341004",
+      "updated_at": "2026-04-30T12:06:01-04:00",
+      "first_published": "2026-04-15T08:00:00-04:00",
+      "location": { "name": "Cary,North Carolina,United States" },
+      "departments": [{ "id": 91001, "name": "Art" }],
+      "offices": [{ "id": 9001, "name": "Cary, North Carolina, United States" }],
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;WHAT MAKES US EPIC?&lt;/h2&gt;&lt;p&gt;At the core of Epic&#39;s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;You&#39;ll partner with our internal art directors and external outsource studios to ship the visual identity for Fortnite&#39;s seasonal arcs.&lt;/p&gt;"
+    },
+    {
+      "id": 5700006004,
+      "title": "Partnerships Director - Sports & Talent ",
+      "company_name": "Epic Games",
+      "absolute_url": "https://epicgames.com/careers/jobs/5700006004?gh_jid=5700006004",
+      "updated_at": "2026-04-27T13:41:57-04:00",
+      "first_published": "2026-04-08T09:30:00-04:00",
+      "location": { "name": "Cary,North Carolina,United States" },
+      "departments": [{ "id": 91002, "name": "Partnerships" }],
+      "offices": [{ "id": 9001, "name": "Cary, North Carolina, United States" }],
+      "content": "&lt;h2&gt;&lt;strong&gt;Partnerships Director - Sports &amp; Talent&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;At Epic Games, we partner with the leading sports leagues, athletes, and entertainment talent to ship the in-game collaborations that anchor Fortnite&#39;s metaverse roadmap. The Partnerships team operates at the intersection of game design, IP licensing, and brand strategy.&lt;/p&gt;&lt;p&gt;You&#39;ll lead the sports and talent partnerships function across the Cary, North Carolina HQ.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "jobs": [
+    {
+      "id": 7714510,
+      "title": "AI Manager, Compliance Systems",
+      "company_name": "Gusto, Inc.",
+      "absolute_url": "https://job-boards.greenhouse.io/gusto/jobs/7714510",
+      "updated_at": "2026-04-03T13:52:28-04:00",
+      "first_published": "2026-04-02T21:24:21-04:00",
+      "location": { "name": "Denver, CO;San Francisco, CA" },
+      "departments": [{ "id": 73747, "name": "Legal & Compliance" }],
+      "offices": [{ "id": 4013100023, "name": "Denver" }],
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;About Gusto&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;At Gusto, we&amp;#39;re on a mission to grow the small business economy. We handle the hard stuff — payroll, health insurance, 401(k)s, and HR — so owners can focus on their craft and their customers.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Build AI-powered compliance systems for Gusto&amp;rsquo;s Corporate Compliance team&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"
+    },
+    {
+      "id": 7714511,
+      "title": "Senior Software Engineer, Embedded Payroll",
+      "company_name": "Gusto, Inc.",
+      "absolute_url": "https://job-boards.greenhouse.io/gusto/jobs/7714511",
+      "updated_at": "2026-04-04T10:00:00-04:00",
+      "first_published": "2026-03-15T08:00:00-04:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 73810, "name": "Engineering" }],
+      "offices": [{ "id": 4013021045, "name": "Remote US" }],
+      "content": "&lt;p&gt;Build the Gusto Embedded payroll API that thousands of vertical-SaaS partners run on Gusto&amp;rsquo;s ledger — the W-2 / W-4 / 1099-NEC engine, the 401(k) deduction pipeline, and the audit-trail generator the payroll-ops team opens every Friday.&lt;/p&gt;"
+    }
+  ],
+  "meta": { "total": 2 }
+}

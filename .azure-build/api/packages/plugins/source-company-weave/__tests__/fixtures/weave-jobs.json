@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 4249038009,
+      "title": "Account Executive, Mid-Market ",
+      "company_name": "Weave",
+      "absolute_url": "https://job-boards.greenhouse.io/weave/jobs/4249038009",
+      "updated_at": "2026-05-14T15:08:53-04:00",
+      "location": {
+        "name": "United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Weave.&lt;/strong&gt; Now hiring a Account Executive, Mid-Market on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4248670009,
+      "title": "Account Executive, SMB West",
+      "company_name": "Weave",
+      "absolute_url": "https://job-boards.greenhouse.io/weave/jobs/4248670009",
+      "updated_at": "2026-05-14T15:02:44-04:00",
+      "location": {
+        "name": "United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Weave.&lt;/strong&gt; Now hiring a Account Executive, SMB West on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4203264009,
+      "title": "Customer Success Manager",
+      "company_name": "Weave",
+      "absolute_url": "https://job-boards.greenhouse.io/weave/jobs/4203264009",
+      "updated_at": "2026-05-19T14:45:41-04:00",
+      "location": {
+        "name": "Boston, MA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Weave.&lt;/strong&gt; Now hiring a Customer Success Manager on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 7673578003,
+      "title": "Accounts Administrator ",
+      "company_name": "Ozow",
+      "absolute_url": "https://job-boards.greenhouse.io/ozow/jobs/7673578003",
+      "updated_at": "2026-06-01T10:13:46-04:00",
+      "location": {
+        "name": "Cape Town"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Ozow.&lt;/strong&gt; Now hiring a Accounts Administrator on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7753191003,
+      "title": "Commercial Activation Specialist",
+      "company_name": "Ozow",
+      "absolute_url": "https://job-boards.greenhouse.io/ozow/jobs/7753191003",
+      "updated_at": "2026-06-01T10:13:46-04:00",
+      "location": {
+        "name": "Cape Town"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Ozow.&lt;/strong&gt; Now hiring a Commercial Activation Specialist on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7753089003,
+      "title": "Commercial Growth Associate",
+      "company_name": "Ozow",
+      "absolute_url": "https://job-boards.greenhouse.io/ozow/jobs/7753089003",
+      "updated_at": "2026-06-01T10:13:46-04:00",
+      "location": {
+        "name": "Cape Town"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Ozow.&lt;/strong&gt; Now hiring a Commercial Growth Associate on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

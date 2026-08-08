@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 7753996003,
+      "title": "Key Account Customer Success Associate ",
+      "company_name": "Chowbus",
+      "absolute_url": "https://job-boards.greenhouse.io/chowbus/jobs/7753996003",
+      "updated_at": "2026-05-29T21:25:54-04:00",
+      "location": {
+        "name": "Chicago, Illinois, United States"
+      },
+      "departments": [
+        {
+          "id": 7753996004,
+          "name": "Customer Success "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Chowbus.&lt;/strong&gt; Now hiring a Key Account Customer Success Associate on the Customer Success team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7754031003,
+      "title": "Key Account Customer Success Associate",
+      "company_name": "Chowbus",
+      "absolute_url": "https://job-boards.greenhouse.io/chowbus/jobs/7754031003",
+      "updated_at": "2026-05-29T21:26:37-04:00",
+      "location": {
+        "name": "Los Angeles, California, United States"
+      },
+      "departments": [
+        {
+          "id": 7754031004,
+          "name": "Customer Success"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Chowbus.&lt;/strong&gt; Now hiring a Key Account Customer Success Associate on the Customer Success team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 6244714003,
+      "title": "Sales Manager",
+      "company_name": "Chowbus",
+      "absolute_url": "https://job-boards.greenhouse.io/chowbus/jobs/6244714003",
+      "updated_at": "2026-05-29T17:23:43-04:00",
+      "location": {
+        "name": "Atlanta, Georgia, United States"
+      },
+      "departments": [
+        {
+          "id": 6244714004,
+          "name": "Sales"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Chowbus.&lt;/strong&gt; Now hiring a Sales Manager on the Sales team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

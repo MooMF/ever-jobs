@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 6538655003,
+      "title": "3D Physical Design Engineer ",
+      "company_name": "Cerebras Systems",
+      "absolute_url": "https://job-boards.greenhouse.io/cerebrassystems/jobs/6538655003",
+      "updated_at": "2026-06-04T16:14:31-04:00",
+      "location": {
+        "name": "Sunnyvale, CA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Cerebras Systems.&lt;/strong&gt; Now hiring a 3D Physical Design Engineer on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7691353003,
+      "title": "Advanced Technology: AI/ML Research Scientist",
+      "company_name": "Cerebras Systems",
+      "absolute_url": "https://job-boards.greenhouse.io/cerebrassystems/jobs/7691353003",
+      "updated_at": "2026-06-02T21:46:11-04:00",
+      "location": {
+        "name": "Sunnyvale, CA; Toronto, Ontario, Canada; Vancouver, British Columbia, Canada"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Cerebras Systems.&lt;/strong&gt; Now hiring a Advanced Technology: AI/ML Research Scientist on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7683606003,
+      "title": "Advanced Technology: Compiler Engineer",
+      "company_name": "Cerebras Systems",
+      "absolute_url": "https://job-boards.greenhouse.io/cerebrassystems/jobs/7683606003",
+      "updated_at": "2026-06-02T21:46:11-04:00",
+      "location": {
+        "name": "Sunnyvale, CA; Vancouver, British Columbia, Canada"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Cerebras Systems.&lt;/strong&gt; Now hiring a Advanced Technology: Compiler Engineer on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

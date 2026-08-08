@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 7142298,
+      "title": "Senior Software Engineer, Roblox Studio Performance",
+      "absolute_url": "https://careers.roblox.com/jobs/7142298?gh_jid=7142298",
+      "updated_at": "2026-04-29T16:30:00.000Z",
+      "first_published": "2026-04-19T08:00:00.000Z",
+      "location": { "name": "San Mateo, CA" },
+      "departments": [{ "id": 90701, "name": "Engineering" }],
+      "offices": [{ "id": 90801, "name": "San Mateo HQ" }],
+      "content": "<p><strong>About the role</strong></p><p>Own the Roblox Studio creator-stack performance budgets across the Lua-VM hot path so experience-creators can iterate on million-MAU games at sub-frame latency.</p><ul><li>C++ / Lua-VM / GPU-pipeline experience required</li></ul>"
+    },
+    {
+      "id": 7577436,
+      "title": "Senior Manager, Trust & Safety — Marketplace Integrity",
+      "absolute_url": "https://careers.roblox.com/jobs/7577436?gh_jid=7577436",
+      "updated_at": "2026-04-30T11:30:00.000Z",
+      "first_published": "2026-04-23T07:00:00.000Z",
+      "location": { "name": "United States - Remote" },
+      "departments": [{ "id": 90702, "name": "Trust & Safety" }],
+      "offices": [{ "id": 90802, "name": "Remote" }],
+      "content": "<p>Own the Roblox Marketplace integrity motion across UGC-listing review, Robux-economy abuse signals, and the Roblox Connect social-presence surface to keep the in-experience economy safe for all users.</p>"
+    }
+  ],
+  "meta": { "total": 2 }
+}

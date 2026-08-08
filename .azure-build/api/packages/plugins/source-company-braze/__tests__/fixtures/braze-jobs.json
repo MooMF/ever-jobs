@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7793490,
+      "title": "Account Executive, Central America LATAM ",
+      "company_name": "Braze",
+      "absolute_url": "https://boards.greenhouse.io/braze/jobs/7793490?gh_jid=7793490",
+      "updated_at": "2026-04-15T10:00:00-07:00",
+      "location": { "name": "Mexico City" },
+      "departments": [{ "id": 1, "name": "Growth" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Account Executive, Central America LATAM&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Braze is the customer-engagement platform &amp; we ship cross-channel messaging + journey orchestration to enterprise customers.&lt;/p&gt;"
+    },
+    {
+      "id": 7800342,
+      "title": "Senior Software Engineer, Platform",
+      "company_name": "Braze",
+      "absolute_url": "https://boards.greenhouse.io/braze/jobs/7800342?gh_jid=7800342",
+      "updated_at": "2026-04-20T10:00:00-07:00",
+      "location": { "name": "New York, NY" },
+      "departments": [{ "id": 2, "name": "Engineering" }],
+      "content": "&lt;p&gt;Lead Braze's platform-engineering function across the messaging stack.&lt;/p&gt;"
+    }
+  ]
+}

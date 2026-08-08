@@ -1,0 +1,34 @@
+{
+  "jobs": [
+    {
+      "id": 8503018002,
+      "title": "Accessioning Specialist II",
+      "company_name": "Adaptive Biotechnologies",
+      "absolute_url": "https://www.adaptivebiotech.com/career-listings/listing?gh_jid=8503018002",
+      "updated_at": "2026-04-15T12:58:09-04:00",
+      "location": { "name": "Seattle" },
+      "departments": [{ "id": 4135842009, "name": "Laboratory Operations" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Position Overview&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Biological Sample Management Accessioning Specialist II at Adaptive Biotechnologies receives and accessions samples into the Laboratory Information System used by BSM across the immunoSEQ &amp; clonoSEQ blood-cancer minimal-residual-disease assay pipelines.&lt;/p&gt;"
+    },
+    {
+      "id": 8496748002,
+      "title": "Clinical Lab Technologist II ",
+      "company_name": "Adaptive Biotechnologies",
+      "absolute_url": "https://www.adaptivebiotech.com/career-listings/listing?gh_jid=8496748002",
+      "updated_at": "2026-04-23T14:31:56-04:00",
+      "location": { "name": "Seattle" },
+      "departments": [{ "id": 4135842009, "name": "Laboratory Operations" }],
+      "content": "&lt;p&gt;Lead Clinical Lab Technologist II onboarding across the Adaptive Biotechnologies clonoSEQ Laboratory Operations vertical.&lt;/p&gt;"
+    },
+    {
+      "id": 8527538002,
+      "title": "Account Operations Manager - Southeast",
+      "company_name": "Adaptive Biotechnologies",
+      "absolute_url": "https://www.adaptivebiotech.com/career-listings/listing?gh_jid=8527538002",
+      "updated_at": "2026-05-01T15:00:18-04:00",
+      "location": { "name": "Remote (WFH)" },
+      "departments": [{ "id": 4135850009, "name": "Commercial Operations" }],
+      "content": "&lt;p&gt;As Account Operations Manager &amp;ndash; Southeast at Adaptive Biotechnologies you&amp;rsquo;ll lead U.S. Southeast commercial-operations across the Diagnostics Sales delivery vertical.&lt;/p&gt;"
+    }
+  ]
+}

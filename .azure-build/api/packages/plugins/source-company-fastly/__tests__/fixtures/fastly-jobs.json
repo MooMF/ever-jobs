@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7858959,
+      "title": "Deal Desk Manager ",
+      "company_name": "Fastly",
+      "absolute_url": "https://www.fastly.com/about/jobs/apply?gh_jid=7858959",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 1, "name": "CFO" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Deal Desk Manager&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fastly is the edge-cloud platform pioneered around programmable CDN &amp; Compute@Edge.&lt;/p&gt;"
+    },
+    {
+      "id": 7641773,
+      "title": "CSOC Engineer - Security Automation",
+      "company_name": "Fastly",
+      "absolute_url": "https://www.fastly.com/about/jobs/apply?gh_jid=7641773",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Pune,  India" },
+      "departments": [{ "id": 2, "name": "Customer Security - CSOC" }],
+      "content": "&lt;p&gt;Lead Fastly's CSOC threat-detection automation across our globally-distributed edge network.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 7843171,
+      "title": "Senior Software Engineer - Backend",
+      "company_name": "Lookout",
+      "absolute_url": "https://www.lookout.com/careers/job-post?gh_jid=7843171",
+      "updated_at": "2026-04-30T12:15:32-04:00",
+      "first_published": "2026-03-21T09:00:00-04:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 4063436008, "name": "Engineering" }],
+      "offices": [{ "id": 21001, "name": "San Francisco HQ" }],
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Lookout&#8217;s mission has remained the same: to secure mobile endpoints with the world&#8217;s leading Mobile EDR + ZTNA platform across phishing-and-content-protection (PCP) longitudinal-telemetry data.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Senior Software Engineer partners with Engineering &amp; Product to ship the Mobile EDR core that powers Lookout&#8217;s cybersecurity platform.&lt;/p&gt;"
+    },
+    {
+      "id": 7503045003,
+      "title": "Enterprise Account Development Representative",
+      "company_name": "Lookout",
+      "absolute_url": "https://www.lookout.com/careers/job-post?gh_jid=7503045003",
+      "updated_at": "2026-04-29T10:42:11-04:00",
+      "first_published": "2026-03-15T08:30:00-04:00",
+      "location": { "name": "Remote, USA" },
+      "departments": [{ "id": 4089992008, "name": "Sales" }],
+      "offices": [{ "id": 21002, "name": "Remote" }],
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Lookout&#8217;s mission has remained the same: to secure mobile endpoints with the world&#8217;s leading Mobile EDR + ZTNA platform across phishing-and-content-protection (PCP) longitudinal-telemetry data. The Sales team owns the B2B Lookout enterprise mobile-security pipeline.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Enterprise Account Development Representative partners with Sales Engineering and Customer Success to grow the Lookout Mobile EDR enterprise footprint across Fortune 1000 cohorts.&lt;/p&gt;"
+    }
+  ]
+}

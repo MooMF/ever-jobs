@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 7943894,
+      "title": "Certified Medical Assistant ",
+      "company_name": "One Medical",
+      "absolute_url": "https://job-boards.greenhouse.io/onemedical/jobs/7943894",
+      "updated_at": "2026-06-02T11:59:54-04:00",
+      "location": {
+        "name": "Englewood, NJ"
+      },
+      "departments": [
+        {
+          "id": 7943895,
+          "name": "Clinical "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About One Medical.&lt;/strong&gt; Now hiring a Certified Medical Assistant on the Clinical team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7930472,
+      "title": "Certified Medical Assistant",
+      "company_name": "One Medical",
+      "absolute_url": "https://job-boards.greenhouse.io/onemedical/jobs/7930472",
+      "updated_at": "2026-06-02T11:59:54-04:00",
+      "location": {
+        "name": "Hoboken, NJ"
+      },
+      "departments": [
+        {
+          "id": 7930473,
+          "name": "Clinical"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About One Medical.&lt;/strong&gt; Now hiring a Certified Medical Assistant on the Clinical team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7895065,
+      "title": "Early Career - Family Medicine Physician - Sign-On Bonus Available",
+      "company_name": "One Medical",
+      "absolute_url": "https://job-boards.greenhouse.io/onemedical/jobs/7895065",
+      "updated_at": "2026-06-02T11:59:54-04:00",
+      "location": {
+        "name": "San Rafael, CA"
+      },
+      "departments": [
+        {
+          "id": 7895066,
+          "name": "Clinical"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About One Medical.&lt;/strong&gt; Now hiring a Early Career - Family Medicine Physician - Sign-On Bonus Available on the Clinical team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

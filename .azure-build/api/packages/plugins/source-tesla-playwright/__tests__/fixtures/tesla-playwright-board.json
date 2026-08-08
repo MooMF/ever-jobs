@@ -1,0 +1,37 @@
+{
+  "_comment": "Spec 013 / T10 — sanitised Tesla-Playwright board envelope mirrored from `/cua-api/apps/careers/state` and consumed via the Playwright in-page `fetch()` path. 10 listings spanning 6 distinct `lookup.locations` keys (Palo Alto / Austin / Fremont / Remote-US / Berlin / Shanghai), 5 `lookup.departments` keys (Engineering / Manufacturing / Sales & Service / Software & IT / Vehicle Service) and 3 `lookup.regions` keys (Americas / EMEA / APAC). Listing 300009 has `d: null` and 300010 has `l: null` to exercise `toJobPost()`'s defensive null-fallback paths (mirrors source-tesla T08's listings 200049 / 200050 with the OPT-IN ID range 300xxx so cross-fixture grep stays unambiguous). Local copy of the source-tesla envelope shape — duplicated here per AGENTS.md §5 'no peer plugin imports'. PII removed; titles + IDs are illustrative.",
+  "listings": [
+    { "id": "300001", "t": "Senior Software Engineer, Vehicle Firmware", "l": "loc-1", "d": "dep-4", "r": "reg-1" },
+    { "id": "300002", "t": "Staff Cloud Solutions Architect", "l": "loc-4", "d": "dep-4", "r": "reg-1" },
+    { "id": "300003", "t": "Manufacturing Process Engineer I", "l": "loc-2", "d": "dep-2", "r": "reg-1" },
+    { "id": "300004", "t": "Service Technician — High Voltage", "l": "loc-3", "d": "dep-3", "r": "reg-1" },
+    { "id": "300005", "t": "Vehicle Service Lead, EMEA", "l": "loc-5", "d": "dep-5", "r": "reg-2" },
+    { "id": "300006", "t": "APAC Market Operations Analyst", "l": "loc-6", "d": "dep-3", "r": "reg-3" },
+    { "id": "300007", "t": "Mechanical Design Engineer", "l": "loc-1", "d": "dep-1", "r": "reg-1" },
+    { "id": "300008", "t": "Remote Backend Platform Engineer", "l": "loc-4", "d": "dep-4", "r": "reg-1" },
+    { "id": "300009", "t": "Cross-Functional Strategy Analyst", "l": "loc-1", "d": null, "r": "reg-1" },
+    { "id": "300010", "t": "Confidential Strategic Initiative Lead", "l": null, "d": "dep-1", "r": null }
+  ],
+  "lookup": {
+    "locations": {
+      "loc-1": "Palo Alto, CA",
+      "loc-2": "Austin, TX",
+      "loc-3": "Fremont, CA",
+      "loc-4": "Remote, United States",
+      "loc-5": "Berlin, Germany",
+      "loc-6": "Shanghai, China"
+    },
+    "departments": {
+      "dep-1": "Engineering",
+      "dep-2": "Manufacturing",
+      "dep-3": "Sales & Service",
+      "dep-4": "Software & IT",
+      "dep-5": "Vehicle Service"
+    },
+    "regions": {
+      "reg-1": "Americas",
+      "reg-2": "EMEA",
+      "reg-3": "APAC"
+    }
+  }
+}

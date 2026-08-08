@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4878470101,
+      "title": "Customer Insights Analyst (12m FTC) ",
+      "company_name": "Gymshark",
+      "absolute_url": "https://job-boards.greenhouse.io/gymshark/jobs/4878470101",
+      "updated_at": "2026-05-29T08:14:19-04:00",
+      "location": {
+        "name": "Solihull, England, United Kingdom"
+      },
+      "departments": [
+        {
+          "id": 4878470102,
+          "name": "Analytics "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Gymshark.&lt;/strong&gt; Now hiring a Customer Insights Analyst (12m FTC) on the Analytics team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4877514101,
+      "title": "Data Engineer",
+      "company_name": "Gymshark",
+      "absolute_url": "https://job-boards.greenhouse.io/gymshark/jobs/4877514101",
+      "updated_at": "2026-05-28T08:48:11-04:00",
+      "location": {
+        "name": "Solihull, England, United Kingdom"
+      },
+      "departments": [
+        {
+          "id": 4877514102,
+          "name": "Engineering"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Gymshark.&lt;/strong&gt; Now hiring a Data Engineer on the Engineering team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4876128101,
+      "title": "Entertainment Marketing Executive",
+      "company_name": "Gymshark",
+      "absolute_url": "https://job-boards.greenhouse.io/gymshark/jobs/4876128101",
+      "updated_at": "2026-05-28T12:58:14-04:00",
+      "location": {
+        "name": "London; Solihull, England, United Kingdom"
+      },
+      "departments": [
+        {
+          "id": 4876128102,
+          "name": "Marketing"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Gymshark.&lt;/strong&gt; Now hiring a Entertainment Marketing Executive on the Marketing team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

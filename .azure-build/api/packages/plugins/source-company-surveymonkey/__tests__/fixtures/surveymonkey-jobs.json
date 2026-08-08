@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 7964482,
+      "title": "Data Analyst ",
+      "company_name": "SurveyMonkey",
+      "absolute_url": "https://job-boards.greenhouse.io/surveymonkey/jobs/7964482",
+      "updated_at": "2026-06-02T01:31:47-04:00",
+      "location": {
+        "name": "Bengaluru, India"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About SurveyMonkey.&lt;/strong&gt; Now hiring a Data Analyst on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7811545,
+      "title": "Engineering Manager-Infrastructure Team",
+      "company_name": "SurveyMonkey",
+      "absolute_url": "https://job-boards.greenhouse.io/surveymonkey/jobs/7811545",
+      "updated_at": "2026-04-17T08:13:37-04:00",
+      "location": {
+        "name": "Bengaluru, India"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About SurveyMonkey.&lt;/strong&gt; Now hiring a Engineering Manager-Infrastructure Team on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7871569,
+      "title": "Expansion Account Executive",
+      "company_name": "SurveyMonkey",
+      "absolute_url": "https://job-boards.greenhouse.io/surveymonkey/jobs/7871569",
+      "updated_at": "2026-05-14T17:24:11-04:00",
+      "location": {
+        "name": "Canada - Remote"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About SurveyMonkey.&lt;/strong&gt; Now hiring a Expansion Account Executive on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

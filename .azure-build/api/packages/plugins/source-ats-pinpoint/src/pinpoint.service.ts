@@ -1,0 +1,84 @@
+﻿import { SourcePlugin } from '@ever-jobs/plugin';
+
+import { Injectable, Logger } from '@nestjs/common';
+import {
+  IScraper, ScraperInputDto, JobResponseDto, JobPostDto, Site, LocationDto,
+} from '@ever-jobs/models';
+import { createHttpClient, stripHtmlTags } from '@ever-jobs/common';
+
+@SourcePlugin({
+  site: Site.PINPOINT,
+  name: 'Pinpoint',
+  category: 'ats',
+  isAts: true,
+})
+@Injectable()
+export class PinpointService implements IScraper {
+  private readonly logger = new Logger(PinpointService.name);
+
+  async scrape(input: ScraperInputDto): Promise<JobResponseDto> {
+    const company = input.companySlug;
+    if (!company) {
+      this.logger.warn('No companySlug provided for Pinpoint scraper');
+      return new JobResponseDto([]);
+    }
+
+    const jobs: JobPostDto[] = [];
+    const resultsWanted = input.resultsWanted ?? 100;
+
+    try {
+      const client = createHttpClient({
+        proxies: input.proxies,
+        timeout: input.requestTimeout ?? 30,
+      });
+
+      // Pinpoint provides a JSON API at each company's subdomain
+      const url = `https://${company}.pinpointhq.com/postings.json`;
+      this.logger.log(`Pinpoint: fetching ${url}`);
+
+      const { data } = await client.get<any>(url);
+      const listings = data?.data ?? (Array.isArray(data) ? data : []);
+
+      for (const listing of listings) {
+        if (jobs.length >= resultsWanted) break;
+
+        const attrs = listing.attributes ?? listing;
+        const title = attrs.title ?? '';
+        if (!title) continue;
+
+        const jobId = listing.id ?? attrs.id ?? '';
+        const id = `pinpoint-${company}-${jobId}`;
+
+        const locationStr = attrs.location_name ?? attrs.location ?? null;
+        const location = locationStr
+          ? new LocationDto({ city: locationStr })
+          : null;
+
+        jobs.push(
+          new JobPostDto({
+            id,
+            site: Site.PINPOINT,
+            title,
+            companyName: attrs.company_name ?? company,
+            jobUrl: attrs.url ?? `https://${company}.pinpointhq.com/postings/${jobId}`,
+            location,
+            description: attrs.description
+              ? stripHtmlTags(attrs.description)
+              : null,
+            datePosted: attrs.published_at ?? attrs.created_at ?? null,
+            isRemote: attrs.remote ?? (locationStr?.toLowerCase().includes('remote') ?? false),
+            department: attrs.department_name ?? attrs.department ?? null,
+            atsId: String(jobId),
+            atsType: 'pinpoint',
+          }),
+        );
+      }
+
+      this.logger.log(`Pinpoint: scraped ${jobs.length} jobs for ${company}`);
+    } catch (err: any) {
+      this.logger.error(`Pinpoint scrape failed for ${company}: ${err.message}`);
+    }
+
+    return { jobs };
+  }
+}

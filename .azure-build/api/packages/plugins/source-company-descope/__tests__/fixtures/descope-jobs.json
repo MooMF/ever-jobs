@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 4236838009,
+      "title": "Customer Success Engineer",
+      "company_name": "Descope",
+      "absolute_url": "https://job-boards.greenhouse.io/descope/jobs/4236838009",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 1, "name": "Customer Success " }],
+      "content": "&lt;p&gt;&lt;strong&gt;Customer Success Engineer&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Descope is the developer-first authentication-as-a-service platform pioneered around no-code-CIAM &amp; passwordless-auth / drag-drop-flows.&lt;/p&gt;"
+    },
+    {
+      "id": 4341509006,
+      "title": "Senior Software Engineer, MCP",
+      "company_name": "Descope",
+      "absolute_url": "https://job-boards.greenhouse.io/descope/jobs/4341509006",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Tel Aviv, Israel" },
+      "departments": [{ "id": 2, "name": "Engineering " }],
+      "content": "&lt;p&gt;Lead Descope's Engineering function across the Authentication / Flows / Token Exchange platform stack with MCP integration support.&lt;/p&gt;"
+    }
+  ]
+}

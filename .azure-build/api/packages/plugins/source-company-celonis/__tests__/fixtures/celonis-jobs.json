@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7657936003,
+      "title": "Business Development Manager ",
+      "company_name": "Celonis",
+      "absolute_url": "https://job-boards.greenhouse.io/celonis/jobs/7657936003",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "Munich, Germany" },
+      "departments": [{ "id": 8201, "name": "Sales" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Business Development Manager&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Celonis is the global leader in Process Intelligence and the pioneer of Process Mining technology — drive enterprise account expansion across the EMEA region.&lt;/p&gt;"
+    },
+    {
+      "id": 6094078003,
+      "title": " Field CTO",
+      "company_name": "Celonis",
+      "absolute_url": "https://job-boards.greenhouse.io/celonis/jobs/6094078003",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 8202, "name": "Value Engineering" }],
+      "content": "&lt;p&gt;Lead Celonis's Field CTO function across the platform stack — architect end-to-end Process Intelligence transformations for Fortune 500 customers.&lt;/p&gt;"
+    }
+  ]
+}

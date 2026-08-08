@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5988345004,
+      "title": "Admin Project Coordinator  / Senior Admin Project Coordinator ",
+      "company_name": "Altos Labs",
+      "absolute_url": "https://job-boards.greenhouse.io/altoslabs/jobs/5988345004",
+      "updated_at": "2026-06-01T21:29:57-04:00",
+      "location": {
+        "name": "Cambridge, UK"
+      },
+      "departments": [
+        {
+          "id": 5988345005,
+          "name": "Discovery Science "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Altos Labs.&lt;/strong&gt; Now hiring a Admin Project Coordinator  / Senior Admin Project Coordinator on the Discovery Science team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5999797004,
+      "title": "AI Implementation Engineer",
+      "company_name": "Altos Labs",
+      "absolute_url": "https://job-boards.greenhouse.io/altoslabs/jobs/5999797004",
+      "updated_at": "2026-06-01T21:29:57-04:00",
+      "location": {
+        "name": "San Francisco Bay Area, CA"
+      },
+      "departments": [
+        {
+          "id": 5999797005,
+          "name": "Institute of Technology"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Altos Labs.&lt;/strong&gt; Now hiring a AI Implementation Engineer on the Institute of Technology team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5996617004,
+      "title": "Clinical Veterinarian, Part-time Contract",
+      "company_name": "Altos Labs",
+      "absolute_url": "https://job-boards.greenhouse.io/altoslabs/jobs/5996617004",
+      "updated_at": "2026-06-01T21:29:57-04:00",
+      "location": {
+        "name": "San Diego, CA"
+      },
+      "departments": [
+        {
+          "id": 5996617005,
+          "name": "Drug Discovery & Development Science"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Altos Labs.&lt;/strong&gt; Now hiring a Clinical Veterinarian, Part-time Contract on the Drug Discovery & Development Science team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

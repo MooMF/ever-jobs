@@ -1,0 +1,5 @@
+{
+  "_comment": "Spec 013 / T08 — Tesla per-job detail envelope with NONE of the four documented description fields populated. Exercises the `composeDescription() returns null when no field is populated` branch — i.e., the listing's JobPostDto.description should resolve to `null` (not an empty string) per the upstream Python pattern (OTHERS/Ats-scrapers/tesla/main.py:240). Only the `department` + `timeType` metadata flows through; the four free-text fields are absent (jobDescription / jobResponsibilities / jobRequirements / jobCompensationAndBenefits).",
+  "department": "Service",
+  "timeType": "Part time"
+}

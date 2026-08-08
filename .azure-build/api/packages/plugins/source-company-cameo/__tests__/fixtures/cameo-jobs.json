@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 7657872003,
+      "title": "Automation Engineer",
+      "company_name": "Cameo",
+      "absolute_url": "https://job-boards.greenhouse.io/cameo/jobs/7657872003",
+      "updated_at": "2026-04-25T11:08:42-05:00",
+      "first_published": "2026-03-12T08:00:00-05:00",
+      "location": { "name": "Chicago, IL" },
+      "departments": [{ "id": 71001, "name": "Engineering" }],
+      "offices": [{ "id": 7001, "name": "Chicago" }],
+      "content": "&lt;p&gt;At &lt;strong&gt;Cameo&lt;/strong&gt;, we make impossible connections possible. Our platform allows fans to get personalized messages from their favorite comedians, actors, athletes, and more. We&#39;re looking for an Automation Engineer to build CI/CD pipelines, infrastructure-as-code, and observability tooling that scales the Cameo Marketplace and Cameo for Business surfaces.&lt;/p&gt;&lt;div class=&quot;content-intro&quot;&gt;&lt;em&gt;Cameo is the home of personalized celebrity video.&lt;/em&gt;&lt;/div&gt;"
+    },
+    {
+      "id": 6260240003,
+      "title": "Business Development Representative - Cameo for Business",
+      "company_name": "Cameo",
+      "absolute_url": "https://job-boards.greenhouse.io/cameo/jobs/6260240003",
+      "updated_at": "2026-04-29T15:32:14-04:00",
+      "first_published": "2026-04-04T09:30:00-04:00",
+      "location": { "name": "Remote, United States" },
+      "departments": [{ "id": 71002, "name": "Cameo for Business " }],
+      "offices": [{ "id": 7002, "name": "Remote" }],
+      "content": "&lt;h2&gt;&lt;strong&gt;Business Development Representative, &lt;/strong&gt;&lt;strong&gt;Cameo for Business &lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;At Cameo, we make impossible connections possible. Our mission is to create the most personalized and authentic fan experiences on earth. The Cameo for Business team partners with marketers and brands across Fortune 500 enterprises to ship branded-celebrity video at scale on the Cameo Marketplace.&lt;/p&gt;&lt;p&gt;You&#39;ll prospect, qualify, and develop the top-of-funnel pipeline for the Cameo for Business book of business across North America.&lt;/p&gt;"
+    }
+  ]
+}

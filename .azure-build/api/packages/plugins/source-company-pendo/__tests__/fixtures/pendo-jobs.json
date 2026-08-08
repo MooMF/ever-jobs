@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 8451335002,
+      "title": "Account Director Enterprise Sales - Bay Area",
+      "company_name": "Pendo",
+      "absolute_url": "https://job-boards.greenhouse.io/pendo/jobs/8451335002",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 1, "name": "Enterprise" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Account Director, Enterprise Sales - Bay Area&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Pendo is the product-analytics + in-app guidance platform pioneered around product-led-growth-as-a-service &amp; the digital-adoption-platform segment.&lt;/p&gt;"
+    },
+    {
+      "id": 8597217003,
+      "title": "Site Reliability Engineer",
+      "company_name": "Pendo",
+      "absolute_url": "https://job-boards.greenhouse.io/pendo/jobs/8597217003",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Raleigh, NC" },
+      "departments": [{ "id": 2, "name": "Engineering Operations" }],
+      "content": "&lt;p&gt;Lead Pendo's Engineering Operations function across the Insights / Guides / Feedback platform.&lt;/p&gt;"
+    }
+  ]
+}

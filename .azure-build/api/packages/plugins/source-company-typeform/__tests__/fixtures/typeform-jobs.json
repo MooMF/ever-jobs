@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 6912450003,
+      "title": "Account Executive - EU",
+      "company_name": "Typeform",
+      "absolute_url": "https://job-boards.greenhouse.io/typeform/jobs/6912450003",
+      "updated_at": "2026-04-30T12:15:32-04:00",
+      "first_published": "2026-03-21T09:00:00-04:00",
+      "location": { "name": "Barcelona, Spain" },
+      "departments": [{ "id": 51001, "name": "Sales" }],
+      "offices": [{ "id": 21001, "name": "Barcelona" }],
+      "content": "&lt;h2&gt;&lt;strong&gt;This is Sales at Typeform&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;We&#39;re expanding our team of dynamic and driven Account Executives at Typeform, and we&#39;re searching for exceptional talent to help us elevate our EU sales motion.&lt;/p&gt;&lt;p&gt;The EU Account Executive partners with companies across the SaaS &amp; B2B segments to deliver the Typeform conversational form-builder platform.&lt;/p&gt;"
+    },
+    {
+      "id": 6953711003,
+      "title": "Senior Product Designer",
+      "company_name": "Typeform",
+      "absolute_url": "https://job-boards.greenhouse.io/typeform/jobs/6953711003",
+      "updated_at": "2026-04-29T10:42:11-04:00",
+      "first_published": "2026-03-15T08:30:00-04:00",
+      "location": { "name": "Remote - Europe" },
+      "departments": [{ "id": 51101, "name": "Product " }],
+      "offices": [{ "id": 21002, "name": "Remote - Europe" }],
+      "content": "&lt;h2&gt;&lt;strong&gt;This is Product at Typeform&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;The Senior Product Designer partners with engineering, research &amp; product management to deliver the next generation of Typeform&#39;s conversational form-builder, payments &amp; scheduling features.&lt;/p&gt;&lt;p&gt;You&#39;ll own the design strategy for one of Typeform&#39;s flagship product surfaces.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+import { SourcePlugin } from '@ever-jobs/plugin';
+
+import { Injectable, Logger } from '@nestjs/common';
+import {
+  IScraper, ScraperInputDto, JobResponseDto, JobPostDto, Site, LocationDto,
+} from '@ever-jobs/models';
+import { createHttpClient, decodeHtmlEntities, stripHtmlTags } from '@ever-jobs/common';
+
+/**
+ * Labelbox, Inc. (Labelbox.com) — operator of the **dominant
+ * AI-data-development platform pioneered around the labelled-
+ * training-data-pipeline data model** (founded by Manu Sharma,
+ * Brian Rieger, and Daniel Rasmuson in 2018 in San Francisco;
+ * raised ~$188M across rounds at peak ~$1B valuation in
+ * January 2022 led by SoftBank Vision Fund 2 and Andreessen
+ * Horowitz; ships Labelbox Catalog (data-curation surface),
+ * Labelbox Annotate (multimodal-labelling editor), Labelbox
+ * Model (model-evaluation pipelines), Labelbox Boost
+ * (human-in-the-loop labelling services), and the Alignerr
+ * Services line (frontier-AI human-labelling network) across
+ * the AI-data-development / labelled-training-data-pipeline
+ * segment — alongside competitors Scale AI, Snorkel AI,
+ * Roboflow, V7, SuperAnnotate, Encord, and the ImageNet-
+ * lineage academic crowd-labelling stack — with a hybrid
+ * distributed workforce concentrated across San Francisco
+ * (HQ), New York City, and Remote across the United States)
+ * — publishes its consolidated careers board through
+ * Greenhouse at the bare slug `labelbox` (case-symmetric with
+ * the wire `company_name === 'Labelbox'`; see Spec 160 § 10
+ * D-05).
+ *
+ * **Zero structural deviations from the Indigo (Spec 157)
+ * template** — case-symmetric brand wire, variant 2 URL,
+ * D-08 entity-decode-then-tag-strip, D-10 omitted, D-11
+ * omitted. **Forty-third clean re-spin** in run-history.
+ *
+ *   1. **D-04 — wire-shape variant 2 (canonical Greenhouse host).**
+ *     `https://job-boards.greenhouse.io/labelbox/jobs/<id>`.
+ *     **Sixty-fifth** plugin in the cohort to use variant 2.
+ *
+ *   2. **D-08 — entity-decode-then-tag-strip description pipeline.**
+ *     **One-hundred-and-sixteenth** plugin to apply D-08.
+ *
+ *   3. **D-09 — brand-name trim omitted (case-symmetric).** Wire
+ *     `company_name === 'Labelbox'` byte-for-byte (8 bytes —
+ *     fully clean, case-symmetric with the lowercase 8-byte
+ *     slug `labelbox`). **One-hundred-and-seventh cohort plugin
+ *     to omit D-09**.
+ *
+ *   4. **D-10 — wire-title `.trim()` omitted (clean wire).**
+ *     0 of 10 wire titles padded; the plugin applies `.trim()`
+ *     defensively as a safe no-op. **Thirty-third cohort plugin
+ *     to omit D-10**.
+ *
+ *   5. **D-11 — wire-department `.trim()` omitted (clean wire).**
+ *     0 of 3 unique wire department names padded
+ *     (`'Alignerr Services'`, `'Engineering'`, `'Sales'`); the
+ *     plugin applies `.trim()` defensively as a safe no-op.
+ *     **Ninety-second cohort plugin** with fully-clean
+ *     department pass-through.
+ */
+const API_URL = 'https://api.greenhouse.io/v1/boards/labelbox/jobs';
+
+@SourcePlugin({
+  site: Site.LABELBOX,
+  name: 'Labelbox',
+  category: 'company',
+})
+@Injectable()
+export class LabelboxService implements IScraper {
+  private readonly logger = new Logger(LabelboxService.name);
+
+  async scrape(input: ScraperInputDto): Promise<JobResponseDto> {
+    const jobs: JobPostDto[] = [];
+    const resultsWanted = input.resultsWanted ?? 50;
+
+    try {
+      const client = createHttpClient({
+        proxies: input.proxies,
+        timeout: input.requestTimeout ?? 30,
+      });
+
+      const url = `${API_URL}?content=true`;
+      this.logger.log(`Labelbox: fetching ${url}`);
+
+      const { data } = await client.get<any>(url);
+      const listings = data?.jobs ?? [];
+
+      for (const listing of listings) {
+        if (jobs.length >= resultsWanted) break;
+
+        // D-10 omitted at probe time; .trim() is a safe no-op
+        // on clean wire.
+        const title = (listing.title ?? '').trim();
+        if (!title) continue;
+
+        // D-11 omitted at probe time; .trim() is a safe no-op
+        // on clean wire.
+        const dept = (listing.departments?.[0]?.name ?? '').trim() || null;
+
+        if (input.searchTerm) {
+          const term = input.searchTerm.toLowerCase();
+          const titleMatch = title.toLowerCase().includes(term);
+          const deptMatch = (dept ?? '').toLowerCase().includes(term);
+          if (!titleMatch && !deptMatch) continue;
+        }
+
+        const jobId = listing.id ?? '';
+        const id = `labelbox-${jobId}`;
+
+        const locationStr = listing.location?.name ?? null;
+        const location = locationStr
+          ? new LocationDto({ city: locationStr })
+          : null;
+
+        if (input.location && locationStr) {
+          if (!locationStr.toLowerCase().includes(input.location.toLowerCase())) continue;
+        }
+
+        jobs.push(
+          new JobPostDto({
+            id,
+            site: Site.LABELBOX,
+            title,
+            // D-09 omitted: case-symmetric bare-brand wire.
+            companyName: listing.company_name ?? 'Labelbox',
+            // D-04: wire `absolute_url` flows through (variant 2).
+            jobUrl:
+              listing.absolute_url ??
+              `https://job-boards.greenhouse.io/labelbox/jobs/${listing.id}`,
+            location,
+            description: listing.content
+              ? stripHtmlTags(decodeHtmlEntities(listing.content))
+              : null,
+            datePosted: listing.updated_at ?? null,
+            isRemote: locationStr?.toLowerCase().includes('remote') ?? false,
+            department: dept,
+          }),
+        );
+      }
+
+      this.logger.log(`Labelbox: scraped ${jobs.length} jobs`);
+    } catch (err: any) {
+      this.logger.error(`Labelbox scrape failed: ${err.message}`);
+    }
+
+    return { jobs };
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4118249004,
+      "title": "Backend Engineering Intern - OCaml ",
+      "company_name": "Ahrefs",
+      "absolute_url": "https://job-boards.greenhouse.io/ahrefsjobs/jobs/4118249004",
+      "updated_at": "2026-05-27T02:16:44-04:00",
+      "location": {
+        "name": "Palo Alto, California, United States; Singapore"
+      },
+      "departments": [
+        {
+          "id": 4118249005,
+          "name": "Backend "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Ahrefs.&lt;/strong&gt; Now hiring a Backend Engineering Intern - OCaml on the Backend team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 6005637004,
+      "title": "Events Marketing Executive",
+      "company_name": "Ahrefs",
+      "absolute_url": "https://job-boards.greenhouse.io/ahrefsjobs/jobs/6005637004",
+      "updated_at": "2026-05-27T02:16:44-04:00",
+      "location": {
+        "name": "Remote - Europe"
+      },
+      "departments": [
+        {
+          "id": 6005637005,
+          "name": "Marketing"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Ahrefs.&lt;/strong&gt; Now hiring a Events Marketing Executive on the Marketing team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 6005681004,
+      "title": "Events Operations Executive",
+      "company_name": "Ahrefs",
+      "absolute_url": "https://job-boards.greenhouse.io/ahrefsjobs/jobs/6005681004",
+      "updated_at": "2026-05-27T02:16:44-04:00",
+      "location": {
+        "name": "Singapore"
+      },
+      "departments": [
+        {
+          "id": 6005681005,
+          "name": "Marketing"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Ahrefs.&lt;/strong&gt; Now hiring a Events Operations Executive on the Marketing team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

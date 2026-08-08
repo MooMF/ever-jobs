@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 8391630002,
+      "title": "Accountant",
+      "company_name": "Chime Financial, Inc",
+      "absolute_url": "https://boards.greenhouse.io/chime/jobs/8391630002?gh_jid=8391630002",
+      "updated_at": "2026-04-15T19:09:07-04:00",
+      "first_published": "2026-03-12T11:30:00-04:00",
+      "location": { "name": "San Francisco, CA, USA" },
+      "departments": [{ "id": 4065731002, "name": "Accounting" }],
+      "offices": [{ "id": 4021060002, "name": "San Francisco" }],
+      "content": "&lt;h2&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Chime is the largest US challenger bank, helping our members unlock everyday financial peace of mind. As an &lt;strong&gt;Accountant&lt;/strong&gt;, you&#39;ll own the month-end close cadence for the SpotMe and Credit Builder revenue streams, partnering with FP&amp;A on accruals, deferred revenue, and the audit cycle.&lt;/p&gt;&lt;p&gt;You&rsquo;ll partner with FP&amp;A and the Revenue team to drive period-over-period analytics and prepare schedules for the audit cycle.&lt;/p&gt;"
+    },
+    {
+      "id": 8489550002,
+      "title": "Senior Software Engineer, AI Experience",
+      "company_name": "Chime Financial, Inc",
+      "absolute_url": "https://boards.greenhouse.io/chime/jobs/8489550002?gh_jid=8489550002",
+      "updated_at": "2026-04-22T14:18:51-04:00",
+      "first_published": "2026-03-25T11:00:00-04:00",
+      "location": { "name": "Chicago, IL, USA" },
+      "departments": [{ "id": 4022874002, "name": "AI & App Experience Engineering" }],
+      "offices": [{ "id": 4021100002, "name": "Chicago" }],
+      "content": "&lt;p&gt;Chime&rsquo;s &lt;strong&gt;AI &amp; App Experience Engineering&lt;/strong&gt; org is looking for a Senior Software Engineer to lead the platform team behind the SpotMe overdraft service, the Credit Builder secured-card surface, and the cross-product orchestration layer.&lt;/p&gt;&lt;p&gt;You&#39;ll partner with Product, Risk, and Compliance to drive a roadmap that scales the consumer-banking flagship to tens of millions of US members.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "jobs": [
+    {
+      "id": 4689414005,
+      "title": "Administrative Operations Assistant (Contract Employee) ",
+      "company_name": "the Ad Council",
+      "absolute_url": "https://job-boards.greenhouse.io/adcouncil/jobs/4689414005",
+      "updated_at": "2026-05-01T15:41:05-04:00",
+      "location": {
+        "name": "New York City"
+      },
+      "departments": [
+        {
+          "id": 4689414006,
+          "name": "Strategic Partnerships & External Engagement "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About the Ad Council.&lt;/strong&gt; Now hiring a Administrative Operations Assistant (Contract Employee) on the Strategic Partnerships & External Engagement team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4149906005,
+      "title": "Campaign Analyst",
+      "company_name": "the Ad Council",
+      "absolute_url": "https://job-boards.greenhouse.io/adcouncil/jobs/4149906005",
+      "updated_at": "2026-06-01T12:01:45-04:00",
+      "location": {
+        "name": "United States"
+      },
+      "departments": [
+        {
+          "id": 4149906006,
+          "name": "Insights & Analytics"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About the Ad Council.&lt;/strong&gt; Now hiring a Campaign Analyst on the Insights & Analytics team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4006368005,
+      "title": "General Application",
+      "company_name": "the Ad Council",
+      "absolute_url": "https://job-boards.greenhouse.io/adcouncil/jobs/4006368005",
+      "updated_at": "2026-04-27T17:20:02-04:00",
+      "location": {
+        "name": "Remote - US"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About the Ad Council.&lt;/strong&gt; Now hiring a General Application on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

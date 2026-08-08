@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "id": 1001,
+      "title": "Backend Engineer",
+      "description": "<p>We are hiring a <strong>backend engineer</strong>.</p><ul><li>Node.js</li><li>PostgreSQL</li></ul>",
+      "locations": [
+        { "id": 1, "name": "Berlin", "city": "Berlin", "country": "DE", "isRemote": false }
+      ],
+      "shareableUrl": "https://join.com/companies/acme-corp/jobs/1001-backend-engineer",
+      "publishedAt": "2026-04-20T10:30:00.000Z",
+      "employmentType": "FULL_TIME",
+      "remoteOption": "ON_SITE",
+      "department": { "name": "Engineering" }
+    },
+    {
+      "id": 1002,
+      "title": "Senior Designer",
+      "description": "<p>Design our next-gen product.</p>",
+      "locations": [
+        { "id": 2, "name": "Remote — Europe", "country": "DE", "isRemote": true }
+      ],
+      "shareableUrl": "https://join.com/companies/acme-corp/jobs/1002-senior-designer",
+      "publishedAt": "2026-04-22T08:15:00.000Z",
+      "employmentType": "FULL_TIME",
+      "remoteOption": "REMOTE",
+      "category": { "name": "Design" }
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "pageSize": 50,
+    "total": 3,
+    "totalPages": 2
+  }
+}

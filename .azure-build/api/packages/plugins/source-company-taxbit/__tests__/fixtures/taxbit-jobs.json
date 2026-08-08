@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 5976934004,
+      "title": "Business Development Representative ",
+      "company_name": "TaxBit",
+      "absolute_url": "https://job-boards.greenhouse.io/taxbit/jobs/5976934004",
+      "updated_at": "2026-05-27T16:45:35-04:00",
+      "location": {
+        "name": "New York, New York"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About TaxBit.&lt;/strong&gt; Now hiring a Business Development Representative on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5986590004,
+      "title": "Business Development Representative",
+      "company_name": "TaxBit",
+      "absolute_url": "https://job-boards.greenhouse.io/taxbit/jobs/5986590004",
+      "updated_at": "2026-05-19T17:50:22-04:00",
+      "location": {
+        "name": "London, UK"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About TaxBit.&lt;/strong&gt; Now hiring a Business Development Representative on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5986594004,
+      "title": "Business Development Representative",
+      "company_name": "TaxBit",
+      "absolute_url": "https://job-boards.greenhouse.io/taxbit/jobs/5986594004",
+      "updated_at": "2026-05-19T17:50:32-04:00",
+      "location": {
+        "name": "Madrid, Spain"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About TaxBit.&lt;/strong&gt; Now hiring a Business Development Representative on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 8449697002,
+      "title": "Senior Account Executive, Digital Natives ",
+      "company_name": "Aerospike",
+      "absolute_url": "https://job-boards.greenhouse.io/aerospike/jobs/8449697002",
+      "updated_at": "2026-05-27T14:49:24-04:00",
+      "location": {
+        "name": "Tel Aviv, Israel "
+      },
+      "departments": [
+        {
+          "id": 8449697003,
+          "name": "Sales "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Aerospike.&lt;/strong&gt; Now hiring a Senior Account Executive, Digital Natives on the Sales team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8432786002,
+      "title": "Senior Account Executive, Digital Natives - EMEA / UK & Northern Europe",
+      "company_name": "Aerospike",
+      "absolute_url": "https://job-boards.greenhouse.io/aerospike/jobs/8432786002",
+      "updated_at": "2026-04-09T23:42:05-04:00",
+      "location": {
+        "name": "London, UK"
+      },
+      "departments": [
+        {
+          "id": 8432786003,
+          "name": "Sales"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Aerospike.&lt;/strong&gt; Now hiring a Senior Account Executive, Digital Natives - EMEA / UK & Northern Europe on the Sales team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8389293002,
+      "title": "Senior Account Manager, Digital Natives",
+      "company_name": "Aerospike",
+      "absolute_url": "https://job-boards.greenhouse.io/aerospike/jobs/8389293002",
+      "updated_at": "2026-02-09T11:28:47-05:00",
+      "location": {
+        "name": "Tel Aviv, Israel"
+      },
+      "departments": [
+        {
+          "id": 8389293003,
+          "name": "Sales"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Aerospike.&lt;/strong&gt; Now hiring a Senior Account Manager, Digital Natives on the Sales team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 7749776003,
+      "title": "Aesthetic Sales Consultant ",
+      "company_name": "AirSculpt",
+      "absolute_url": "https://job-boards.greenhouse.io/airsculpt/jobs/7749776003",
+      "updated_at": "2026-05-27T13:07:48-04:00",
+      "location": {
+        "name": "Philadelphia, Pennsylvania, United States"
+      },
+      "departments": [
+        {
+          "id": 7749776004,
+          "name": "Sales "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AirSculpt.&lt;/strong&gt; Now hiring a Aesthetic Sales Consultant on the Sales team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7727656003,
+      "title": "Aesthetic Sales Consultant",
+      "company_name": "AirSculpt",
+      "absolute_url": "https://job-boards.greenhouse.io/airsculpt/jobs/7727656003",
+      "updated_at": "2026-05-07T14:23:59-04:00",
+      "location": {
+        "name": "White Plains, New York, United States"
+      },
+      "departments": [
+        {
+          "id": 7727656004,
+          "name": "Sales"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AirSculpt.&lt;/strong&gt; Now hiring a Aesthetic Sales Consultant on the Sales team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7747315003,
+      "title": "Aesthetic Sales Consultant",
+      "company_name": "AirSculpt",
+      "absolute_url": "https://job-boards.greenhouse.io/airsculpt/jobs/7747315003",
+      "updated_at": "2026-05-22T18:11:23-04:00",
+      "location": {
+        "name": "Orlando, Florida, United States"
+      },
+      "departments": [
+        {
+          "id": 7747315004,
+          "name": "Sales"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AirSculpt.&lt;/strong&gt; Now hiring a Aesthetic Sales Consultant on the Sales team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

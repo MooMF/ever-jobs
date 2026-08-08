@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 5835663004,
+      "title": "Growth Account Director (UK, Ireland, Netherlands)",
+      "company_name": "Fairmarkit",
+      "absolute_url": "https://job-boards.greenhouse.io/fairmarkit/jobs/5835663004",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "London, UK" },
+      "departments": [{ "id": 1, "name": "Sales" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Growth Account Director&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fairmarkit is the AI-driven autonomous sourcing &amp; tail-spend procurement platform.&lt;/p&gt;"
+    },
+    {
+      "id": 5802084004,
+      "title": "Ð¡ore Software Architect ",
+      "company_name": "Fairmarkit",
+      "absolute_url": "https://job-boards.greenhouse.io/fairmarkit/jobs/5802084004",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 2, "name": "International Operations " }],
+      "content": "&lt;p&gt;Lead Fairmarkit's Core Software Architect function across the e-procurement platform stack.&lt;/p&gt;"
+    }
+  ]
+}

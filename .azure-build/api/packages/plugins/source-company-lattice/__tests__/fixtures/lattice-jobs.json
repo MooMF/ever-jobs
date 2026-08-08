@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 8483245002,
+      "title": "Account Executive, Mid-Market",
+      "company_name": "Lattice",
+      "absolute_url": "https://lattice.com/job?gh_jid=8483245002",
+      "updated_at": "2026-04-30T12:15:32-04:00",
+      "first_published": "2026-03-21T09:00:00-04:00",
+      "location": { "name": "Remote-US, PST or EST" },
+      "departments": [{ "id": 41001, "name": "Account Executive" }],
+      "offices": [{ "id": 21001, "name": "Remote - US" }],
+      "content": "&lt;h2&gt;&lt;strong&gt;This is Sales at Lattice&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;We&#39;re expanding our team of dynamic and driven Account Executives at Lattice, and we&#39;re searching for exceptional talent to help us elevate our sales efforts.&lt;/p&gt;&lt;p&gt;The Mid-Market Account Executive partners with companies in the 200&amp;ndash;1,500 employee segment to deliver the Lattice continuous-performance platform.&lt;/p&gt;"
+    },
+    {
+      "id": 8523623002,
+      "title": "Staff Product Manager, AI",
+      "company_name": "Lattice",
+      "absolute_url": "https://lattice.com/job?gh_jid=8523623002",
+      "updated_at": "2026-04-29T10:42:11-04:00",
+      "first_published": "2026-03-15T08:30:00-04:00",
+      "location": { "name": "Remote - Canada" },
+      "departments": [{ "id": 41101, "name": "Product " }],
+      "offices": [{ "id": 21002, "name": "Remote - Canada" }],
+      "content": "&lt;h2&gt;&lt;strong&gt;This is the AI team at Lattice&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;The Staff Product Manager, AI, partners with engineering, design &amp; research to deliver the next generation of Lattice&#39;s AI-driven performance, growth &amp; engagement features.&lt;/p&gt;&lt;p&gt;You&#39;ll own the strategy and roadmap for the Product Org&#39;s AI-native experiences.&lt;/p&gt;"
+    }
+  ]
+}

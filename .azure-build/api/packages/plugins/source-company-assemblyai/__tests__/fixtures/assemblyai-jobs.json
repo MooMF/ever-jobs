@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 4691426005,
+      "title": "Forward Deployed Engineer ",
+      "company_name": "AssemblyAI",
+      "absolute_url": "https://job-boards.greenhouse.io/assemblyai/jobs/4691426005",
+      "updated_at": "2026-04-15T10:00:00-07:00",
+      "location": { "name": "Remote - San Francisco OR New York" },
+      "departments": [{ "id": 1, "name": "Customer Experience " }],
+      "content": "&lt;p&gt;&lt;strong&gt;Forward Deployed Engineer&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;AssemblyAI is the developer-API speech-to-text platform &amp; we ship the Universal-2 / Universal Streaming low-latency transcription model.&lt;/p&gt;"
+    },
+    {
+      "id": 4688321005,
+      "title": "Senior Research Scientist",
+      "company_name": "AssemblyAI",
+      "absolute_url": "https://job-boards.greenhouse.io/assemblyai/jobs/4688321005",
+      "updated_at": "2026-04-20T10:00:00-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 2, "name": "Research " }],
+      "content": "&lt;p&gt;Lead AssemblyAI's research team on the Universal-2 speech-AI stack.&lt;/p&gt;"
+    }
+  ]
+}

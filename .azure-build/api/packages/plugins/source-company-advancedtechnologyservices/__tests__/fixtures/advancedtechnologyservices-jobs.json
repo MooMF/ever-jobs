@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4660699006,
+      "title": "Almacenista ",
+      "company_name": "Advanced Technology Services",
+      "absolute_url": "https://job-boards.greenhouse.io/advancedtechnologyservices/jobs/4660699006",
+      "updated_at": "2026-05-27T11:15:11-04:00",
+      "location": {
+        "name": "Mexico- Queretaro, Queretaro"
+      },
+      "departments": [
+        {
+          "id": 4660699007,
+          "name": "Maintenance Technician "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Advanced Technology Services.&lt;/strong&gt; Now hiring a Almacenista on the Maintenance Technician team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4680995006,
+      "title": "Almacenista",
+      "company_name": "Advanced Technology Services",
+      "absolute_url": "https://job-boards.greenhouse.io/advancedtechnologyservices/jobs/4680995006",
+      "updated_at": "2026-05-22T12:15:35-04:00",
+      "location": {
+        "name": "Mexico- Santa Catarina,"
+      },
+      "departments": [
+        {
+          "id": 4680995007,
+          "name": "Site Operations Support"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Advanced Technology Services.&lt;/strong&gt; Now hiring a Almacenista on the Site Operations Support team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4680376006,
+      "title": "Building Mechanic/Pipefitter",
+      "company_name": "Advanced Technology Services",
+      "absolute_url": "https://job-boards.greenhouse.io/advancedtechnologyservices/jobs/4680376006",
+      "updated_at": "2026-05-18T13:48:49-04:00",
+      "location": {
+        "name": "United States- Mossville, Illinois"
+      },
+      "departments": [
+        {
+          "id": 4680376007,
+          "name": "Maintenance Technician"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Advanced Technology Services.&lt;/strong&gt; Now hiring a Building Mechanic/Pipefitter on the Maintenance Technician team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "../../../dist/packages/source-ats-hron",
+    "declaration": true
+  },
+  "include": ["src/**/*"]
+}

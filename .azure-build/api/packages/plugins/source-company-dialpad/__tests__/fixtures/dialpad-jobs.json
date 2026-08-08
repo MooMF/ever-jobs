@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 8367059002,
+      "title": "AI Engineer, Real-Time Voice",
+      "company_name": "Dialpad",
+      "absolute_url": "https://job-boards.greenhouse.io/dialpad/jobs/8367059002",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 1, "name": "214 - AI Engineering" }],
+      "content": "&lt;p&gt;&lt;strong&gt;AI Engineer, Real-Time Voice&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Dialpad is the AI-native business-communications platform pioneered around unified-AI-voice-meetings-messaging-contact-center &amp; the AI-business-communications segment.&lt;/p&gt;"
+    },
+    {
+      "id": 8492137003,
+      "title": "Product Operations Manager",
+      "company_name": "Dialpad",
+      "absolute_url": "https://job-boards.greenhouse.io/dialpad/jobs/8492137003",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Vancouver, BC, Canada" },
+      "departments": [{ "id": 2, "name": "120 - Product Operations" }],
+      "content": "&lt;p&gt;Lead Dialpad's Product Operations function across the Ai Voice / Ai Meetings / Ai Contact Center platform.&lt;/p&gt;"
+    }
+  ]
+}

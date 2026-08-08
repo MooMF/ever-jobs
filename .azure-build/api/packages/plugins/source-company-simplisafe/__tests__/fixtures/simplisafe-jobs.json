@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7859472,
+      "title": "Customer Analytics Manager, Activations & Adoption ",
+      "company_name": "SimpliSafe",
+      "absolute_url": "https://job-boards.greenhouse.io/simplisafe/jobs/7859472",
+      "updated_at": "2026-04-29T10:00:00-07:00",
+      "location": { "name": "Richmond, VA" },
+      "departments": [{ "id": 1, "name": "Marketing" }],
+      "content": "&lt;p&gt;&lt;strong&gt;About SimpliSafe&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;SimpliSafe is the dominant DIY wireless home-security-as-a-service platform pioneered around the self-install professionally-monitored security data model.&lt;/p&gt;"
+    },
+    {
+      "id": 7819412,
+      "title": "Senior Automation Engineer (Firmware) ",
+      "company_name": "SimpliSafe",
+      "absolute_url": "https://job-boards.greenhouse.io/simplisafe/jobs/7819412",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 2, "name": "Engineering" }],
+      "content": "&lt;p&gt;Lead SimpliSafe's firmware automation across the wireless home-security platform &amp; smart-home ecosystem.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7681127003,
+      "title": "Implementation Manager",
+      "company_name": "Shopmonkey",
+      "absolute_url": "https://boards.greenhouse.io/shopmonkey/jobs/7681127003?gh_jid=7681127003",
+      "updated_at": "2026-04-30T10:00:00-07:00",
+      "location": { "name": "Hybrid - Morgan Hill, California" },
+      "departments": [{ "id": 1, "name": "Implementation" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Implementation Manager&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Shopmonkey is the vertical-SaaS shop-management + point-of-sale platform pioneered around the all-in-one auto-repair-shop &amp; collision-shop operations data model.&lt;/p&gt;"
+    },
+    {
+      "id": 7603071003,
+      "title": "Senior Software Engineer, Platform",
+      "company_name": "Shopmonkey",
+      "absolute_url": "https://boards.greenhouse.io/shopmonkey/jobs/7603071003?gh_jid=7603071003",
+      "updated_at": "2026-05-01T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 2, "name": "Engineering" }],
+      "content": "&lt;p&gt;Lead Shopmonkey's Platform engineering function across Shopmonkey Cloud / Shopmonkey Pay / Shopmonkey Marketing / Shopmonkey Reporting.&lt;/p&gt;"
+    }
+  ]
+}

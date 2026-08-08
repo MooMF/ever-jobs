@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5130839004,
+      "title": "Art Director ",
+      "company_name": "APPARATUS",
+      "absolute_url": "https://job-boards.greenhouse.io/apparatus/jobs/5130839004",
+      "updated_at": "2026-05-19T11:40:00-04:00",
+      "location": {
+        "name": "New York Studio"
+      },
+      "departments": [
+        {
+          "id": 5130839005,
+          "name": "ART DEPARTMENT "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About APPARATUS.&lt;/strong&gt; Now hiring a Art Director on the ART DEPARTMENT team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4513005004,
+      "title": "Assembly Assistant Manager",
+      "company_name": "APPARATUS",
+      "absolute_url": "https://job-boards.greenhouse.io/apparatus/jobs/4513005004",
+      "updated_at": "2026-05-19T11:40:00-04:00",
+      "location": {
+        "name": "Red Hook Production"
+      },
+      "departments": [
+        {
+          "id": 4513005005,
+          "name": "PRODUCTION"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About APPARATUS.&lt;/strong&gt; Now hiring a Assembly Assistant Manager on the PRODUCTION team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5343107004,
+      "title": "Assembly Associate",
+      "company_name": "APPARATUS",
+      "absolute_url": "https://job-boards.greenhouse.io/apparatus/jobs/5343107004",
+      "updated_at": "2026-05-19T11:40:00-04:00",
+      "location": {
+        "name": "Red Hook Production"
+      },
+      "departments": [
+        {
+          "id": 5343107005,
+          "name": "PRODUCTION"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About APPARATUS.&lt;/strong&gt; Now hiring a Assembly Associate on the PRODUCTION team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

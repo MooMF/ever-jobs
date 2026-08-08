@@ -1,0 +1,29 @@
+{
+  "jobs": [
+    {
+      "id": 8441719002,
+      "title": "Senior UX Engineer (Marketing)",
+      "company_name": "Netlify",
+      "absolute_url": "https://job-boards.greenhouse.io/netlify/jobs/8441719002",
+      "updated_at": "2026-04-30T17:55:02-04:00",
+      "first_published": "2026-03-23T10:10:46-04:00",
+      "location": { "name": "Remote" },
+      "departments": [{ "id": 4010909002, "name": "R&D" }],
+      "offices": [{ "id": 4043380002, "name": "Remote" }],
+      "content": "&lt;p&gt;&lt;strong&gt;About the Team:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;At Netlify, our mission is to empower developers to move faster with solutions that are intuitive, powerful, and a joy to use.&amp;nbsp;As a Senior UX Engineer, you&#39;ll drive the experience across our marketing site and product app &amp;mdash; spending the majority of your time on Netlify&amp;rsquo;s marketing site, shaping how millions of developers discover and adopt the Netlify Edge Network, Netlify Functions, Netlify Edge Functions, Netlify Forms, Netlify Identity, Netlify Build, and Netlify Connect product lines.&lt;/p&gt;&lt;p&gt;You&amp;rsquo;ll partner with Design, Product, and Engineering to ship marketing-page experiences that load fast on the Netlify Edge Network, instrument them with Netlify Analytics, and deploy them through Netlify Build &amp;mdash; using the same Jamstack tooling our customers rely on every day.&lt;/p&gt;"
+    },
+    {
+      "id": 4224129002,
+      "title": "Your Chance to Join Our Talent Community!",
+      "company_name": "Netlify",
+      "absolute_url": "https://job-boards.greenhouse.io/netlify/jobs/4224129002",
+      "updated_at": "2026-04-29T11:30:00-04:00",
+      "first_published": "2026-01-15T10:00:00-05:00",
+      "location": { "name": "Remote" },
+      "departments": [{ "id": 4010910002, "name": "G&A" }],
+      "offices": [{ "id": 4043380002, "name": "Remote" }],
+      "content": "&lt;p&gt;Don&#39;t see a role that fits today? Join the Netlify Talent Community to stay close to future openings across the General &amp;amp; Administrative function &amp;mdash; covering People Operations, Legal, Finance, and IT &amp;mdash; and be the first to hear when we open Netlify roles aligned to your background.&lt;/p&gt;"
+    }
+  ],
+  "meta": { "total": 2 }
+}

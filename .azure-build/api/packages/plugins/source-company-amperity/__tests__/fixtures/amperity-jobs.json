@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 7826735,
+      "title": "Lead Customer Success Manager ",
+      "company_name": "Amperity",
+      "absolute_url": "https://job-boards.greenhouse.io/amperity/jobs/7826735",
+      "updated_at": "2026-04-17T16:39:41-04:00",
+      "location": {
+        "name": "New York, NY"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Amperity.&lt;/strong&gt; Now hiring a Lead Customer Success Manager on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7665469,
+      "title": "Lead Machine Learning Engineer",
+      "company_name": "Amperity",
+      "absolute_url": "https://job-boards.greenhouse.io/amperity/jobs/7665469",
+      "updated_at": "2026-04-03T17:20:58-04:00",
+      "location": {
+        "name": "Seattle, WA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Amperity.&lt;/strong&gt; Now hiring a Lead Machine Learning Engineer on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7739814,
+      "title": "Lead Pre-Sales Solutions Consultant",
+      "company_name": "Amperity",
+      "absolute_url": "https://job-boards.greenhouse.io/amperity/jobs/7739814",
+      "updated_at": "2026-04-03T17:20:58-04:00",
+      "location": {
+        "name": "London, UK"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Amperity.&lt;/strong&gt; Now hiring a Lead Pre-Sales Solutions Consultant on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

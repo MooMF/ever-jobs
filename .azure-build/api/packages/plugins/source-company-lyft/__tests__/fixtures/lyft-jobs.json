@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 7901234,
+      "title": "Senior Software Engineer, Rideshare Marketplace",
+      "absolute_url": "https://boards.greenhouse.io/lyft/jobs/7901234",
+      "updated_at": "2026-04-29T15:00:00.000Z",
+      "first_published": "2026-04-19T08:00:00.000Z",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 310, "name": "Engineering" }],
+      "offices": [{ "id": 321, "name": "San Francisco" }],
+      "content": "<p><strong>About the role</strong></p><p>Lead matching-and-pricing service development for Lyft's rideshare marketplace handling tens of millions of trip-events per day.</p><ul><li>Distributed-systems experience required</li></ul>"
+    },
+    {
+      "id": 7902345,
+      "title": "Senior Manager, Driver-Trust Policy",
+      "absolute_url": "https://boards.greenhouse.io/lyft/jobs/7902345",
+      "updated_at": "2026-04-30T11:30:00.000Z",
+      "first_published": "2026-04-23T07:00:00.000Z",
+      "location": { "name": "Remote — USA" },
+      "departments": [{ "id": 311, "name": "Trust and Safety" }],
+      "offices": [{ "id": 322, "name": "Remote" }],
+      "content": "<p>Own Lyft's driver-trust policy roadmap across community guidelines, fraud-vector response, and account-recovery flows.</p>"
+    }
+  ],
+  "meta": { "total": 2 }
+}

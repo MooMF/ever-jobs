@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 6997769003,
+      "title": "1st Shift - Load-out Associate ",
+      "company_name": "Misfits Market",
+      "absolute_url": "https://job-boards.greenhouse.io/misfitsmarket/jobs/6997769003",
+      "updated_at": "2026-04-15T10:00:00-07:00",
+      "location": { "name": "Northlake IL" },
+      "departments": [{ "id": 1, "name": "Distribution" }],
+      "content": "&lt;p&gt;&lt;strong&gt;1st Shift Load-out Associate&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Misfits Market is the leading imperfect-produce subscription &amp; cold-chain D2C grocery platform.&lt;/p&gt;"
+    },
+    {
+      "id": 7640527003,
+      "title": "Director, Performance Marketing",
+      "company_name": "Misfits Market",
+      "absolute_url": "https://job-boards.greenhouse.io/misfitsmarket/jobs/7640527003",
+      "updated_at": "2026-04-20T10:00:00-07:00",
+      "location": { "name": "Remote" },
+      "departments": [{ "id": 2, "name": "Marketing" }],
+      "content": "&lt;p&gt;Lead Misfits Market's performance marketing function.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 7625525003,
+      "title": "Account Executive, Ingredients Club ",
+      "company_name": "CookUnity",
+      "absolute_url": "https://job-boards.greenhouse.io/cookunity/jobs/7625525003",
+      "updated_at": "2026-05-19T10:33:46-04:00",
+      "location": {
+        "name": "Los Angeles, California, United States; New York, New York, United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About CookUnity.&lt;/strong&gt; Now hiring a Account Executive, Ingredients Club on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7763061003,
+      "title": "Accounting Lead",
+      "company_name": "CookUnity",
+      "absolute_url": "https://job-boards.greenhouse.io/cookunity/jobs/7763061003",
+      "updated_at": "2026-06-03T17:02:14-04:00",
+      "location": {
+        "name": "New York, New York, United States; San Francisco, California, United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About CookUnity.&lt;/strong&gt; Now hiring a Accounting Lead on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7718655003,
+      "title": "AI Native Engineer, Growth Marketing",
+      "company_name": "CookUnity",
+      "absolute_url": "https://job-boards.greenhouse.io/cookunity/jobs/7718655003",
+      "updated_at": "2026-05-19T12:48:39-04:00",
+      "location": {
+        "name": "United States (Remote)"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About CookUnity.&lt;/strong&gt; Now hiring a AI Native Engineer, Growth Marketing on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

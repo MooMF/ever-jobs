@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5105646007,
+      "title": "Business Operations Manager ",
+      "company_name": "Vannevar Labs",
+      "absolute_url": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5105646007",
+      "updated_at": "2026-04-27T12:02:33-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 5105646008,
+          "name": "Operations "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Vannevar Labs.&lt;/strong&gt; Now hiring a Business Operations Manager on the Operations team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5092215007,
+      "title": "Capture Manager - Clearance Required",
+      "company_name": "Vannevar Labs",
+      "absolute_url": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5092215007",
+      "updated_at": "2026-04-13T16:48:10-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 5092215008,
+          "name": "Business Development"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Vannevar Labs.&lt;/strong&gt; Now hiring a Capture Manager - Clearance Required on the Business Development team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5140427007,
+      "title": "Controller",
+      "company_name": "Vannevar Labs",
+      "absolute_url": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5140427007",
+      "updated_at": "2026-05-18T14:13:00-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 5140427008,
+          "name": "Finance"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Vannevar Labs.&lt;/strong&gt; Now hiring a Controller on the Finance team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

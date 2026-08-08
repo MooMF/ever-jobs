@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 4223647009,
+      "title": "Community Manager ",
+      "company_name": "StackBlitz",
+      "absolute_url": "https://job-boards.greenhouse.io/stackblitz/jobs/4223647009",
+      "updated_at": "2026-05-22T18:21:26-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About StackBlitz.&lt;/strong&gt; Now hiring a Community Manager on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4252900009,
+      "title": "Customer Enablement Lead",
+      "company_name": "StackBlitz",
+      "absolute_url": "https://job-boards.greenhouse.io/stackblitz/jobs/4252900009",
+      "updated_at": "2026-05-22T18:21:26-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About StackBlitz.&lt;/strong&gt; Now hiring a Customer Enablement Lead on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4100975009,
+      "title": "Customer Experience Engineer",
+      "company_name": "StackBlitz",
+      "absolute_url": "https://job-boards.greenhouse.io/stackblitz/jobs/4100975009",
+      "updated_at": "2026-05-22T18:21:25-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About StackBlitz.&lt;/strong&gt; Now hiring a Customer Experience Engineer on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

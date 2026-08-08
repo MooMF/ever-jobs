@@ -1,0 +1,6 @@
+{
+  "_comment": "Spec 013 / T10 — Tesla-Playwright per-job detail envelope for listing 300003. Exercises the SINGLE-field path: only jobCompensationAndBenefits populated; the other three fields are omitted. composeDescription() should emit a one-section string with the `Compensation & Benefits:` label. Mirrors source-tesla T08 / DETAIL_200003's shape.",
+  "jobCompensationAndBenefits": "Hourly compensation range: $34 — $48 USD. Shift differential available for swing / graveyard slots. Health insurance, retirement benefits and on-site cafeteria included.",
+  "department": "Manufacturing",
+  "timeType": "Full time"
+}

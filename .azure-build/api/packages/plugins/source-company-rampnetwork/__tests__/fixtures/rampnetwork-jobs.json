@@ -1,0 +1,29 @@
+{
+  "jobs": [
+    {
+      "id": 4830509101,
+      "title": "Senior Management Accountant - 6 month FTC",
+      "company_name": "Ramp Network",
+      "absolute_url": "https://job-boards.eu.greenhouse.io/rampnetwork/jobs/4830509101",
+      "updated_at": "2026-04-28T12:25:37-04:00",
+      "first_published": "2026-04-02T11:29:22-04:00",
+      "location": { "name": "Poland Remote" },
+      "departments": [{ "id": 4024098101, "name": "Finance" }],
+      "offices": [{ "id": 4013100101, "name": "Warsaw" }],
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;Join the Web3 revolution at Ramp Network!&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;We&amp;rsquo;re looking for a remote fixed-term Senior Management Accountant who can&amp;#39;t stop building reliable monthly close workflows on the Ramp Network on-ramp and off-ramp products.&lt;/p&gt;&lt;p&gt;You&amp;rsquo;ll partner with Ramp&amp;rsquo;s Finance team &amp;mdash; covering the Pay-Outs API platform, the Compliance &amp;amp; KYC stack, and the B2B SDK billing reconciliation flow &amp;mdash; to deliver accurate and timely financial deliverables.&lt;/p&gt;"
+    },
+    {
+      "id": 4830509202,
+      "title": "Staff Engineer, Compliance Platform",
+      "company_name": "Ramp Network",
+      "absolute_url": "https://job-boards.eu.greenhouse.io/rampnetwork/jobs/4830509202",
+      "updated_at": "2026-04-29T08:00:00-04:00",
+      "first_published": "2026-04-10T09:00:00-04:00",
+      "location": { "name": "London, United Kingdom" },
+      "departments": [{ "id": 4024098202, "name": "Engineering" }],
+      "offices": [{ "id": 4013100202, "name": "London" }],
+      "content": "&lt;p&gt;Build the Ramp Network Compliance &amp; KYC platform &amp;mdash; the AML / KYC / fraud-prevention layer that wraps every fiat-to-crypto and crypto-to-fiat transaction.&lt;/p&gt;&lt;p&gt;Ramp&amp;rsquo;s mission is to bridge the gap between today&amp;#39;s financial system and the emerging crypto economy. The Compliance Platform team is the regulatory backbone underneath every product line &amp;mdash; the on-ramp widget, the off-ramp widget, the Pay-Outs API, and the B2B SDK.&lt;/p&gt;"
+    }
+  ],
+  "meta": { "total": 2 }
+}

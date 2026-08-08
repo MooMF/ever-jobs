@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 8120341002,
+      "title": "Data Science Analyst ",
+      "company_name": "Tatari",
+      "absolute_url": "https://job-boards.greenhouse.io/tatari/jobs/8120341002",
+      "updated_at": "2026-04-30T10:00:00-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 1, "name": "Data Science" }],
+      "content": "&lt;p&gt;&lt;strong&gt;About Tatari&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Tatari is the dominant streaming-and-linear-TV connected-attribution advertising-analytics platform pioneered around the cross-channel incremental-lift / unique-reach measurement data model.&lt;/p&gt;"
+    },
+    {
+      "id": 8481616002,
+      "title": "Senior Software Engineer, Platform",
+      "company_name": "Tatari",
+      "absolute_url": "https://job-boards.greenhouse.io/tatari/jobs/8481616002",
+      "updated_at": "2026-04-28T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 2, "name": "Engineering" }],
+      "content": "&lt;p&gt;Lead Tatari's platform engineering across the streaming-TV attribution &amp; CTV measurement ecosystem.&lt;/p&gt;"
+    }
+  ]
+}

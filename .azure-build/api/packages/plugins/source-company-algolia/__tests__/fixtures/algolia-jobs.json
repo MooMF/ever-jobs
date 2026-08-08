@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5842399004,
+      "title": "Commercial Account Executive, DACH ",
+      "company_name": "Algolia",
+      "absolute_url": "https://job-boards.greenhouse.io/algolia/jobs/5842399004",
+      "updated_at": "2026-06-01T10:34:06-04:00",
+      "location": {
+        "name": "Paris, France"
+      },
+      "departments": [
+        {
+          "id": 5842399005,
+          "name": "Direct Sales "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Algolia.&lt;/strong&gt; Now hiring a Commercial Account Executive, DACH on the Direct Sales team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5854606004,
+      "title": "Commercial Account Executive, DACH",
+      "company_name": "Algolia",
+      "absolute_url": "https://job-boards.greenhouse.io/algolia/jobs/5854606004",
+      "updated_at": "2026-06-01T10:34:06-04:00",
+      "location": {
+        "name": "Remote - Germany"
+      },
+      "departments": [
+        {
+          "id": 5854606005,
+          "name": "Direct Sales"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Algolia.&lt;/strong&gt; Now hiring a Commercial Account Executive, DACH on the Direct Sales team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5854568004,
+      "title": "Commercial Account Executive, DACH",
+      "company_name": "Algolia",
+      "absolute_url": "https://job-boards.greenhouse.io/algolia/jobs/5854568004",
+      "updated_at": "2026-06-01T10:34:06-04:00",
+      "location": {
+        "name": "London, England"
+      },
+      "departments": [
+        {
+          "id": 5854568005,
+          "name": "Direct Sales"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Algolia.&lt;/strong&gt; Now hiring a Commercial Account Executive, DACH on the Direct Sales team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

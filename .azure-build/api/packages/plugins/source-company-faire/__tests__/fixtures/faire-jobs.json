@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 8510205002,
+      "title": "Production Designer, Brand ",
+      "company_name": "Faire",
+      "absolute_url": "https://boards.greenhouse.io/faire/jobs/8510205002?gh_jid=8510205002",
+      "updated_at": "2026-04-15T12:09:07-07:00",
+      "first_published": "2026-03-08T11:30:00-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 4095739002, "name": "Customer Support Management" }],
+      "offices": [{ "id": 4321, "name": "San Francisco" }],
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;About Faire&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Faire is a technology wholesale marketplace that connects independent retailers with the brands they love. We&#39;re building &lt;em&gt;modern&lt;/em&gt; tools for small businesses to thrive online and in-store across the United States, Canada, the United Kingdom, and Europe.&lt;/p&gt;&lt;p&gt;As a &lt;strong&gt;Production Designer&lt;/strong&gt; on the Brand team, you&rsquo;ll partner with Marketing, Brand, and Creative to ship campaign assets across paid, owned, and organic surfaces.&lt;/p&gt;"
+    },
+    {
+      "id": 8400765002,
+      "title": "Senior Software Engineer, Marketplace",
+      "company_name": "Faire",
+      "absolute_url": "https://boards.greenhouse.io/faire/jobs/8400765002?gh_jid=8400765002",
+      "updated_at": "2026-04-22T14:18:51-07:00",
+      "first_published": "2026-03-25T11:00:00-07:00",
+      "location": { "name": "Toronto, Canada" },
+      "departments": [{ "id": 4095800002, "name": "Engineering" }],
+      "offices": [{ "id": 4322, "name": "Toronto" }],
+      "content": "&lt;p&gt;Faire&rsquo;s &lt;strong&gt;Marketplace&lt;/strong&gt; team is looking for a Senior Software Engineer to scale the wholesale-buying flagship across Postgres, Kotlin, and React. You&#39;ll work closely with Product, Design, and Faire Direct to ship checkout, search, and personalisation experiences used by hundreds of thousands of retailers and brands every week.&lt;/p&gt;&lt;p&gt;You&rsquo;ll partner with Faire Insider and Faire Logistics to drive the platform roadmap to scale across North America, the United Kingdom, and Europe. The role is hybrid in our Toronto engineering hub.&lt;/p&gt;"
+    }
+  ]
+}

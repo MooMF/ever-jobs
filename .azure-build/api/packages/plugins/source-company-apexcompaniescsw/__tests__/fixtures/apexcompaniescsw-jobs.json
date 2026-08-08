@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5231229008,
+      "title": "Emergency Reponse Manager (Stormwater) ",
+      "company_name": "Apex Companies - CSW",
+      "absolute_url": "https://job-boards.greenhouse.io/apexcompaniescsw/jobs/5231229008",
+      "updated_at": "2026-05-26T13:39:56-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 5231229009,
+          "name": "038 CSW "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Apex Companies - CSW.&lt;/strong&gt; Now hiring a Emergency Reponse Manager (Stormwater) on the 038 CSW team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5231377008,
+      "title": "Erosion Control Foreman ",
+      "company_name": "Apex Companies - CSW",
+      "absolute_url": "https://job-boards.greenhouse.io/apexcompaniescsw/jobs/5231377008",
+      "updated_at": "2026-05-26T14:46:58-04:00",
+      "location": {
+        "name": "Livermore, CA"
+      },
+      "departments": [
+        {
+          "id": 5231377009,
+          "name": "450 SWIMS"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Apex Companies - CSW.&lt;/strong&gt; Now hiring a Erosion Control Foreman on the 450 SWIMS team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5208839008,
+      "title": "Laborer/Technician/Driver - SWIMS ",
+      "company_name": "Apex Companies - CSW",
+      "absolute_url": "https://job-boards.greenhouse.io/apexcompaniescsw/jobs/5208839008",
+      "updated_at": "2026-05-18T14:34:50-04:00",
+      "location": {
+        "name": "Jurupa Valley, CA"
+      },
+      "departments": [
+        {
+          "id": 5208839009,
+          "name": "450 SWIMS"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Apex Companies - CSW.&lt;/strong&gt; Now hiring a Laborer/Technician/Driver - SWIMS on the 450 SWIMS team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

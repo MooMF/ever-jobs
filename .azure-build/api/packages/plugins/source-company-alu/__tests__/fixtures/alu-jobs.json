@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 7765584,
+      "title": "Adjunct Software Engineering Learning Coach ",
+      "company_name": "ALU",
+      "absolute_url": "https://job-boards.greenhouse.io/alu/jobs/7765584",
+      "updated_at": "2026-03-30T07:49:47-04:00",
+      "location": {
+        "name": "Rwanda"
+      },
+      "departments": [
+        {
+          "id": 7765585,
+          "name": "ALU RW "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About ALU.&lt;/strong&gt; Now hiring a Adjunct Software Engineering Learning Coach on the ALU RW team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7962795,
+      "title": "Admissions Director ",
+      "company_name": "ALU",
+      "absolute_url": "https://job-boards.greenhouse.io/alu/jobs/7962795",
+      "updated_at": "2026-05-28T08:34:24-04:00",
+      "location": {
+        "name": "Rwanda/Mauritius"
+      },
+      "departments": [
+        {
+          "id": 7962796,
+          "name": "GROW"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About ALU.&lt;/strong&gt; Now hiring a Admissions Director on the GROW team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5040173,
+      "title": "ALU - Faculty Pool",
+      "company_name": "ALU",
+      "absolute_url": "https://job-boards.greenhouse.io/alu/jobs/5040173",
+      "updated_at": "2026-03-11T08:13:32-04:00",
+      "location": {
+        "name": "Mauritius, Rwanda , Remote"
+      },
+      "departments": [
+        {
+          "id": 5040174,
+          "name": "RockStar Radar - ALU Faculty"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About ALU.&lt;/strong&gt; Now hiring a ALU - Faculty Pool on the RockStar Radar - ALU Faculty team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

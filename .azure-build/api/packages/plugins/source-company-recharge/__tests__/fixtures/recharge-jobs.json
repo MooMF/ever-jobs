@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 8500780002,
+      "title": "Engineering Manager, Merchant Experience",
+      "company_name": "Recharge",
+      "absolute_url": "https://job-boards.greenhouse.io/recharge/jobs/8500780002",
+      "updated_at": "2026-04-30T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 1, "name": "Engineering General" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Engineering Manager, Merchant Experience&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Recharge is the Shopify-native subscription-commerce platform pioneered around the recurring-product-billing data model &amp; the Shopify-subscription-commerce segment.&lt;/p&gt;"
+    },
+    {
+      "id": 8464966002,
+      "title": "Strategic Finance Senior Analyst, GTM",
+      "company_name": "Recharge",
+      "absolute_url": "https://job-boards.greenhouse.io/recharge/jobs/8464966002",
+      "updated_at": "2026-04-29T10:00:00-07:00",
+      "location": { "name": "Santa Monica, CA" },
+      "departments": [{ "id": 2, "name": "FP&A" }],
+      "content": "&lt;p&gt;Lead Recharge's Strategic Finance function across the Subscriptions / Customer Portal / Bundles / Rewards platform.&lt;/p&gt;"
+    }
+  ]
+}

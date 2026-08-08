@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 4001538009,
+      "title": "General Application of Interest ",
+      "company_name": "Happy Money",
+      "absolute_url": "https://job-boards.greenhouse.io/happymoney/jobs/4001538009",
+      "updated_at": "2026-04-20T10:23:25-04:00",
+      "location": {
+        "name": "Remote, USA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Happy Money.&lt;/strong&gt; Now hiring a General Application of Interest on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4232376009,
+      "title": "Senior Collections Specialist",
+      "company_name": "Happy Money",
+      "absolute_url": "https://job-boards.greenhouse.io/happymoney/jobs/4232376009",
+      "updated_at": "2026-05-22T14:40:31-04:00",
+      "location": {
+        "name": "Remote, USA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Happy Money.&lt;/strong&gt; Now hiring a Senior Collections Specialist on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4229780009,
+      "title": "Senior Manager, Data Strategy & Analytics",
+      "company_name": "Happy Money",
+      "absolute_url": "https://job-boards.greenhouse.io/happymoney/jobs/4229780009",
+      "updated_at": "2026-04-22T11:48:08-04:00",
+      "location": {
+        "name": "Remote, USA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Happy Money.&lt;/strong&gt; Now hiring a Senior Manager, Data Strategy & Analytics on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

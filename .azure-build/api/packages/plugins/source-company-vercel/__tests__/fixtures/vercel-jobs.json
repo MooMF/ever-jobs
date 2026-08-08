@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 5624231004,
+      "title": "Senior Software Engineer, Edge Network",
+      "absolute_url": "https://job-boards.greenhouse.io/vercel/jobs/5624231004",
+      "updated_at": "2026-04-30T15:00:00.000Z",
+      "first_published": "2026-04-21T08:00:00.000Z",
+      "location": { "name": "Hybrid - San Francisco, New York City, Austin" },
+      "departments": [{ "id": 90601, "name": "Engineering" }],
+      "offices": [{ "id": 90701, "name": "US - Hybrid" }],
+      "content": "<p><strong>About Vercel:</strong></p><p>Vercel gives developers the frameworks, workflows, and infrastructure to build a faster, more personalized web. Own the edge network forwarding plane across 100+ POPs so Next.js apps cold-start in &lt;50&nbsp;ms anywhere on Earth.</p><ul><li>Rust / Go / kernel-bypass networking experience required</li></ul>"
+    },
+    {
+      "id": 5624442004,
+      "title": "Developer Advocate, Next.js Frontend Cloud",
+      "absolute_url": "https://job-boards.greenhouse.io/vercel/jobs/5624442004",
+      "updated_at": "2026-04-30T18:30:00.000Z",
+      "first_published": "2026-04-25T09:00:00.000Z",
+      "location": { "name": "Remote - North America" },
+      "departments": [{ "id": 90602, "name": "Developer Relations" }],
+      "offices": [{ "id": 90702, "name": "Remote" }],
+      "content": "<p>Own Vercel's developer-relations motion across the Next.js community and the v0 AI-assisted-development surface — keynote talks, OSS reviews, and conference programming for the global frontend ecosystem.</p>"
+    }
+  ],
+  "meta": { "total": 2 }
+}

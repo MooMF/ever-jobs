@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 7743227,
+      "title": "Associate Merchant ",
+      "company_name": "Brooklinen",
+      "absolute_url": "https://job-boards.greenhouse.io/brooklinen/jobs/7743227",
+      "updated_at": "2026-03-23T12:51:38-04:00",
+      "location": {
+        "name": "New York, New York"
+      },
+      "departments": [
+        {
+          "id": 7743228,
+          "name": "Merchandising "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Brooklinen.&lt;/strong&gt; Now hiring a Associate Merchant on the Merchandising team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7691990,
+      "title": "Director, Business Operations (Product Lifecycle & Go-To Market)",
+      "company_name": "Brooklinen",
+      "absolute_url": "https://job-boards.greenhouse.io/brooklinen/jobs/7691990",
+      "updated_at": "2026-03-08T15:57:18-04:00",
+      "location": {
+        "name": "New York, New York"
+      },
+      "departments": [
+        {
+          "id": 7691991,
+          "name": "Operations"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Brooklinen.&lt;/strong&gt; Now hiring a Director, Business Operations (Product Lifecycle & Go-To Market) on the Operations team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7809733,
+      "title": "Part-time Sales Associate (Chicago)",
+      "company_name": "Brooklinen",
+      "absolute_url": "https://job-boards.greenhouse.io/brooklinen/jobs/7809733",
+      "updated_at": "2026-05-04T14:46:07-04:00",
+      "location": {
+        "name": "Chicago"
+      },
+      "departments": [
+        {
+          "id": 7809734,
+          "name": "Retail"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Brooklinen.&lt;/strong&gt; Now hiring a Part-time Sales Associate (Chicago) on the Retail team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

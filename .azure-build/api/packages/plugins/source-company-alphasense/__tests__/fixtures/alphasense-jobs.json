@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 8490313002,
+      "title": "Account Director, Corporate ",
+      "company_name": "AlphaSense",
+      "absolute_url": "https://job-boards.greenhouse.io/alphasense/jobs/8490313002",
+      "updated_at": "2026-05-14T11:31:56-04:00",
+      "location": {
+        "name": "New York, New York, United States"
+      },
+      "departments": [
+        {
+          "id": 8490313003,
+          "name": "Customer Success "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AlphaSense.&lt;/strong&gt; Now hiring a Account Director, Corporate on the Customer Success team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8523008002,
+      "title": "Account Executive, Enterprise Intelligence",
+      "company_name": "AlphaSense",
+      "absolute_url": "https://job-boards.greenhouse.io/alphasense/jobs/8523008002",
+      "updated_at": "2026-06-01T10:29:58-04:00",
+      "location": {
+        "name": "New York, New York, United States; Remote - United States"
+      },
+      "departments": [
+        {
+          "id": 8523008003,
+          "name": "Financial Services Sales"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AlphaSense.&lt;/strong&gt; Now hiring a Account Executive, Enterprise Intelligence on the Financial Services Sales team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7652459002,
+      "title": "Account Executive, Existing Business",
+      "company_name": "AlphaSense",
+      "absolute_url": "https://job-boards.greenhouse.io/alphasense/jobs/7652459002",
+      "updated_at": "2026-04-02T14:40:58-04:00",
+      "location": {
+        "name": "Remote - United States"
+      },
+      "departments": [
+        {
+          "id": 7652459003,
+          "name": "Financial Services Sales"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AlphaSense.&lt;/strong&gt; Now hiring a Account Executive, Existing Business on the Financial Services Sales team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

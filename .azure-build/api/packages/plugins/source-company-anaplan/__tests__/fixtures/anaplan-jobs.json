@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 8503490002,
+      "title": "Account Executive ",
+      "company_name": "Anaplan",
+      "absolute_url": "https://job-boards.greenhouse.io/anaplan/jobs/8503490002",
+      "updated_at": "2026-05-29T10:02:40-04:00",
+      "location": {
+        "name": "Paris, France"
+      },
+      "departments": [
+        {
+          "id": 8503490003,
+          "name": "Field Sales "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Anaplan.&lt;/strong&gt; Now hiring a Account Executive on the Field Sales team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8469622002,
+      "title": "Account Executive  – Office of the CFO",
+      "company_name": "Anaplan",
+      "absolute_url": "https://job-boards.greenhouse.io/anaplan/jobs/8469622002",
+      "updated_at": "2026-05-29T10:02:40-04:00",
+      "location": {
+        "name": "San Francisco, United States"
+      },
+      "departments": [
+        {
+          "id": 8469622003,
+          "name": "Field Sales"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Anaplan.&lt;/strong&gt; Now hiring a Account Executive  – Office of the CFO on the Field Sales team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8423950002,
+      "title": "Admin & Developer",
+      "company_name": "Anaplan",
+      "absolute_url": "https://job-boards.greenhouse.io/anaplan/jobs/8423950002",
+      "updated_at": "2026-06-02T16:27:35-04:00",
+      "location": {
+        "name": "Gurugram, India"
+      },
+      "departments": [
+        {
+          "id": 8423950003,
+          "name": "Finance"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Anaplan.&lt;/strong&gt; Now hiring a Admin & Developer on the Finance team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

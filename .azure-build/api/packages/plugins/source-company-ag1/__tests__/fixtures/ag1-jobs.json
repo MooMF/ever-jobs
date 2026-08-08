@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5217480008,
+      "title": "Director, Organic Social ",
+      "company_name": "AG1",
+      "absolute_url": "https://job-boards.greenhouse.io/ag1/jobs/5217480008",
+      "updated_at": "2026-05-14T15:34:21-04:00",
+      "location": {
+        "name": "Remote - US "
+      },
+      "departments": [
+        {
+          "id": 5217480009,
+          "name": "Marketing: Communications "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AG1.&lt;/strong&gt; Now hiring a Director, Organic Social on the Marketing: Communications team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5195622008,
+      "title": "EU Ingredient Planner (9 Month Contractor Position)",
+      "company_name": "AG1",
+      "absolute_url": "https://job-boards.greenhouse.io/ag1/jobs/5195622008",
+      "updated_at": "2026-05-20T11:47:44-04:00",
+      "location": {
+        "name": "Ireland or UK"
+      },
+      "departments": [
+        {
+          "id": 5195622009,
+          "name": "Finance: Financial Planning & Analysis"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AG1.&lt;/strong&gt; Now hiring a EU Ingredient Planner (9 Month Contractor Position) on the Finance: Financial Planning & Analysis team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5182949008,
+      "title": "Manager, Paid Media",
+      "company_name": "AG1",
+      "absolute_url": "https://job-boards.greenhouse.io/ag1/jobs/5182949008",
+      "updated_at": "2026-05-19T11:39:57-04:00",
+      "location": {
+        "name": "Remote - Ireland"
+      },
+      "departments": [
+        {
+          "id": 5182949009,
+          "name": "Growth: Acquisition"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AG1.&lt;/strong&gt; Now hiring a Manager, Paid Media on the Growth: Acquisition team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 7683988003,
+      "title": "AI Engineer ",
+      "company_name": "Apiiro",
+      "absolute_url": "https://job-boards.greenhouse.io/apiiro/jobs/7683988003",
+      "updated_at": "2026-04-30T06:39:18-04:00",
+      "location": {
+        "name": "Tel Aviv-Yafo, Tel Aviv District, Israel"
+      },
+      "departments": [
+        {
+          "id": 7683988004,
+          "name": "Engineering "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Apiiro.&lt;/strong&gt; Now hiring a AI Engineer on the Engineering team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 6652315003,
+      "title": "Director of Sales ",
+      "company_name": "Apiiro",
+      "absolute_url": "https://job-boards.greenhouse.io/apiiro/jobs/6652315003",
+      "updated_at": "2026-05-28T06:41:04-04:00",
+      "location": {
+        "name": "East Coast, Remote"
+      },
+      "departments": [
+        {
+          "id": 6652315004,
+          "name": "Sales"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Apiiro.&lt;/strong&gt; Now hiring a Director of Sales on the Sales team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 6213567003,
+      "title": "Product Marketing Manager",
+      "company_name": "Apiiro",
+      "absolute_url": "https://job-boards.greenhouse.io/apiiro/jobs/6213567003",
+      "updated_at": "2025-11-23T11:14:05-05:00",
+      "location": {
+        "name": "Tel Aviv-Yafo, Tel Aviv District, Israel"
+      },
+      "departments": [
+        {
+          "id": 6213567004,
+          "name": "Product"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Apiiro.&lt;/strong&gt; Now hiring a Product Marketing Manager on the Product team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

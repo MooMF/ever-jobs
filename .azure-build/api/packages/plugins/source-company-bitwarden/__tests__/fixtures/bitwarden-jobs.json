@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 7619106003,
+      "title": "Senior Backend Engineer",
+      "company_name": "Bitwarden",
+      "absolute_url": "https://bitwarden.com/careers/7619106003/?gh_jid=7619106003",
+      "updated_at": "2026-04-30T12:15:32-04:00",
+      "first_published": "2026-03-21T09:00:00-04:00",
+      "location": { "name": "Remote, USA" },
+      "departments": [{ "id": 4063436005, "name": "Engineering" }],
+      "offices": [{ "id": 21001, "name": "Remote" }],
+      "content": "&lt;p&gt;Bitwarden is the trusted identity security leader for millions of users worldwide, empowering enterprises, developers, and individuals to securely manage and share sensitive information anywhere.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Senior Backend Engineer partners with Engineering &amp; Product to ship the credential-vault server-side pipelines that power Bitwarden&#39;s end-to-end-encrypted sync &amp; share surfaces.&lt;/p&gt;"
+    },
+    {
+      "id": 7640804003,
+      "title": "Senior Full Stack Software Engineer ",
+      "company_name": "Bitwarden",
+      "absolute_url": "https://bitwarden.com/careers/7640804003/?gh_jid=7640804003",
+      "updated_at": "2026-04-29T10:42:11-04:00",
+      "first_published": "2026-03-15T08:30:00-04:00",
+      "location": { "name": "Remote, EU" },
+      "departments": [{ "id": 4089992005, "name": "Sales" }],
+      "offices": [{ "id": 21002, "name": "Remote" }],
+      "content": "&lt;p&gt;Bitwarden is the trusted identity security leader. The Sales team owns the B2B Bitwarden-for-Business pipeline.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Senior Full Stack Software Engineer partners with Engineering and Sales to ship the customer-facing portal across enterprise cohorts.&lt;/p&gt;"
+    }
+  ]
+}

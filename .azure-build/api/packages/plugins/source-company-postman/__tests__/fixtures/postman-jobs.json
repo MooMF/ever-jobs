@@ -1,0 +1,29 @@
+{
+  "jobs": [
+    {
+      "id": 6340592003,
+      "title": "Account Development Representative",
+      "company_name": "Postman",
+      "absolute_url": "https://job-boards.greenhouse.io/postman/jobs/6340592003",
+      "updated_at": "2026-04-27T15:12:28-04:00",
+      "first_published": "2026-03-12T10:10:46-04:00",
+      "location": { "name": "San Francisco, California, United States" },
+      "departments": [{ "id": 4010909002, "name": "Sales" }],
+      "offices": [{ "id": 4043380002, "name": "San Francisco" }],
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;Who Are We?&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;Postman is the world&#39;s leading API platform, used by more than 45 million developers and 500,000 organizations, including 98% of the Fortune 500. Postman is helping developers and professionals across the globe build the API-first world by simplifying each step of the API lifecycle and streamlining collaboration &amp;mdash; enabling users to create better APIs, faster. Learn more about Postman Workspaces, Postman Collections, Postman Mock Servers, Postman Monitors, Postman Flows, Postman API Network, Postman Public Workspaces, Postman Governance, and Postman Enterprise on postman.com.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;strong&gt;The Opportunity:&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;The Account Development Representative will have the responsibility of uncovering business needs for Strategic &amp;amp; Enterprise Accounts to build a pipeline for the sales organization. The ADR will collaborate with marketing, sales enablement, &amp;amp; management to create campaigns &amp;amp; prospect to develop to the point of handoff for Sales.&lt;/p&gt;"
+    },
+    {
+      "id": 7491395003,
+      "title": "Account Development Representative (Danish Speaking)",
+      "company_name": "Postman",
+      "absolute_url": "https://job-boards.greenhouse.io/postman/jobs/7491395003",
+      "updated_at": "2026-04-29T11:30:00-04:00",
+      "first_published": "2026-04-15T10:00:00-04:00",
+      "location": { "name": "London, UK; Remote, UK" },
+      "departments": [{ "id": 4010910002, "name": "Sales" }],
+      "offices": [{ "id": 4043381002, "name": "London" }],
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;&lt;strong&gt;Who Are We?&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;Postman is the world&#39;s leading API platform, headquartered in San Francisco with offices in Boston, New York, Austin, Tokyo, London, and Bangalore.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;We are looking for a Danish-speaking ADR to drive pipeline across the Nordic region from our London &amp;amp; Remote-UK hub.&lt;/p&gt;"
+    }
+  ],
+  "meta": { "total": 2 }
+}

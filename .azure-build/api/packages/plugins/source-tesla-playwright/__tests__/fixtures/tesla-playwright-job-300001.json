@@ -1,0 +1,9 @@
+{
+  "_comment": "Spec 013 / T10 — Tesla-Playwright per-job detail envelope for listing 300001. Exercises the FULL four-field path: jobDescription + jobResponsibilities + jobRequirements + jobCompensationAndBenefits all populated. composeDescription() should emit a string containing all four labelled sections joined by `\\n\\n` — mirrors source-tesla T08 / DETAIL_200001's shape.",
+  "jobDescription": "Tesla's Vehicle Firmware team is building the embedded software that runs every Tesla vehicle on the road. Join us to design and ship low-latency control systems on bare-metal targets.",
+  "jobResponsibilities": "- Own embedded firmware modules from architecture through field rollout.\n- Collaborate with hardware engineers on bring-up of new ECUs.\n- Author unit + HIL test coverage for safety-critical paths.",
+  "jobRequirements": "- BS in Electrical / Computer Engineering or equivalent.\n- 5+ years C / C++ on resource-constrained MCUs (ARM Cortex-M, Cortex-R).\n- Deep familiarity with CAN, FlexRay, automotive Ethernet stacks.",
+  "jobCompensationAndBenefits": "Base salary range: $180,000 — $260,000 USD. Equity, comprehensive medical / dental / vision, 401(k) with match, on-site amenities at Palo Alto HQ.",
+  "department": "Software & IT",
+  "timeType": "Full time"
+}

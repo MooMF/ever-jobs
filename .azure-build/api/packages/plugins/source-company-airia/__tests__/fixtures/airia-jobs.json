@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4685682007,
+      "title": "Account Executive ",
+      "company_name": "Airia",
+      "absolute_url": "https://job-boards.greenhouse.io/airia/jobs/4685682007",
+      "updated_at": "2025-07-25T10:48:56-04:00",
+      "location": {
+        "name": "London"
+      },
+      "departments": [
+        {
+          "id": 4685682008,
+          "name": "Sales "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Airia.&lt;/strong&gt; Now hiring a Account Executive on the Sales team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4411992007,
+      "title": "Full Stack Engineer",
+      "company_name": "Airia",
+      "absolute_url": "https://job-boards.greenhouse.io/airia/jobs/4411992007",
+      "updated_at": "2025-08-05T13:02:12-04:00",
+      "location": {
+        "name": "Sofia, Bulgaria"
+      },
+      "departments": [
+        {
+          "id": 4411992008,
+          "name": "Software Engineering"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Airia.&lt;/strong&gt; Now hiring a Full Stack Engineer on the Software Engineering team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4765973007,
+      "title": "Graphic Designer (Contractor)",
+      "company_name": "Airia",
+      "absolute_url": "https://job-boards.greenhouse.io/airia/jobs/4765973007",
+      "updated_at": "2025-07-15T11:00:01-04:00",
+      "location": {
+        "name": "Atlanta, GA"
+      },
+      "departments": [
+        {
+          "id": 4765973008,
+          "name": "Marketing"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Airia.&lt;/strong&gt; Now hiring a Graphic Designer (Contractor) on the Marketing team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

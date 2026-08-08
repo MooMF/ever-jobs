@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7704576003,
+      "title": "City Operations Manager - (Michigan)",
+      "company_name": "Bird",
+      "absolute_url": "https://www.bird.co/careers?gh_jid=7704576003",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "Detroit, MI" },
+      "departments": [{ "id": 1, "name": "Operations" }],
+      "content": "&lt;p&gt;&lt;strong&gt;City Operations Manager&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Bird is the shared-electric-scooter micromobility / dockless-vehicle-rental platform pioneered around the consumer-fleet-rental data model.&lt;/p&gt;"
+    },
+    {
+      "id": 7689437003,
+      "title": "Vehicle Mechanic - Bronx, NY ",
+      "company_name": "Bird",
+      "absolute_url": "https://www.bird.co/careers?gh_jid=7689437003",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Bronx, NY" },
+      "departments": [{ "id": 2, "name": "Contractor" }],
+      "content": "&lt;p&gt;Lead Bird's Vehicle Mechanic function across the Bronx, NY field operations &amp; fleet-management infrastructure.&lt;/p&gt;"
+    }
+  ]
+}

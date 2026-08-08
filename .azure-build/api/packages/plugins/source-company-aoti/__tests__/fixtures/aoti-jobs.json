@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4235446009,
+      "title": "1099 Medical Sales Representative (Albany, NY) ",
+      "company_name": "AOTI",
+      "absolute_url": "https://job-boards.greenhouse.io/aoti/jobs/4235446009",
+      "updated_at": "2026-05-28T19:51:15-04:00",
+      "location": {
+        "name": "Albany, New York"
+      },
+      "departments": [
+        {
+          "id": 4235446010,
+          "name": "Sales - Northeast "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AOTI.&lt;/strong&gt; Now hiring a 1099 Medical Sales Representative (Albany, NY) on the Sales - Northeast team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4203854009,
+      "title": "1099 Medical Sales Representative (Pittsburgh, PA)",
+      "company_name": "AOTI",
+      "absolute_url": "https://job-boards.greenhouse.io/aoti/jobs/4203854009",
+      "updated_at": "2026-05-28T19:51:15-04:00",
+      "location": {
+        "name": "Pittsburgh, PA"
+      },
+      "departments": [
+        {
+          "id": 4203854010,
+          "name": "Sales - Mid Atlantic"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AOTI.&lt;/strong&gt; Now hiring a 1099 Medical Sales Representative (Pittsburgh, PA) on the Sales - Mid Atlantic team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4266335009,
+      "title": "1099 Medical Sales Representative (Puerto Rico)",
+      "company_name": "AOTI",
+      "absolute_url": "https://job-boards.greenhouse.io/aoti/jobs/4266335009",
+      "updated_at": "2026-06-02T12:34:57-04:00",
+      "location": {
+        "name": "Puerto Rico"
+      },
+      "departments": [
+        {
+          "id": 4266335010,
+          "name": "Sales - South Central"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AOTI.&lt;/strong&gt; Now hiring a 1099 Medical Sales Representative (Puerto Rico) on the Sales - South Central team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

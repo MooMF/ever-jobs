@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 5819398004,
+      "title": "Computational Biologist ",
+      "company_name": "NewLimit",
+      "absolute_url": "https://job-boards.greenhouse.io/newlimit/jobs/5819398004",
+      "updated_at": "2026-05-26T17:30:32-04:00",
+      "location": {
+        "name": "South San Francisco, CA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About NewLimit.&lt;/strong&gt; Now hiring a Computational Biologist on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5988743004,
+      "title": "Head of Manufacturing",
+      "company_name": "NewLimit",
+      "absolute_url": "https://job-boards.greenhouse.io/newlimit/jobs/5988743004",
+      "updated_at": "2026-05-06T17:30:16-04:00",
+      "location": {
+        "name": "South San Francisco"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About NewLimit.&lt;/strong&gt; Now hiring a Head of Manufacturing on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 6003151004,
+      "title": "Scientific Talent Partner",
+      "company_name": "NewLimit",
+      "absolute_url": "https://job-boards.greenhouse.io/newlimit/jobs/6003151004",
+      "updated_at": "2026-05-21T18:01:27-04:00",
+      "location": {
+        "name": "South San Francisco"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About NewLimit.&lt;/strong&gt; Now hiring a Scientific Talent Partner on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

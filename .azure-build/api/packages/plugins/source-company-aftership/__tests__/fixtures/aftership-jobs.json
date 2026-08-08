@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5839703004,
+      "title": "Legal Counsel (Product & Technology) ",
+      "company_name": "AfterShip",
+      "absolute_url": "https://job-boards.greenhouse.io/aftership/jobs/5839703004",
+      "updated_at": "2026-04-24T15:16:16-04:00",
+      "location": {
+        "name": "Madrid, Spain"
+      },
+      "departments": [
+        {
+          "id": 5839703005,
+          "name": "Legal "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AfterShip.&lt;/strong&gt; Now hiring a Legal Counsel (Product & Technology) on the Legal team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5994385004,
+      "title": "Lifecycle Marketing Manager",
+      "company_name": "AfterShip",
+      "absolute_url": "https://job-boards.greenhouse.io/aftership/jobs/5994385004",
+      "updated_at": "2026-05-13T16:51:53-04:00",
+      "location": {
+        "name": "Vancouver"
+      },
+      "departments": [
+        {
+          "id": 5994385005,
+          "name": "Product"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AfterShip.&lt;/strong&gt; Now hiring a Lifecycle Marketing Manager on the Product team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5981364004,
+      "title": "Manager, Solutions Engineering",
+      "company_name": "AfterShip",
+      "absolute_url": "https://job-boards.greenhouse.io/aftership/jobs/5981364004",
+      "updated_at": "2026-05-11T11:00:49-04:00",
+      "location": {
+        "name": "Utah"
+      },
+      "departments": [
+        {
+          "id": 5981364005,
+          "name": "Sales"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AfterShip.&lt;/strong&gt; Now hiring a Manager, Solutions Engineering on the Sales team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

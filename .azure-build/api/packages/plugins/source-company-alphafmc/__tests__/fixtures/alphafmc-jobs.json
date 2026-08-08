@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 8437261002,
+      "title": "Senior Consultant (Anaplan & Pigment) ",
+      "company_name": "Alpha FMC - UK ",
+      "absolute_url": "https://job-boards.greenhouse.io/alphafmc/jobs/8437261002",
+      "updated_at": "2026-05-26T04:12:01-04:00",
+      "location": {
+        "name": "United Kingdom"
+      },
+      "departments": [
+        {
+          "id": 8437261003,
+          "name": "Enterprise Performance Management "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Alpha FMC - UK .&lt;/strong&gt; Now hiring a Senior Consultant (Anaplan & Pigment) on the Enterprise Performance Management team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7859436002,
+      "title": "UK - BusOps - Junior IT Support Engineer",
+      "company_name": "Alpha FMC - UK ",
+      "absolute_url": "https://job-boards.greenhouse.io/alphafmc/jobs/7859436002",
+      "updated_at": "2026-05-26T04:12:01-04:00",
+      "location": {
+        "name": "United Kingdom"
+      },
+      "departments": [
+        {
+          "id": 7859436003,
+          "name": "Enterprise Technology"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Alpha FMC - UK .&lt;/strong&gt; Now hiring a UK - BusOps - Junior IT Support Engineer on the Enterprise Technology team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7264871002,
+      "title": "UK - Lionpoint - LPS - Senior Consultant",
+      "company_name": "Alpha FMC - UK ",
+      "absolute_url": "https://job-boards.greenhouse.io/alphafmc/jobs/7264871002",
+      "updated_at": "2026-05-26T04:12:01-04:00",
+      "location": {
+        "name": "United Kingdom"
+      },
+      "departments": [
+        {
+          "id": 7264871003,
+          "name": "Limited Partner Services"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Alpha FMC - UK .&lt;/strong&gt; Now hiring a UK - Lionpoint - LPS - Senior Consultant on the Limited Partner Services team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

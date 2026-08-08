@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7278850,
+      "title": "Senior Customer Success Manager",
+      "company_name": "Symphony Communication Services",
+      "absolute_url": "https://symphony.com/company/apply?gh_jid=7278850",
+      "updated_at": "2026-04-29T10:00:00-07:00",
+      "location": { "name": "New York, NY" },
+      "departments": [{ "id": 1, "name": "Customer Experience " }],
+      "content": "&lt;p&gt;&lt;strong&gt;About Symphony Communication Services&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Symphony is the dominant institutional-grade encrypted-collaboration-as-a-service platform pioneered around the financial-services secure-messaging data model.&lt;/p&gt;"
+    },
+    {
+      "id": 7795710,
+      "title": "Staff Software Engineer",
+      "company_name": "Symphony Communication Services",
+      "absolute_url": "https://symphony.com/company/apply?gh_jid=7795710",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Sophia Antipolis, Remote" },
+      "departments": [{ "id": 2, "name": "Engineering" }],
+      "content": "&lt;p&gt;Lead Symphony's engineering across the encrypted-collaboration platform &amp; institutional-finance ecosystem.&lt;/p&gt;"
+    }
+  ]
+}

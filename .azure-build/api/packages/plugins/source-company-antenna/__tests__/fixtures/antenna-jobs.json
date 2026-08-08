@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 6010609004,
+      "title": "Customer Success Manager ",
+      "company_name": "Antenna",
+      "absolute_url": "https://job-boards.greenhouse.io/antenna/jobs/6010609004",
+      "updated_at": "2026-06-02T17:32:16-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 6010609005,
+          "name": "Customer Success "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Antenna.&lt;/strong&gt; Now hiring a Customer Success Manager on the Customer Success team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4031054004,
+      "title": "General Application",
+      "company_name": "Antenna",
+      "absolute_url": "https://job-boards.greenhouse.io/antenna/jobs/4031054004",
+      "updated_at": "2025-01-06T07:04:44-05:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 4031054005,
+          "name": "General Application"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Antenna.&lt;/strong&gt; Now hiring a General Application on the General Application team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5816551004,
+      "title": "Sales Director",
+      "company_name": "Antenna",
+      "absolute_url": "https://job-boards.greenhouse.io/antenna/jobs/5816551004",
+      "updated_at": "2026-03-02T10:47:02-05:00",
+      "location": {
+        "name": "Remote, US"
+      },
+      "departments": [
+        {
+          "id": 5816551005,
+          "name": "Sales & Account Management"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Antenna.&lt;/strong&gt; Now hiring a Sales Director on the Sales & Account Management team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

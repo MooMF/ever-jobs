@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 7246274,
+      "title": "Account Manager ",
+      "company_name": "Mixpanel",
+      "absolute_url": "https://job-boards.greenhouse.io/mixpanel/jobs/7246274",
+      "updated_at": "2026-04-15T12:09:07-07:00",
+      "first_published": "2026-03-08T11:30:00-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 12871, "name": "Sales" }],
+      "offices": [{ "id": 4321, "name": "San Francisco" }],
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Mixpanel is the leading event-based product analytics platform that helps companies understand how users engage with their products. Our customers&#39; teams use Mixpanel to ship better products faster.&lt;/p&gt;&lt;p&gt;As an &lt;strong&gt;Account Manager&lt;em&gt; &lt;/em&gt;&lt;/strong&gt;, you&rsquo;ll own a book of mid-market customers across North America, partnering with Customer Success and Solutions Engineering to drive expansion and renewals on the Mixpanel Analytics flagship.&lt;/p&gt;"
+    },
+    {
+      "id": 7665696,
+      "title": "Senior Software Engineer, Insights",
+      "company_name": "Mixpanel",
+      "absolute_url": "https://job-boards.greenhouse.io/mixpanel/jobs/7665696",
+      "updated_at": "2026-04-22T14:18:51-07:00",
+      "first_published": "2026-03-25T11:00:00-07:00",
+      "location": { "name": "Bangalore, India" },
+      "departments": [{ "id": 12873, "name": "Engineering" }],
+      "offices": [{ "id": 4322, "name": "Bangalore" }],
+      "content": "&lt;p&gt;Mixpanel&rsquo;s &lt;strong&gt;Insights&lt;/strong&gt; team is looking for a Senior Software Engineer to build the exploratory analysis dashboard that powers ad-hoc data queries from product, growth, and analytics teams. You&#39;ll work across Go, React, and ClickHouse to ship dashboard experiences used by thousands of analytics teams every day.&lt;/p&gt;&lt;p&gt;You&rsquo;ll partner with Product, Design, and the Mixpanel Data Pipelines team to drive a roadmap that scales the analytics flagship to enterprise customers across North America, EMEA, and APAC. The role is hybrid in our Bangalore engineering hub.&lt;/p&gt;"
+    }
+  ]
+}

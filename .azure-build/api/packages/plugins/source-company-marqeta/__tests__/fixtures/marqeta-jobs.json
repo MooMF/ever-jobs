@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 7816181,
+      "title": "Customer Experience Manager",
+      "company_name": "Marqeta",
+      "absolute_url": "https://job-boards.greenhouse.io/marqeta/jobs/7816181",
+      "updated_at": "2026-04-30T12:15:32-04:00",
+      "first_published": "2026-03-21T09:00:00-04:00",
+      "location": { "name": "Oakland, CA" },
+      "departments": [{ "id": 4063436010, "name": "Risk Operations" }],
+      "offices": [{ "id": 21001, "name": "Oakland HQ" }],
+      "content": "&lt;p&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;As Marqeta&#8217;s&amp;nbsp;&lt;strong&gt;CX Manager,&lt;/strong&gt; you will be at the forefront of transforming customer experience into a competitive advantage.&amp;nbsp; This role puts you in the embedded-payments ecosystem.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Customer Experience Manager partners with Risk Operations &amp; Product to scale the post-launch enablement curriculum across Fortune 500 cohorts.&lt;/p&gt;"
+    },
+    {
+      "id": 7785735,
+      "title": "Group Product Manager, Fraud ",
+      "company_name": "Marqeta",
+      "absolute_url": "https://job-boards.greenhouse.io/marqeta/jobs/7785735",
+      "updated_at": "2026-04-29T10:42:11-04:00",
+      "first_published": "2026-03-15T08:30:00-04:00",
+      "location": { "name": "Remote, USA" },
+      "departments": [{ "id": 4089992010, "name": "Risk, Fraud, Disputes Product" }],
+      "offices": [{ "id": 21002, "name": "Remote" }],
+      "content": "&lt;p&gt;Marqeta is the modern card-issuing platform powering embedded payments and instant funds disbursement across the Fortune 1000 cohort.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Group Product Manager, Fraud partners with Engineering and Risk Operations to ship the fraud-detection pipelines that protect Marqeta&#8217;s issuers and program managers.&lt;/p&gt;"
+    }
+  ]
+}

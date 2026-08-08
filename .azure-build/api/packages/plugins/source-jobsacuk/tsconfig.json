@@ -1,0 +1,8 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "../../../dist/packages/source-jobsacuk",
+    "declaration": true
+  },
+  "include": ["src/**/*"]
+}

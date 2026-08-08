@@ -1,0 +1,29 @@
+{
+  "jobs": [
+    {
+      "id": 8481915002,
+      "title": "AI Community Engineer",
+      "company_name": "CircleCI",
+      "absolute_url": "http://www.circleci.com/careers/jobs/8481915002/?gh_jid=8481915002",
+      "updated_at": "2026-04-30T18:00:00-07:00",
+      "first_published": "2026-04-15T09:00:00-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 4011614002, "name": "Engineering" }],
+      "offices": [{ "id": 4013100024, "name": "San Francisco" }],
+      "content": "&lt;h3 data-start=&quot;545&quot; data-end=&quot;563&quot;&gt;About the Role&lt;/h3&gt;&lt;p&gt;We&amp;rsquo;re looking for someone who can&amp;#39;t stop building with AI and can&amp;#39;t stop showing people what they&amp;rsquo;ve built. You&amp;rsquo;ll partner with CircleCI&amp;rsquo;s product team on the CircleCI Cloud pipeline runner and CircleCI Insights analytics product to develop hands-on AI-powered DevEx demos for the broader developer community.&lt;/p&gt;"
+    },
+    {
+      "id": 8475304002,
+      "title": "Senior Software Engineer",
+      "company_name": "CircleCI",
+      "absolute_url": "http://www.circleci.com/careers/jobs/8475304002/?gh_jid=8475304002",
+      "updated_at": "2026-04-29T11:30:00-04:00",
+      "first_published": "2026-04-08T10:00:00-04:00",
+      "location": { "name": "Toronto, Ontario, Remote" },
+      "departments": [{ "id": 4012345011, "name": "Sales" }],
+      "offices": [{ "id": 4013021046, "name": "Remote Canada" }],
+      "content": "&lt;p&gt;Build the CircleCI Server platform that thousands of regulated engineering teams run their CI on &amp;mdash; the on-prem orchestrator, the autoscaling executor pool, and the Orbs registry indexer that the SRE team monitors every day. CircleCI&amp;rsquo;s mission depends on this platform staying reliable across every customer-controlled cluster.&lt;/p&gt;"
+    }
+  ],
+  "meta": { "total": 2 }
+}

@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4671585006,
+      "title": "Academic Account Representative ",
+      "company_name": "Altium",
+      "absolute_url": "https://job-boards.greenhouse.io/altium/jobs/4671585006",
+      "updated_at": "2026-04-24T07:52:08-04:00",
+      "location": {
+        "name": "Shanghai, Shanghai, China"
+      },
+      "departments": [
+        {
+          "id": 4671585007,
+          "name": "R&D : Engineering "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Altium.&lt;/strong&gt; Now hiring a Academic Account Representative on the R&D : Engineering team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4449284006,
+      "title": "DevOps Engineer",
+      "company_name": "Altium",
+      "absolute_url": "https://job-boards.greenhouse.io/altium/jobs/4449284006",
+      "updated_at": "2026-04-24T07:54:54-04:00",
+      "location": {
+        "name": "Shanghai, Shanghai, China"
+      },
+      "departments": [
+        {
+          "id": 4449284007,
+          "name": "R&D : DevOps"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Altium.&lt;/strong&gt; Now hiring a DevOps Engineer on the R&D : DevOps team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4588971006,
+      "title": "Industry Account Manager",
+      "company_name": "Altium",
+      "absolute_url": "https://job-boards.greenhouse.io/altium/jobs/4588971006",
+      "updated_at": "2026-04-24T07:51:23-04:00",
+      "location": {
+        "name": "Shanghai, Shanghai, China"
+      },
+      "departments": [
+        {
+          "id": 4588971007,
+          "name": "Strategic Sales"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Altium.&lt;/strong&gt; Now hiring a Industry Account Manager on the Strategic Sales team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

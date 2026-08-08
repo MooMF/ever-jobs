@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7439531,
+      "title": "AI Operations Lead ",
+      "company_name": "Okta",
+      "absolute_url": "https://www.okta.com/company/careers/opportunity/7439531?gh_jid=7439531",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 1, "name": "Auth0 DevRel-494" }],
+      "content": "&lt;p&gt;&lt;strong&gt;AI Operations Lead&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Okta is the identity-and-access-management platform pioneered around cloud-IDaaS &amp; zero-trust.&lt;/p&gt;"
+    },
+    {
+      "id": 7782413,
+      "title": "Senior Software Engineer, Workforce Identity",
+      "company_name": "Okta",
+      "absolute_url": "https://www.okta.com/company/careers/opportunity/7782413?gh_jid=7782413",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Bellevue, WA" },
+      "departments": [{ "id": 2, "name": "BT Engineering Services-779" }],
+      "content": "&lt;p&gt;Lead Okta's Workforce Identity engineering function across the SSO/MFA stack.&lt;/p&gt;"
+    }
+  ]
+}

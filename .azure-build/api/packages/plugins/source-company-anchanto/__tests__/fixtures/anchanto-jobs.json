@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 7484090003,
+      "title": "Associate Director-Content and Communications ",
+      "company_name": "Anchanto",
+      "absolute_url": "https://job-boards.greenhouse.io/anchanto/jobs/7484090003",
+      "updated_at": "2026-04-10T01:13:58-04:00",
+      "location": {
+        "name": "Pune, India"
+      },
+      "departments": [
+        {
+          "id": 7484090004,
+          "name": "Marketing "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Anchanto.&lt;/strong&gt; Now hiring a Associate Director-Content and Communications on the Marketing team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7752999003,
+      "title": "Associate Director - Global Talent Operations",
+      "company_name": "Anchanto",
+      "absolute_url": "https://job-boards.greenhouse.io/anchanto/jobs/7752999003",
+      "updated_at": "2026-05-29T08:10:34-04:00",
+      "location": {
+        "name": "Pune, India"
+      },
+      "departments": [
+        {
+          "id": 7752999004,
+          "name": "Talent Management"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Anchanto.&lt;/strong&gt; Now hiring a Associate Director - Global Talent Operations on the Talent Management team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7697742003,
+      "title": "Associate Director – Project Management / Delivery",
+      "company_name": "Anchanto",
+      "absolute_url": "https://job-boards.greenhouse.io/anchanto/jobs/7697742003",
+      "updated_at": "2026-04-27T00:51:52-04:00",
+      "location": {
+        "name": "Pune, India"
+      },
+      "departments": [
+        {
+          "id": 7697742004,
+          "name": "Platform Delivery"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Anchanto.&lt;/strong&gt; Now hiring a Associate Director – Project Management / Delivery on the Platform Delivery team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

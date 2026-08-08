@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 7849054,
+      "title": "Account Executive - Japan ",
+      "company_name": "Agoda",
+      "absolute_url": "https://job-boards.greenhouse.io/agoda/jobs/7849054",
+      "updated_at": "2026-05-28T20:20:59-04:00",
+      "location": {
+        "name": "Tokyo, Japan"
+      },
+      "departments": [
+        {
+          "id": 7849055,
+          "name": "Supply "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Agoda.&lt;/strong&gt; Now hiring a Account Executive - Japan on the Supply team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7840607,
+      "title": "Account Executive – Taipei",
+      "company_name": "Agoda",
+      "absolute_url": "https://job-boards.greenhouse.io/agoda/jobs/7840607",
+      "updated_at": "2026-04-24T02:08:20-04:00",
+      "location": {
+        "name": "Taipei, Taiwan"
+      },
+      "departments": [
+        {
+          "id": 7840608,
+          "name": "Supply"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Agoda.&lt;/strong&gt; Now hiring a Account Executive – Taipei on the Supply team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7964930,
+      "title": " Account Executive - Tokyo",
+      "company_name": "Agoda",
+      "absolute_url": "https://job-boards.greenhouse.io/agoda/jobs/7964930",
+      "updated_at": "2026-05-28T20:21:51-04:00",
+      "location": {
+        "name": "Tokyo"
+      },
+      "departments": [
+        {
+          "id": 7964931,
+          "name": "Supply"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Agoda.&lt;/strong&gt; Now hiring a Account Executive - Tokyo on the Supply team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

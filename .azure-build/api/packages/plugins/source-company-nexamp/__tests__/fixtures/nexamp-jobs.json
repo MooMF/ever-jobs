@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 8334423002,
+      "title": "Can't find what you're looking for? ",
+      "company_name": "Nexamp",
+      "absolute_url": "https://job-boards.greenhouse.io/nexamp/jobs/8334423002",
+      "updated_at": "2026-05-07T17:40:41-04:00",
+      "location": {
+        "name": "All Offices"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Nexamp.&lt;/strong&gt; Now hiring a Can't find what you're looking for? on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8285674002,
+      "title": "Community Solar Field Representative",
+      "company_name": "Nexamp",
+      "absolute_url": "https://job-boards.greenhouse.io/nexamp/jobs/8285674002",
+      "updated_at": "2026-05-07T17:40:41-04:00",
+      "location": {
+        "name": "Orono, ME"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Nexamp.&lt;/strong&gt; Now hiring a Community Solar Field Representative on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8430324002,
+      "title": "Community Solar Field Representative",
+      "company_name": "Nexamp",
+      "absolute_url": "https://job-boards.greenhouse.io/nexamp/jobs/8430324002",
+      "updated_at": "2026-05-07T17:40:41-04:00",
+      "location": {
+        "name": "Ellsworth, ME"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Nexamp.&lt;/strong&gt; Now hiring a Community Solar Field Representative on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

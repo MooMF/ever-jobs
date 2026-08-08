@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4699947005,
+      "title": "Business Systems Analyst, Manufacturing & Finance ",
+      "company_name": "Electric Hydrogen",
+      "absolute_url": "https://job-boards.greenhouse.io/eh2/jobs/4699947005",
+      "updated_at": "2026-06-02T19:21:16-04:00",
+      "location": {
+        "name": "Remote, United States"
+      },
+      "departments": [
+        {
+          "id": 4699947006,
+          "name": "Information Technology "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Electric Hydrogen.&lt;/strong&gt; Now hiring a Business Systems Analyst, Manufacturing & Finance on the Information Technology team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4702125005,
+      "title": "Business Systems Analyst, Manufacturing & Finance",
+      "company_name": "Electric Hydrogen",
+      "absolute_url": "https://job-boards.greenhouse.io/eh2/jobs/4702125005",
+      "updated_at": "2026-06-02T19:21:52-04:00",
+      "location": {
+        "name": "Devens, Massachusetts, United States"
+      },
+      "departments": [
+        {
+          "id": 4702125006,
+          "name": "Information Technology"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Electric Hydrogen.&lt;/strong&gt; Now hiring a Business Systems Analyst, Manufacturing & Finance on the Information Technology team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4701689005,
+      "title": "Corporate Development Analyst",
+      "company_name": "Electric Hydrogen",
+      "absolute_url": "https://job-boards.greenhouse.io/eh2/jobs/4701689005",
+      "updated_at": "2026-06-02T19:52:43-04:00",
+      "location": {
+        "name": "New York, New York, United States; Remote, United States"
+      },
+      "departments": [
+        {
+          "id": 4701689006,
+          "name": "Corporate Development"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Electric Hydrogen.&lt;/strong&gt; Now hiring a Corporate Development Analyst on the Corporate Development team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

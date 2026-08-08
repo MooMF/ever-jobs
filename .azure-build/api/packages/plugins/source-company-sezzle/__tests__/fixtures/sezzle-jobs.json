@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7700447003,
+      "title": "Chief Risk Officer ",
+      "company_name": "Sezzle",
+      "absolute_url": "https://job-boards.greenhouse.io/sezzle/jobs/7700447003",
+      "updated_at": "2026-04-29T10:00:00-05:00",
+      "location": { "name": "Minneapolis, United States" },
+      "departments": [{ "id": 1, "name": "  EX-Executive " }],
+      "content": "&lt;p&gt;&lt;strong&gt;Chief Risk Officer (CRO)&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Organization: Sezzle Bank ILC&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Sezzle is the BNPL platform pioneered around the four-instalment-over-six-weeks consumer-credit data model &amp; the deferred-payments segment.&lt;/p&gt;"
+    },
+    {
+      "id": 7633956003,
+      "title": " AI Engineer I (Remote)",
+      "company_name": "Sezzle",
+      "absolute_url": "https://job-boards.greenhouse.io/sezzle/jobs/7633956003",
+      "updated_at": "2026-04-30T09:00:00-05:00",
+      "location": { "name": "Bogota, Colombia" },
+      "departments": [{ "id": 2, "name": "DV-Development" }],
+      "content": "&lt;p&gt;Sezzle's AI Engineering team builds the four-instalment-over-six-weeks BNPL credit-decisioning pipeline.&lt;/p&gt;"
+    }
+  ]
+}

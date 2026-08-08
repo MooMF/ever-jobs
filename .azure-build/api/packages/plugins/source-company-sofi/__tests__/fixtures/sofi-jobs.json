@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7668357003,
+      "title": "Accounting Policy Manager ",
+      "company_name": "SoFi",
+      "absolute_url": "https://sofi.com/careers/job/7668357003?gh_jid=7668357003",
+      "updated_at": "2026-04-15T10:00:00-07:00",
+      "location": { "name": "New York City - NY; Frisco - TX; Cottonwood Heights - UT; San Francisco - CA; Seattle - WA" },
+      "departments": [{ "id": 1, "name": "Accounting" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Accounting Policy Manager&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;SoFi is the super-app fintech platform &amp; we ship consumer-banking + investing + lending products to millions of US customers.&lt;/p&gt;"
+    },
+    {
+      "id": 7710361003,
+      "title": "Senior Capital Markets Analyst",
+      "company_name": "SoFi",
+      "absolute_url": "https://sofi.com/careers/job/7710361003?gh_jid=7710361003",
+      "updated_at": "2026-04-20T10:00:00-07:00",
+      "location": { "name": "Frisco - TX" },
+      "departments": [{ "id": 2, "name": "Capital Markets" }],
+      "content": "&lt;p&gt;Lead capital-markets execution across SoFi's lending and securitization stack.&lt;/p&gt;"
+    }
+  ]
+}

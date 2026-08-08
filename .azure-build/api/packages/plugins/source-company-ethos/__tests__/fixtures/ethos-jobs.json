@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 4180963009,
+      "title": "Pharma Account Manager ",
+      "company_name": "Ethos",
+      "absolute_url": "https://job-boards.greenhouse.io/ethos/jobs/4180963009",
+      "updated_at": "2026-03-19T12:45:46-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Ethos.&lt;/strong&gt; Now hiring a Pharma Account Manager on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4250184009,
+      "title": "Senior/Staff DevOps Engineer",
+      "company_name": "Ethos",
+      "absolute_url": "https://job-boards.greenhouse.io/ethos/jobs/4250184009",
+      "updated_at": "2026-05-18T19:52:19-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Ethos.&lt;/strong&gt; Now hiring a Senior/Staff DevOps Engineer on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4193091009,
+      "title": "Senior/Staff Full Stack Engineer",
+      "company_name": "Ethos",
+      "absolute_url": "https://job-boards.greenhouse.io/ethos/jobs/4193091009",
+      "updated_at": "2026-05-11T14:17:20-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Ethos.&lt;/strong&gt; Now hiring a Senior/Staff Full Stack Engineer on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

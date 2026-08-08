@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 7917257,
+      "title": "Alumni Relationship Manager ",
+      "company_name": "ALX Africa",
+      "absolute_url": "https://job-boards.greenhouse.io/alxafrica/jobs/7917257",
+      "updated_at": "2026-05-19T10:20:13-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 7917258,
+          "name": "ALX Community "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About ALX Africa.&lt;/strong&gt; Now hiring a Alumni Relationship Manager on the ALX Community team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7786440,
+      "title": "Alumni Relationship Manager: Casablanca",
+      "company_name": "ALX Africa",
+      "absolute_url": "https://job-boards.greenhouse.io/alxafrica/jobs/7786440",
+      "updated_at": "2026-05-12T06:53:08-04:00",
+      "location": {
+        "name": "Casablanca"
+      },
+      "departments": [
+        {
+          "id": 7786441,
+          "name": "Casablanca City"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About ALX Africa.&lt;/strong&gt; Now hiring a Alumni Relationship Manager: Casablanca on the Casablanca City team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7720883,
+      "title": "Automation Developer",
+      "company_name": "ALX Africa",
+      "absolute_url": "https://job-boards.greenhouse.io/alxafrica/jobs/7720883",
+      "updated_at": "2026-03-23T07:25:28-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 7720884,
+          "name": "ALX Business Automation"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About ALX Africa.&lt;/strong&gt; Now hiring a Automation Developer on the ALX Business Automation team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 9201234,
+      "title": "Staff Backend Engineer, GitLab Runner Cloud",
+      "absolute_url": "https://boards.greenhouse.io/gitlab/jobs/9201234",
+      "updated_at": "2026-04-29T15:00:00.000Z",
+      "first_published": "2026-04-19T08:00:00.000Z",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 710, "name": "Engineering" }],
+      "offices": [{ "id": 721, "name": "San Francisco" }],
+      "content": "<p><strong>About the role</strong></p><p>Own the GitLab Runner Cloud control-plane that powers millions of CI-CD jobs across the all-remote engineering org's distributed-systems infrastructure.</p><ul><li>Go, Kubernetes, and distributed-systems experience required</li></ul>"
+    },
+    {
+      "id": 9202345,
+      "title": "Senior Manager, Customer-Success Strategy",
+      "absolute_url": "https://boards.greenhouse.io/gitlab/jobs/9202345",
+      "updated_at": "2026-04-30T11:30:00.000Z",
+      "first_published": "2026-04-23T07:00:00.000Z",
+      "location": { "name": "Remote — Global" },
+      "departments": [{ "id": 711, "name": "Customer Success" }],
+      "offices": [{ "id": 722, "name": "Remote" }],
+      "content": "<p>Own GitLab's customer-success strategy roadmap across enterprise DevSecOps adoption, education, and community-engagement motion.</p>"
+    }
+  ],
+  "meta": { "total": 2 }
+}

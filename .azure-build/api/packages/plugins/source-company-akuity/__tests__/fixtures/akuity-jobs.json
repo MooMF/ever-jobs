@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4181022009,
+      "title": "Community Manager - Open Source ",
+      "company_name": "Akuity",
+      "absolute_url": "https://job-boards.greenhouse.io/akuity/jobs/4181022009",
+      "updated_at": "2026-05-19T20:08:37-04:00",
+      "location": {
+        "name": "Remote - United States"
+      },
+      "departments": [
+        {
+          "id": 4181022010,
+          "name": "Marketing "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Akuity.&lt;/strong&gt; Now hiring a Community Manager - Open Source on the Marketing team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4243537009,
+      "title": "Director of Demand Generation",
+      "company_name": "Akuity",
+      "absolute_url": "https://job-boards.greenhouse.io/akuity/jobs/4243537009",
+      "updated_at": "2026-05-11T00:05:19-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 4243537010,
+          "name": "Marketing"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Akuity.&lt;/strong&gt; Now hiring a Director of Demand Generation on the Marketing team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4238366009,
+      "title": "Enterprise Account Executive, NA West",
+      "company_name": "Akuity",
+      "absolute_url": "https://job-boards.greenhouse.io/akuity/jobs/4238366009",
+      "updated_at": "2026-05-11T12:35:58-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 4238366010,
+          "name": "Sales"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Akuity.&lt;/strong&gt; Now hiring a Enterprise Account Executive, NA West on the Sales team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

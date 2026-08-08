@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 8524631002,
+      "title": "CRM Marketing Associate - Upsell & Revenue Expansion",
+      "company_name": "ExpressVPN",
+      "absolute_url": "https://job-boards.greenhouse.io/expressvpn/jobs/8524631002",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 1, "name": "Marketing" }],
+      "content": "&lt;p&gt;&lt;strong&gt;CRM Marketing Associate&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;ExpressVPN is the dominant consumer-VPN provider pioneered around the TrustedServer RAM-only no-disk-write architecture &amp; the Lightway protocol.&lt;/p&gt;"
+    },
+    {
+      "id": 8524626002,
+      "title": "Customer Success Data LeadÂ ",
+      "company_name": "ExpressVPN",
+      "absolute_url": "https://job-boards.greenhouse.io/expressvpn/jobs/8524626002",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "London, UK" },
+      "departments": [{ "id": 2, "name": "Data Engineering & Insights" }],
+      "content": "&lt;p&gt;Lead ExpressVPN's Customer Success Data function across the consumer-VPN platform stack.&lt;/p&gt;"
+    }
+  ]
+}

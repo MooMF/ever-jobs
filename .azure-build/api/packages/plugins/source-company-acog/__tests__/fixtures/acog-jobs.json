@@ -1,0 +1,34 @@
+{
+  "jobs": [
+    {
+      "id": 4219331009,
+      "title": "Director, Clinical Guidance Methodology ",
+      "company_name": "American College of Obstetricians and Gynecologists",
+      "absolute_url": "https://job-boards.greenhouse.io/acog/jobs/4219331009",
+      "updated_at": "2026-05-12T10:00:00-04:00",
+      "location": { "name": "Washington, DC" },
+      "departments": [{ "id": 4135842009, "name": "Clinical Guidance" }],
+      "content": "&lt;p&gt;&lt;strong&gt;About ACOG&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The American College of Obstetricians and Gynecologists is seeking a Director, Clinical Guidance Methodology to lead methodology &amp; evidence-synthesis workstreams.&lt;/p&gt;"
+    },
+    {
+      "id": 4108017009,
+      "title": "Human Resources Business Partner",
+      "company_name": "American College of Obstetricians and Gynecologists",
+      "absolute_url": "https://job-boards.greenhouse.io/acog/jobs/4108017009",
+      "updated_at": "2026-05-10T09:00:00-04:00",
+      "location": { "name": "Washington, DC" },
+      "departments": [{ "id": 4135850009, "name": "Human Resources" }],
+      "content": "&lt;p&gt;Serve as the strategic HR partner for ACOG&amp;rsquo;s clinical practice &amp; education divisions at the Washington, DC HQ.&lt;/p&gt;"
+    },
+    {
+      "id": 4114509009,
+      "title": "Instructional Designer",
+      "company_name": "American College of Obstetricians and Gynecologists",
+      "absolute_url": "https://job-boards.greenhouse.io/acog/jobs/4114509009",
+      "updated_at": "2026-05-05T08:00:00-04:00",
+      "location": { "name": "Washington, DC" },
+      "departments": [{ "id": 4135870009, "name": "Publishing and Product Development" }],
+      "content": "&lt;p&gt;Design CME / MOC II / MOC IV continuing-education curricula for ACOG&amp;rsquo;s ob-gyn member audience.&lt;/p&gt;"
+    }
+  ]
+}

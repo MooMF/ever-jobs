@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 5045788007,
+      "title": "3D Tutor ",
+      "company_name": "xAI",
+      "absolute_url": "https://job-boards.greenhouse.io/xai/jobs/5045788007",
+      "updated_at": "2026-04-15T10:00:00-07:00",
+      "location": { "name": "Remote" },
+      "departments": [{ "id": 1, "name": "Human Data" }],
+      "content": "&lt;p&gt;&lt;strong&gt;3D Tutor&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;xAI is the frontier-AI lab building Grok &amp; the Memphis Colossus GPU supercluster.&lt;/p&gt;"
+    },
+    {
+      "id": 4922800007,
+      "title": "Senior Datacenter Operations Engineer",
+      "company_name": "xAI",
+      "absolute_url": "https://job-boards.greenhouse.io/xai/jobs/4922800007",
+      "updated_at": "2026-04-20T10:00:00-07:00",
+      "location": { "name": "Memphis, TN" },
+      "departments": [{ "id": 2, "name": "Data Center" }],
+      "content": "&lt;p&gt;Operate xAI's Colossus GPU supercluster.&lt;/p&gt;"
+    }
+  ]
+}

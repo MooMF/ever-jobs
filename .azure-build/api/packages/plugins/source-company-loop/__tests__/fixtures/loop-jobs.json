@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 5819779004,
+      "title": "AI Operations Associate ",
+      "company_name": "Loop",
+      "absolute_url": "https://job-boards.greenhouse.io/loop/jobs/5819779004",
+      "updated_at": "2026-03-13T13:23:39-04:00",
+      "location": {
+        "name": "San Francisco, New York, Chicago"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Loop.&lt;/strong&gt; Now hiring a AI Operations Associate on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4721423004,
+      "title": "Customer Operations Associate",
+      "company_name": "Loop",
+      "absolute_url": "https://job-boards.greenhouse.io/loop/jobs/4721423004",
+      "updated_at": "2026-04-13T18:30:34-04:00",
+      "location": {
+        "name": "Chicago, IL"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Loop.&lt;/strong&gt; Now hiring a Customer Operations Associate on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5986356004,
+      "title": "Forward Deployed Engineer",
+      "company_name": "Loop",
+      "absolute_url": "https://job-boards.greenhouse.io/loop/jobs/5986356004",
+      "updated_at": "2026-05-01T21:11:26-04:00",
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Loop.&lt;/strong&gt; Now hiring a Forward Deployed Engineer on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 7701234,
+      "title": "Staff Software Engineer, Ads Ranking Platform",
+      "absolute_url": "https://boards.greenhouse.io/reddit/jobs/7701234",
+      "updated_at": "2026-04-29T15:00:00.000Z",
+      "first_published": "2026-04-19T08:00:00.000Z",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 110, "name": "Engineering" }],
+      "offices": [{ "id": 121, "name": "San Francisco" }],
+      "content": "<p><strong>About the role</strong></p><p>Lead technical direction for Reddit's ads-ranking machine-learning platform serving billions of ad-auctions per day.</p><ul><li>ML-platform experience required</li></ul>"
+    },
+    {
+      "id": 7702345,
+      "title": "Senior Trust and Safety Manager, Policy",
+      "absolute_url": "https://boards.greenhouse.io/reddit/jobs/7702345",
+      "updated_at": "2026-04-30T11:30:00.000Z",
+      "first_published": "2026-04-23T07:00:00.000Z",
+      "location": { "name": "Remote — USA" },
+      "departments": [{ "id": 111, "name": "Trust and Safety" }],
+      "offices": [{ "id": 122, "name": "Remote" }],
+      "content": "<p>Own Reddit's content-policy roadmap across communities, moderation tooling, and abuse-vector response.</p>"
+    }
+  ],
+  "meta": { "total": 2 }
+}

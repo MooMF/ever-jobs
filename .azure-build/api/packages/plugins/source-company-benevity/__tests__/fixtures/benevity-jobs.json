@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 5817165004,
+      "title": "Architect",
+      "company_name": "Benevity",
+      "absolute_url": "https://benevity.com/job-posting?gh_jid=5817165004",
+      "updated_at": "2026-04-30T12:15:32-04:00",
+      "first_published": "2026-03-21T09:00:00-04:00",
+      "location": { "name": "Calgary, Alberta, Canada" },
+      "departments": [{ "id": 4063436016, "name": "Engineering" }],
+      "offices": [{ "id": 21001, "name": "Calgary" }],
+      "content": "&lt;p&gt;Benevity is the dominant corporate-purpose SaaS platform powering the workplace-giving-and-volunteering data model for Fortune 1000 companies worldwide.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Architect partners with Engineering &amp; Product to ship the integrated giving / volunteering / grants-management platform across enterprise client cohorts.&lt;/p&gt;"
+    },
+    {
+      "id": 5981406004,
+      "title": "Enterprise Account Executive",
+      "company_name": "Benevity",
+      "absolute_url": "https://benevity.com/job-posting?gh_jid=5981406004",
+      "updated_at": "2026-04-29T10:42:11-04:00",
+      "first_published": "2026-03-15T08:30:00-04:00",
+      "location": { "name": "Remote, USA" },
+      "departments": [{ "id": 4089992016, "name": "Sales" }],
+      "offices": [{ "id": 21002, "name": "Remote" }],
+      "content": "&lt;p&gt;Benevity is the dominant corporate-purpose SaaS platform. The Sales team owns the B2B Fortune 1000 enterprise pipeline.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Enterprise Account Executive partners with Sales Engineering and Customer Success to grow the Benevity corporate-purpose platform footprint across Fortune 1000 cohorts.&lt;/p&gt;"
+    }
+  ]
+}

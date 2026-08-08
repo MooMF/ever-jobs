@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 7565469003,
+      "title": "Analog and Mixed-Signal IC Design Engineer Intern ",
+      "company_name": "Neuralink",
+      "absolute_url": "https://job-boards.greenhouse.io/neuralink/jobs/7565469003",
+      "updated_at": "2026-06-01T15:56:06-04:00",
+      "location": {
+        "name": "South San Francisco, California, United States"
+      },
+      "departments": [
+        {
+          "id": 7565469004,
+          "name": "Internships "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Neuralink.&lt;/strong&gt; Now hiring a Analog and Mixed-Signal IC Design Engineer Intern on the Internships team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 6644300003,
+      "title": "Analog IC Design and Verification Engineer",
+      "company_name": "Neuralink",
+      "absolute_url": "https://job-boards.greenhouse.io/neuralink/jobs/6644300003",
+      "updated_at": "2026-06-01T15:56:06-04:00",
+      "location": {
+        "name": "Fremont, California, United States"
+      },
+      "departments": [
+        {
+          "id": 6644300004,
+          "name": "Brain Interfaces Hardware"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Neuralink.&lt;/strong&gt; Now hiring a Analog IC Design and Verification Engineer on the Brain Interfaces Hardware team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7718856003,
+      "title": "Analog IC Layout Engineer",
+      "company_name": "Neuralink",
+      "absolute_url": "https://job-boards.greenhouse.io/neuralink/jobs/7718856003",
+      "updated_at": "2026-06-01T15:56:06-04:00",
+      "location": {
+        "name": "Fremont, California, United States"
+      },
+      "departments": [
+        {
+          "id": 7718856004,
+          "name": "Brain Interfaces Hardware"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Neuralink.&lt;/strong&gt; Now hiring a Analog IC Layout Engineer on the Brain Interfaces Hardware team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

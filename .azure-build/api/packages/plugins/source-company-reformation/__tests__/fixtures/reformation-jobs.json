@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 7816399,
+      "title": "Apparel Production Manager - Domestic ",
+      "company_name": "Reformation",
+      "absolute_url": "https://job-boards.greenhouse.io/reformation/jobs/7816399",
+      "updated_at": "2026-05-07T20:01:47-04:00",
+      "location": {
+        "name": "Vernon, CA"
+      },
+      "departments": [
+        {
+          "id": 7816400,
+          "name": "Production "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Reformation.&lt;/strong&gt; Now hiring a Apparel Production Manager - Domestic on the Production team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7859524,
+      "title": "Assistant Controller",
+      "company_name": "Reformation",
+      "absolute_url": "https://job-boards.greenhouse.io/reformation/jobs/7859524",
+      "updated_at": "2026-04-27T18:52:21-04:00",
+      "location": {
+        "name": "Vernon, CA"
+      },
+      "departments": [
+        {
+          "id": 7859525,
+          "name": "Finance"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Reformation.&lt;/strong&gt; Now hiring a Assistant Controller on the Finance team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7895773,
+      "title": "Assistant Store Manager, Full-Time - Flatiron",
+      "company_name": "Reformation",
+      "absolute_url": "https://job-boards.greenhouse.io/reformation/jobs/7895773",
+      "updated_at": "2026-05-18T15:12:43-04:00",
+      "location": {
+        "name": "New York"
+      },
+      "departments": [
+        {
+          "id": 7895774,
+          "name": "Retail"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Reformation.&lt;/strong&gt; Now hiring a Assistant Store Manager, Full-Time - Flatiron on the Retail team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

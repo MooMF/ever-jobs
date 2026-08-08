@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 4644592006,
+      "title": "Customer Experience  Specialist ",
+      "company_name": "Opendoor",
+      "absolute_url": "https://www.opendoor.com/careers/open-positions?gh_jid=4644592006",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "Phoenix, AZ" },
+      "departments": [{ "id": 1, "name": "Sales & Support" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Customer Experience  Specialist&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Opendoor is the US-residential iBuyer + cash-offer-on-your-home platform pioneered around algorithmic-property-valuation-as-a-service &amp; the iBuyer / proptech segment.&lt;/p&gt;"
+    },
+    {
+      "id": 4789315002,
+      "title": "Senior Software Engineer, Marketplace",
+      "company_name": "Opendoor",
+      "absolute_url": "https://www.opendoor.com/careers/open-positions?gh_jid=4789315002",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 2, "name": "Engineering" }],
+      "content": "&lt;p&gt;Lead Opendoor's Marketplace engineering function across the Cash Offer / List With Us / Backed Offers stack with Zillow B2B partnership.&lt;/p&gt;"
+    }
+  ]
+}

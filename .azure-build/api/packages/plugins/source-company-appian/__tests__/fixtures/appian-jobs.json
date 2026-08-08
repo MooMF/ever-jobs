@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 7599303,
+      "title": "Account Executive - Banking ",
+      "company_name": "Appian Corporation ",
+      "absolute_url": "https://job-boards.greenhouse.io/appian/jobs/7599303",
+      "updated_at": "2026-06-02T16:17:46-04:00",
+      "location": {
+        "name": "Frankfurt, Germany"
+      },
+      "departments": [
+        {
+          "id": 7599304,
+          "name": "Sales Direct - Staff "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Appian Corporation .&lt;/strong&gt; Now hiring a Account Executive - Banking on the Sales Direct - Staff team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7698939,
+      "title": "Account Executive - DACH Financial Services",
+      "company_name": "Appian Corporation ",
+      "absolute_url": "https://job-boards.greenhouse.io/appian/jobs/7698939",
+      "updated_at": "2026-06-02T16:17:46-04:00",
+      "location": {
+        "name": "Remote (Germany)"
+      },
+      "departments": [
+        {
+          "id": 7698940,
+          "name": "Sales Direct - Staff"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Appian Corporation .&lt;/strong&gt; Now hiring a Account Executive - DACH Financial Services on the Sales Direct - Staff team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7014333,
+      "title": "Account Executive - Federal Civilian",
+      "company_name": "Appian Corporation ",
+      "absolute_url": "https://job-boards.greenhouse.io/appian/jobs/7014333",
+      "updated_at": "2026-06-02T16:17:46-04:00",
+      "location": {
+        "name": "McLean, Virginia"
+      },
+      "departments": [
+        {
+          "id": 7014334,
+          "name": "Sales Direct - Staff"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Appian Corporation .&lt;/strong&gt; Now hiring a Account Executive - Federal Civilian on the Sales Direct - Staff team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

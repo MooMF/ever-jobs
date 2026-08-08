@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5985533004,
+      "title": "Executive Assistant to VP of Revenue ",
+      "company_name": "Lunar Energy",
+      "absolute_url": "https://job-boards.greenhouse.io/lunarenergy/jobs/5985533004",
+      "updated_at": "2026-05-11T15:11:47-04:00",
+      "location": {
+        "name": "Mountain View, CA"
+      },
+      "departments": [
+        {
+          "id": 5985533005,
+          "name": "Administration "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Lunar Energy.&lt;/strong&gt; Now hiring a Executive Assistant to VP of Revenue on the Administration team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5997239004,
+      "title": "Global Trade and Logistics Manager",
+      "company_name": "Lunar Energy",
+      "absolute_url": "https://job-boards.greenhouse.io/lunarenergy/jobs/5997239004",
+      "updated_at": "2026-05-22T16:28:15-04:00",
+      "location": {
+        "name": "Mountain View, CA"
+      },
+      "departments": [
+        {
+          "id": 5997239005,
+          "name": "Operations"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Lunar Energy.&lt;/strong&gt; Now hiring a Global Trade and Logistics Manager on the Operations team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 6013630004,
+      "title": "Head of Revenue Operations",
+      "company_name": "Lunar Energy",
+      "absolute_url": "https://job-boards.greenhouse.io/lunarenergy/jobs/6013630004",
+      "updated_at": "2026-06-03T19:35:53-04:00",
+      "location": {
+        "name": "Mountain View, CA"
+      },
+      "departments": [
+        {
+          "id": 6013630005,
+          "name": "Revenue"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Lunar Energy.&lt;/strong&gt; Now hiring a Head of Revenue Operations on the Revenue team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

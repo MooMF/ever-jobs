@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 7505982,
+      "title": "Account Executive ",
+      "company_name": "Elastic",
+      "absolute_url": "https://jobs.elastic.co/jobs?gh_jid=7505982&gh_jid=7505982",
+      "updated_at": "2026-04-20T11:09:07-04:00",
+      "first_published": "2026-03-12T11:30:00-04:00",
+      "location": { "name": "United Kingdom" },
+      "departments": [{ "id": 220461, "name": "Sales - EMEA - UKI" }],
+      "offices": [{ "id": 220210, "name": "United Kingdom" }],
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale &mdash; unleashing the potential of businesses and people. As an &lt;strong&gt;Account Executive&lt;/strong&gt;, you&#39;ll own the United Kingdom enterprise territory for the Elastic Stack, partnering with Sales Engineering and Solutions Architects to drive land-and-expand motions across Elastic Cloud, Elastic Observability, and Elastic Security.&lt;/p&gt;&lt;p&gt;You&rsquo;ll partner with Marketing and Customer Success to forecast pipeline and prepare schedules for the EMEA quarterly business review.&lt;/p&gt;"
+    },
+    {
+      "id": 7668021,
+      "title": "Senior Software Engineer - Search Platform",
+      "company_name": "Elastic",
+      "absolute_url": "https://jobs.elastic.co/jobs?gh_jid=7668021&gh_jid=7668021",
+      "updated_at": "2026-04-22T14:18:51-04:00",
+      "first_published": "2026-03-25T11:00:00-04:00",
+      "location": { "name": "Remote, United States" },
+      "departments": [{ "id": 220397, "name": "Engineering" }],
+      "offices": [{ "id": 220150, "name": "United States" }],
+      "content": "&lt;p&gt;Elastic&rsquo;s &lt;strong&gt;Search Platform Engineering&lt;/strong&gt; team is looking for a Senior Software Engineer to lead the Elasticsearch distributed-query layer behind Elastic Cloud, Elastic Observability, and Elastic Security.&lt;/p&gt;&lt;p&gt;You&#39;ll partner with Product, Solutions Architecture, and Customer Success to drive a roadmap that scales the Search AI Platform to tens of thousands of customer clusters globally.&lt;/p&gt;"
+    }
+  ]
+}

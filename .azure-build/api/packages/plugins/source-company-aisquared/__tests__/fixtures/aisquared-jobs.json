@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4621297006,
+      "title": "Account Executive - Enterprise ",
+      "company_name": "AI Squared",
+      "absolute_url": "https://job-boards.greenhouse.io/aisquared/jobs/4621297006",
+      "updated_at": "2025-11-25T20:57:14-05:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 4621297007,
+          "name": "Sales "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AI Squared.&lt;/strong&gt; Now hiring a Account Executive - Enterprise on the Sales team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4430592006,
+      "title": "Account Executive - Federal ",
+      "company_name": "AI Squared",
+      "absolute_url": "https://job-boards.greenhouse.io/aisquared/jobs/4430592006",
+      "updated_at": "2025-11-25T20:53:48-05:00",
+      "location": {
+        "name": "Washington, DC"
+      },
+      "departments": [
+        {
+          "id": 4430592007,
+          "name": "Sales"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AI Squared.&lt;/strong&gt; Now hiring a Account Executive - Federal on the Sales team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4448822006,
+      "title": "Account Executive - Mid Market ",
+      "company_name": "AI Squared",
+      "absolute_url": "https://job-boards.greenhouse.io/aisquared/jobs/4448822006",
+      "updated_at": "2025-11-25T20:53:48-05:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 4448822007,
+          "name": "Sales"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AI Squared.&lt;/strong&gt; Now hiring a Account Executive - Mid Market on the Sales team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

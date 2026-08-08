@@ -1,0 +1,113 @@
+// Prisma schema for `@ever-jobs/store-postgres-prisma` (Spec 004 — Phase 4).
+//
+// This is the SCHEMA-OF-RECORD for the Postgres backend. It mirrors the
+// Drizzle SQLite schema (`packages/plugins/store-sqlite-drizzle/drizzle/schema.ts`)
+// table-for-table but uses Postgres-native types where they meaningfully
+// improve fidelity or performance:
+//
+//   - `text` for canonical_job_id  (UUIDs are not used; the dedup engine
+//     stamps a sha-256 of `(canonicalCompanyName, canonicalJobTitle,
+//     canonicalLocation)` per Spec 003 / FR-1, which is a 64-char hex
+//     string — fine as `text`).
+//   - `timestamptz(6)` for `merged_at` / `observed_at` — preserves
+//     microsecond precision and round-trips ISO-8601 strings via Prisma's
+//     `DateTime` mapping. The dedup engine emits ISO strings in UTC, so
+//     storing them as `timestamptz` is lossless and gives Postgres a
+//     native sort order.
+//   - `JsonB` for `fields_json` / `sources_json` — `jsonb` is faster
+//     than `json` for any read-side projection and is the only choice
+//     that allows GIN indexes on JSON keys (we don't index either column
+//     today, but `jsonb` is the right default per the Postgres community
+//     convention; `json` only wins if you need to round-trip exact byte
+//     equality, which we don't).
+//   - **No case-folded shadow columns.** The Drizzle backend ships
+//     `company_lc` / `title_lc` / `location_lc` so a SQLite B-tree index
+//     can satisfy case-insensitive substring filters; on Postgres, the
+//     `pg_trgm` extension + GIN trigram indexes give us the same speedup
+//     directly against the unfolded columns via `ILIKE '%term%'`. This
+//     is the canonical Postgres pattern for substring search and matches
+//     Spec 004 / NFR-1 (<50 ms p95 single-row read on pg) without
+//     duplicating the storage of every text field.
+//
+// The Prisma `@relation(onDelete: Cascade)` on `SourceObservation`
+// implements FR-1 / FR-2's cascade-on-delete contract at the SQL layer —
+// dropping a `canonical_job` automatically removes every attached
+// observation. SQLite needs `PRAGMA foreign_keys = ON` for the same
+// behaviour; Postgres enforces FKs unconditionally.
+//
+// Composite primary key on `SourceObservation` is `(canonicalJobId, site,
+// sourceJobId)` per FR-2 — the dedup engine's replace-not-merge contract
+// guarantees no duplicates within a single `putAll`, but the PK constraint
+// catches double-write bugs at the SQL layer before they corrupt the
+// cohort.
+//
+// Composite index on `(mergedAt DESC, canonicalJobId ASC)` is the heart
+// of the keyset cursor used by `listByQuery`. Postgres's planner picks it
+// for both ordered scans and keyset seeks, exactly mirroring the SQLite
+// strategy in T08. The B-tree directionality (DESC, then ASC) matches
+// the cursor envelope's resume predicate — see T10's
+// `buildKeysetCursorPredicate` (to be added next run).
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+/// `canonical_job` — primary table. One row per logical (deduped) job.
+///
+/// `mergedAt` is the ordering key; the composite index in `@@index`
+/// below backs both the deterministic listing order and the keyset
+/// cursor seek in `listByQuery` (Spec 004 §7.1 / NFR-1).
+///
+/// `fields` and `sources` are stored as `jsonb` to round-trip the
+/// nested Spec 003 dedup-engine output without an extra JOIN. The
+/// authoritative source for joins / FK cascade / observation-side
+/// queries is still {@link SourceObservation}.
+model CanonicalJob {
+  canonicalJobId String   @id @map("canonical_job_id") @db.Text
+  title          String   @db.Text
+  company        String   @db.Text
+  location       String   @db.Text
+  description    String?  @db.Text
+  url            String   @db.Text
+  mergedAt       DateTime @map("merged_at") @db.Timestamptz(6)
+  fields         Json     @default("{}") @map("fields_json") @db.JsonB
+  sources        Json     @default("[]") @map("sources_json") @db.JsonB
+
+  observations SourceObservation[]
+
+  @@index([mergedAt(sort: Desc), canonicalJobId], map: "idx_canonical_job_merged_at_id")
+  @@map("canonical_job")
+}
+
+/// `source_observation` — child table. One row per per-source sighting
+/// of a canonical job (FR-2; 1-N to {@link CanonicalJob}).
+///
+/// Composite primary key `(canonical_job_id, site, source_job_id)`
+/// enforces "one observation per (site, source-id) pair" — the dedup
+/// engine's replace-not-merge contract guarantees no duplicates within
+/// a single `putAll`, but the PK constraint catches double-write bugs
+/// at the SQL layer before they corrupt the cohort.
+///
+/// Foreign key with `onDelete: Cascade` enforces FR-1 / FR-2's cascade-
+/// on-delete contract at the SQL layer (the in-memory backend does it
+/// in application code; SQLite does it via PRAGMA `foreign_keys = ON`;
+/// Postgres enforces FK cascades unconditionally — no toggle required).
+model SourceObservation {
+  canonicalJobId String   @map("canonical_job_id") @db.Text
+  site           String   @db.Text
+  sourceJobId    String   @map("source_job_id") @db.Text
+  url            String   @db.Text
+  observedAt     DateTime @map("observed_at") @db.Timestamptz(6)
+  rawTitle       String?  @map("raw_title") @db.Text
+
+  canonicalJob CanonicalJob @relation(fields: [canonicalJobId], references: [canonicalJobId], onDelete: Cascade)
+
+  @@id([canonicalJobId, site, sourceJobId])
+  @@index([canonicalJobId], map: "idx_source_observation_canonical_job_id")
+  @@map("source_observation")
+}

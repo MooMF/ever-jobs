@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 8403127002,
+      "title": "Account Executive, Strategic Accounts ",
+      "company_name": "Airtable",
+      "absolute_url": "https://job-boards.greenhouse.io/airtable/jobs/8403127002",
+      "updated_at": "2026-04-15T10:00:00-07:00",
+      "location": { "name": "Remote - US" },
+      "departments": [{ "id": 1, "name": "Customer Success & Services" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Account Executive, Strategic Accounts&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Airtable is the spreadsheet-database hybrid platform &amp; we ship low-code app-builder tools to enterprise customers.&lt;/p&gt;"
+    },
+    {
+      "id": 8409168002,
+      "title": "Senior Software Engineer, Platform",
+      "company_name": "Airtable",
+      "absolute_url": "https://job-boards.greenhouse.io/airtable/jobs/8409168002",
+      "updated_at": "2026-04-20T10:00:00-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 2, "name": "Engineering" }],
+      "content": "&lt;p&gt;Lead Airtable's platform-engineering function across the enterprise stack.&lt;/p&gt;"
+    }
+  ]
+}

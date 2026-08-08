@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 4676549006,
+      "title": "Account Executive ",
+      "company_name": "YugabyteDB",
+      "absolute_url": "https://job-boards.greenhouse.io/yugabyte/jobs/4676549006",
+      "updated_at": "2026-04-28T10:02:55-04:00",
+      "location": {
+        "name": "EMEA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About YugabyteDB.&lt;/strong&gt; Now hiring a Account Executive on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4613958006,
+      "title": "Account Manager, Mid West",
+      "company_name": "YugabyteDB",
+      "absolute_url": "https://job-boards.greenhouse.io/yugabyte/jobs/4613958006",
+      "updated_at": "2026-05-04T18:49:35-04:00",
+      "location": {
+        "name": "Remote, USA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About YugabyteDB.&lt;/strong&gt; Now hiring a Account Manager, Mid West on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4680425006,
+      "title": "Director, FP&A",
+      "company_name": "YugabyteDB",
+      "absolute_url": "https://job-boards.greenhouse.io/yugabyte/jobs/4680425006",
+      "updated_at": "2026-05-12T16:10:05-04:00",
+      "location": {
+        "name": "Sunnyvale, CA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About YugabyteDB.&lt;/strong&gt; Now hiring a Director, FP&A on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

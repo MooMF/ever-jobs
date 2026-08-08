@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7672622,
+      "title": "2LoD Assurance Manager",
+      "company_name": "GoCardless",
+      "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/7672622",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "London, UK" },
+      "departments": [{ "id": 1, "name": "Risk" }],
+      "content": "&lt;p&gt;&lt;strong&gt;2LoD Assurance Manager&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;GoCardless is the dominant bank-debit recurring-payments-as-a-service platform pioneered around the direct-debit data model.&lt;/p&gt;"
+    },
+    {
+      "id": 7858028,
+      "title": "Site Reliability Engineer ",
+      "company_name": "GoCardless",
+      "absolute_url": "https://job-boards.greenhouse.io/gocardless/jobs/7858028",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Remote, UK" },
+      "departments": [{ "id": 2, "name": "Product Development" }],
+      "content": "&lt;p&gt;Lead GoCardless's Site Reliability function across the bank-payment platform stack &amp; SME-fintech ecosystem.&lt;/p&gt;"
+    }
+  ]
+}

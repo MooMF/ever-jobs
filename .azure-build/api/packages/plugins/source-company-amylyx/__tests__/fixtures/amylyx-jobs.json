@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5763048004,
+      "title": "Associate Director, Clinical Data Programmer ",
+      "company_name": "Amylyx Pharmaceuticals",
+      "absolute_url": "https://job-boards.greenhouse.io/amylyx/jobs/5763048004",
+      "updated_at": "2026-04-09T10:09:12-04:00",
+      "location": {
+        "name": "Cambridge, MA"
+      },
+      "departments": [
+        {
+          "id": 5763048005,
+          "name": "313 - Biometrics "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Amylyx Pharmaceuticals.&lt;/strong&gt; Now hiring a Associate Director, Clinical Data Programmer on the 313 - Biometrics team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5818910004,
+      "title": "Associate Director, Computer System Validation & Quality Compliance",
+      "company_name": "Amylyx Pharmaceuticals",
+      "absolute_url": "https://job-boards.greenhouse.io/amylyx/jobs/5818910004",
+      "updated_at": "2026-03-09T09:36:07-04:00",
+      "location": {
+        "name": "Cambridge, MA"
+      },
+      "departments": [
+        {
+          "id": 5818910005,
+          "name": "220 - Quality Operations"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Amylyx Pharmaceuticals.&lt;/strong&gt; Now hiring a Associate Director, Computer System Validation & Quality Compliance on the 220 - Quality Operations team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 6002934004,
+      "title": "Director, Investor Relations",
+      "company_name": "Amylyx Pharmaceuticals",
+      "absolute_url": "https://job-boards.greenhouse.io/amylyx/jobs/6002934004",
+      "updated_at": "2026-05-26T16:12:32-04:00",
+      "location": {
+        "name": "Cambridge, MA"
+      },
+      "departments": [
+        {
+          "id": 6002934005,
+          "name": "531 - Investor Relations and Corp Communications"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Amylyx Pharmaceuticals.&lt;/strong&gt; Now hiring a Director, Investor Relations on the 531 - Investor Relations and Corp Communications team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "jobs": [
+    {
+      "id": 7719489003,
+      "title": "9-12th Grade Science Teacher",
+      "company_name": "Academy with Community Partners",
+      "absolute_url": "https://job-boards.greenhouse.io/acp/jobs/7719489003",
+      "updated_at": "2026-05-12T10:00:00-07:00",
+      "location": { "name": "Academy with Community Partners" },
+      "departments": [{ "id": 4010458003, "name": "High School Teaching" }],
+      "content": "&lt;p&gt;&lt;strong&gt;About ACP&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Academy with Community Partners seeks a 9-12th grade science teacher to lead inquiry-based instruction &amp; small-cohort lab labs.&lt;/p&gt;"
+    },
+    {
+      "id": 7722835003,
+      "title": "Special Education Teacher",
+      "company_name": "Academy with Community Partners",
+      "absolute_url": "https://job-boards.greenhouse.io/acp/jobs/7722835003",
+      "updated_at": "2026-05-10T09:00:00-07:00",
+      "location": { "name": "Academy with Community Partners" },
+      "departments": [{ "id": 4010459003, "name": "Special Education" }],
+      "content": "&lt;p&gt;Lead ACP&amp;rsquo;s special-education program for 9-12th grade students with IEP-based accommodations.&lt;/p&gt;"
+    },
+    {
+      "id": 7722840003,
+      "title": "Special Education Teacher (Part-time)",
+      "company_name": "Academy with Community Partners",
+      "absolute_url": "https://job-boards.greenhouse.io/acp/jobs/7722840003",
+      "updated_at": "2026-05-05T08:00:00-07:00",
+      "location": { "name": "Academy with Community Partners" },
+      "departments": [{ "id": 4010459003, "name": "Special Education" }],
+      "content": "&lt;p&gt;Part-time ACP special-education role serving IEP students on a half-time schedule.&lt;/p&gt;"
+    }
+  ]
+}

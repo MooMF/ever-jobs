@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 4981639008,
+      "title": "Account Manager ",
+      "company_name": "Runpod",
+      "absolute_url": "https://job-boards.greenhouse.io/runpod/jobs/4981639008",
+      "updated_at": "2026-05-05T17:56:30-04:00",
+      "location": {
+        "name": "Remote, USA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Runpod.&lt;/strong&gt; Now hiring a Account Manager on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5158299008,
+      "title": "Customer Marketing Manager",
+      "company_name": "Runpod",
+      "absolute_url": "https://job-boards.greenhouse.io/runpod/jobs/5158299008",
+      "updated_at": "2026-06-02T01:31:40-04:00",
+      "location": {
+        "name": "Remote, USA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Runpod.&lt;/strong&gt; Now hiring a Customer Marketing Manager on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5221413008,
+      "title": "Deal Desk Manager",
+      "company_name": "Runpod",
+      "absolute_url": "https://job-boards.greenhouse.io/runpod/jobs/5221413008",
+      "updated_at": "2026-06-02T15:54:10-04:00",
+      "location": {
+        "name": "Remote, USA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Runpod.&lt;/strong&gt; Now hiring a Deal Desk Manager on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 5837465004,
+      "title": " Staff Accountant [Remote-US]",
+      "company_name": "Quanata",
+      "absolute_url": "https://job-boards.greenhouse.io/quanata/jobs/5837465004",
+      "updated_at": "2026-04-30T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 1, "name": "Finance" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Staff Accountant&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Quanata is the State-Farm-sponsored connected-mobility insurance-tech platform pioneered around the auto-telematics-risk-modeling data model &amp; the connected-mobility segment.&lt;/p&gt;"
+    },
+    {
+      "id": 5826032004,
+      "title": "Actuary [Remote-US]",
+      "company_name": "Quanata",
+      "absolute_url": "https://job-boards.greenhouse.io/quanata/jobs/5826032004",
+      "updated_at": "2026-04-29T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 2, "name": "Actuarial Operations and Risk Management" }],
+      "content": "&lt;p&gt;Lead Quanata's actuarial function across the HiRoad / Drive Safe &amp; Save / Steer / AI Insurance Studio platform.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 4672188006,
+      "title": "Brand Marketing Intern",
+      "company_name": "Dollar Shave Club",
+      "absolute_url": "https://job-boards.greenhouse.io/dollarshaveclub/jobs/4672188006",
+      "updated_at": "2026-04-10T17:12:22-04:00",
+      "location": { "name": "Durham, North Carolina" },
+      "departments": [{ "id": 1, "name": "Brand Strategy & Marketing" }],
+      "content": "&lt;p&gt;&lt;strong&gt;ABOUT DSC:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;In 2011, Dollar Shave Club didn't just shake up the shaving aisle&amp;mdash;we reinvented it.&lt;/p&gt;"
+    },
+    {
+      "id": 4672180006,
+      "title": "Legal Intern",
+      "company_name": "Dollar Shave Club",
+      "absolute_url": "https://job-boards.greenhouse.io/dollarshaveclub/jobs/4672180006",
+      "updated_at": "2026-04-12T09:15:00-04:00",
+      "location": { "name": "Remote, United States" },
+      "departments": [{ "id": 2, "name": "Legal " }],
+      "content": "&lt;p&gt;Join the Dollar Shave Club legal team as a summer intern.&lt;/p&gt;"
+    }
+  ]
+}

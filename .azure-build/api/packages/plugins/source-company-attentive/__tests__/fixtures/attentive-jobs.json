@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 4187911009,
+      "title": "Accounting Manager",
+      "company_name": "Attentive",
+      "absolute_url": "https://job-boards.greenhouse.io/attentive/jobs/4187911009",
+      "updated_at": "2026-04-15T19:09:07-04:00",
+      "first_published": "2026-03-12T11:30:00-04:00",
+      "location": { "name": "United States" },
+      "departments": [{ "id": 4021648009, "name": "Finance" }],
+      "offices": [{ "id": 4021052009, "name": "United States" }],
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;div&gt;Attentive is the AI marketing platform for 1:1 personalization redefining the way brands and people connect. We&rsquo;re the only marketing platform that combines real-time data and AI to deliver personalized SMS &amp; email messages at every stage of the customer journey.&lt;/div&gt;&lt;/div&gt;&lt;p&gt;As an &lt;strong&gt;Accounting Manager&lt;em&gt; &lt;/em&gt;&lt;/strong&gt;, you&#39;ll own the month-end close, accruals, and revenue recognition for Attentive&rsquo;s SMS, Email, and Concierge product lines. You&rsquo;ll partner with FP&amp;A and the Revenue team to drive period-over-period analytics and prepare schedules for the audit cycle.&lt;/p&gt;"
+    },
+    {
+      "id": 4221431009,
+      "title": "Director of Engineering, Intelligent Messaging ",
+      "company_name": "Attentive",
+      "absolute_url": "https://job-boards.greenhouse.io/attentive/jobs/4221431009",
+      "updated_at": "2026-04-22T14:18:51-04:00",
+      "first_published": "2026-03-25T11:00:00-04:00",
+      "location": { "name": "New York, NY" },
+      "departments": [{ "id": 4022874009, "name": "Engineering" }],
+      "offices": [{ "id": 4021100009, "name": "New York" }],
+      "content": "&lt;p&gt;Attentive&rsquo;s &lt;strong&gt;Intelligent Messaging&lt;/strong&gt; org is looking for a Director of Engineering to lead the platform team behind the SMS conversational-AI agent (Attentive Concierge), the email lifecycle engine (Attentive Email), and the cross-product orchestration layer.&lt;/p&gt;&lt;p&gt;You&#39;ll partner with Product, Data Science, and Customer Success to drive a roadmap that scales the AI-marketing flagship to thousands of brands across North America and Europe. The role is hybrid in our New York City headquarters.&lt;/p&gt;"
+    }
+  ]
+}

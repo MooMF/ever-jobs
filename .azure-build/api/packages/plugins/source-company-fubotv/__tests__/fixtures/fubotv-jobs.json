@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 7717998,
+      "title": "Manager, Business Development - Platform Partnerships",
+      "company_name": "Fubo",
+      "absolute_url": "https://careers.fubo.tv/fubotv-job-openings/?gh_jid=7717998",
+      "updated_at": "2026-04-27T16:14:47-04:00",
+      "first_published": "2026-03-13T13:59:59-04:00",
+      "location": { "name": "New York, NY " },
+      "departments": [{ "id": 23759, "name": "Business Development" }],
+      "offices": [{ "id": 16488, "name": "New York" }],
+      "content": "&lt;p&gt;&lt;strong&gt;About Fubo:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;FuboTV Inc. is a consumer-first live TV streaming company that is defining the future of TV.&lt;/p&gt;&lt;p&gt;Ranked among Fast Company&#39;s Most Innovative Companies. Fubo owns Hulu + Live TV (entertainment), Fubo (sports) and Molotov (entertainment and sports), which stream in markets around the globe.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;About the Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;We are seeking a Manager, Business Development - Platform Partnerships to join our Business Development team. This role will help support Fubo&#39;s subscriber growth through partnerships across multiple major distribution platforms&amp;nbsp;such as Apple, Roku, SamsungTV, and Amazon.&lt;/p&gt;"
+    },
+    {
+      "id": 7793268,
+      "title": "Senior Software Engineer, Backend ",
+      "company_name": "Fubo",
+      "absolute_url": "https://careers.fubo.tv/fubotv-job-openings/?gh_jid=7793268",
+      "updated_at": "2026-04-29T11:02:31-04:00",
+      "first_published": "2026-04-08T08:00:00-04:00",
+      "location": { "name": "Denver, CO " },
+      "departments": [{ "id": 23760, "name": "Technology" }],
+      "offices": [{ "id": 16489, "name": "Denver" }],
+      "content": "&lt;p&gt;&lt;strong&gt;About Fubo:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;FuboTV Inc. is a consumer-first live TV streaming company.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;About the Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;We are seeking a Senior Software Engineer, Backend to join our Technology team. You&#39;ll architect, build, and operate the backend systems that power Fubo&#39;s streaming experience for millions of subscribers across CTV, Smart TV, mobile, and web surfaces. Strong expertise in Go, Kotlin, or Java is preferred &amp;mdash; with experience operating high-throughput stateless microservices in production.&lt;/p&gt;"
+    }
+  ]
+}

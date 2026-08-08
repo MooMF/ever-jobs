@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4240919009,
+      "title": "Construction Field Coordinator & Materials Driver Full-time ($18-$20/hr) ",
+      "company_name": "Advocate Construction",
+      "absolute_url": "https://job-boards.greenhouse.io/advocateconstruction/jobs/4240919009",
+      "updated_at": "2026-05-27T11:34:49-04:00",
+      "location": {
+        "name": "Kansas City"
+      },
+      "departments": [
+        {
+          "id": 4240919010,
+          "name": "Operations Success Team "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Advocate Construction.&lt;/strong&gt; Now hiring a Construction Field Coordinator & Materials Driver Full-time ($18-$20/hr) on the Operations Success Team team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4252246009,
+      "title": " Construction Field Coordinator & Materials Driver -  Part-time ($18-$20/hr)",
+      "company_name": "Advocate Construction",
+      "absolute_url": "https://job-boards.greenhouse.io/advocateconstruction/jobs/4252246009",
+      "updated_at": "2026-05-27T11:35:30-04:00",
+      "location": {
+        "name": "Chicago"
+      },
+      "departments": [
+        {
+          "id": 4252246010,
+          "name": "Operations Success Team"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Advocate Construction.&lt;/strong&gt; Now hiring a Construction Field Coordinator & Materials Driver -  Part-time ($18-$20/hr) on the Operations Success Team team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4192503009,
+      "title": "Field Job Quality Inspector - Residential Roofing",
+      "company_name": "Advocate Construction",
+      "absolute_url": "https://job-boards.greenhouse.io/advocateconstruction/jobs/4192503009",
+      "updated_at": "2026-05-27T11:28:43-04:00",
+      "location": {
+        "name": "Chicago"
+      },
+      "departments": [
+        {
+          "id": 4192503010,
+          "name": "Quality Control"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Advocate Construction.&lt;/strong&gt; Now hiring a Field Job Quality Inspector - Residential Roofing on the Quality Control team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

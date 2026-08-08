@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4254098009,
+      "title": "Behavioural Health Coach ",
+      "company_name": "Amwell",
+      "absolute_url": "https://job-boards.greenhouse.io/amwell/jobs/4254098009",
+      "updated_at": "2026-05-26T10:18:46-04:00",
+      "location": {
+        "name": "Ireland"
+      },
+      "departments": [
+        {
+          "id": 4254098010,
+          "name": "Clinical Services "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Amwell.&lt;/strong&gt; Now hiring a Behavioural Health Coach on the Clinical Services team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4131915009,
+      "title": "Behavioural Health Coach",
+      "company_name": "Amwell",
+      "absolute_url": "https://job-boards.greenhouse.io/amwell/jobs/4131915009",
+      "updated_at": "2026-05-05T15:19:00-04:00",
+      "location": {
+        "name": "Dublin, Ireland"
+      },
+      "departments": [
+        {
+          "id": 4131915010,
+          "name": "Clinical Services"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Amwell.&lt;/strong&gt; Now hiring a Behavioural Health Coach on the Clinical Services team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4253940009,
+      "title": "Behavioural Health Coach",
+      "company_name": "Amwell",
+      "absolute_url": "https://job-boards.greenhouse.io/amwell/jobs/4253940009",
+      "updated_at": "2026-05-26T10:18:21-04:00",
+      "location": {
+        "name": "Ireland"
+      },
+      "departments": [
+        {
+          "id": 4253940010,
+          "name": "Clinical Services"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Amwell.&lt;/strong&gt; Now hiring a Behavioural Health Coach on the Clinical Services team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

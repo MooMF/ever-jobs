@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5816148004,
+      "title": "AI Data Curation Intern, Vulcan ",
+      "company_name": "AIFT",
+      "absolute_url": "https://job-boards.greenhouse.io/aift/jobs/5816148004",
+      "updated_at": "2026-05-13T23:43:29-04:00",
+      "location": {
+        "name": "Taipei, Taiwan"
+      },
+      "departments": [
+        {
+          "id": 5816148005,
+          "name": "Taiwan - Security Research Engineering "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AIFT.&lt;/strong&gt; Now hiring a AI Data Curation Intern, Vulcan on the Taiwan - Security Research Engineering team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5832099004,
+      "title": "AI Data Curation Part Time, Vulcan",
+      "company_name": "AIFT",
+      "absolute_url": "https://job-boards.greenhouse.io/aift/jobs/5832099004",
+      "updated_at": "2026-05-13T23:43:29-04:00",
+      "location": {
+        "name": "Taipei, Taiwan"
+      },
+      "departments": [
+        {
+          "id": 5832099005,
+          "name": "Taiwan - Security Research Engineering"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AIFT.&lt;/strong&gt; Now hiring a AI Data Curation Part Time, Vulcan on the Taiwan - Security Research Engineering team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5452757004,
+      "title": "Backend Manager, Virtual insurance",
+      "company_name": "AIFT",
+      "absolute_url": "https://job-boards.greenhouse.io/aift/jobs/5452757004",
+      "updated_at": "2026-05-13T23:43:29-04:00",
+      "location": {
+        "name": "Taipei, Taiwan"
+      },
+      "departments": [
+        {
+          "id": 5452757005,
+          "name": "Taiwan - ODHK Engineering"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AIFT.&lt;/strong&gt; Now hiring a Backend Manager, Virtual insurance on the Taiwan - ODHK Engineering team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

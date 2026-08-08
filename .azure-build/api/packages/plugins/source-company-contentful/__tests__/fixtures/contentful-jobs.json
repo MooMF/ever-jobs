@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7544101,
+      "title": "Manager, Security Engineering ",
+      "company_name": "Contentful",
+      "absolute_url": "https://job-boards.greenhouse.io/contentful/jobs/7544101",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "Berlin, Germany" },
+      "departments": [{ "id": 1, "name": "Security" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Manager, Security Engineering&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Contentful is the API-first headless-CMS / composable-content platform pioneered around structured-content-as-a-service &amp; the digital-experience-platform segment.&lt;/p&gt;"
+    },
+    {
+      "id": 7681422,
+      "title": "Senior Software Engineer, Studio",
+      "company_name": "Contentful",
+      "absolute_url": "https://job-boards.greenhouse.io/contentful/jobs/7681422",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Denver, CO" },
+      "departments": [{ "id": 2, "name": "Engineering" }],
+      "content": "&lt;p&gt;Lead Contentful's Studio engineering function across the visual editor / Apps Framework / Live Preview platform.&lt;/p&gt;"
+    }
+  ]
+}

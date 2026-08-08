@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5991049004,
+      "title": "Associate, Lifecycle Marketing ",
+      "company_name": "Modern Animal",
+      "absolute_url": "https://job-boards.greenhouse.io/modernanimal/jobs/5991049004",
+      "updated_at": "2026-05-27T13:24:38-04:00",
+      "location": {
+        "name": "Culver City, California"
+      },
+      "departments": [
+        {
+          "id": 5991049005,
+          "name": "Marketing "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Modern Animal.&lt;/strong&gt; Now hiring a Associate, Lifecycle Marketing on the Marketing team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5563697004,
+      "title": "Clinic Manager - San Francisco",
+      "company_name": "Modern Animal",
+      "absolute_url": "https://job-boards.greenhouse.io/modernanimal/jobs/5563697004",
+      "updated_at": "2026-05-27T13:24:38-04:00",
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "departments": [
+        {
+          "id": 5563697005,
+          "name": "Operations"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Modern Animal.&lt;/strong&gt; Now hiring a Clinic Manager - San Francisco on the Operations team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5804287004,
+      "title": "Floating Veterinarian - Austin",
+      "company_name": "Modern Animal",
+      "absolute_url": "https://job-boards.greenhouse.io/modernanimal/jobs/5804287004",
+      "updated_at": "2026-05-27T13:24:38-04:00",
+      "location": {
+        "name": "Austin, TX"
+      },
+      "departments": [
+        {
+          "id": 5804287005,
+          "name": "Clinical"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Modern Animal.&lt;/strong&gt; Now hiring a Floating Veterinarian - Austin on the Clinical team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

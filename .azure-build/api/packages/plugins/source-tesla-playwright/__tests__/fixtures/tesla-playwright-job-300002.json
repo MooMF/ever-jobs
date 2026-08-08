@@ -1,0 +1,7 @@
+{
+  "_comment": "Spec 013 / T10 — Tesla-Playwright per-job detail envelope for listing 300002. Exercises the PARTIAL two-field path: only jobDescription + jobResponsibilities populated; jobRequirements + jobCompensationAndBenefits omitted entirely. composeDescription() should emit a two-section string. Mirrors source-tesla T08 / DETAIL_200002's shape.",
+  "jobDescription": "Tesla's Energy Cloud platform powers grid-scale storage analytics across the global Megapack fleet. Join us as a Staff Cloud Solutions Architect to design the next generation of multi-region telemetry pipelines.",
+  "jobResponsibilities": "- Architect cross-region data flows handling > 100 TB / day of Megapack telemetry.\n- Mentor a team of cloud engineers on AWS / GCP best practices.\n- Drive cost-optimisation efforts across our managed-Kubernetes footprint.",
+  "department": "Software & IT",
+  "timeType": "Full time"
+}

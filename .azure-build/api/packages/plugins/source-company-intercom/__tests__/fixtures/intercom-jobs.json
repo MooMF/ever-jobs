@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 7247950,
+      "title": "Account Executive, Commercial ",
+      "company_name": "Intercom",
+      "absolute_url": "https://job-boards.greenhouse.io/intercom/jobs/7247950",
+      "updated_at": "2026-04-18T14:09:07-04:00",
+      "first_published": "2026-03-12T11:30:00-04:00",
+      "location": { "name": "London, United Kingdom" },
+      "departments": [{ "id": 12871, "name": "Sales" }],
+      "offices": [{ "id": 4321, "name": "London" }],
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Intercom is the AI Customer Service company on a mission to help businesses provide incredible customer experiences. Our AI agent &lt;strong&gt;Fin&lt;/strong&gt;, the most advanced AI agent in the market, lets businesses deliver always-on, impeccable customer service and ultimately transform their customers&#39; experiences for the better.&lt;/p&gt;&lt;p&gt;As an &lt;strong&gt;Account Executive, Commercial&lt;em&gt; &lt;/em&gt;&lt;/strong&gt;, you&rsquo;ll own the full sales cycle from prospecting through to close for mid-market customers across EMEA. You&rsquo;ll partner with SDRs and Solutions Engineers to drive period-over-period ARR growth on the Fin AI agent flagship.&lt;/p&gt;"
+    },
+    {
+      "id": 7591182,
+      "title": "Senior Software Engineer, Inbox",
+      "company_name": "Intercom",
+      "absolute_url": "https://job-boards.greenhouse.io/intercom/jobs/7591182",
+      "updated_at": "2026-04-22T14:18:51-04:00",
+      "first_published": "2026-03-25T11:00:00-04:00",
+      "location": { "name": "Dublin, Ireland" },
+      "departments": [{ "id": 12873, "name": "Engineering" }],
+      "offices": [{ "id": 4322, "name": "Dublin" }],
+      "content": "&lt;p&gt;Intercom&rsquo;s &lt;strong&gt;Inbox&lt;/strong&gt; team is looking for a Senior Software Engineer to build the conversation-routing surface that powers human agent handoffs from the Fin AI agent. You&#39;ll work across Ruby on Rails, React, and Elixir to ship the dashboard experience used by thousands of customer-service teams every day.&lt;/p&gt;&lt;p&gt;You&rsquo;ll partner with Product, Design, and the Fin Platform team to drive a roadmap that scales the AI-customer-service flagship to enterprise customers across North America, EMEA, and APAC. The role is hybrid in our Dublin engineering hub.&lt;/p&gt;"
+    }
+  ]
+}

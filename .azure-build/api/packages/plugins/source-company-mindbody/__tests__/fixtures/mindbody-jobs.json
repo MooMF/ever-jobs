@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 4683439006,
+      "title": "Account Executive ",
+      "company_name": "Mindbody",
+      "absolute_url": "https://job-boards.greenhouse.io/mindbody/jobs/4683439006",
+      "updated_at": "2026-06-03T16:31:06-04:00",
+      "location": {
+        "name": "United Kingdom"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Mindbody.&lt;/strong&gt; Now hiring a Account Executive on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4681816006,
+      "title": "Associate Technical Account Manager",
+      "company_name": "Mindbody",
+      "absolute_url": "https://job-boards.greenhouse.io/mindbody/jobs/4681816006",
+      "updated_at": "2026-06-03T16:31:06-04:00",
+      "location": {
+        "name": "United Kingdom"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Mindbody.&lt;/strong&gt; Now hiring a Associate Technical Account Manager on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4682067006,
+      "title": "Customer Success Manager",
+      "company_name": "Mindbody",
+      "absolute_url": "https://job-boards.greenhouse.io/mindbody/jobs/4682067006",
+      "updated_at": "2026-06-03T16:31:06-04:00",
+      "location": {
+        "name": "Brazil"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Mindbody.&lt;/strong&gt; Now hiring a Customer Success Manager on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

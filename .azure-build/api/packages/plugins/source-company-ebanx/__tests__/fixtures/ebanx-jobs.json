@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 7674418003,
+      "title": "Accounting Specialist ",
+      "company_name": "EBANX",
+      "absolute_url": "https://job-boards.greenhouse.io/ebanx/jobs/7674418003",
+      "updated_at": "2026-06-03T15:41:31-04:00",
+      "location": {
+        "name": "Argentina | Remote"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About EBANX.&lt;/strong&gt; Now hiring a Accounting Specialist on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7702098003,
+      "title": "Consolidation & Reporting Sr. Analyst",
+      "company_name": "EBANX",
+      "absolute_url": "https://job-boards.greenhouse.io/ebanx/jobs/7702098003",
+      "updated_at": "2026-06-03T15:41:32-04:00",
+      "location": {
+        "name": "Curitiba or São Paulo | On-site"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About EBANX.&lt;/strong&gt; Now hiring a Consolidation & Reporting Sr. Analyst on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7645174003,
+      "title": "Cyber Security Specialist | AppSec",
+      "company_name": "EBANX",
+      "absolute_url": "https://job-boards.greenhouse.io/ebanx/jobs/7645174003",
+      "updated_at": "2026-06-03T15:41:31-04:00",
+      "location": {
+        "name": "Curitiba | On-site"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About EBANX.&lt;/strong&gt; Now hiring a Cyber Security Specialist | AppSec on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

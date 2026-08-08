@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 4125318007,
+      "title": "Future Opportunities",
+      "company_name": "Indigo",
+      "absolute_url": "https://job-boards.greenhouse.io/indigo/jobs/4125318007",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "Boston, MA" },
+      "departments": [{ "id": 1, "name": "People" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Future Opportunities&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Indigo is the agricultural-microbiome / regenerative-farming platform pioneered around the carbon-sequestration data model.&lt;/p&gt;"
+    },
+    {
+      "id": 4125318008,
+      "title": "Senior Carbon Operations Manager",
+      "company_name": "Indigo",
+      "absolute_url": "https://job-boards.greenhouse.io/indigo/jobs/4125318008",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Charleston, SC" },
+      "departments": [{ "id": 2, "name": "Carbon Operations" }],
+      "content": "&lt;p&gt;Lead Indigo's Carbon Operations function across the agtech &amp; regenerative-agriculture platform stack.&lt;/p&gt;"
+    }
+  ]
+}

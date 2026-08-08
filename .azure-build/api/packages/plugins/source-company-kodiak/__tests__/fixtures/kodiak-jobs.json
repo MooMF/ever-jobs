@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 4246347009,
+      "title": "Accounting Manager ",
+      "company_name": "Kodiak Robotics",
+      "absolute_url": "https://job-boards.greenhouse.io/kodiak/jobs/4246347009",
+      "updated_at": "2026-05-12T11:16:28-04:00",
+      "location": {
+        "name": "Mountain View, CA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Kodiak Robotics.&lt;/strong&gt; Now hiring a Accounting Manager on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4005932009,
+      "title": "Applied AI Engineer - Flywheel Automation & Continuous Learning",
+      "company_name": "Kodiak Robotics",
+      "absolute_url": "https://job-boards.greenhouse.io/kodiak/jobs/4005932009",
+      "updated_at": "2026-05-07T15:39:34-04:00",
+      "location": {
+        "name": "Mountain View, CA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Kodiak Robotics.&lt;/strong&gt; Now hiring a Applied AI Engineer - Flywheel Automation & Continuous Learning on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4273139009,
+      "title": "Autonomous Fleet Specialist",
+      "company_name": "Kodiak Robotics",
+      "absolute_url": "https://job-boards.greenhouse.io/kodiak/jobs/4273139009",
+      "updated_at": "2026-06-03T17:51:08-04:00",
+      "location": {
+        "name": "Lancaster, TX"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Kodiak Robotics.&lt;/strong&gt; Now hiring a Autonomous Fleet Specialist on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7872322,
+      "title": " FP&A Manager",
+      "company_name": "Iterable",
+      "absolute_url": "https://job-boards.greenhouse.io/iterable/jobs/7872322",
+      "updated_at": "2026-04-30T10:00:00-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 1, "name": "Finance" }],
+      "content": "&lt;p&gt;&lt;strong&gt;FP&amp;A Manager&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Iterable is the cross-channel marketing-automation platform pioneered around the customer-data-and-engagement-hub data model &amp; the cross-channel-customer-engagement segment.&lt;/p&gt;"
+    },
+    {
+      "id": 7507831,
+      "title": "Senior Site Reliability Engineer (Cloud Platform) ",
+      "company_name": "Iterable",
+      "absolute_url": "https://job-boards.greenhouse.io/iterable/jobs/7507831",
+      "updated_at": "2026-04-29T10:00:00-07:00",
+      "location": { "name": "Lisbon, Portugal" },
+      "departments": [{ "id": 2, "name": "Engineering" }],
+      "content": "&lt;p&gt;Lead Iterable's SRE function across the AI Suite / Studio / Journeys / Embedded Messaging platform.&lt;/p&gt;"
+    }
+  ]
+}

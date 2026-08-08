@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 6216631003,
+      "title": "Customer Success Engineer, Bioinformatics ",
+      "company_name": "Watershed Informatics",
+      "absolute_url": "https://job-boards.greenhouse.io/watershed/jobs/6216631003",
+      "updated_at": "2025-04-01T12:20:40-04:00",
+      "location": {
+        "name": "Cambridge, MA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Watershed Informatics.&lt;/strong&gt; Now hiring a Customer Success Engineer, Bioinformatics on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4254074003,
+      "title": "High Performance Computing Engineer",
+      "company_name": "Watershed Informatics",
+      "absolute_url": "https://job-boards.greenhouse.io/watershed/jobs/4254074003",
+      "updated_at": "2025-04-01T12:20:40-04:00",
+      "location": {
+        "name": "Boston"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Watershed Informatics.&lt;/strong&gt; Now hiring a High Performance Computing Engineer on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5820041003,
+      "title": "Infrastructure Engineer",
+      "company_name": "Watershed Informatics",
+      "absolute_url": "https://job-boards.greenhouse.io/watershed/jobs/5820041003",
+      "updated_at": "2025-04-01T12:20:40-04:00",
+      "location": {
+        "name": "Cambridge, MA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Watershed Informatics.&lt;/strong&gt; Now hiring a Infrastructure Engineer on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

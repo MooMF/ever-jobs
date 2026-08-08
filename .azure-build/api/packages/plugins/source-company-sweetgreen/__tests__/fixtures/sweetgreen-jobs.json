@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7832157,
+      "title": "Area Leader",
+      "company_name": " sweetgreen",
+      "absolute_url": "https://careers.sweetgreen.com/jobs/7832157?gh_jid=7832157",
+      "updated_at": "2026-04-15T10:00:00-07:00",
+      "location": { "name": "Boston, MA" },
+      "departments": [{ "id": 1, "name": "Back Bay" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Area Leader&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;sweetgreen is the digital-first fast-casual healthy-fresh-salad chain &amp; we ship 200+ stores across the United States.&lt;/p&gt;"
+    },
+    {
+      "id": 7723372,
+      "title": "Field Marketing Manager ",
+      "company_name": " sweetgreen",
+      "absolute_url": "https://careers.sweetgreen.com/jobs/7723372?gh_jid=7723372",
+      "updated_at": "2026-04-20T10:00:00-07:00",
+      "location": { "name": "Los Angeles, CA" },
+      "departments": [{ "id": 2, "name": "16th + Market" }],
+      "content": "&lt;p&gt;Lead sweetgreen's field-marketing function in the LA market.&lt;/p&gt;"
+    }
+  ]
+}

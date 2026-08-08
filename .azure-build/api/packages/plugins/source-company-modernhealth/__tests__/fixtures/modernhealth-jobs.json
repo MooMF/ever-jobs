@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 8532568002,
+      "title": "Client Manager (Singapore) ",
+      "company_name": "Modern Health",
+      "absolute_url": "https://job-boards.greenhouse.io/modernhealth/jobs/8532568002",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "Singapore" },
+      "departments": [{ "id": 1, "name": "Customer Success" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Client Manager (Singapore)&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Modern Health is the employer-sponsored mental-health benefits platform pioneered around precision-mental-healthcare-as-a-service &amp; the digital-mental-healthcare segment.&lt;/p&gt;"
+    },
+    {
+      "id": 8617430005,
+      "title": "Staff AI Product Engineer",
+      "company_name": "Modern Health",
+      "absolute_url": "https://job-boards.greenhouse.io/modernhealth/jobs/8617430005",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 2, "name": "Engineering" }],
+      "content": "&lt;p&gt;Lead Modern Health's AI Product Engineering function across the Care Platform / Coordination / Provider Network stack.&lt;/p&gt;"
+    }
+  ]
+}

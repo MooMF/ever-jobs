@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 9101234,
+      "title": "Senior Software Engineer, Design-Tooling Platform",
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/9101234",
+      "updated_at": "2026-04-29T15:00:00.000Z",
+      "first_published": "2026-04-19T08:00:00.000Z",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 610, "name": "Engineering" }],
+      "offices": [{ "id": 621, "name": "San Francisco" }],
+      "content": "<p><strong>About the role</strong></p><p>Build the design-tooling platform that powers Figma's multiplayer canvas across millions of designers and engineers collaborating in real time.</p><ul><li>CRDT, OT, and distributed-systems experience required</li></ul>"
+    },
+    {
+      "id": 9102345,
+      "title": "Senior Manager, Design-Advocacy Strategy",
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/9102345",
+      "updated_at": "2026-04-30T11:30:00.000Z",
+      "first_published": "2026-04-23T07:00:00.000Z",
+      "location": { "name": "Remote — USA" },
+      "departments": [{ "id": 611, "name": "Design Advocacy" }],
+      "offices": [{ "id": 622, "name": "Remote" }],
+      "content": "<p>Own Figma's design-advocacy strategy roadmap across enterprise design-system adoption, education, and community-engagement motion-design.</p>"
+    }
+  ],
+  "meta": { "total": 2 }
+}

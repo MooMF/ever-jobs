@@ -1,0 +1,34 @@
+{
+  "jobs": [
+    {
+      "id": 8476098002,
+      "title": "DevOps Engineering Manager ",
+      "company_name": "ACLU - National Office",
+      "absolute_url": "https://job-boards.greenhouse.io/aclu/jobs/8476098002",
+      "updated_at": "2026-05-12T10:00:00-04:00",
+      "location": { "name": "New York, New York, United States" },
+      "departments": [{ "id": 4027842002, "name": "Technology" }],
+      "content": "&lt;p&gt;&lt;strong&gt;About the ACLU&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The American Civil Liberties Union is seeking a DevOps Engineering Manager to lead the platform &amp; infrastructure team at the National Office.&lt;/p&gt;"
+    },
+    {
+      "id": 8511065002,
+      "title": "Director, National Campaigns, Abuse of Power",
+      "company_name": "ACLU - National Office",
+      "absolute_url": "https://job-boards.greenhouse.io/aclu/jobs/8511065002",
+      "updated_at": "2026-05-10T09:00:00-04:00",
+      "location": { "name": "New York, New York, United States; Washington, District of Columbia, United States" },
+      "departments": [{ "id": 4027850002, "name": "National Political & Advocacy " }],
+      "content": "&lt;p&gt;Lead nationwide ACLU campaigns on abuse-of-power constitutional issues across federal &amp; state advocacy fronts.&lt;/p&gt;"
+    },
+    {
+      "id": 8531703002,
+      "title": "Fall 2027 Marvin M. Karpatkin Fellowship, Racial Justice Program",
+      "company_name": "ACLU - National Office",
+      "absolute_url": "https://job-boards.greenhouse.io/aclu/jobs/8531703002",
+      "updated_at": "2026-05-05T08:00:00-04:00",
+      "location": { "name": "Remote - National " },
+      "departments": [{ "id": 4027870002, "name": "Legal" }],
+      "content": "&lt;p&gt;The Marvin M. Karpatkin Fellowship is a one-year position at the ACLU's Racial Justice Program in the National Office.&lt;/p&gt;"
+    }
+  ]
+}

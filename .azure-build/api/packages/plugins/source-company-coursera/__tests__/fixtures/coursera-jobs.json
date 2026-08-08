@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 5982730004,
+      "title": "Chief of Staff - CTO",
+      "company_name": "Coursera",
+      "absolute_url": "https://job-boards.greenhouse.io/coursera/jobs/5982730004",
+      "updated_at": "2026-04-30T12:06:01-04:00",
+      "first_published": "2026-04-15T08:00:00-04:00",
+      "location": { "name": "United States" },
+      "departments": [{ "id": 91001, "name": "Chief of Staff" }],
+      "offices": [{ "id": 9001, "name": "Mountain View" }],
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;About Coursera&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Coursera was launched in 2012 by Andrew Ng and Daphne Koller with a mission to provide universal access to world-class learning. Today, it is one of the largest online learning platforms in the world, with 205 million registered learners as of March 31, 2026. Coursera partners with over 375 leading university and industry partners to offer a broad catalog of content and credentials.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;You&#39;ll partner directly with the CTO and the senior engineering leadership team to ship strategic priorities across the engineering organisation.&lt;/p&gt;"
+    },
+    {
+      "id": 5839408004,
+      "title": "Content Ingestion & Transformation Specialist",
+      "company_name": "Coursera",
+      "absolute_url": "https://job-boards.greenhouse.io/coursera/jobs/5839408004",
+      "updated_at": "2026-04-27T13:41:57-04:00",
+      "first_published": "2026-04-08T09:30:00-04:00",
+      "location": { "name": "India" },
+      "departments": [{ "id": 91002, "name": "Industry Partnerships" }],
+      "offices": [{ "id": 9002, "name": "Gurgaon" }],
+      "content": "&lt;h2&gt;&lt;strong&gt;Content Ingestion &amp; Transformation Specialist&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;At Coursera, we believe that every learner deserves access to world-class content. The Industry Partnerships team partners with the largest enterprise wellness buyers across India and the broader APAC region to ship content ingestion, normalisation, and metadata enrichment on the Coursera Learner Platform.&lt;/p&gt;&lt;p&gt;You&#39;ll lead content ingestion and transformation workflows for new university and industry partners across the APAC region.&lt;/p&gt;"
+    }
+  ]
+}

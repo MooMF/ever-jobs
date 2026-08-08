@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7636543003,
+      "title": "Accountant, Payroll and Stock",
+      "company_name": "Conviva",
+      "absolute_url": "https://www.conviva.com/careers/job/7636543003?gh_jid=7636543003",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "Foster City, CA" },
+      "departments": [{ "id": 1, "name": "Finance" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Accountant, Payroll and Stock&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Conviva is the dominant cross-screen video streaming-quality measurement &amp; analytics platform pioneered around the longitudinal-streaming-telemetry data model.&lt;/p&gt;"
+    },
+    {
+      "id": 7637558003,
+      "title": "Senior Software Engineer, Streaming Analytics",
+      "company_name": "Conviva",
+      "absolute_url": "https://www.conviva.com/careers/job/7637558003?gh_jid=7637558003",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 2, "name": "Technical Solutions" }],
+      "content": "&lt;p&gt;Lead Conviva's Streaming Analytics function across the platform stack.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7775209,
+      "title": "Asset Protection Specialist ",
+      "company_name": "HelloFresh",
+      "absolute_url": "https://careers.hellofresh.com/global/en/job/7775209?gh_jid=7775209",
+      "updated_at": "2026-04-15T10:00:00-07:00",
+      "location": { "name": "UK " },
+      "departments": [{ "id": 1, "name": "Operations " }],
+      "content": "&lt;p&gt;&lt;strong&gt;Asset Protection Specialist&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;HelloFresh is the world's largest meal-kit company &amp; we ship millions of recipes weekly across 18+ markets.&lt;/p&gt;"
+    },
+    {
+      "id": 7693012,
+      "title": "Chief Marketing Officer - DACH",
+      "company_name": "HelloFresh",
+      "absolute_url": "https://careers.hellofresh.com/global/en/job/7693012?gh_jid=7693012",
+      "updated_at": "2026-04-20T10:00:00-07:00",
+      "location": { "name": "Berlin, Germany" },
+      "departments": [{ "id": 2, "name": "Marketing" }],
+      "content": "&lt;p&gt;Lead HelloFresh's DACH-region marketing function across Germany, Austria, and Switzerland.&lt;/p&gt;"
+    }
+  ]
+}

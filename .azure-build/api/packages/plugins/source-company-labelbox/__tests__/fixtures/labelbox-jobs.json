@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 4640965007,
+      "title": "Applied Research Engineer",
+      "company_name": "Labelbox",
+      "absolute_url": "https://job-boards.greenhouse.io/labelbox/jobs/4640965007",
+      "updated_at": "2026-04-30T10:00:00-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 1, "name": "Engineering" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Applied Research Engineer&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Labelbox is the AI-data-development platform pioneered around the labelled-training-data-pipeline data model &amp; the AI-data-development segment.&lt;/p&gt;"
+    },
+    {
+      "id": 4640927007,
+      "title": "Forward Deployed Engineer",
+      "company_name": "Labelbox",
+      "absolute_url": "https://job-boards.greenhouse.io/labelbox/jobs/4640927007",
+      "updated_at": "2026-04-29T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 2, "name": "Alignerr Services" }],
+      "content": "&lt;p&gt;Lead Labelbox's Alignerr Services function across the Catalog / Annotate / Model / Boost platform.&lt;/p&gt;"
+    }
+  ]
+}

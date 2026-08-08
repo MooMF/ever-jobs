@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5125245007,
+      "title": "Assistant Director ",
+      "company_name": "AppleTree Prep",
+      "absolute_url": "https://job-boards.greenhouse.io/appletreeprep/jobs/5125245007",
+      "updated_at": "2026-05-18T14:08:07-04:00",
+      "location": {
+        "name": "1471 Jennings Mill Rd., Watkinsville, GA 30622"
+      },
+      "departments": [
+        {
+          "id": 5125245008,
+          "name": "Assistant Director "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AppleTree Prep.&lt;/strong&gt; Now hiring a Assistant Director on the Assistant Director team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5115871007,
+      "title": "Assistant Infant Teacher",
+      "company_name": "AppleTree Prep",
+      "absolute_url": "https://job-boards.greenhouse.io/appletreeprep/jobs/5115871007",
+      "updated_at": "2026-05-18T14:08:07-04:00",
+      "location": {
+        "name": "810 Olympic Dr., Athens, GA 30601"
+      },
+      "departments": [
+        {
+          "id": 5115871008,
+          "name": "Teaching Staff"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AppleTree Prep.&lt;/strong&gt; Now hiring a Assistant Infant Teacher on the Teaching Staff team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5125147007,
+      "title": "Assistant Infant Teacher - Macon",
+      "company_name": "AppleTree Prep",
+      "absolute_url": "https://job-boards.greenhouse.io/appletreeprep/jobs/5125147007",
+      "updated_at": "2026-05-18T14:08:07-04:00",
+      "location": {
+        "name": "1080 2nd St., Macon, GA 31201"
+      },
+      "departments": [
+        {
+          "id": 5125147008,
+          "name": "Teaching Staff"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AppleTree Prep.&lt;/strong&gt; Now hiring a Assistant Infant Teacher - Macon on the Teaching Staff team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

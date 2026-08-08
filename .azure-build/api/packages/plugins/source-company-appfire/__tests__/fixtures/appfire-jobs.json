@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4701324005,
+      "title": "GRC Security Analyst - Information Security ",
+      "company_name": "Appfire",
+      "absolute_url": "https://job-boards.greenhouse.io/appfire/jobs/4701324005",
+      "updated_at": "2026-06-02T06:58:23-04:00",
+      "location": {
+        "name": "Bulgaria"
+      },
+      "departments": [
+        {
+          "id": 4701324006,
+          "name": "Information Security "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Appfire.&lt;/strong&gt; Now hiring a GRC Security Analyst - Information Security on the Information Security team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4701323005,
+      "title": "GRC Security Analyst - Information Security",
+      "company_name": "Appfire",
+      "absolute_url": "https://job-boards.greenhouse.io/appfire/jobs/4701323005",
+      "updated_at": "2026-06-02T06:59:55-04:00",
+      "location": {
+        "name": "Spain"
+      },
+      "departments": [
+        {
+          "id": 4701323006,
+          "name": "Information Security"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Appfire.&lt;/strong&gt; Now hiring a GRC Security Analyst - Information Security on the Information Security team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4701325005,
+      "title": "GRC Security Analyst - Information Security",
+      "company_name": "Appfire",
+      "absolute_url": "https://job-boards.greenhouse.io/appfire/jobs/4701325005",
+      "updated_at": "2026-06-02T06:57:49-04:00",
+      "location": {
+        "name": "Poland"
+      },
+      "departments": [
+        {
+          "id": 4701325006,
+          "name": "Information Security"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Appfire.&lt;/strong&gt; Now hiring a GRC Security Analyst - Information Security on the Information Security team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

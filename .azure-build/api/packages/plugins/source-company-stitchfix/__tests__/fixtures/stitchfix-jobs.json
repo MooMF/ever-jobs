@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 7624583,
+      "title": "Senior Software Engineer, Algorithms",
+      "company_name": "Stitch Fix",
+      "absolute_url": "https://www.stitchfix.com/careers/jobs?gh_jid=7624583&gh_jid=7624583",
+      "updated_at": "2026-04-30T12:15:32-04:00",
+      "first_published": "2026-03-21T09:00:00-04:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 4063436002, "name": "Engineering" }],
+      "offices": [{ "id": 21001, "name": "San Francisco" }],
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h3&gt;&lt;strong&gt;About Stitch Fix, Inc. &lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;Stitch Fix (NASDAQ: SFIX) is the leading online personal styling service that helps people discover the styles they will love that fit perfectly so they always look - and feel - their best.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Senior Software Engineer, Algorithms partners with Data Science &amp; Engineering to ship the recommendation algorithms that power Stitch Fix&#39;s styling pipeline.&lt;/p&gt;"
+    },
+    {
+      "id": 7778233,
+      "title": "Principal Full-Stack Data Scientist - Recommendation Algorithms ",
+      "company_name": "Stitch Fix",
+      "absolute_url": "https://www.stitchfix.com/careers/jobs?gh_jid=7778233&gh_jid=7778233",
+      "updated_at": "2026-04-29T10:42:11-04:00",
+      "first_published": "2026-03-15T08:30:00-04:00",
+      "location": { "name": "Remote, USA" },
+      "departments": [{ "id": 4089992002, "name": "Data Platform" }],
+      "offices": [{ "id": 21002, "name": "Remote, USA" }],
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Stitch Fix (NASDAQ: SFIX) is the leading online personal styling service. The Data Platform team owns the longitudinal style-recommendation data model.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Principal Full-Stack Data Scientist partners with Algorithms and Data Engineering to quantify recommendation efficacy across customer cohorts.&lt;/p&gt;"
+    }
+  ]
+}

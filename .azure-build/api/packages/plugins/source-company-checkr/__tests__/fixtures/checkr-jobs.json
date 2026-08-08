@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7782659,
+      "title": "Implementation Manager, Customer Success ",
+      "company_name": "Checkr",
+      "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/7782659",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 1, "name": "Implementations" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Implementation Manager, Customer Success&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Checkr is the API-driven background-screening + identity-verification platform pioneered around people-trust-as-a-service &amp; FCRA-compliant continuous monitoring.&lt;/p&gt;"
+    },
+    {
+      "id": 7895432,
+      "title": "Senior Python Engineer, Truework ",
+      "company_name": "Checkr",
+      "absolute_url": "https://job-boards.greenhouse.io/checkr/jobs/7895432",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 2, "name": "CheckrX" }],
+      "content": "&lt;p&gt;Lead Checkr's Truework income / employment verification engineering function across the CheckrX FCRA-compliant tenant-facing platform.&lt;/p&gt;"
+    }
+  ]
+}

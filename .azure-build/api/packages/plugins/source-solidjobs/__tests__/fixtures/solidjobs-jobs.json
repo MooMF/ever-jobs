@@ -1,0 +1,174 @@
+{
+    "jobs":  [
+                 {
+                     "jobOfferKey":  "3723b7f4-ff83-431e-a26d-be715e190fd1",
+                     "title":  "Java Developer",
+                     "division":  "IT",
+                     "category":  "Developer",
+                     "subCategory":  "Java",
+                     "company":  "Click IT Group",
+                     "companyLogoUrl":  "https://cdn.solid.jobs/companies/logos/fe1fd9d12a0344358abdf8b1805c5268.jpg",
+                     "salary":  {
+                                    "from":  16800.00000,
+                                    "to":  21000.00000,
+                                    "currency":  "PLN",
+                                    "period":  "Month",
+                                    "employmentType":  "B2B"
+                                },
+                     "contractTime":  "full_time",
+                     "locations":  [
+                                       "Warszawa"
+                                   ],
+                     "benefits":  [
+
+                                  ],
+                     "isRemote":  true,
+                     "isHybrid":  false,
+                     "url":  "https://solid.jobs/o/462w87s8/api",
+                     "experienceLevel":  "Senior",
+                     "skills":  [
+                                    {
+                                        "level":  "Expert",
+                                        "name":  "Java"
+                                    },
+                                    {
+                                        "level":  "Advanced",
+                                        "name":  "Spring"
+                                    },
+                                    {
+                                        "level":  "Advanced",
+                                        "name":  "Spring Boot"
+                                    }
+                                ],
+                     "languages":  [
+                                       {
+                                           "level":  "Expert",
+                                           "name":  "Polski"
+                                       },
+                                       {
+                                           "level":  "Advanced",
+                                           "name":  "Angielski"
+                                       }
+                                   ],
+                     "description":  "\u003cdiv class=\"well job - description\"\u003e\u003cp\u003e\u003cstrong\u003eCzym będziesz się zajmować?\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eProjektowanie, rozwój i utrzymanie rozwiązań backendowych opartych o technologię Java.\u003c/li\u003e\u003cli\u003eTworzenie nowych oraz rozwijanie istniejących mikroserwisów i interfejsów integracyjnych.\u003c/li\u003e\u003cli\u003eWspółpraca z zespołami frontendowymi, DevOps, QA oraz analitykami biznesowymi przy realizacji wspólnych celów projektowych.\u003c/li\u003e\u003cli\u003eUdział w definiowaniu architektury systemów oraz wyborze odpowiednich rozwiązań technologicznych.\u003c/li\u003e\u003cli\u003eZapewnienie wysokiej jakości kodu poprzez przeglądy kodu, automatyzację testów i stosowanie sprawdzonych standardów programistycznych.\u003c/li\u003e\u003cli\u003eMonitorowanie wydajności aplikacji oraz wdrażanie usprawnień zwiększających stabilność i efektywność systemów.\u003c/li\u003e\u003cli\u003eDzielenie się wiedzą i wspieranie rozwoju mniej doświadczonych członków zespołu.\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eKogo poszukujemy?\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eDoświadczenie zawodowe w tworzeniu oprogramowania w języku Java.\u003c/li\u003e\u003cli\u003eBardzo dobra znajomość platformy Java oraz ekosystemu technologicznego wokół niej.\u003c/li\u003e\u003cli\u003ePraktyczne doświadczenie w budowie i utrzymaniu aplikacji backendowych.\u003c/li\u003e\u003cli\u003eZnajomość architektury mikroserwisowej oraz zagadnień związanych z systemami rozproszonymi.\u003c/li\u003e\u003cli\u003eBardzo dobra znajomość Spring Framework, w szczególności Spring Boot.\u003c/li\u003e\u003cli\u003eDoświadczenie w projektowaniu oraz implementacji usług REST, SOAP i GraphQL.\u003c/li\u003e\u003cli\u003eZnajomość relacyjnych systemów bazodanowych, takich jak PostgreSQL, Oracle lub MySQL.\u003c/li\u003e\u003cli\u003eUmiejętność tworzenia wydajnych zapytań SQL oraz optymalizacji operacji bazodanowych.\u003c/li\u003e\u003cli\u003eDoświadczenie w wykorzystaniu Hibernate oraz JPA.\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eCzego wymagamy?\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cspan\u003eZnajomości:\u003c/span\u003e\u003cul\u003e\u003cli\u003eJava\u003c/li\u003e\u003cli\u003eSpring\u003c/li\u003e\u003cli\u003eSpring Boot\u003c/li\u003e\u003c/ul\u003e\u003cspan\u003eJęzyki:\u003c/span\u003e\u003cul\u003e\u003cli\u003ePolski\u003c/li\u003e\u003cli\u003eAngielski\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eJakie warunki i benefity otrzymasz?\u003c/strong\u003e\u003cul\u003e\u003cli\u003e16.8k–21k PLN netto/m (B2B)\u003c/li\u003e\u003cli\u003eB2B - Elastyczne godziny pracy (100%)\u003c/li\u003e\u003cli\u003ePraca zdalna: W całości\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eKim jesteśmy?\u003c/strong\u003e\u003cbr\u003eClick IT Group to firma, która powstała z pasji do IT. Specjalizujemy się w rekrutacji i outsourcingu Specjalistów IT, usługach HR, RPO oraz we  wdrożeniach systemów Microsoft. Mamy dekadę doświadczenia. Skutecznie łączymy pracowników i pracodawców, oraz wdrażamy systemy IT. Najważniejsze dla nas jest zadowolenie obu stron.\u003c/p\u003e\u003c/div\u003e",
+                     "validFrom":  "2026-06-11T14:26:58.0305458+02:00",
+                     "validTo":  "2026-07-12T14:26:58.0305458+02:00",
+                     "updatedAt":  "2026-06-11T12:51:17.5329158+02:00"
+                 },
+                 {
+                     "jobOfferKey":  "cc1121a2-2673-4504-bb68-830ce3728f79",
+                     "title":  "Konsultant Telefoniczny",
+                     "division":  "IT",
+                     "category":  "Support",
+                     "subCategory":  "Support",
+                     "company":  "HR score",
+                     "companyLogoUrl":  "https://cdn.solid.jobs/companies/logos/49d5f7c39c0755891617d5e34566e3a3857536cfc6050564041c7052e3db562c.png",
+                     "salary":  {
+                                    "from":  5000.00000,
+                                    "to":  8000.00000,
+                                    "currency":  "PLN",
+                                    "period":  "Month",
+                                    "employmentType":  "UZ"
+                                },
+                     "contractTime":  "part_time",
+                     "locations":  [
+                                       "Kraków"
+                                   ],
+                     "benefits":  [
+                                      "Budżet szkoleniowy",
+                                      "Szkolenia wewnętrzne"
+                                  ],
+                     "isRemote":  false,
+                     "isHybrid":  true,
+                     "url":  "https://solid.jobs/o/2pe19ggk/api",
+                     "experienceLevel":  "Regular",
+                     "skills":  [
+                                    {
+                                        "level":  "Advanced",
+                                        "name":  "Customer support"
+                                    }
+                                ],
+                     "languages":  [
+                                       {
+                                           "level":  "Expert",
+                                           "name":  "Polski"
+                                       }
+                                   ],
+                     "description":  "\u003cdiv class=\"well job - description\"\u003e\u003cp\u003e\u003cstrong\u003eCzym będziesz się zajmować?\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eKontaktujesz się telefonicznie z klientami (połączenia wychodzące).\u003c/li\u003e\u003cli\u003ePrzedstawiasz ofertę zmiany sprzedawcy energii elektrycznej (prąd).\u003c/li\u003e\u003cli\u003eWprowadzasz zamówienia do systemu.\u003c/li\u003e\u003cli\u003eDbasz o wysoką jakość rozmów.\u003c/li\u003e\u003cli\u003eRozwijasz umiejętności sprzedażowe i komunikacyjne.\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eKogo poszukujemy?\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eOsoby otwarte i komunikatywnych.\u003c/li\u003e\u003cli\u003eStudenty chcących połączyć pracę ze studiami.\u003c/li\u003e\u003cli\u003eKandydatów, którzy lubią kontakt z ludźmi i chcą zdobywać nowe umiejętności.\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eCzego wymagamy?\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cspan\u003e2 lata doświadczenia na podobnym stanowisku\u003c/span\u003e\u003cbr\u003e\u003cspan\u003eZnajomości:\u003c/span\u003e\u003cul\u003e\u003cli\u003eCustomer support\u003c/li\u003e\u003c/ul\u003e\u003cspan\u003eJęzyki:\u003c/span\u003e\u003cul\u003e\u003cli\u003ePolski\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eJakie warunki i benefity otrzymasz?\u003c/strong\u003e\u003cul\u003e\u003cli\u003e5k–8k PLN brutto/m (Umowa zlecenie)\u003c/li\u003e\u003cli\u003eUmowa zlecenie - Elastyczne godziny pracy (50%)\u003c/li\u003e\u003cli\u003ePraca zdalna: Hybrydowo\u003c/li\u003e\u003cli\u003eBudżet szkoleniowy, Szkolenia wewnętrzne\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eKim jesteśmy?\u003c/strong\u003e\u003cbr\u003e\u003cp\u003eWspieramy firmy w realizacji zadań i projektów w obszarach HR. Dostarczamy rozwiązania z zakresu rekrutacji, szkoleń adaptacyjnych i rozwojowych, leasingu pracowników oraz outsourcingu usług.\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\u003cp\u003eRozumiemy biznes, dlatego nasze działania realizujemy w oparciu o wspólnie ustaloną strategię, kluczowe i mierzalne wskaźniki efektywności oraz zaplanowane harmonogramy.\u003c/p\u003e\u003c/p\u003e\u003c/div\u003e",
+                     "validFrom":  "2026-06-08T09:29:48.819192+02:00",
+                     "validTo":  "2026-07-09T09:29:48.819192+02:00",
+                     "updatedAt":  "2026-06-05T10:48:06.903879+02:00"
+                 },
+                 {
+                     "jobOfferKey":  "ae11771d-ba83-4be2-85b1-9f1e714bb3cf",
+                     "title":  "Specjalista ds. Cyberbezpieczeństwa",
+                     "division":  "IT",
+                     "category":  "Security",
+                     "subCategory":  "Security",
+                     "company":  "Mielewczyk",
+                     "companyLogoUrl":  "https://cdn.solid.jobs/companies/logos/ab39acbf38c653c934f86af2cf723d6ab38970db222df8c0bcaacc5435bc89df.jpeg",
+                     "salary":  {
+                                    "from":  8100.00000,
+                                    "to":  9500.00000,
+                                    "currency":  "PLN",
+                                    "period":  "Month",
+                                    "employmentType":  "UoP"
+                                },
+                     "contractTime":  "full_time",
+                     "locations":  [
+                                       "Sierakowce"
+                                   ],
+                     "benefits":  [
+
+                                  ],
+                     "isRemote":  false,
+                     "isHybrid":  false,
+                     "url":  "https://solid.jobs/o/geb828ip/api",
+                     "experienceLevel":  "Regular",
+                     "skills":  [
+                                    {
+                                        "level":  "Advanced",
+                                        "name":  "Branża IT"
+                                    },
+                                    {
+                                        "level":  "Advanced",
+                                        "name":  "CISSP"
+                                    },
+                                    {
+                                        "level":  "Advanced",
+                                        "name":  "SOC"
+                                    },
+                                    {
+                                        "level":  "Advanced",
+                                        "name":  "IAM"
+                                    },
+                                    {
+                                        "level":  "Advanced",
+                                        "name":  "Cybersecurity"
+                                    },
+                                    {
+                                        "level":  "Advanced",
+                                        "name":  "CISM"
+                                    },
+                                    {
+                                        "level":  "Advanced",
+                                        "name":  "CEH"
+                                    },
+                                    {
+                                        "level":  "Advanced",
+                                        "name":  "SIEM"
+                                    }
+                                ],
+                     "languages":  [
+                                       {
+                                           "level":  "Advanced",
+                                           "name":  "Angielski"
+                                       }
+                                   ],
+                     "description":  "\u003cdiv class=\"well job - description\"\u003e\u003cp\u003e\u003cstrong\u003eCzym będziesz się zajmować?\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003eTworzenie i rozwój systemu bezpieczeństwa informacji w organizacji\u003c/li\u003e\u003cli\u003eZarządzanie ryzykiem w obszarze cyberbezpieczeństwa\u003c/li\u003e\u003cli\u003eTestowanie i monitorowanie bezpieczeństwa systemów\u003c/li\u003e\u003cli\u003eObsługa incydentów bezpieczeństwa\u003c/li\u003e\u003cli\u003eWsparcie organizacji w zakresie cyberbezpieczeństwa\u003c/li\u003e\u003cli\u003eAudyt i raportowanie\u003c/li\u003e\u003cli\u003eBudowanie świadomości bezpieczeństwa w organizacji\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eKogo poszukujemy?\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cul\u003e\u003cli\u003ewiedzę z zakresu architektury IT (sieci, systemy operacyjne, aplikacje, chmura)\u003c/li\u003e\u003cli\u003ezagadnienia związane z cyberbezpieczeństwem oraz regulacjami takimi jak NIS2 czy KSC\u003c/li\u003e\u003cli\u003eanalizy ryzyka i identyfikacja potencjalnych zagrożeń bezpieczeństwa\u003c/li\u003e\u003cli\u003eprzygotowywanie procedur, dokumentacji oraz raportów dla kadry zarządzającej\u003c/li\u003e\u003cli\u003edobra organizacja pracy i samodzielność\u003c/li\u003e\u003cli\u003ewspółpraca z różnymi działami i praca zespołowa\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eCzego wymagamy?\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e\u003cspan\u003e2 lata doświadczenia na podobnym stanowisku\u003c/span\u003e\u003cbr\u003e\u003cspan\u003eZnajomości:\u003c/span\u003e\u003cul\u003e\u003cli\u003eBranża IT\u003c/li\u003e\u003cli\u003eCISSP\u003c/li\u003e\u003cli\u003eSOC\u003c/li\u003e\u003cli\u003eIAM\u003c/li\u003e\u003cli\u003eCybersecurity\u003c/li\u003e\u003cli\u003eCISM\u003c/li\u003e\u003cli\u003eCEH\u003c/li\u003e\u003cli\u003eSIEM\u003c/li\u003e\u003c/ul\u003e\u003cspan\u003eJęzyki:\u003c/span\u003e\u003cul\u003e\u003cli\u003eAngielski\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eJakie warunki i benefity otrzymasz?\u003c/strong\u003e\u003cul\u003e\u003cli\u003e8.1k–9.5k PLN brutto/m (Umowa o pracę)\u003c/li\u003e\u003cli\u003eUmowa o pracę - Elastyczne godziny pracy (100%)\u003c/li\u003e\u003cli\u003ePraca zdalna: Brak\u003c/li\u003e\u003c/ul\u003e\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eKim jesteśmy?\u003c/strong\u003e\u003cbr\u003e\u003cp\u003eWe are a family-owned company from the Kashubia region, proudly delivering top-quality poultry products for over 30 years. Our work is built on values like responsibility, trust, and respect – for people, for our employees, and for our partners.\u003c/p\u003e\u003cp\u003eAt Mielewczyk, we believe that people are the heart of every strong organization. That’s why we foster a work environment that encourages growth, provides stability, and empowers our team to make a real difference. Our employees improve their skills and enjoy a supportive and friendly workplace.\u003c/p\u003e\u003cp\u003eWe see cooperation with clients not just as business but as long-term relationships based on understanding. We are trusted for keeping our word, being flexible, and always ready to find solutions – even in challenging moments.\u003c/p\u003e\u003cp\u003eWe proudly support local farmers, ensure quality at every stage of production, and export to over 30 countries.\u003c/p\u003e\u003c/p\u003e\u003c/div\u003e",
+                     "validFrom":  "2026-06-11T17:22:25.9323874+02:00",
+                     "validTo":  "2026-07-12T17:22:25.9323874+02:00",
+                     "updatedAt":  "2026-06-11T12:14:43.5219312+02:00"
+                 }
+             ]
+}

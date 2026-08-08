@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 8521459002,
+      "title": "Accounting Specialist, Billing and Collections ",
+      "company_name": "Alarm.com",
+      "absolute_url": "https://job-boards.greenhouse.io/alarmcom/jobs/8521459002",
+      "updated_at": "2026-05-15T14:07:29-04:00",
+      "location": {
+        "name": "Liberty Lake, Washington"
+      },
+      "departments": [
+        {
+          "id": 8521459003,
+          "name": "Accounting & Finance "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Alarm.com.&lt;/strong&gt; Now hiring a Accounting Specialist, Billing and Collections on the Accounting & Finance team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8538621002,
+      "title": "Account Manager",
+      "company_name": "Alarm.com",
+      "absolute_url": "https://job-boards.greenhouse.io/alarmcom/jobs/8538621002",
+      "updated_at": "2026-05-26T14:16:41-04:00",
+      "location": {
+        "name": "Tennessee, United States"
+      },
+      "departments": [
+        {
+          "id": 8538621003,
+          "name": "Sales"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Alarm.com.&lt;/strong&gt; Now hiring a Account Manager on the Sales team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8426926002,
+      "title": "Acoustics Engineer ",
+      "company_name": "Alarm.com",
+      "absolute_url": "https://job-boards.greenhouse.io/alarmcom/jobs/8426926002",
+      "updated_at": "2026-03-01T03:03:15-05:00",
+      "location": {
+        "name": "San Diego, California"
+      },
+      "departments": [
+        {
+          "id": 8426926003,
+          "name": "Device Engineering"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Alarm.com.&lt;/strong&gt; Now hiring a Acoustics Engineer on the Device Engineering team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "_comment": "Spec 013 / T04 — sanitised eeho-us2 corpus. Five representative requisitions covering: (1) standard hire with PrimaryLocation+EmployerName, (2) explicit remote PrimaryLocation, (3) ExternalUrl override, (4) ExternalUrlSeo slug for jobUrl composition, (5) missing EmployerName falling back to tenant.companyName. Field set matches the upstream JSON envelope shape — see OTHERS/Ats-scrapers/oracle/scripts/oracle_ats_client/api_client.py:138 (search_jobs) and OracleService.toJobPost(). PII removed; titles + IDs are illustrative.",
+  "items": [
+    {
+      "TotalJobsCount": 5,
+      "requisitionList": [
+        {
+          "Id": "320918",
+          "Title": "Senior Software Engineer",
+          "PrimaryLocation": "Austin, TX, United States",
+          "PostedDate": "2025-12-19",
+          "EmployerName": "Oracle",
+          "ExternalUrl": null,
+          "ExternalUrlSeo": "senior-software-engineer-austin",
+          "RequisitionNumber": "REQ_320918"
+        },
+        {
+          "Id": "319201",
+          "Title": "Cloud Solutions Architect",
+          "PrimaryLocation": "Remote, United States",
+          "PostedDate": "2025-12-18",
+          "EmployerName": "Oracle",
+          "ExternalUrl": null,
+          "ExternalUrlSeo": "cloud-solutions-architect",
+          "RequisitionNumber": "REQ_319201"
+        },
+        {
+          "Id": "318044",
+          "Title": "Database Performance Engineer",
+          "PrimaryLocation": "Redwood City, CA, United States",
+          "PostedDate": "2025-12-17",
+          "EmployerName": "Oracle",
+          "ExternalUrl": "https://oracle.example/job/318044/apply",
+          "ExternalUrlSeo": null,
+          "RequisitionNumber": "REQ_318044"
+        },
+        {
+          "Id": "317900",
+          "Title": "Principal Product Manager",
+          "PrimaryLocation": "Seattle, WA, United States",
+          "PostedDate": "2025-12-16",
+          "EmployerName": "Oracle",
+          "ExternalUrl": null,
+          "ExternalUrlSeo": "principal-product-manager-seattle",
+          "RequisitionNumber": "REQ_317900"
+        },
+        {
+          "Id": "316777",
+          "Title": "Customer Success Manager",
+          "PrimaryLocation": "New York, NY, United States",
+          "PostedDate": "2025-12-15",
+          "EmployerName": null,
+          "ExternalUrl": null,
+          "ExternalUrlSeo": null,
+          "RequisitionNumber": "REQ_316777"
+        }
+      ]
+    }
+  ]
+}

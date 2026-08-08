@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5107824007,
+      "title": "Business Development Manager (Alabama) ",
+      "company_name": "Apera AI Inc",
+      "absolute_url": "https://job-boards.greenhouse.io/aperaaiinc/jobs/5107824007",
+      "updated_at": "2026-04-17T13:31:45-04:00",
+      "location": {
+        "name": "Alabama, United States"
+      },
+      "departments": [
+        {
+          "id": 5107824008,
+          "name": "Sales "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Apera AI Inc.&lt;/strong&gt; Now hiring a Business Development Manager (Alabama) on the Sales team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5112793007,
+      "title": "Business Development Manager (South Carolina)",
+      "company_name": "Apera AI Inc",
+      "absolute_url": "https://job-boards.greenhouse.io/aperaaiinc/jobs/5112793007",
+      "updated_at": "2026-04-17T14:53:24-04:00",
+      "location": {
+        "name": "South Carolina, United States"
+      },
+      "departments": [
+        {
+          "id": 5112793008,
+          "name": "Sales "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Apera AI Inc.&lt;/strong&gt; Now hiring a Business Development Manager (South Carolina) on the Sales team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5150847007,
+      "title": "Business Operations Engineer",
+      "company_name": "Apera AI Inc",
+      "absolute_url": "https://job-boards.greenhouse.io/aperaaiinc/jobs/5150847007",
+      "updated_at": "2026-05-29T19:39:58-04:00",
+      "location": {
+        "name": "Vancouver, British Columbia"
+      },
+      "departments": [
+        {
+          "id": 5150847008,
+          "name": "Customer Success"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Apera AI Inc.&lt;/strong&gt; Now hiring a Business Operations Engineer on the Customer Success team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7559119,
+      "title": " Member & Provider Escalations Team Lead",
+      "company_name": "Oscar Health",
+      "absolute_url": "http://www.hioscar.com/careers/7559119?gh_jid=7559119",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "Tempe, AZ" },
+      "departments": [{ "id": 1, "name": "Insurance Operations" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Member &amp; Provider Escalations Team Lead&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Oscar Health is the US-tech-first health-insurance-as-a-platform pioneered around member-experience-as-software &amp; the +Oscar API-driven underwriting / risk-bearing-tech-broker segment.&lt;/p&gt;"
+    },
+    {
+      "id": 7682043,
+      "title": "Senior Analyst, Data Analytics, SIU ",
+      "company_name": "Oscar Health",
+      "absolute_url": "http://www.hioscar.com/careers/7682043?gh_jid=7682043",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "New York, NY" },
+      "departments": [{ "id": 2, "name": "Data" }],
+      "content": "&lt;p&gt;Lead Oscar Health's Data Analytics function across the SIU (Special Investigations Unit) and Insurance Product Strategy stack.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 7710276003,
+      "title": "Controller ",
+      "company_name": "Diligent Robotics",
+      "absolute_url": "https://job-boards.greenhouse.io/diligentrobotics/jobs/7710276003",
+      "updated_at": "2026-04-21T16:50:42-04:00",
+      "location": {
+        "name": "Anywhere in the US"
+      },
+      "departments": [
+        {
+          "id": 7710276004,
+          "name": "Finance "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Diligent Robotics.&lt;/strong&gt; Now hiring a Controller on the Finance team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7734522003,
+      "title": "Founding Sr. Data Engineer",
+      "company_name": "Diligent Robotics",
+      "absolute_url": "https://job-boards.greenhouse.io/diligentrobotics/jobs/7734522003",
+      "updated_at": "2026-05-15T17:15:48-04:00",
+      "location": {
+        "name": "Anywhere in the US"
+      },
+      "departments": [
+        {
+          "id": 7734522004,
+          "name": "Engineering"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Diligent Robotics.&lt;/strong&gt; Now hiring a Founding Sr. Data Engineer on the Engineering team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7651224003,
+      "title": "Manufacturing Reliability Engineer",
+      "company_name": "Diligent Robotics",
+      "absolute_url": "https://job-boards.greenhouse.io/diligentrobotics/jobs/7651224003",
+      "updated_at": "2026-05-28T14:00:22-04:00",
+      "location": {
+        "name": "Milwaukee, Wisconsin, United States"
+      },
+      "departments": [
+        {
+          "id": 7651224004,
+          "name": "Manufacturing"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Diligent Robotics.&lt;/strong&gt; Now hiring a Manufacturing Reliability Engineer on the Manufacturing team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

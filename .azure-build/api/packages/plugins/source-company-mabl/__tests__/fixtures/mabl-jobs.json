@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 4058012009,
+      "title": "Enterprise Account Executive (West Coast) ",
+      "company_name": "mabl",
+      "absolute_url": "https://job-boards.greenhouse.io/mabl/jobs/4058012009",
+      "updated_at": "2026-03-31T16:24:44-04:00",
+      "location": {
+        "name": "West Coast, United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About mabl.&lt;/strong&gt; Now hiring a Enterprise Account Executive (West Coast) on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4058010009,
+      "title": "Product Designer",
+      "company_name": "mabl",
+      "absolute_url": "https://job-boards.greenhouse.io/mabl/jobs/4058010009",
+      "updated_at": "2026-03-31T16:29:26-04:00",
+      "location": {
+        "name": "Boston, MA, United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About mabl.&lt;/strong&gt; Now hiring a Product Designer on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4053372009,
+      "title": "Regional Account Executive",
+      "company_name": "mabl",
+      "absolute_url": "https://job-boards.greenhouse.io/mabl/jobs/4053372009",
+      "updated_at": "2026-03-31T16:30:07-04:00",
+      "location": {
+        "name": "East Coast, United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About mabl.&lt;/strong&gt; Now hiring a Regional Account Executive on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

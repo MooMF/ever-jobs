@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 7899322,
+      "title": "Advanced Manufacturing Engineer ",
+      "company_name": "Harry's",
+      "absolute_url": "https://job-boards.greenhouse.io/harrys/jobs/7899322",
+      "updated_at": "2026-05-20T01:04:28-04:00",
+      "location": {
+        "name": "New York, NY"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Harry's.&lt;/strong&gt; Now hiring a Advanced Manufacturing Engineer on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7851943,
+      "title": "Customer Experience Associate",
+      "company_name": "Harry's",
+      "absolute_url": "https://job-boards.greenhouse.io/harrys/jobs/7851943",
+      "updated_at": "2026-05-21T11:42:57-04:00",
+      "location": {
+        "name": "London, UK"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Harry's.&lt;/strong&gt; Now hiring a Customer Experience Associate on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7583822,
+      "title": "Director, UX",
+      "company_name": "Harry's",
+      "absolute_url": "https://job-boards.greenhouse.io/harrys/jobs/7583822",
+      "updated_at": "2026-05-20T01:04:24-04:00",
+      "location": {
+        "name": "New York, NY"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Harry's.&lt;/strong&gt; Now hiring a Director, UX on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

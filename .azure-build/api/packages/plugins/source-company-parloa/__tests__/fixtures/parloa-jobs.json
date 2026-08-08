@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 4635890101,
+      "title": "Business Development Representative ",
+      "company_name": "Parloa",
+      "absolute_url": "https://job-boards.greenhouse.io/parloa/jobs/4635890101",
+      "updated_at": "2026-05-27T09:22:18-04:00",
+      "location": {
+        "name": "New York Office"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Parloa.&lt;/strong&gt; Now hiring a Business Development Representative on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4858426101,
+      "title": "Business Development Representative (France)",
+      "company_name": "Parloa",
+      "absolute_url": "https://job-boards.greenhouse.io/parloa/jobs/4858426101",
+      "updated_at": "2026-05-14T15:01:36-04:00",
+      "location": {
+        "name": "London Office"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Parloa.&lt;/strong&gt; Now hiring a Business Development Representative (France) on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4829912101,
+      "title": "Business Generalist",
+      "company_name": "Parloa",
+      "absolute_url": "https://job-boards.greenhouse.io/parloa/jobs/4829912101",
+      "updated_at": "2026-05-27T09:22:18-04:00",
+      "location": {
+        "name": "New York Office"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Parloa.&lt;/strong&gt; Now hiring a Business Generalist on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

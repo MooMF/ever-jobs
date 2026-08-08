@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 9701234,
+      "title": "Senior Software Engineer, APM Trace Pipeline",
+      "absolute_url": "https://boards.greenhouse.io/datadog/jobs/9701234",
+      "updated_at": "2026-04-29T15:00:00.000Z",
+      "first_published": "2026-04-19T08:00:00.000Z",
+      "location": { "name": "New York, NY" },
+      "departments": [{ "id": 1120, "name": "Engineering" }],
+      "offices": [{ "id": 1131, "name": "New York" }],
+      "content": "<p><strong>About the role</strong></p><p>Own the Datadog APM trace ingestion pipeline that processes tens of millions of traces per second across the global observability fleet's distributed analysis layer.</p><ul><li>Go, distributed-systems, and high-throughput streaming experience required</li></ul>"
+    },
+    {
+      "id": 9702345,
+      "title": "Senior Manager, Customer Success — Cloud SIEM",
+      "absolute_url": "https://boards.greenhouse.io/datadog/jobs/9702345",
+      "updated_at": "2026-04-30T11:30:00.000Z",
+      "first_published": "2026-04-23T07:00:00.000Z",
+      "location": { "name": "Remote — North America" },
+      "departments": [{ "id": 1121, "name": "Customer Success" }],
+      "offices": [{ "id": 1132, "name": "Remote" }],
+      "content": "<p>Own Datadog's customer-success strategy roadmap across enterprise-account adoption of Cloud SIEM, Cloud Security Management, and the Bits AI security-investigation motion.</p>"
+    }
+  ],
+  "meta": { "total": 2 }
+}

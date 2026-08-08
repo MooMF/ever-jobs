@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 5691429004,
+      "title": "Field Engineer ",
+      "company_name": "Materialize",
+      "absolute_url": "https://job-boards.greenhouse.io/materialize/jobs/5691429004",
+      "updated_at": "2026-04-24T15:31:22-04:00",
+      "location": {
+        "name": "Bay Area, California, United States; New York, New York, United States; Seattle, Washington, United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Materialize.&lt;/strong&gt; Now hiring a Field Engineer on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5550315004,
+      "title": "Senior / Staff Software Engineer (Database)",
+      "company_name": "Materialize",
+      "absolute_url": "https://job-boards.greenhouse.io/materialize/jobs/5550315004",
+      "updated_at": "2026-05-28T11:59:26-04:00",
+      "location": {
+        "name": "New York, New York, United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Materialize.&lt;/strong&gt; Now hiring a Senior / Staff Software Engineer (Database) on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5693572004,
+      "title": "Staff Full Stack Engineer, Console",
+      "company_name": "Materialize",
+      "absolute_url": "https://job-boards.greenhouse.io/materialize/jobs/5693572004",
+      "updated_at": "2026-05-28T12:00:10-04:00",
+      "location": {
+        "name": "New York, New York, United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Materialize.&lt;/strong&gt; Now hiring a Staff Full Stack Engineer, Console on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

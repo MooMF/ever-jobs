@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 5040378002,
+      "title": "DVM Student Externship/Preceptorship Program - Fox Creek Veterinary Hospital (Urgent Care)",
+      "company_name": "Fox Creek Veterinary Hospital - Wildwood",
+      "absolute_url": "https://job-boards.greenhouse.io/fox/jobs/5040378002",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "Wildwood, MO" },
+      "departments": [{ "id": 1, "name": "Externships" }],
+      "content": "&lt;p&gt;&lt;strong&gt;DVM Student Externship Program&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Fox Creek Veterinary Hospital - Wildwood is a veterinary-specialty animal-hospital + urgent-care practice.&lt;/p&gt;"
+    },
+    {
+      "id": 8531465002,
+      "title": "Veterinary Receptionist",
+      "company_name": "Fox Creek Veterinary Hospital - Wildwood",
+      "absolute_url": "https://job-boards.greenhouse.io/fox/jobs/8531465002",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Wildwood, MO" },
+      "departments": [{ "id": 2, "name": "Reception" }],
+      "content": "&lt;p&gt;Lead Fox Creek Veterinary Hospital - Wildwood's Reception &amp; client-services function across the companion-animal-care practice.&lt;/p&gt;"
+    }
+  ]
+}

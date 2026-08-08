@@ -1,0 +1,29 @@
+{
+  "jobs": [
+    {
+      "id": 7826080,
+      "title": "Business Development Representative",
+      "company_name": "Webflow",
+      "absolute_url": "https://job-boards.greenhouse.io/webflow/jobs/7826080",
+      "updated_at": "2026-05-01T16:57:35-04:00",
+      "first_published": "2026-04-15T10:30:00-04:00",
+      "location": { "name": "Chicago, U.S. (Hybrid)" },
+      "departments": [{ "id": 65451, "name": "Sales" }],
+      "offices": [{ "id": 7000001, "name": "Chicago" }],
+      "content": "&lt;p&gt;At Webflow, we&rsquo;re building the world&rsquo;s leading AI-native Digital Experience Platform, and we&rsquo;re doing it as a remote-first company built on trust, transparency, and a whole lot of creativity.&lt;/p&gt;&lt;p&gt;As a &lt;strong&gt;Business Development Representative&lt;/strong&gt; in Chicago, you&rsquo;ll be the first point of contact for prospective Webflow customers across the Webflow Designer, Webflow CMS, Webflow Ecommerce, Webflow Hosting, Webflow Localization, Webflow Optimize, Webflow Analyze, Webflow Apps, and Webflow Code Sync product lines. You&#39;ll partner closely with Account Executives to qualify inbound demand and source outbound pipeline against Webflow&rsquo;s ICP of mid-market and enterprise marketing teams.&lt;/p&gt;"
+    },
+    {
+      "id": 7532377,
+      "title": "Engineering Manager, Code Sync",
+      "company_name": "Webflow",
+      "absolute_url": "https://job-boards.greenhouse.io/webflow/jobs/7532377",
+      "updated_at": "2026-04-17T14:20:52-04:00",
+      "first_published": "2026-03-25T09:00:00-04:00",
+      "location": { "name": "CA Remote (BC & ON only); U.K. / Ireland Remote; U.S. Remote" },
+      "departments": [{ "id": 59798, "name": "Engineering" }],
+      "offices": [{ "id": 7000002, "name": "Remote" }],
+      "content": "&lt;p&gt;At Webflow, our mission is to bring development superpowers to everyone. As the pioneer of the Website Experience Platform (WXP), we&rsquo;re redefining how teams Build, Manage, and Optimize for the web &mdash; combining visual development, powerful content management systems, AI-driven personalization, and integrated developer workflows.&lt;/p&gt;&lt;p&gt;We&rsquo;re looking for an &lt;strong&gt;Engineering Manager&lt;/strong&gt; to lead the Code Sync team, the team that owns the bidirectional sync between Webflow Designer and Git repositories &mdash; the developer-handoff product that lets engineers commit Designer changes back into a codebase as code. You&rsquo;ll lead a team of 6&ndash;8 engineers distributed across &lt;em&gt;Canada (BC &amp; ON only)&lt;/em&gt;, the U.K. / Ireland, and the U.S.&lt;/p&gt;"
+    }
+  ],
+  "meta": { "total": 2 }
+}

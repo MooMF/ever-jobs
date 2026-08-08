@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4233523007,
+      "title": "Affiliate Account Manager ",
+      "company_name": "WITHIN",
+      "absolute_url": "https://job-boards.greenhouse.io/agencywithin/jobs/4233523007",
+      "updated_at": "2026-06-01T10:05:24-04:00",
+      "location": {
+        "name": "New York City, New York"
+      },
+      "departments": [
+        {
+          "id": 4233523008,
+          "name": "Affiliate "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About WITHIN.&lt;/strong&gt; Now hiring a Affiliate Account Manager on the Affiliate team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4676963007,
+      "title": "AI Creative Specialist - CO",
+      "company_name": "WITHIN",
+      "absolute_url": "https://job-boards.greenhouse.io/agencywithin/jobs/4676963007",
+      "updated_at": "2026-06-01T10:05:34-04:00",
+      "location": {
+        "name": "Bogotá, Colombia"
+      },
+      "departments": [
+        {
+          "id": 4676963008,
+          "name": "Creative Production"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About WITHIN.&lt;/strong&gt; Now hiring a AI Creative Specialist - CO on the Creative Production team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4647072007,
+      "title": "AI Creative Specialist - MX",
+      "company_name": "WITHIN",
+      "absolute_url": "https://job-boards.greenhouse.io/agencywithin/jobs/4647072007",
+      "updated_at": "2026-06-01T10:05:33-04:00",
+      "location": {
+        "name": "Mexico City, Mexico"
+      },
+      "departments": [
+        {
+          "id": 4647072008,
+          "name": "Creative Production"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About WITHIN.&lt;/strong&gt; Now hiring a AI Creative Specialist - MX on the Creative Production team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

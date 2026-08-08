@@ -1,0 +1,34 @@
+{
+  "jobs": [
+    {
+      "id": 4660650006,
+      "title": "Junior HR and Admin Coordinator ",
+      "company_name": "Acurus Solutions Private Limited",
+      "absolute_url": "https://job-boards.greenhouse.io/acurussolutions/jobs/4660650006",
+      "updated_at": "2026-05-22T10:00:00+05:30",
+      "location": { "name": "Bengaluru, Karnataka, India" },
+      "departments": [{ "id": 4135842009, "name": "People" }],
+      "content": "&lt;p&gt;&lt;strong&gt;About Acurus Solutions&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Acurus Solutions is hiring a Junior HR &amp; Admin Coordinator to support the Bengaluru delivery centre across the healthcare-RCM People function.&lt;/p&gt;"
+    },
+    {
+      "id": 4011768006,
+      "title": "AR Analyst",
+      "company_name": "Acurus Solutions Private Limited",
+      "absolute_url": "https://job-boards.greenhouse.io/acurussolutions/jobs/4011768006",
+      "updated_at": "2026-05-18T09:00:00+05:30",
+      "location": { "name": "Bengaluru, Karnataka, India" },
+      "departments": [{ "id": 4135850009, "name": "Revenue Cycle Management" }],
+      "content": "&lt;p&gt;As an AR Analyst at Acurus Solutions you&amp;rsquo;ll lead U.S. healthcare AR-analysis across the Revenue Cycle Management delivery vertical.&lt;/p&gt;"
+    },
+    {
+      "id": 4011503006,
+      "title": "Knowledge Associate Trainee",
+      "company_name": "Acurus Solutions Private Limited",
+      "absolute_url": "https://job-boards.greenhouse.io/acurussolutions/jobs/4011503006",
+      "updated_at": "2026-05-10T08:00:00+05:30",
+      "location": { "name": "Bengaluru, Karnataka, India" },
+      "departments": [{ "id": 4135870009, "name": "Health Information Management" }],
+      "content": "&lt;p&gt;Lead Knowledge Associate Trainee onboarding across the Acurus Solutions Health Information Management vertical.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 7646405,
+      "title": "Senior Software Engineer, Dash Search Indexing",
+      "absolute_url": "https://jobs.dropbox.com/listing/7646405?gh_jid=7646405",
+      "updated_at": "2026-04-29T16:30:00.000Z",
+      "first_published": "2026-04-19T08:00:00.000Z",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 70701, "name": "Engineering" }],
+      "offices": [{ "id": 80101, "name": "San Francisco" }],
+      "content": "<p><strong>About the role</strong></p><p>Own the Dropbox Dash universal-search indexing pipeline that fans out across Drive, Slack, and Notion connectors to surface enterprise-knowledge results in sub-100ms p99 latency.</p><ul><li>Distributed-systems and search-relevance experience required</li></ul>"
+    },
+    {
+      "id": 7646422,
+      "title": "Senior Manager, Customer Success — Dash for Business",
+      "absolute_url": "https://jobs.dropbox.com/listing/7646422?gh_jid=7646422",
+      "updated_at": "2026-04-30T11:30:00.000Z",
+      "first_published": "2026-04-23T07:00:00.000Z",
+      "location": { "name": "United States - Remote" },
+      "departments": [{ "id": 70702, "name": "Customer Success" }],
+      "offices": [{ "id": 80102, "name": "Remote" }],
+      "content": "<p>Own the Dropbox Dash for Business customer-success motion across enterprise-account adoption of the Dash universal-search workspace, the Sign e-signature surface (formerly HelloSign), and the FormSwift document-automation product line.</p>"
+    }
+  ],
+  "meta": { "total": 2 }
+}

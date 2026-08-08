@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 5202308008,
+      "title": "Enterprise Account Executive - Benelux",
+      "company_name": "Honeycomb.io",
+      "absolute_url": "https://job-boards.greenhouse.io/honeycomb/jobs/5202308008",
+      "updated_at": "2026-04-30T12:15:32-04:00",
+      "first_published": "2026-03-21T09:00:00-04:00",
+      "location": { "name": "Remote - United Kingdom" },
+      "departments": [{ "id": 41001, "name": "Sales" }],
+      "offices": [{ "id": 21001, "name": "Remote - United Kingdom" }],
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;div&gt;&lt;strong&gt;What We&#39;re Building&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;Honeycomb is a service for the near and present future, defining observability and raising expectations of what developer tools can do!&amp;nbsp;We&#39;re working with well known companies like HelloFresh, Slack, LaunchDarkly, and Vanguard.&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Who We Are:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Sales team at Honeycomb partners with engineering leaders to roll out observability across their organisations.&lt;/p&gt;"
+    },
+    {
+      "id": 5162709008,
+      "title": "Staff Solution Architect ",
+      "company_name": "Honeycomb.io",
+      "absolute_url": "https://job-boards.greenhouse.io/honeycomb/jobs/5162709008",
+      "updated_at": "2026-04-29T10:42:11-04:00",
+      "first_published": "2026-03-15T08:30:00-04:00",
+      "location": { "name": "Remote - Canada" },
+      "departments": [{ "id": 41101, "name": "Finance & Accounting" }],
+      "offices": [{ "id": 21002, "name": "Remote - Canada" }],
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;div&gt;&lt;strong&gt;What We&#39;re Building&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;Honeycomb&#39;s Finance &amp; Accounting team supports the company&#39;s operating cadence with rigorous reporting and revenue accounting practices.&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Staff Solution Architect partners with strategic accounts to deliver architectural guidance for Honeycomb deployments at scale.&lt;/p&gt;"
+    }
+  ]
+}

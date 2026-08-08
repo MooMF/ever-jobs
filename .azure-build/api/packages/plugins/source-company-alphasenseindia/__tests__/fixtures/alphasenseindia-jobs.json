@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 8568278002,
+      "title": "Analyst, Customer & Product Support ",
+      "company_name": "AlphaSense India",
+      "absolute_url": "https://job-boards.greenhouse.io/alphasenseindia/jobs/8568278002",
+      "updated_at": "2026-05-28T04:59:29-04:00",
+      "location": {
+        "name": "Bengaluru"
+      },
+      "departments": [
+        {
+          "id": 8568278003,
+          "name": "Customer Success "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AlphaSense India.&lt;/strong&gt; Now hiring a Analyst, Customer & Product Support on the Customer Success team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8507803002,
+      "title": "Analyst, Customer & Product Support",
+      "company_name": "AlphaSense India",
+      "absolute_url": "https://job-boards.greenhouse.io/alphasenseindia/jobs/8507803002",
+      "updated_at": "2026-05-28T04:56:27-04:00",
+      "location": {
+        "name": "Pune"
+      },
+      "departments": [
+        {
+          "id": 8507803003,
+          "name": "Customer Success"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AlphaSense India.&lt;/strong&gt; Now hiring a Analyst, Customer & Product Support on the Customer Success team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8568274002,
+      "title": "Analyst, Customer & Product Support",
+      "company_name": "AlphaSense India",
+      "absolute_url": "https://job-boards.greenhouse.io/alphasenseindia/jobs/8568274002",
+      "updated_at": "2026-05-28T04:58:10-04:00",
+      "location": {
+        "name": "Delhi"
+      },
+      "departments": [
+        {
+          "id": 8568274003,
+          "name": "Customer Success"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AlphaSense India.&lt;/strong&gt; Now hiring a Analyst, Customer & Product Support on the Customer Success team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

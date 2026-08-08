@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 7801234,
+      "title": "Senior Machine Learning Engineer, Visual Discovery",
+      "absolute_url": "https://boards.greenhouse.io/pinterest/jobs/7801234",
+      "updated_at": "2026-04-29T15:00:00.000Z",
+      "first_published": "2026-04-19T08:00:00.000Z",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 210, "name": "Engineering" }],
+      "offices": [{ "id": 221, "name": "San Francisco" }],
+      "content": "<p><strong>About the role</strong></p><p>Lead model development for Pinterest's visual-search recommendation pipeline serving billions of pin-impressions per day.</p><ul><li>Computer-vision experience required</li></ul>"
+    },
+    {
+      "id": 7802345,
+      "title": "Senior Manager, Creator Platform Policy",
+      "absolute_url": "https://boards.greenhouse.io/pinterest/jobs/7802345",
+      "updated_at": "2026-04-30T11:30:00.000Z",
+      "first_published": "2026-04-23T07:00:00.000Z",
+      "location": { "name": "Remote — USA" },
+      "departments": [{ "id": 211, "name": "Trust and Safety" }],
+      "offices": [{ "id": 222, "name": "Remote" }],
+      "content": "<p>Own Pinterest's creator-platform policy roadmap across community guidelines, moderation tooling, and abuse-vector response.</p>"
+    }
+  ],
+  "meta": { "total": 2 }
+}

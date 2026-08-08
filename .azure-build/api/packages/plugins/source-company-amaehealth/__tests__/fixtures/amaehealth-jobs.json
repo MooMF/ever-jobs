@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4259922009,
+      "title": "Chief of Staff ",
+      "company_name": "Amae Health",
+      "absolute_url": "https://job-boards.greenhouse.io/amaehealth/jobs/4259922009",
+      "updated_at": "2026-05-27T10:09:32-04:00",
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "departments": [
+        {
+          "id": 4259922010,
+          "name": "Corporate "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Amae Health.&lt;/strong&gt; Now hiring a Chief of Staff on the Corporate team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4195672009,
+      "title": "Clinical Care Coordinator",
+      "company_name": "Amae Health",
+      "absolute_url": "https://job-boards.greenhouse.io/amaehealth/jobs/4195672009",
+      "updated_at": "2026-05-18T10:20:18-04:00",
+      "location": {
+        "name": "Los Angeles"
+      },
+      "departments": [
+        {
+          "id": 4195672010,
+          "name": "Patient Operations"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Amae Health.&lt;/strong&gt; Now hiring a Clinical Care Coordinator on the Patient Operations team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4121526009,
+      "title": "Clinic Director",
+      "company_name": "Amae Health",
+      "absolute_url": "https://job-boards.greenhouse.io/amaehealth/jobs/4121526009",
+      "updated_at": "2026-06-01T15:15:24-04:00",
+      "location": {
+        "name": "Los Altos, CA & San Mateo, CA"
+      },
+      "departments": [
+        {
+          "id": 4121526010,
+          "name": "Clinical"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Amae Health.&lt;/strong&gt; Now hiring a Clinic Director on the Clinical team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

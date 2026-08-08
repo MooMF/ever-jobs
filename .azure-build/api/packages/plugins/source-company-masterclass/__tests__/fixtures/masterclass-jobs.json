@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 7786068,
+      "title": "Staff AI / ML Engineer",
+      "company_name": "MasterClass",
+      "absolute_url": "https://job-boards.greenhouse.io/masterclass/jobs/7786068",
+      "updated_at": "2026-04-30T12:15:32-04:00",
+      "first_published": "2026-03-21T09:00:00-04:00",
+      "location": { "name": "Remote - United States" },
+      "departments": [{ "id": 51001, "name": "Engineering" }],
+      "offices": [{ "id": 31001, "name": "Remote - United States" }],
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;div&gt;&lt;strong&gt;About the Role&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;MasterClass is a streaming platform that lets anyone learn from the world&#39;s best — from chefs to designers&amp;nbsp;to athletes.&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Engineering at MasterClass:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Staff AI / ML Engineer designs the recommendation and personalisation systems that power our class-discovery experience.&lt;/p&gt;"
+    },
+    {
+      "id": 7575409,
+      "title": "Senior Product Marketing Manager",
+      "company_name": "MasterClass",
+      "absolute_url": "https://job-boards.greenhouse.io/masterclass/jobs/7575409",
+      "updated_at": "2026-04-29T10:42:11-04:00",
+      "first_published": "2026-03-15T08:30:00-04:00",
+      "location": { "name": "Hybrid - San Francisco, CA" },
+      "departments": [{ "id": 51101, "name": "Marketing" }],
+      "offices": [{ "id": 31002, "name": "San Francisco" }],
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;div&gt;&lt;strong&gt;About the Role&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;MasterClass&#39;s Marketing team owns acquisition, retention, and brand storytelling across the subscription &amp; gift-membership funnel.&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Senior Product Marketing Manager partners with Product and Content to launch new classes and seasonal campaigns.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "Code": 200,
+  "Message": "operation success",
+  "Count": 3,
+  "Data": [
+    {
+      "Id": "a332c71d-8762-431c-8ffb-5c72db31b141",
+      "JobAdId": 621097372,
+      "JobAdName": "Senior Backend Engineer (J64518)",
+      "Category": "社会招聘",
+      "CategoryId": "1",
+      "LocNames": ["Shanghai", "China"],
+      "Salary": "面议",
+      "Duty": "1. Design and build scalable backend services.\n2. Own service reliability and performance.",
+      "Require": "Education: Bachelor's degree or above. 5+ years backend experience.",
+      "ChangeDate": "2026-05-07T09:28:46",
+      "PostDate": "2026-04-30T10:00:00",
+      "OrgId": 700312145,
+      "Status": 1
+    },
+    {
+      "Id": "b441d82e-9873-542d-9ffc-6d83ec42c252",
+      "JobAdId": 621097400,
+      "JobAdName": "Remote Data Analyst",
+      "Category": "社会招聘",
+      "LocNames": ["远程"],
+      "Salary": "20K-35K",
+      "Duty": "Analyze product funnels and build dashboards.",
+      "Require": "SQL, Python, 3+ years analytics experience.",
+      "ChangeDate": "0001-01-01T00:00:00",
+      "PostDate": "2026-05-01T08:00:00",
+      "OrgId": 700312145,
+      "Status": 1
+    },
+    {
+      "Id": "c552e93f-0984-653e-0ffd-7e94fd53d363",
+      "JobAdId": 621097455,
+      "JobAdName": "校园招聘 - 产品实习生",
+      "Category": "校园招聘",
+      "LocNames": ["Beijing", "Haidian"],
+      "Salary": "300/day",
+      "Duty": "Support the product team with research and analysis.",
+      "Require": "Final-year student, strong communication.",
+      "ChangeDate": "2026-05-10T12:00:00",
+      "OrgId": 700312145,
+      "Status": 1
+    }
+  ]
+}

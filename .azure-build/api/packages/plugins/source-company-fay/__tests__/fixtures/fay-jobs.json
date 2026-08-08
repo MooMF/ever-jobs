@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 5238250008,
+      "title": "Business Operations ",
+      "company_name": "Fay",
+      "absolute_url": "https://job-boards.greenhouse.io/fay/jobs/5238250008",
+      "updated_at": "2026-06-02T08:49:52-04:00",
+      "location": {
+        "name": "NYC or SF"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Fay.&lt;/strong&gt; Now hiring a Business Operations on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5202299008,
+      "title": "Chief Financial Officer",
+      "company_name": "Fay",
+      "absolute_url": "https://job-boards.greenhouse.io/fay/jobs/5202299008",
+      "updated_at": "2026-04-27T17:39:50-04:00",
+      "location": {
+        "name": "NYC or SF"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Fay.&lt;/strong&gt; Now hiring a Chief Financial Officer on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5200083008,
+      "title": "Chief of Staff to the CEO",
+      "company_name": "Fay",
+      "absolute_url": "https://job-boards.greenhouse.io/fay/jobs/5200083008",
+      "updated_at": "2026-04-30T22:07:10-04:00",
+      "location": {
+        "name": "NYC"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Fay.&lt;/strong&gt; Now hiring a Chief of Staff to the CEO on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

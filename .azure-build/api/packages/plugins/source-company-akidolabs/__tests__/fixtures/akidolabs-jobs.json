@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4584319006,
+      "title": "Associate Operations Architect | Healthcare Operations ",
+      "company_name": "Akido",
+      "absolute_url": "https://job-boards.greenhouse.io/akidolabs/jobs/4584319006",
+      "updated_at": "2026-04-29T13:20:02-04:00",
+      "location": {
+        "name": "Pomona, CA"
+      },
+      "departments": [
+        {
+          "id": 4584319007,
+          "name": "Operations "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Akido.&lt;/strong&gt; Now hiring a Associate Operations Architect | Healthcare Operations on the Operations team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4674072006,
+      "title": "Behavioral Health Care Manager | Enhanced Care Management ",
+      "company_name": "Akido",
+      "absolute_url": "https://job-boards.greenhouse.io/akidolabs/jobs/4674072006",
+      "updated_at": "2026-05-05T14:25:33-04:00",
+      "location": {
+        "name": "California"
+      },
+      "departments": [
+        {
+          "id": 4674072007,
+          "name": "Case Management"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Akido.&lt;/strong&gt; Now hiring a Behavioral Health Care Manager | Enhanced Care Management on the Case Management team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4680459006,
+      "title": "Clinical Review Nurse - Prior Authorization",
+      "company_name": "Akido",
+      "absolute_url": "https://job-boards.greenhouse.io/akidolabs/jobs/4680459006",
+      "updated_at": "2026-05-29T12:55:53-04:00",
+      "location": {
+        "name": "California"
+      },
+      "departments": [
+        {
+          "id": 4680459007,
+          "name": "Operations"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Akido.&lt;/strong&gt; Now hiring a Clinical Review Nurse - Prior Authorization on the Operations team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 5995721004,
+      "title": "Expansion Account Manager ",
+      "company_name": "Warp",
+      "absolute_url": "https://job-boards.greenhouse.io/warp/jobs/5995721004",
+      "updated_at": "2026-06-03T16:55:09-04:00",
+      "location": {
+        "name": "Remote within US and Canada"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Warp.&lt;/strong&gt; Now hiring a Expansion Account Manager on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5749183004,
+      "title": "Forward Deployed Engineer",
+      "company_name": "Warp",
+      "absolute_url": "https://job-boards.greenhouse.io/warp/jobs/5749183004",
+      "updated_at": "2026-05-22T17:59:24-04:00",
+      "location": {
+        "name": "Remote within US and Canada"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Warp.&lt;/strong&gt; Now hiring a Forward Deployed Engineer on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5832041004,
+      "title": "Implementation Engineer",
+      "company_name": "Warp",
+      "absolute_url": "https://job-boards.greenhouse.io/warp/jobs/5832041004",
+      "updated_at": "2026-06-01T13:48:15-04:00",
+      "location": {
+        "name": "Remote within US and Canada"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Warp.&lt;/strong&gt; Now hiring a Implementation Engineer on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

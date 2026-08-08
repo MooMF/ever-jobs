@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4202485009,
+      "title": "AI Developer Advocate ",
+      "company_name": "Imbue",
+      "absolute_url": "https://job-boards.greenhouse.io/imbue/jobs/4202485009",
+      "updated_at": "2026-03-26T18:14:18-04:00",
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "departments": [
+        {
+          "id": 4202485010,
+          "name": "Engineering "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Imbue.&lt;/strong&gt; Now hiring a AI Developer Advocate on the Engineering team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4245888009,
+      "title": "Content & Communications Lead",
+      "company_name": "Imbue",
+      "absolute_url": "https://job-boards.greenhouse.io/imbue/jobs/4245888009",
+      "updated_at": "2026-05-11T20:27:54-04:00",
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "departments": [
+        {
+          "id": 4245888010,
+          "name": "Marketing"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Imbue.&lt;/strong&gt; Now hiring a Content & Communications Lead on the Marketing team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4010186009,
+      "title": "Product Engineer",
+      "company_name": "Imbue",
+      "absolute_url": "https://job-boards.greenhouse.io/imbue/jobs/4010186009",
+      "updated_at": "2026-03-02T18:19:34-05:00",
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "departments": [
+        {
+          "id": 4010186010,
+          "name": "Engineering"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Imbue.&lt;/strong&gt; Now hiring a Product Engineer on the Engineering team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

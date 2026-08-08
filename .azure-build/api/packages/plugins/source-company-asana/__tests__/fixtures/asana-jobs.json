@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 9001234,
+      "title": "Senior Software Engineer, Workflow-Automation Platform",
+      "absolute_url": "https://boards.greenhouse.io/asana/jobs/9001234",
+      "updated_at": "2026-04-29T15:00:00.000Z",
+      "first_published": "2026-04-19T08:00:00.000Z",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 510, "name": "Engineering" }],
+      "offices": [{ "id": 521, "name": "San Francisco" }],
+      "content": "<p><strong>About the role</strong></p><p>Lead service development for Asana's workflow-automation infrastructure handling tens of millions of task-graph mutations per day across 150,000+ enterprise customers.</p><ul><li>Distributed-systems and event-sourcing experience required</li></ul>"
+    },
+    {
+      "id": 9002345,
+      "title": "Senior Manager, Customer-Experience Strategy",
+      "absolute_url": "https://boards.greenhouse.io/asana/jobs/9002345",
+      "updated_at": "2026-04-30T11:30:00.000Z",
+      "first_published": "2026-04-23T07:00:00.000Z",
+      "location": { "name": "Remote — USA" },
+      "departments": [{ "id": 511, "name": "Customer Experience" }],
+      "offices": [{ "id": 522, "name": "Remote" }],
+      "content": "<p>Own Asana's customer-experience strategy roadmap across enterprise-onboarding, expansion, and renewal motion-design.</p>"
+    }
+  ],
+  "meta": { "total": 2 }
+}

@@ -1,0 +1,34 @@
+{
+  "jobs": [
+    {
+      "id": 7289164,
+      "title": "Account Executive",
+      "company_name": "Acquia",
+      "absolute_url": "https://job-boards.greenhouse.io/acquia/jobs/7289164",
+      "updated_at": "2026-05-12T10:00:00-04:00",
+      "location": { "name": "Remote - United States" },
+      "departments": [{ "id": 4135842009, "name": "Sales" }],
+      "content": "&lt;p&gt;&lt;strong&gt;About Acquia&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Acquia is hiring an Account Executive to lead enterprise DXP &amp; Drupal-cloud expansion across U.S. customers.&lt;/p&gt;"
+    },
+    {
+      "id": 7859184,
+      "title": "Director of Developer Relations & Technical Content",
+      "company_name": "Acquia",
+      "absolute_url": "https://job-boards.greenhouse.io/acquia/jobs/7859184",
+      "updated_at": "2026-05-10T09:00:00-04:00",
+      "location": { "name": "Boston, MA" },
+      "departments": [{ "id": 4135850009, "name": "Marketing" }],
+      "content": "&lt;p&gt;Lead Acquia&amp;rsquo;s Drupal developer-relations program targeting open-source contributors &amp; ISV partners.&lt;/p&gt;"
+    },
+    {
+      "id": 7913589,
+      "title": "Director, Product Management",
+      "company_name": "Acquia",
+      "absolute_url": "https://job-boards.greenhouse.io/acquia/jobs/7913589",
+      "updated_at": "2026-05-05T08:00:00-04:00",
+      "location": { "name": "Boston, MA" },
+      "departments": [{ "id": 4135870009, "name": "Products" }],
+      "content": "&lt;p&gt;Lead PM strategy for Acquia&amp;rsquo;s CDP &amp; DAM product lines on the Acquia Cloud Platform.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 7518107003,
+      "title": "Client Platform Engineer ",
+      "company_name": "Otter.ai",
+      "absolute_url": "https://job-boards.greenhouse.io/otterai/jobs/7518107003",
+      "updated_at": "2026-05-27T19:04:06-04:00",
+      "location": {
+        "name": "Mountain View, CA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Otter.ai.&lt;/strong&gt; Now hiring a Client Platform Engineer on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7493533003,
+      "title": "Data Scientist, Product",
+      "company_name": "Otter.ai",
+      "absolute_url": "https://job-boards.greenhouse.io/otterai/jobs/7493533003",
+      "updated_at": "2026-05-13T12:30:00-04:00",
+      "location": {
+        "name": "Mountain View, CA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Otter.ai.&lt;/strong&gt; Now hiring a Data Scientist, Product on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7733520003,
+      "title": "Data Scientist, Product",
+      "company_name": "Otter.ai",
+      "absolute_url": "https://job-boards.greenhouse.io/otterai/jobs/7733520003",
+      "updated_at": "2026-05-14T13:00:05-04:00",
+      "location": {
+        "name": "Seattle, Washington, United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Otter.ai.&lt;/strong&gt; Now hiring a Data Scientist, Product on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

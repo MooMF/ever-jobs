@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4146555009,
+      "title": "Cloud Architect ",
+      "company_name": "Amtech Software",
+      "absolute_url": "https://job-boards.greenhouse.io/amtechsoftware/jobs/4146555009",
+      "updated_at": "2026-02-26T09:18:19-05:00",
+      "location": {
+        "name": "India"
+      },
+      "departments": [
+        {
+          "id": 4146555010,
+          "name": "Technology "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Amtech Software.&lt;/strong&gt; Now hiring a Cloud Architect on the Technology team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4249603009,
+      "title": "Demand Generation Lead ",
+      "company_name": "Amtech Software",
+      "absolute_url": "https://job-boards.greenhouse.io/amtechsoftware/jobs/4249603009",
+      "updated_at": "2026-05-19T08:37:20-04:00",
+      "location": {
+        "name": "United Kingdom"
+      },
+      "departments": [
+        {
+          "id": 4249603010,
+          "name": "Marketing"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Amtech Software.&lt;/strong&gt; Now hiring a Demand Generation Lead on the Marketing team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4241763009,
+      "title": "Implementation Consultant",
+      "company_name": "Amtech Software",
+      "absolute_url": "https://job-boards.greenhouse.io/amtechsoftware/jobs/4241763009",
+      "updated_at": "2026-05-14T15:06:26-04:00",
+      "location": {
+        "name": "United States"
+      },
+      "departments": [
+        {
+          "id": 4241763010,
+          "name": "Customer Operations"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Amtech Software.&lt;/strong&gt; Now hiring a Implementation Consultant on the Customer Operations team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

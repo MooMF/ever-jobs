@@ -1,0 +1,34 @@
+{
+  "jobs": [
+    {
+      "id": 7382874,
+      "title": "Key Account Manager ",
+      "company_name": "aCommerce",
+      "absolute_url": "https://job-boards.greenhouse.io/acommerce/jobs/7382874",
+      "updated_at": "2026-05-12T10:00:00+07:00",
+      "location": { "name": "Bangkok, Thailand" },
+      "departments": [{ "id": 4135842009, "name": "Key Account Management" }],
+      "content": "&lt;p&gt;&lt;strong&gt;About aCommerce&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;aCommerce is seeking a Key Account Manager to lead brand partner engagement &amp; performance review across our regional SEA portfolio.&lt;/p&gt;"
+    },
+    {
+      "id": 7742400,
+      "title": "AI Solutions Manager / Technical Sales (E-commerce)",
+      "company_name": "aCommerce",
+      "absolute_url": "https://job-boards.greenhouse.io/acommerce/jobs/7742400",
+      "updated_at": "2026-05-10T09:00:00+07:00",
+      "location": { "name": "Singapore-Regional" },
+      "departments": [{ "id": 4135850009, "name": "Business Development" }],
+      "content": "&lt;p&gt;Drive AI-enabled commerce solutions across aCommerce&amp;rsquo;s SEA brand-fulfilment platform.&lt;/p&gt;"
+    },
+    {
+      "id": 6512630,
+      "title": "Associate Business Development Manager",
+      "company_name": "aCommerce",
+      "absolute_url": "https://job-boards.greenhouse.io/acommerce/jobs/6512630",
+      "updated_at": "2026-05-05T08:00:00+07:00",
+      "location": { "name": "Jakarta, Indonesia" },
+      "departments": [{ "id": 4135870009, "name": "Business Development" }],
+      "content": "&lt;p&gt;Support aCommerce&amp;rsquo;s Indonesia BD engine targeting CPG, fashion-beauty &amp; electronics brand prospects across the archipelago.&lt;/p&gt;"
+    }
+  ]
+}

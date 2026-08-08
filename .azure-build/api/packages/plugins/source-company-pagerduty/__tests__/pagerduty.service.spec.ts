@@ -1,0 +1,193 @@
+import 'reflect-metadata';
+import * as fs from 'fs';
+import * as path from 'path';
+import { Test } from '@nestjs/testing';
+import { JobResponseDto, ScraperInputDto, Site } from '@ever-jobs/models';
+
+const mockGet = jest.fn();
+jest.mock('@ever-jobs/common', () => {
+  const actual = jest.requireActual('@ever-jobs/common');
+  return {
+    ...actual,
+    createHttpClient: jest.fn(() => ({
+      get: mockGet,
+      setHeaders: jest.fn(),
+    })),
+  };
+});
+
+import { PagerdutyModule, PagerdutyService } from '../src';
+
+const FIXTURE_DIR = path.join(__dirname, 'fixtures');
+const JOBS_PAGE_RAW = JSON.parse(
+  fs.readFileSync(path.join(FIXTURE_DIR, 'pagerduty-jobs.json'), 'utf8'),
+);
+
+function clone<T>(v: T): T {
+  return JSON.parse(JSON.stringify(v)) as T;
+}
+
+/**
+ * Spec 117 / T04 — `PagerdutyService` unit tests.
+ *
+ * Coverage (>= 8 mandated by spec § 8 / FR-10):
+ *   1. NestJS DI resolves `PagerdutyService` through `PagerdutyModule`.
+ *   2. `Site.PAGERDUTY === 'pagerduty'` literal pin.
+ *   3. Happy path — variant-2 URL pass-through; D-09 PascalCase
+ *      TWO-cap case-asymmetric `'PagerDuty'` lock (caps at 0/5);
+ *      D-10 trailing-pad title trim; D-11 clean dept pass-
+ *      through.
+ *   4..8. resultsWanted, searchTerm filters, error handling,
+ *      empty payload.
+ */
+describe('PagerdutyService — Spec 117 / T04', () => {
+  beforeEach(() => {
+    mockGet.mockReset();
+  });
+
+  describe('registration scaffolding', () => {
+    it('resolves through PagerdutyModule via NestJS DI', async () => {
+      const moduleRef = await Test.createTestingModule({
+        imports: [PagerdutyModule],
+      }).compile();
+      const service = moduleRef.get(PagerdutyService);
+      expect(service).toBeInstanceOf(PagerdutyService);
+      await moduleRef.close();
+    });
+
+    it('exports the Site.PAGERDUTY = "pagerduty" enum value', () => {
+      expect(Site.PAGERDUTY).toBe('pagerduty');
+    });
+  });
+
+  describe('happy path — 2 listings mapped to JobPostDto', () => {
+    it('maps both fixture listings to JobPostDto with expected fields', async () => {
+      mockGet.mockResolvedValueOnce({ data: clone(JOBS_PAGE_RAW) });
+
+      const service = new PagerdutyService();
+      const result = await service.scrape({
+        siteType: [Site.PAGERDUTY],
+        resultsWanted: 100,
+      } as ScraperInputDto);
+      const dto = result as JobResponseDto;
+      expect(dto.jobs).toHaveLength(2);
+
+      const am = dto.jobs.find((j) => j.id === 'pagerduty-5751681004');
+      expect(am).toBeDefined();
+      expect(am?.site).toBe(Site.PAGERDUTY);
+      // **D-09 PascalCase TWO-cap case-asymmetric lock — caps
+      // at byte indices 0 and 5**: emitted `'PagerDuty'` byte-
+      // for-byte (9 bytes); case-asymmetric vs the lowercase
+      // 9-byte slug `pagerduty` at TWO indices.
+      expect(am?.companyName).toBe('PagerDuty');
+      expect(am?.companyName?.length).toBe(9);
+      expect(am?.companyName?.[0]).toBe('P');
+      expect(am?.companyName?.[5]).toBe('D');
+      expect(am?.companyName?.toLowerCase()).toBe('pagerduty');
+      expect(am?.companyName).not.toBe('pagerduty');
+      // D-10 lock — wire title carries trailing-space pad;
+      // emitted title trimmed.
+      expect(JOBS_PAGE_RAW.jobs[0].title).toBe('Account Manager- San Francisco ');
+      expect(am?.title).toBe('Account Manager- San Francisco');
+      expect(am?.title).not.toMatch(/\s$/);
+      // D-04 lock — variant 2 (canonical Greenhouse host).
+      expect(am?.jobUrl).toBe(
+        'https://job-boards.greenhouse.io/pagerduty/jobs/5751681004',
+      );
+      expect(am?.jobUrl).toContain('job-boards.greenhouse.io/pagerduty/jobs/');
+      expect(am?.department).toBe('Sales');
+      expect(am?.location?.city).toBe('San Francisco, CA');
+      expect(am?.isRemote).toBe(false);
+      // D-08 regression guard.
+      expect(am?.description).not.toContain('&lt;');
+      expect(am?.description).not.toContain('&amp;');
+      expect(am?.description).not.toContain('<p>');
+      expect(am?.description).not.toContain('<strong>');
+      expect(am?.description).toContain('PagerDuty');
+
+      const sse = dto.jobs.find((j) => j.id === 'pagerduty-5894572003');
+      expect(sse).toBeDefined();
+      expect(sse?.title).toBe('Senior Software Engineer, Operations Cloud');
+      expect(sse?.companyName).toBe('PagerDuty');
+      expect(sse?.location?.city).toBe('Toronto, ON, Canada');
+      expect(sse?.isRemote).toBe(false);
+      expect(sse?.department).toBe('Product Management');
+      expect(sse?.jobUrl).toBe(
+        'https://job-boards.greenhouse.io/pagerduty/jobs/5894572003',
+      );
+
+      const calledUrls = mockGet.mock.calls.map((c) => c[0] as string);
+      expect(calledUrls[0]).toBe(
+        'https://api.greenhouse.io/v1/boards/pagerduty/jobs?content=true',
+      );
+    });
+  });
+
+  describe('resultsWanted cap', () => {
+    it('honours resultsWanted=1 against a 2-item page', async () => {
+      mockGet.mockResolvedValueOnce({ data: clone(JOBS_PAGE_RAW) });
+
+      const service = new PagerdutyService();
+      const result = await service.scrape({
+        siteType: [Site.PAGERDUTY],
+        resultsWanted: 1,
+      } as ScraperInputDto);
+
+      expect(result.jobs).toHaveLength(1);
+    });
+  });
+
+  describe('searchTerm filter', () => {
+    it('filters by case-insensitive substring of trimmed title', async () => {
+      mockGet.mockResolvedValueOnce({ data: clone(JOBS_PAGE_RAW) });
+
+      const service = new PagerdutyService();
+      const result = await service.scrape({
+        siteType: [Site.PAGERDUTY],
+        searchTerm: 'OPERATIONS',
+      } as ScraperInputDto);
+
+      expect(result.jobs).toHaveLength(1);
+      expect(result.jobs[0].id).toBe('pagerduty-5894572003');
+    });
+
+    it('filters by case-insensitive substring of department name', async () => {
+      mockGet.mockResolvedValueOnce({ data: clone(JOBS_PAGE_RAW) });
+
+      const service = new PagerdutyService();
+      const result = await service.scrape({
+        siteType: [Site.PAGERDUTY],
+        searchTerm: 'sales',
+      } as ScraperInputDto);
+
+      expect(result.jobs).toHaveLength(1);
+      expect(result.jobs[0].id).toBe('pagerduty-5751681004');
+      expect(result.jobs[0].department).toBe('Sales');
+    });
+  });
+
+  describe('error handling', () => {
+    it('catches an HTTP 500 → empty JobResponseDto, never throws', async () => {
+      mockGet.mockRejectedValueOnce(new Error('Request failed with status 500'));
+
+      const service = new PagerdutyService();
+      const result = await service.scrape({
+        siteType: [Site.PAGERDUTY],
+      } as ScraperInputDto);
+
+      expect(result.jobs).toEqual([]);
+      expect(mockGet).toHaveBeenCalledTimes(1);
+    });
+
+    it('returns empty when the response payload has no jobs', async () => {
+      mockGet.mockResolvedValueOnce({ data: { jobs: [] } });
+
+      const service = new PagerdutyService();
+      const result = await service.scrape({
+        siteType: [Site.PAGERDUTY],
+      } as ScraperInputDto);
+
+      expect(result.jobs).toEqual([]);
+    });
+  });
+});

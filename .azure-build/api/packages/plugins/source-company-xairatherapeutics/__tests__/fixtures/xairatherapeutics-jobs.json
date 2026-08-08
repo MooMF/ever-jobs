@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 5116291007,
+      "title": "Accounting Manager ",
+      "company_name": "Xaira Therapeutics",
+      "absolute_url": "https://job-boards.greenhouse.io/xairatherapeutics/jobs/5116291007",
+      "updated_at": "2026-05-07T12:14:54-04:00",
+      "location": {
+        "name": "South San Francisco, California, United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Xaira Therapeutics.&lt;/strong&gt; Now hiring a Accounting Manager on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5089321007,
+      "title": "AI in Residence",
+      "company_name": "Xaira Therapeutics",
+      "absolute_url": "https://job-boards.greenhouse.io/xairatherapeutics/jobs/5089321007",
+      "updated_at": "2026-06-01T19:17:38-04:00",
+      "location": {
+        "name": "South San Francisco, California, United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Xaira Therapeutics.&lt;/strong&gt; Now hiring a AI in Residence on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4987432007,
+      "title": "AI Scientist, BioMedical AI",
+      "company_name": "Xaira Therapeutics",
+      "absolute_url": "https://job-boards.greenhouse.io/xairatherapeutics/jobs/4987432007",
+      "updated_at": "2026-05-07T12:14:54-04:00",
+      "location": {
+        "name": "South San Francisco, California, United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Xaira Therapeutics.&lt;/strong&gt; Now hiring a AI Scientist, BioMedical AI on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

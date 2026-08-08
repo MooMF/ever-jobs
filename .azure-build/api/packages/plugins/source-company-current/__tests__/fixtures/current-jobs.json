@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 8547878002,
+      "title": "Digital Producer ",
+      "company_name": "Current",
+      "absolute_url": "https://job-boards.greenhouse.io/current/jobs/8547878002",
+      "updated_at": "2026-05-13T12:33:48-04:00",
+      "location": {
+        "name": "Remote (US)"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Current.&lt;/strong&gt; Now hiring a Digital Producer on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8423058002,
+      "title": "Freelance CRM Campaign Manager (Salesforce & HubSpot)",
+      "company_name": "Current",
+      "absolute_url": "https://job-boards.greenhouse.io/current/jobs/8423058002",
+      "updated_at": "2026-05-20T15:36:20-04:00",
+      "location": {
+        "name": "Remote (US)"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Current.&lt;/strong&gt; Now hiring a Freelance CRM Campaign Manager (Salesforce & HubSpot) on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8548913002,
+      "title": "Lead Engineer (Drupal / Web Platforms)",
+      "company_name": "Current",
+      "absolute_url": "https://job-boards.greenhouse.io/current/jobs/8548913002",
+      "updated_at": "2026-05-13T18:37:51-04:00",
+      "location": {
+        "name": "Remote (US)"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Current.&lt;/strong&gt; Now hiring a Lead Engineer (Drupal / Web Platforms) on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

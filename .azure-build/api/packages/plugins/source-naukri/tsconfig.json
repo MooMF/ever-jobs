@@ -1,0 +1,5 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": { "outDir": "../../../dist/packages/source-naukri", "declaration": true },
+  "include": ["src/**/*"]
+}

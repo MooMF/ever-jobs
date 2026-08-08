@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 5062072008,
+      "title": "Head of Artist Partnerships ",
+      "company_name": "Udio",
+      "absolute_url": "https://job-boards.greenhouse.io/udio/jobs/5062072008",
+      "updated_at": "2026-05-12T01:00:55-04:00",
+      "location": {
+        "name": "Los Angeles (preferred) or New York City"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Udio.&lt;/strong&gt; Now hiring a Head of Artist Partnerships on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5081608008,
+      "title": "Member of Technical Staff - Quantitative Research",
+      "company_name": "Udio",
+      "absolute_url": "https://job-boards.greenhouse.io/udio/jobs/5081608008",
+      "updated_at": "2026-05-12T01:00:55-04:00",
+      "location": {
+        "name": "New York City (Remote possible for exceptional candidates)"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Udio.&lt;/strong&gt; Now hiring a Member of Technical Staff - Quantitative Research on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4988140008,
+      "title": "Senior Backend Engineer, Data Modeling and Ingestion Platform",
+      "company_name": "Udio",
+      "absolute_url": "https://job-boards.greenhouse.io/udio/jobs/4988140008",
+      "updated_at": "2026-05-12T01:00:55-04:00",
+      "location": {
+        "name": "New York"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Udio.&lt;/strong&gt; Now hiring a Senior Backend Engineer, Data Modeling and Ingestion Platform on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

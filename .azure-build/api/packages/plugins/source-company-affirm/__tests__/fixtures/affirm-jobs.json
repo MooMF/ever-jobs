@@ -1,0 +1,27 @@
+{
+  "jobs": [
+    {
+      "id": 7666190003,
+      "title": "Analyst II, Credit Risk Analytics",
+      "absolute_url": "https://job-boards.greenhouse.io/affirm/jobs/7666190003",
+      "updated_at": "2026-04-22T17:53:15.000Z",
+      "first_published": "2026-04-15T12:00:00.000Z",
+      "location": { "name": "Remote US" },
+      "departments": [{ "id": 4080026003, "name": "Core Analytics" }],
+      "offices": [{ "id": 4013021003, "name": "Remote US" }],
+      "content": "<p><strong>About Affirm:</strong></p><p>Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Own credit-risk analytics across the BNPL underwriting decisioning surface and the Affirm Card debit-card portfolio.</p><ul><li>SQL / Python / loss-modelling experience required</li></ul>"
+    },
+    {
+      "id": 7666842004,
+      "title": "Senior Software Engineer, Merchant Checkout Platform",
+      "absolute_url": "https://job-boards.greenhouse.io/affirm/jobs/7666842004",
+      "updated_at": "2026-04-28T14:30:00.000Z",
+      "first_published": "2026-04-20T09:00:00.000Z",
+      "location": { "name": "Hybrid - San Francisco" },
+      "departments": [{ "id": 4080501003, "name": "Engineering" }],
+      "offices": [{ "id": 4013100003, "name": "San Francisco - HQ" }],
+      "content": "<p>Own the merchant-checkout integrations platform that anchors Affirm's BNPL category — the JavaScript SDK, the Shopify / BigCommerce / WooCommerce adapters, and the headless-checkout API surface that thousands of merchants integrate against.</p>"
+    }
+  ],
+  "meta": { "total": 2 }
+}

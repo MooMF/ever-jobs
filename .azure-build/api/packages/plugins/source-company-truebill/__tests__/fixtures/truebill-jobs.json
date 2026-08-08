@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 7726296003,
+      "title": "Art Director ",
+      "company_name": "Rocket Money",
+      "absolute_url": "https://job-boards.greenhouse.io/truebill/jobs/7726296003",
+      "updated_at": "2026-05-06T11:59:32-04:00",
+      "location": {
+        "name": "Los Angeles, CA, New York, NY, Washington D.C"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Rocket Money.&lt;/strong&gt; Now hiring a Art Director on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7726429003,
+      "title": "Creative Project Manager",
+      "company_name": "Rocket Money",
+      "absolute_url": "https://job-boards.greenhouse.io/truebill/jobs/7726429003",
+      "updated_at": "2026-05-07T14:59:38-04:00",
+      "location": {
+        "name": "New York City, NY"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Rocket Money.&lt;/strong&gt; Now hiring a Creative Project Manager on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7692564003,
+      "title": "Growth Marketing Manager - Digital",
+      "company_name": "Rocket Money",
+      "absolute_url": "https://job-boards.greenhouse.io/truebill/jobs/7692564003",
+      "updated_at": "2026-04-07T14:28:24-04:00",
+      "location": {
+        "name": "New York City, NY"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Rocket Money.&lt;/strong&gt; Now hiring a Growth Marketing Manager - Digital on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

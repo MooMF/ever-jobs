@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 5970078004,
+      "title": "Controller - US ",
+      "company_name": "Fingerprint",
+      "absolute_url": "https://job-boards.greenhouse.io/fingerprint/jobs/5970078004",
+      "updated_at": "2026-04-24T17:43:38-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Fingerprint.&lt;/strong&gt; Now hiring a Controller - US on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5732685004,
+      "title": "Customer Success Engineer - EMEA",
+      "company_name": "Fingerprint",
+      "absolute_url": "https://job-boards.greenhouse.io/fingerprint/jobs/5732685004",
+      "updated_at": "2026-04-17T11:22:33-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Fingerprint.&lt;/strong&gt; Now hiring a Customer Success Engineer - EMEA on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5984610004,
+      "title": "Director of Enterprise Sales",
+      "company_name": "Fingerprint",
+      "absolute_url": "https://job-boards.greenhouse.io/fingerprint/jobs/5984610004",
+      "updated_at": "2026-05-11T10:58:17-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Fingerprint.&lt;/strong&gt; Now hiring a Director of Enterprise Sales on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

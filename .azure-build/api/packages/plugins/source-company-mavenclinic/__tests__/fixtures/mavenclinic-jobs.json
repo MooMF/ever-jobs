@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 8500217002,
+      "title": "Brand Designer",
+      "company_name": "Maven Clinic",
+      "absolute_url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8500217002",
+      "updated_at": "2026-04-30T12:15:32-04:00",
+      "first_published": "2026-03-21T09:00:00-04:00",
+      "location": { "name": "New York, NY" },
+      "departments": [{ "id": 4063436002, "name": "Brand & Communications" }],
+      "offices": [{ "id": 21001, "name": "New York" }],
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Maven is the world&#39;s largest virtual clinic for women and families on a mission to make healthcare work for all of us. Maven&#39;s award-winning digital programs are trusted by employers and health plans to support their members across maternity, fertility, parenting, and pediatrics.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Brand Designer at Maven partners with Marketing &amp; Communications to extend the brand&#39;s visual system across product surfaces and member touchpoints.&lt;/p&gt;"
+    },
+    {
+      "id": 8521374002,
+      "title": "Clinical Outcomes Analyst ",
+      "company_name": "Maven Clinic",
+      "absolute_url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8521374002",
+      "updated_at": "2026-04-29T10:42:11-04:00",
+      "first_published": "2026-03-15T08:30:00-04:00",
+      "location": { "name": "Remote - United States" },
+      "departments": [{ "id": 4089992002, "name": "Clinical Outcomes" }],
+      "offices": [{ "id": 21002, "name": "Remote - United States" }],
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Maven is the world&#39;s largest virtual clinic for women and families. The Clinical Outcomes team measures the longitudinal impact of Maven&#39;s programs across maternity, fertility, and parenting.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Clinical Outcomes Analyst partners with Clinical Strategy and Data Science to quantify program efficacy across employer cohorts.&lt;/p&gt;"
+    }
+  ]
+}

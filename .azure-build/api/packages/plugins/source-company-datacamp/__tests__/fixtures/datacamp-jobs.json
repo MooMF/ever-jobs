@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 7067243,
+      "title": "Curriculum Manager - Data Science and AI",
+      "company_name": "DataCamp",
+      "absolute_url": "https://job-boards.greenhouse.io/datacamp/jobs/7067243",
+      "updated_at": "2026-04-30T13:45:32-04:00",
+      "first_published": "2026-03-21T09:00:00-04:00",
+      "location": { "name": "Belgium; Portugal; United Kingdom; United States" },
+      "departments": [{ "id": 4063436005, "name": "Learner Product" }],
+      "offices": [{ "id": 21001, "name": "Remote EMEA" }],
+      "content": "&lt;p&gt;&lt;strong&gt;About DataCamp&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Data and AI skills are critical for thriving today, and DataCamp is the platform that empowers everyone to learn them. We help individuals &amp; teams ship more value through interactive in-browser courses.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Curriculum Manager designs DataCamp&#39;s data-and-AI-skills enablement curriculum across the &quot;Learner Product&quot; org.&lt;/p&gt;"
+    },
+    {
+      "id": 7531007,
+      "title": "Senior Data Engineer",
+      "company_name": "DataCamp",
+      "absolute_url": "https://job-boards.greenhouse.io/datacamp/jobs/7531007",
+      "updated_at": "2026-04-29T10:42:11-04:00",
+      "first_published": "2026-03-15T08:30:00-04:00",
+      "location": { "name": "Remote - EMEA" },
+      "departments": [{ "id": 4089992005, "name": " IT" }],
+      "offices": [{ "id": 21002, "name": "Remote" }],
+      "content": "&lt;p&gt;DataCamp is reimagining the in-browser code-execution-and-immediate-feedback data model.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Senior Data Engineer owns DataCamp-for-Business enterprise-data-skills-training platform across server-side pipelines.&lt;/p&gt;"
+    }
+  ]
+}

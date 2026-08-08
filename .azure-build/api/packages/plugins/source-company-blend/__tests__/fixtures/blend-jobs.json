@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 5818141004,
+      "title": "Customer Success Manager ",
+      "company_name": "Blend",
+      "absolute_url": "https://job-boards.greenhouse.io/blend/jobs/5818141004",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 1, "name": "Customer Success- Blend Labs" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Customer Success Manager&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Blend is the US-mortgage-origination + consumer-banking digital-platform pioneered around cloud-native-loan-origination &amp; the digital-lending segment.&lt;/p&gt;"
+    },
+    {
+      "id": 5897234002,
+      "title": "Sales Engineer - Enterprise",
+      "company_name": "Blend",
+      "absolute_url": "https://job-boards.greenhouse.io/blend/jobs/5897234002",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 2, "name": "Sales Engineering- Blend Labs" }],
+      "content": "&lt;p&gt;Lead Blend's Sales Engineering function across the Mortgage / Consumer Banking / Title 365 / Builder platform stack.&lt;/p&gt;"
+    }
+  ]
+}

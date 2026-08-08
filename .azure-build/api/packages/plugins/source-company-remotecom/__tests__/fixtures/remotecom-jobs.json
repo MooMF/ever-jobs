@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 5922893003,
+      "title": "Accountant ",
+      "company_name": "Remote",
+      "absolute_url": "https://job-boards.greenhouse.io/remotecom/jobs/5922893003",
+      "updated_at": "2026-05-13T19:42:32-04:00",
+      "location": {
+        "name": "Remote-Iberia"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Remote.&lt;/strong&gt; Now hiring a Accountant on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5920200003,
+      "title": "Accountant",
+      "company_name": "Remote",
+      "absolute_url": "https://job-boards.greenhouse.io/remotecom/jobs/5920200003",
+      "updated_at": "2026-05-13T19:42:32-04:00",
+      "location": {
+        "name": "Remote-EMEA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Remote.&lt;/strong&gt; Now hiring a Accountant on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7509488003,
+      "title": "Account Executive - DACH (Future Talent Opportunity)",
+      "company_name": "Remote",
+      "absolute_url": "https://job-boards.greenhouse.io/remotecom/jobs/7509488003",
+      "updated_at": "2026-05-13T19:42:39-04:00",
+      "location": {
+        "name": "Remote-Austria"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Remote.&lt;/strong&gt; Now hiring a Account Executive - DACH (Future Talent Opportunity) on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

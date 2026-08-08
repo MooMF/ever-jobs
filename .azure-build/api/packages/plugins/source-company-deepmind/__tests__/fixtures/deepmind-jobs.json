@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7602072,
+      "title": "Administrative Business Partner (12 month fixed term contract)",
+      "company_name": "DeepMind",
+      "absolute_url": "https://job-boards.greenhouse.io/deepmind/jobs/7602072",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "London, UK" },
+      "departments": [{ "id": 1, "name": "Office of the CEO" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Administrative Business Partner&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Google DeepMind is the leading frontier-AI research lab pioneered around the deep-reinforcement-learning + LLM-research data model.&lt;/p&gt;"
+    },
+    {
+      "id": 7822249,
+      "title": "Research Engineer, Applied AI ",
+      "company_name": "DeepMind",
+      "absolute_url": "https://job-boards.greenhouse.io/deepmind/jobs/7822249",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Mountain View, CA" },
+      "departments": [{ "id": 2, "name": "Frontier AI " }],
+      "content": "&lt;p&gt;Lead DeepMind's Research Engineer function across the frontier-AI &amp; foundation-model platform stack.&lt;/p&gt;"
+    }
+  ]
+}

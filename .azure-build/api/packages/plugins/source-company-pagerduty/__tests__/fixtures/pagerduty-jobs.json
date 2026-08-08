@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 5751681004,
+      "title": "Account Manager- San Francisco ",
+      "company_name": "PagerDuty",
+      "absolute_url": "https://job-boards.greenhouse.io/pagerduty/jobs/5751681004",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 1, "name": "Sales" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Account Manager&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;PagerDuty is the digital-operations platform pioneered around on-call alerting &amp; incident-response orchestration.&lt;/p&gt;"
+    },
+    {
+      "id": 5894572003,
+      "title": "Senior Software Engineer, Operations Cloud",
+      "company_name": "PagerDuty",
+      "absolute_url": "https://job-boards.greenhouse.io/pagerduty/jobs/5894572003",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "Toronto, ON, Canada" },
+      "departments": [{ "id": 2, "name": "Product Management" }],
+      "content": "&lt;p&gt;Lead PagerDuty's Operations Cloud engineering function across the Incident Response and AIOps stack.&lt;/p&gt;"
+    }
+  ]
+}

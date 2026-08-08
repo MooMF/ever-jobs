@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 8558963002,
+      "title": "Account Executive ",
+      "company_name": "SumUp",
+      "absolute_url": "https://job-boards.greenhouse.io/sumup/jobs/8558963002",
+      "updated_at": "2026-06-01T08:15:34-04:00",
+      "location": {
+        "name": "Kansas, United States; Missouri, United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About SumUp.&lt;/strong&gt; Now hiring a Account Executive on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8559007002,
+      "title": "Account Executive",
+      "company_name": "SumUp",
+      "absolute_url": "https://job-boards.greenhouse.io/sumup/jobs/8559007002",
+      "updated_at": "2026-06-01T08:15:38-04:00",
+      "location": {
+        "name": "Texas, United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About SumUp.&lt;/strong&gt; Now hiring a Account Executive on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8558756002,
+      "title": "Account Executive",
+      "company_name": "SumUp",
+      "absolute_url": "https://job-boards.greenhouse.io/sumup/jobs/8558756002",
+      "updated_at": "2026-06-01T08:15:18-04:00",
+      "location": {
+        "name": "Oklahoma, United States"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About SumUp.&lt;/strong&gt; Now hiring a Account Executive on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

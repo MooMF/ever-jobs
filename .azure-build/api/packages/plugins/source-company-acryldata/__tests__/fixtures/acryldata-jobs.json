@@ -1,0 +1,34 @@
+{
+  "jobs": [
+    {
+      "id": 5128449007,
+      "title": "Business Development Representative",
+      "company_name": "DataHub",
+      "absolute_url": "https://job-boards.greenhouse.io/acryldata/jobs/5128449007",
+      "updated_at": "2026-05-12T10:00:00-04:00",
+      "location": { "name": "Europe Remote" },
+      "departments": [{ "id": 4007270007, "name": "Marketing & Sales" }],
+      "content": "&lt;p&gt;&lt;strong&gt;About Acryl Data&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Acryl Data, the steward of the open-source DataHub project, is hiring a Business Development Representative to scale enterprise data-catalog adoption.&lt;/p&gt;"
+    },
+    {
+      "id": 5128449008,
+      "title": "Senior Platform Engineer",
+      "company_name": "DataHub",
+      "absolute_url": "https://job-boards.greenhouse.io/acryldata/jobs/5128449008",
+      "updated_at": "2026-05-10T09:00:00-04:00",
+      "location": { "name": "Palo Alto, California, United States" },
+      "departments": [{ "id": 4007271007, "name": "Engineering" }],
+      "content": "&lt;p&gt;Build &amp; operate Acryl DataHub Cloud&amp;rsquo;s metadata-streaming infrastructure on Kubernetes.&lt;/p&gt;"
+    },
+    {
+      "id": 5128449009,
+      "title": "Customer Success Manager",
+      "company_name": "DataHub",
+      "absolute_url": "https://job-boards.greenhouse.io/acryldata/jobs/5128449009",
+      "updated_at": "2026-05-05T08:00:00-04:00",
+      "location": { "name": "Remote, Global" },
+      "departments": [{ "id": 4007272007, "name": "Customer Success" }],
+      "content": "&lt;p&gt;Drive Acryl DataHub adoption across enterprise data-platform &amp; analytics teams.&lt;/p&gt;"
+    }
+  ]
+}

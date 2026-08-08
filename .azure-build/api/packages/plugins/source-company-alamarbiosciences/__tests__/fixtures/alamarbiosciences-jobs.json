@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5985534004,
+      "title": "Accounts Payable / Accounts Receivable Specialist ",
+      "company_name": "Alamar Biosciences",
+      "absolute_url": "https://job-boards.greenhouse.io/alamarbiosciences/jobs/5985534004",
+      "updated_at": "2026-05-21T12:58:36-04:00",
+      "location": {
+        "name": "Fremont, California"
+      },
+      "departments": [
+        {
+          "id": 5985534005,
+          "name": "Finance "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Alamar Biosciences.&lt;/strong&gt; Now hiring a Accounts Payable / Accounts Receivable Specialist on the Finance team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5778045004,
+      "title": "Associate Scientist - Assay Development - China",
+      "company_name": "Alamar Biosciences",
+      "absolute_url": "https://job-boards.greenhouse.io/alamarbiosciences/jobs/5778045004",
+      "updated_at": "2026-02-02T06:05:58-05:00",
+      "location": {
+        "name": "Hangzhou, China"
+      },
+      "departments": [
+        {
+          "id": 5778045005,
+          "name": "China"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Alamar Biosciences.&lt;/strong&gt; Now hiring a Associate Scientist - Assay Development - China on the China team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5970172004,
+      "title": "Associate Scientist, Technology Development",
+      "company_name": "Alamar Biosciences",
+      "absolute_url": "https://job-boards.greenhouse.io/alamarbiosciences/jobs/5970172004",
+      "updated_at": "2026-04-29T11:14:24-04:00",
+      "location": {
+        "name": "Fremont, California"
+      },
+      "departments": [
+        {
+          "id": 5970172005,
+          "name": "Technology Development 2"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Alamar Biosciences.&lt;/strong&gt; Now hiring a Associate Scientist, Technology Development on the Technology Development 2 team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 5990198004,
+      "title": "Infrastructure Software Engineer ",
+      "company_name": "Camus Energy",
+      "absolute_url": "https://job-boards.greenhouse.io/camusenergy/jobs/5990198004",
+      "updated_at": "2026-05-15T17:31:09-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Camus Energy.&lt;/strong&gt; Now hiring a Infrastructure Software Engineer on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5990203004,
+      "title": "Machine Learning Software Engineer",
+      "company_name": "Camus Energy",
+      "absolute_url": "https://job-boards.greenhouse.io/camusenergy/jobs/5990203004",
+      "updated_at": "2026-05-15T17:31:30-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Camus Energy.&lt;/strong&gt; Now hiring a Machine Learning Software Engineer on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5989919004,
+      "title": "Power Systems Software Engineer",
+      "company_name": "Camus Energy",
+      "absolute_url": "https://job-boards.greenhouse.io/camusenergy/jobs/5989919004",
+      "updated_at": "2026-05-08T20:23:43-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Camus Energy.&lt;/strong&gt; Now hiring a Power Systems Software Engineer on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

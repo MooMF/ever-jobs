@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5636758004,
+      "title": "Applied AI/ML Engineer ",
+      "company_name": "Aisera",
+      "absolute_url": "https://job-boards.greenhouse.io/aiserajobs/jobs/5636758004",
+      "updated_at": "2026-03-26T13:53:18-04:00",
+      "location": {
+        "name": "Hyderabad"
+      },
+      "departments": [
+        {
+          "id": 5636758005,
+          "name": "Customer Success "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Aisera.&lt;/strong&gt; Now hiring a Applied AI/ML Engineer on the Customer Success team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5260300004,
+      "title": "Consultant- Sr AI Ops Engineer",
+      "company_name": "Aisera",
+      "absolute_url": "https://job-boards.greenhouse.io/aiserajobs/jobs/5260300004",
+      "updated_at": "2026-03-26T13:53:18-04:00",
+      "location": {
+        "name": " Bangalore"
+      },
+      "departments": [
+        {
+          "id": 5260300005,
+          "name": "Sales Engineering"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Aisera.&lt;/strong&gt; Now hiring a Consultant- Sr AI Ops Engineer on the Sales Engineering team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5658437004,
+      "title": "Senior Software engineer- Coversational AI",
+      "company_name": "Aisera",
+      "absolute_url": "https://job-boards.greenhouse.io/aiserajobs/jobs/5658437004",
+      "updated_at": "2026-03-26T13:53:18-04:00",
+      "location": {
+        "name": "Greece"
+      },
+      "departments": [
+        {
+          "id": 5658437005,
+          "name": "Engineering"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Aisera.&lt;/strong&gt; Now hiring a Senior Software engineer- Coversational AI on the Engineering team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

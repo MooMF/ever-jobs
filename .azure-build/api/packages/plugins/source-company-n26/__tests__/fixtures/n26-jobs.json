@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7738776,
+      "title": "AFC Associate - SAR Delegate ",
+      "company_name": "N26",
+      "absolute_url": "https://n26.com/en-eu/careers/positions/7738776?gh_jid=7738776",
+      "updated_at": "2026-04-15T10:00:00-07:00",
+      "location": { "name": "Paris" },
+      "departments": [{ "id": 1, "name": "Banking Operations" }],
+      "content": "&lt;p&gt;&lt;strong&gt;AFC Associate - SAR Delegate&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;N26 is the EU pan-European mobile bank &amp; we ship multi-jurisdiction current accounts under a German banking licence.&lt;/p&gt;"
+    },
+    {
+      "id": 7811338,
+      "title": "Group Internal Audit Manager",
+      "company_name": "N26",
+      "absolute_url": "https://n26.com/en-eu/careers/positions/7811338?gh_jid=7811338",
+      "updated_at": "2026-04-20T10:00:00-07:00",
+      "location": { "name": "Berlin" },
+      "departments": [{ "id": 2, "name": "Group Internal Audit" }],
+      "content": "&lt;p&gt;Lead the internal-audit function across N26's pan-European operations.&lt;/p&gt;"
+    }
+  ]
+}

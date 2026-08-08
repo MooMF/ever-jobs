@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 4644064005,
+      "title": "Academic Director, BEAM Summer Away",
+      "company_name": "Bridge to Enter Advanced Mathematics (BEAM)",
+      "absolute_url": "https://job-boards.greenhouse.io/beam/jobs/4644064005",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "New York, NY" },
+      "departments": [{ "id": 1, "name": "Summer Programs" }],
+      "content": "&lt;p&gt;&lt;strong&gt;Academic Director, BEAM Summer Away&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;BEAM is the US 501(c)(3)-nonprofit math-enrichment program pioneered around rigorous-math-via-summer-program &amp; year-round-pathway STEM-for-underserved-students.&lt;/p&gt;"
+    },
+    {
+      "id": 4789215007,
+      "title": "Manager, Donor Engagement & Partnerships (Hybrid - NYC)",
+      "company_name": "Bridge to Enter Advanced Mathematics (BEAM)",
+      "absolute_url": "https://job-boards.greenhouse.io/beam/jobs/4789215007",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "New York, NY" },
+      "departments": [{ "id": 2, "name": "HQ Fundraising" }],
+      "content": "&lt;p&gt;Lead BEAM's Donor Engagement & Partnerships function across the BEAM Discovery / Summer Away / Pathway / Year-Round programs.&lt;/p&gt;"
+    }
+  ]
+}

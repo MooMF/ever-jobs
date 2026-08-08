@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 7362388,
+      "title": "AI Engineer (Research & Development) ",
+      "company_name": "Bandwidth",
+      "absolute_url": "https://job-boards.greenhouse.io/bandwidth/jobs/7362388",
+      "updated_at": "2026-04-15T10:00:00-07:00",
+      "location": { "name": "Raleigh, NC" },
+      "departments": [{ "id": 1, "name": "Network Engineering" }],
+      "content": "&lt;p&gt;&lt;strong&gt;AI Engineer (Research &amp; Development)&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Bandwidth is the carrier-grade CPaaS platform &amp; we ship voice + messaging + 911-emergency-services APIs to enterprise customers.&lt;/p&gt;"
+    },
+    {
+      "id": 7728132,
+      "title": "Senior Marketing Operations Manager",
+      "company_name": "Bandwidth",
+      "absolute_url": "https://job-boards.greenhouse.io/bandwidth/jobs/7728132",
+      "updated_at": "2026-04-20T10:00:00-07:00",
+      "location": { "name": "Denver, CO" },
+      "departments": [{ "id": 2, "name": "Marketing" }],
+      "content": "&lt;p&gt;Lead Bandwidth's marketing-operations function.&lt;/p&gt;"
+    }
+  ]
+}

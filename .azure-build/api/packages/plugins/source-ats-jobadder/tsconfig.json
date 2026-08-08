@@ -1,0 +1,8 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "../../../dist/packages/source-ats-jobadder",
+    "declaration": true
+  },
+  "include": ["src/**/*"]
+}

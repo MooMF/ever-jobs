@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4253815009,
+      "title": "Business Operations Internship ",
+      "company_name": "Amca",
+      "absolute_url": "https://job-boards.greenhouse.io/amca/jobs/4253815009",
+      "updated_at": "2026-05-20T12:44:00-04:00",
+      "location": {
+        "name": "El Segundo, CA"
+      },
+      "departments": [
+        {
+          "id": 4253815010,
+          "name": "Business Operations "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Amca.&lt;/strong&gt; Now hiring a Business Operations Internship on the Business Operations team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4227284009,
+      "title": "Compliance Manager",
+      "company_name": "Amca",
+      "absolute_url": "https://job-boards.greenhouse.io/amca/jobs/4227284009",
+      "updated_at": "2026-05-19T18:57:17-04:00",
+      "location": {
+        "name": "El Segundo, CA"
+      },
+      "departments": [
+        {
+          "id": 4227284010,
+          "name": "Legal"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Amca.&lt;/strong&gt; Now hiring a Compliance Manager on the Legal team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4253378009,
+      "title": "Designer",
+      "company_name": "Amca",
+      "absolute_url": "https://job-boards.greenhouse.io/amca/jobs/4253378009",
+      "updated_at": "2026-05-19T20:55:11-04:00",
+      "location": {
+        "name": "El Segundo"
+      },
+      "departments": [
+        {
+          "id": 4253378010,
+          "name": "Growth"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Amca.&lt;/strong&gt; Now hiring a Designer on the Growth team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

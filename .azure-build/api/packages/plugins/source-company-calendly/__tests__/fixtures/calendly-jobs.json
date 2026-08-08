@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 8525369002,
+      "title": "Director, Customer Education",
+      "company_name": "Calendly",
+      "absolute_url": "https://job-boards.greenhouse.io/calendly/jobs/8525369002",
+      "updated_at": "2026-04-30T12:15:32-04:00",
+      "first_published": "2026-03-21T09:00:00-04:00",
+      "location": { "name": "Remote - US" },
+      "departments": [{ "id": 4063436005, "name": "Marketing" }],
+      "offices": [{ "id": 21001, "name": "Remote" }],
+      "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h4&gt;&lt;strong&gt;What&#39;s in it for you?&amp;nbsp;&lt;/strong&gt;&lt;/h4&gt;&lt;p&gt;Calendly empowers individuals, teams, and organizations globally to ship more value through smart scheduling.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Director of Customer Education partners with Marketing &amp; Product to design Calendly&#39;s scheduling-automation enablement curriculum.&lt;/p&gt;"
+    },
+    {
+      "id": 8512146002,
+      "title": "Sr. Director, Engineering ",
+      "company_name": "Calendly",
+      "absolute_url": "https://job-boards.greenhouse.io/calendly/jobs/8512146002",
+      "updated_at": "2026-04-29T10:42:11-04:00",
+      "first_published": "2026-03-15T08:30:00-04:00",
+      "location": { "name": "Atlanta, GA" },
+      "departments": [{ "id": 4089992005, "name": "Engineering" }],
+      "offices": [{ "id": 21002, "name": "Atlanta HQ" }],
+      "content": "&lt;p&gt;Calendly is reimagining the meeting-link-and-availability data model.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Sr. Director of Engineering owns the Calendly-for-Teams enterprise-scheduling platform across server-side pipelines.&lt;/p&gt;"
+    }
+  ]
+}

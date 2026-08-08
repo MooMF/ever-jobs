@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 8437269002,
+      "title": "Analyst (Workiva) ",
+      "company_name": "Alpha Financial Markets Consulting",
+      "absolute_url": "https://job-boards.greenhouse.io/alphafmcroles/jobs/8437269002",
+      "updated_at": "2026-05-26T04:12:00-04:00",
+      "location": {
+        "name": "London"
+      },
+      "departments": [
+        {
+          "id": 8437269003,
+          "name": "Enterprise Performance Management "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Alpha Financial Markets Consulting.&lt;/strong&gt; Now hiring a Analyst (Workiva) on the Enterprise Performance Management team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7952316002,
+      "title": "Consultant",
+      "company_name": "Alpha Financial Markets Consulting",
+      "absolute_url": "https://job-boards.greenhouse.io/alphafmcroles/jobs/7952316002",
+      "updated_at": "2026-05-26T04:12:00-04:00",
+      "location": {
+        "name": "Toronto"
+      },
+      "departments": [
+        {
+          "id": 7952316003,
+          "name": "Insurance Consulting"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Alpha Financial Markets Consulting.&lt;/strong&gt; Now hiring a Consultant on the Insurance Consulting team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8139962002,
+      "title": "Consultant",
+      "company_name": "Alpha Financial Markets Consulting",
+      "absolute_url": "https://job-boards.greenhouse.io/alphafmcroles/jobs/8139962002",
+      "updated_at": "2026-05-26T04:12:00-04:00",
+      "location": {
+        "name": "United States"
+      },
+      "departments": [
+        {
+          "id": 8139962003,
+          "name": "Insurance Consulting"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Alpha Financial Markets Consulting.&lt;/strong&gt; Now hiring a Consultant on the Insurance Consulting team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 8476385002,
+      "title": "Software Engineer, Data ",
+      "company_name": "Mercari",
+      "absolute_url": "https://job-boards.greenhouse.io/mercari/jobs/8476385002",
+      "updated_at": "2026-04-16T19:58:44-04:00",
+      "location": {
+        "name": "Hybrid-Palo Alto, CA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Mercari.&lt;/strong&gt; Now hiring a Software Engineer, Data on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8477407002,
+      "title": "Software Engineer, Mobile",
+      "company_name": "Mercari",
+      "absolute_url": "https://job-boards.greenhouse.io/mercari/jobs/8477407002",
+      "updated_at": "2026-04-16T19:58:44-04:00",
+      "location": {
+        "name": "Hybrid-Bay Area, CA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Mercari.&lt;/strong&gt; Now hiring a Software Engineer, Mobile on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8519643002,
+      "title": "Sr. Software Engineer, Backend",
+      "company_name": "Mercari",
+      "absolute_url": "https://job-boards.greenhouse.io/mercari/jobs/8519643002",
+      "updated_at": "2026-05-11T19:03:21-04:00",
+      "location": {
+        "name": "Hybrid-Palo Alto, CA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Mercari.&lt;/strong&gt; Now hiring a Sr. Software Engineer, Backend on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

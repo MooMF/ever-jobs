@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 8445424002,
+      "title": "Senior Merchandise Planner ",
+      "company_name": "ThirdLove",
+      "absolute_url": "https://job-boards.greenhouse.io/thirdlove/jobs/8445424002",
+      "updated_at": "2026-03-02T16:16:33-05:00",
+      "location": {
+        "name": "San Francisco"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About ThirdLove.&lt;/strong&gt; Now hiring a Senior Merchandise Planner on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8563198002,
+      "title": "Shopify Engineer",
+      "company_name": "ThirdLove",
+      "absolute_url": "https://job-boards.greenhouse.io/thirdlove/jobs/8563198002",
+      "updated_at": "2026-05-22T19:06:10-04:00",
+      "location": {
+        "name": "Utah"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About ThirdLove.&lt;/strong&gt; Now hiring a Shopify Engineer on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8548052002,
+      "title": "Store Manager: Broadway Plaza",
+      "company_name": "ThirdLove",
+      "absolute_url": "https://job-boards.greenhouse.io/thirdlove/jobs/8548052002",
+      "updated_at": "2026-06-03T12:58:08-04:00",
+      "location": {
+        "name": "Walnut Creek"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About ThirdLove.&lt;/strong&gt; Now hiring a Store Manager: Broadway Plaza on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5226258008,
+      "title": "Accounting Manager ",
+      "company_name": "ANINE BING",
+      "absolute_url": "https://job-boards.greenhouse.io/aninebing/jobs/5226258008",
+      "updated_at": "2026-05-29T10:56:30-04:00",
+      "location": {
+        "name": "Paris, France"
+      },
+      "departments": [
+        {
+          "id": 5226258009,
+          "name": "Finance & Accounting "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About ANINE BING.&lt;/strong&gt; Now hiring a Accounting Manager on the Finance & Accounting team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5218433008,
+      "title": "ADV Manager EU",
+      "company_name": "ANINE BING",
+      "absolute_url": "https://job-boards.greenhouse.io/aninebing/jobs/5218433008",
+      "updated_at": "2026-05-29T10:56:30-04:00",
+      "location": {
+        "name": "Paris, FR"
+      },
+      "departments": [
+        {
+          "id": 5218433009,
+          "name": "Wholesale"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About ANINE BING.&lt;/strong&gt; Now hiring a ADV Manager EU on the Wholesale team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5153914008,
+      "title": "Assistant Store Manager - Meatpacking",
+      "company_name": "ANINE BING",
+      "absolute_url": "https://job-boards.greenhouse.io/aninebing/jobs/5153914008",
+      "updated_at": "2026-05-29T10:56:30-04:00",
+      "location": {
+        "name": "Meatpacking, NY"
+      },
+      "departments": [
+        {
+          "id": 5153914009,
+          "name": "Retail US"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About ANINE BING.&lt;/strong&gt; Now hiring a Assistant Store Manager - Meatpacking on the Retail US team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

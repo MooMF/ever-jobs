@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 4187038009,
+      "title": "Business Operations ",
+      "company_name": "Kikoff",
+      "absolute_url": "https://job-boards.greenhouse.io/kikoff/jobs/4187038009",
+      "updated_at": "2026-05-18T16:38:16-04:00",
+      "location": {
+        "name": "San Francisco"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Kikoff.&lt;/strong&gt; Now hiring a Business Operations on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4243713009,
+      "title": "Compensation Manager",
+      "company_name": "Kikoff",
+      "absolute_url": "https://job-boards.greenhouse.io/kikoff/jobs/4243713009",
+      "updated_at": "2026-05-18T18:04:39-04:00",
+      "location": {
+        "name": "San Francisco"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Kikoff.&lt;/strong&gt; Now hiring a Compensation Manager on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4201693009,
+      "title": "CX Strategy Associate",
+      "company_name": "Kikoff",
+      "absolute_url": "https://job-boards.greenhouse.io/kikoff/jobs/4201693009",
+      "updated_at": "2026-05-18T16:54:41-04:00",
+      "location": {
+        "name": "San Francisco"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Kikoff.&lt;/strong&gt; Now hiring a CX Strategy Associate on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

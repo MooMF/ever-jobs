@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 8519031002,
+      "title": "AI Tech Partner Lead ",
+      "company_name": "Amplitude ",
+      "absolute_url": "https://job-boards.greenhouse.io/amplitude/jobs/8519031002",
+      "updated_at": "2026-04-15T10:00:00-07:00",
+      "location": { "name": "Remote - USA" },
+      "departments": [{ "id": 1, "name": "CFO : Financial Planning" }],
+      "content": "&lt;p&gt;&lt;strong&gt;AI Tech Partner Lead&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Amplitude is the digital-analytics platform &amp; we ship product-analytics, experimentation, and CDP tools to enterprise customers.&lt;/p&gt;"
+    },
+    {
+      "id": 8507755002,
+      "title": "Senior Engineering Manager, Platform",
+      "company_name": "Amplitude ",
+      "absolute_url": "https://job-boards.greenhouse.io/amplitude/jobs/8507755002",
+      "updated_at": "2026-04-20T10:00:00-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 2, "name": "Engineering" }],
+      "content": "&lt;p&gt;Lead Amplitude's platform-engineering function.&lt;/p&gt;"
+    }
+  ]
+}

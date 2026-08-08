@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 7821754,
+      "title": "Associate Store Director, DC",
+      "company_name": "Glossier",
+      "absolute_url": "https://boards.greenhouse.io/glossier/jobs/7821754?gh_jid=7821754",
+      "updated_at": "2026-04-30T11:14:47-04:00",
+      "first_published": "2026-03-13T13:59:59-04:00",
+      "location": { "name": "Washington, DC" },
+      "departments": [{ "id": 62003, "name": "Retail (Stores)" }],
+      "offices": [{ "id": 16488, "name": "Washington, DC" }],
+      "content": "&lt;h3&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;We are a people-powered&amp;nbsp;ecosystem, brought to life by engaging online and offline experiences. Glossier is an iconic beauty brand that goes far beyond beauty.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Associate Store Director leads the Retail (Stores) team in our Washington, DC flagship store, ensuring an exceptional in-store experience for every customer.&lt;/p&gt;"
+    },
+    {
+      "id": 7787412,
+      "title": "(Seasonal Sales Associate, Part-Time) Editor, Boston  ",
+      "company_name": "Glossier",
+      "absolute_url": "https://boards.greenhouse.io/glossier/jobs/7787412?gh_jid=7787412",
+      "updated_at": "2026-04-29T15:32:14-04:00",
+      "first_published": "2026-04-04T09:30:00-04:00",
+      "location": { "name": "Boston, MA" },
+      "departments": [{ "id": 14909, "name": "Creative" }],
+      "offices": [{ "id": 16500, "name": "Boston" }],
+      "content": "&lt;h3&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;We are a people-powered ecosystem, brought to life by engaging online and offline experiences. Glossier&#39;s Creative team brings the brand to life across every customer touchpoint.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The Role:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The Seasonal Sales Associate (Editor) supports the Boston flagship store during the peak holiday season, delivering Glossier&#39;s signature Creative customer experience.&lt;/p&gt;"
+    }
+  ]
+}

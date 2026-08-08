@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 4155757009,
+      "title": "Development and Prototype Machinist ",
+      "company_name": "Pacific Fusion",
+      "absolute_url": "https://job-boards.greenhouse.io/pacificfusion/jobs/4155757009",
+      "updated_at": "2026-03-02T12:51:38-05:00",
+      "location": {
+        "name": "San Leandro, CA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Pacific Fusion.&lt;/strong&gt; Now hiring a Development and Prototype Machinist on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4048807009,
+      "title": "Electro-Mechanical Build Technician",
+      "company_name": "Pacific Fusion",
+      "absolute_url": "https://job-boards.greenhouse.io/pacificfusion/jobs/4048807009",
+      "updated_at": "2026-05-05T16:24:57-04:00",
+      "location": {
+        "name": "Los Lunas, NM"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Pacific Fusion.&lt;/strong&gt; Now hiring a Electro-Mechanical Build Technician on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4054502009,
+      "title": "Electro-Mechanical Technician",
+      "company_name": "Pacific Fusion",
+      "absolute_url": "https://job-boards.greenhouse.io/pacificfusion/jobs/4054502009",
+      "updated_at": "2026-05-14T19:43:06-04:00",
+      "location": {
+        "name": "Fremont, CA"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Pacific Fusion.&lt;/strong&gt; Now hiring a Electro-Mechanical Technician on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

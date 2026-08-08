@@ -1,0 +1,34 @@
+{
+  "jobs": [
+    {
+      "id": 7814905,
+      "title": "Account Executive ",
+      "company_name": "AccuWeather Careers",
+      "absolute_url": "https://job-boards.greenhouse.io/accuweather/jobs/7814905",
+      "updated_at": "2026-04-14T09:40:30-04:00",
+      "location": { "name": "State College, PA or Remote" },
+      "departments": [{ "id": 1, "name": "Ad Sales" }],
+      "content": "&lt;p&gt;&lt;strong&gt;About AccuWeather&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;AccuWeather is seeking an Account Executive to join its growing AccuWeather for Business sales team. AccuWeather For Business serves more than half of the Fortune 500 companies and thousands of other businesses and government agencies globally.&lt;/p&gt;"
+    },
+    {
+      "id": 7820100,
+      "title": "Facilities Coordinator",
+      "company_name": "AccuWeather Careers",
+      "absolute_url": "https://job-boards.greenhouse.io/accuweather/jobs/7820100",
+      "updated_at": "2026-04-12T10:00:00-04:00",
+      "location": { "name": "State College, PA" },
+      "departments": [{ "id": 2, "name": "Facilities " }],
+      "content": "&lt;p&gt;Maintain AccuWeather's State College campus facilities &amp; equipment.&lt;/p&gt;"
+    },
+    {
+      "id": 7825001,
+      "title": "Senior Forecaster, Severe Weather",
+      "company_name": "AccuWeather Careers",
+      "absolute_url": "https://job-boards.greenhouse.io/accuweather/jobs/7825001",
+      "updated_at": "2026-04-10T08:00:00-04:00",
+      "location": { "name": "Remote, US" },
+      "departments": [{ "id": 3, "name": "Forecasting" }],
+      "content": "&lt;p&gt;Lead severe-weather forecast operations for AccuWeather's enterprise clients.&lt;/p&gt;"
+    }
+  ]
+}

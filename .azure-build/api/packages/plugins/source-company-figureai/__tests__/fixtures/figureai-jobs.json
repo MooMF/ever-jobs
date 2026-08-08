@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4665206006,
+      "title": "AI Data Operations Lead ",
+      "company_name": "Figure",
+      "absolute_url": "https://job-boards.greenhouse.io/figureai/jobs/4665206006",
+      "updated_at": "2026-05-04T17:54:23-04:00",
+      "location": {
+        "name": "San Jose, CA"
+      },
+      "departments": [
+        {
+          "id": 4665206007,
+          "name": "Data Collection "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Figure.&lt;/strong&gt; Now hiring a AI Data Operations Lead on the Data Collection team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4674754006,
+      "title": "AI Training Infrastructure Engineer",
+      "company_name": "Figure",
+      "absolute_url": "https://job-boards.greenhouse.io/figureai/jobs/4674754006",
+      "updated_at": "2026-04-20T18:04:19-04:00",
+      "location": {
+        "name": "San Jose, CA"
+      },
+      "departments": [
+        {
+          "id": 4674754007,
+          "name": "Controls"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Figure.&lt;/strong&gt; Now hiring a AI Training Infrastructure Engineer on the Controls team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4661633006,
+      "title": "Associate General Counsel, Commercial",
+      "company_name": "Figure",
+      "absolute_url": "https://job-boards.greenhouse.io/figureai/jobs/4661633006",
+      "updated_at": "2026-03-10T00:11:32-04:00",
+      "location": {
+        "name": "San Jose, CA"
+      },
+      "departments": [
+        {
+          "id": 4661633007,
+          "name": "Legal"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Figure.&lt;/strong&gt; Now hiring a Associate General Counsel, Commercial on the Legal team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

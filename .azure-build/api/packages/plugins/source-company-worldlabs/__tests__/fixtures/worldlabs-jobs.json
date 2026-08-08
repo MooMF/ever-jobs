@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 4093035009,
+      "title": "Pipeline Engineer (Graphics/3D) ",
+      "company_name": "World Labs",
+      "absolute_url": "https://job-boards.greenhouse.io/worldlabs/jobs/4093035009",
+      "updated_at": "2026-04-22T13:12:59-04:00",
+      "location": {
+        "name": "San Francisco"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About World Labs.&lt;/strong&gt; Now hiring a Pipeline Engineer (Graphics/3D) on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4266326009,
+      "title": "Product Operations",
+      "company_name": "World Labs",
+      "absolute_url": "https://job-boards.greenhouse.io/worldlabs/jobs/4266326009",
+      "updated_at": "2026-06-02T17:16:57-04:00",
+      "location": {
+        "name": "San Francisco"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About World Labs.&lt;/strong&gt; Now hiring a Product Operations on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4164503009,
+      "title": "Research Engineer (Scaling Multimodal Data)",
+      "company_name": "World Labs",
+      "absolute_url": "https://job-boards.greenhouse.io/worldlabs/jobs/4164503009",
+      "updated_at": "2026-04-22T13:14:37-04:00",
+      "location": {
+        "name": "San Francisco"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About World Labs.&lt;/strong&gt; Now hiring a Research Engineer (Scaling Multimodal Data) on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

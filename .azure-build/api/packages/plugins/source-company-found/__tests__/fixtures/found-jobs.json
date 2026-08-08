@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4699437005,
+      "title": "Head of Growth ",
+      "company_name": "Found",
+      "absolute_url": "https://job-boards.greenhouse.io/found/jobs/4699437005",
+      "updated_at": "2026-05-26T15:18:17-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 4699437006,
+          "name": "Performance Marketing "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Found.&lt;/strong&gt; Now hiring a Head of Growth on the Performance Marketing team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4694726005,
+      "title": "Legal Operations & Contracts Manager (Part-Time)",
+      "company_name": "Found",
+      "absolute_url": "https://job-boards.greenhouse.io/found/jobs/4694726005",
+      "updated_at": "2026-05-13T08:25:43-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 4694726006,
+          "name": "Legal"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Found.&lt;/strong&gt; Now hiring a Legal Operations & Contracts Manager (Part-Time) on the Legal team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4668478005,
+      "title": "Marketing Creative Operations & Design Manager",
+      "company_name": "Found",
+      "absolute_url": "https://job-boards.greenhouse.io/found/jobs/4668478005",
+      "updated_at": "2026-03-25T01:00:23-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 4668478006,
+          "name": "Brand Marketing"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Found.&lt;/strong&gt; Now hiring a Marketing Creative Operations & Design Manager on the Brand Marketing team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

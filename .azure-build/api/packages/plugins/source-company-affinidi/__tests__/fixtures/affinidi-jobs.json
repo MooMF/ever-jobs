@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 7752776003,
+      "title": "Backend Engineer, Senior (Rust) ",
+      "company_name": "Affinidi",
+      "absolute_url": "https://job-boards.greenhouse.io/affinidi/jobs/7752776003",
+      "updated_at": "2026-05-29T05:11:31-04:00",
+      "location": {
+        "name": "Dublin, Dublin, Ireland"
+      },
+      "departments": [
+        {
+          "id": 7752776004,
+          "name": "Engineering "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Affinidi.&lt;/strong&gt; Now hiring a Backend Engineer, Senior (Rust) on the Engineering team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7752777003,
+      "title": "Backend Engineer, Senior (Rust)",
+      "company_name": "Affinidi",
+      "absolute_url": "https://job-boards.greenhouse.io/affinidi/jobs/7752777003",
+      "updated_at": "2026-05-29T05:12:06-04:00",
+      "location": {
+        "name": "London, England, United Kingdom"
+      },
+      "departments": [
+        {
+          "id": 7752777004,
+          "name": "Engineering "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Affinidi.&lt;/strong&gt; Now hiring a Backend Engineer, Senior (Rust) on the Engineering team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7752778003,
+      "title": "Backend Engineer, Senior (Rust) ",
+      "company_name": "Affinidi",
+      "absolute_url": "https://job-boards.greenhouse.io/affinidi/jobs/7752778003",
+      "updated_at": "2026-05-29T05:12:46-04:00",
+      "location": {
+        "name": "Berlin, Germany"
+      },
+      "departments": [
+        {
+          "id": 7752778004,
+          "name": "Engineering "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Affinidi.&lt;/strong&gt; Now hiring a Backend Engineer, Senior (Rust) on the Engineering team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

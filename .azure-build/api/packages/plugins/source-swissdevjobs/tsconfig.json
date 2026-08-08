@@ -1,0 +1,8 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "../../../dist/packages/source-swissdevjobs",
+    "declaration": true
+  },
+  "include": ["src/**/*"]
+}

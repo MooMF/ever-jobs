@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 4591874005,
+      "title": "Channel Partnership Development Manager ",
+      "company_name": "AKKO",
+      "absolute_url": "https://job-boards.greenhouse.io/akko/jobs/4591874005",
+      "updated_at": "2025-09-15T13:55:28-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 4591874006,
+          "name": "Channel and Group "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AKKO.&lt;/strong&gt; Now hiring a Channel Partnership Development Manager on the Channel and Group team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4477671005,
+      "title": "National Channel Manager",
+      "company_name": "AKKO",
+      "absolute_url": "https://job-boards.greenhouse.io/akko/jobs/4477671005",
+      "updated_at": "2025-09-15T13:55:28-04:00",
+      "location": {
+        "name": "Remote"
+      },
+      "departments": [
+        {
+          "id": 4477671006,
+          "name": "Channel and Group"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AKKO.&lt;/strong&gt; Now hiring a National Channel Manager on the Channel and Group team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 4477672005,
+      "title": "National Channel Manager",
+      "company_name": "AKKO",
+      "absolute_url": "https://job-boards.greenhouse.io/akko/jobs/4477672005",
+      "updated_at": "2025-09-15T13:55:28-04:00",
+      "location": {
+        "name": "Baltimore, MD (Remote)"
+      },
+      "departments": [
+        {
+          "id": 4477672006,
+          "name": "Channel and Group"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AKKO.&lt;/strong&gt; Now hiring a National Channel Manager on the Channel and Group team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 7909385,
+      "title": "Director, Academy Product & AI ",
+      "company_name": "Guild",
+      "absolute_url": "https://job-boards.greenhouse.io/guild/jobs/7909385",
+      "updated_at": "2026-05-27T15:23:02-04:00",
+      "location": {
+        "name": "United States"
+      },
+      "departments": [
+        {
+          "id": 7909386,
+          "name": "Product "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Guild.&lt;/strong&gt; Now hiring a Director, Academy Product & AI on the Product team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7467377,
+      "title": "Senior Account Director - Public Sector",
+      "company_name": "Guild",
+      "absolute_url": "https://job-boards.greenhouse.io/guild/jobs/7467377",
+      "updated_at": "2026-05-27T15:23:00-04:00",
+      "location": {
+        "name": "United States"
+      },
+      "departments": [
+        {
+          "id": 7467378,
+          "name": "Sales"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Guild.&lt;/strong&gt; Now hiring a Senior Account Director - Public Sector on the Sales team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7550959,
+      "title": "Senior Applied Scientist",
+      "company_name": "Guild",
+      "absolute_url": "https://job-boards.greenhouse.io/guild/jobs/7550959",
+      "updated_at": "2026-05-27T15:23:01-04:00",
+      "location": {
+        "name": "United States"
+      },
+      "departments": [
+        {
+          "id": 7550960,
+          "name": "Data Science"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Guild.&lt;/strong&gt; Now hiring a Senior Applied Scientist on the Data Science team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

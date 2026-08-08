@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 7671050003,
+      "title": "DevRel ",
+      "company_name": "Comet",
+      "absolute_url": "https://job-boards.greenhouse.io/comet/jobs/7671050003",
+      "updated_at": "2026-03-18T17:04:51-04:00",
+      "location": {
+        "name": "USA Remote"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Comet.&lt;/strong&gt; Now hiring a DevRel on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7620184003,
+      "title": "Full Stack Engineer",
+      "company_name": "Comet",
+      "absolute_url": "https://job-boards.greenhouse.io/comet/jobs/7620184003",
+      "updated_at": "2026-05-28T15:24:50-04:00",
+      "location": {
+        "name": "Israel Hybrid, Europe Remote"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Comet.&lt;/strong&gt; Now hiring a Full Stack Engineer on the core team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7534015003,
+      "title": "Future Opportunities at Comet",
+      "company_name": "Comet",
+      "absolute_url": "https://job-boards.greenhouse.io/comet/jobs/7534015003",
+      "updated_at": "2026-03-17T15:08:07-04:00",
+      "location": {
+        "name": "Remote- Europe, USA. Israel - Hybrid"
+      },
+      "departments": [],
+      "content": "&lt;p&gt;&lt;strong&gt;About Comet.&lt;/strong&gt; Now hiring a Future Opportunities at Comet on the core team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

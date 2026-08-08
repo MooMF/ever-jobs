@@ -1,0 +1,8 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "../../../dist/packages/source-web3career",
+    "declaration": true
+  },
+  "include": ["src/**/*"]
+}

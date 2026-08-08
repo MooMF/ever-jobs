@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 5857441004,
+      "title": "Brokerage Operations Manager - Saudi ",
+      "company_name": "Alpaca ",
+      "absolute_url": "https://job-boards.greenhouse.io/alpaca/jobs/5857441004",
+      "updated_at": "2026-04-08T13:01:24-04:00",
+      "location": {
+        "name": "Remote - EMEA"
+      },
+      "departments": [
+        {
+          "id": 5857441005,
+          "name": "Brokerage "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Alpaca .&lt;/strong&gt; Now hiring a Brokerage Operations Manager - Saudi on the Brokerage team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5837275004,
+      "title": "Chief Anti-Money Laundering Officer (CAMLO) - Canada  ",
+      "company_name": "Alpaca ",
+      "absolute_url": "https://job-boards.greenhouse.io/alpaca/jobs/5837275004",
+      "updated_at": "2026-04-29T16:45:12-04:00",
+      "location": {
+        "name": "Remote - Canada "
+      },
+      "departments": [
+        {
+          "id": 5837275005,
+          "name": "Compliance"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Alpaca .&lt;/strong&gt; Now hiring a Chief Anti-Money Laundering Officer (CAMLO) - Canada on the Compliance team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 5979456004,
+      "title": "Compliance Associate (UK), Appointed Representatives  ",
+      "company_name": "Alpaca ",
+      "absolute_url": "https://job-boards.greenhouse.io/alpaca/jobs/5979456004",
+      "updated_at": "2026-04-30T20:37:47-04:00",
+      "location": {
+        "name": "Remote - EMEA - EU - UK"
+      },
+      "departments": [
+        {
+          "id": 5979456005,
+          "name": "Compliance"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Alpaca .&lt;/strong&gt; Now hiring a Compliance Associate (UK), Appointed Representatives on the Compliance team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

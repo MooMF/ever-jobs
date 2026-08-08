@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 7775146,
+      "title": "Account Manager ",
+      "company_name": "Slice",
+      "absolute_url": "https://job-boards.greenhouse.io/slice/jobs/7775146",
+      "updated_at": "2026-05-29T14:17:51-04:00",
+      "location": {
+        "name": "Remote/Mexico"
+      },
+      "departments": [
+        {
+          "id": 7775147,
+          "name": "Account Management "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Slice.&lt;/strong&gt; Now hiring a Account Manager on the Account Management team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7393518,
+      "title": "Customer Experience Manager",
+      "company_name": "Slice",
+      "absolute_url": "https://job-boards.greenhouse.io/slice/jobs/7393518",
+      "updated_at": "2026-05-29T14:17:51-04:00",
+      "location": {
+        "name": "Prishtina, Kosovo"
+      },
+      "departments": [
+        {
+          "id": 7393519,
+          "name": "Phone Operations"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Slice.&lt;/strong&gt; Now hiring a Customer Experience Manager on the Phone Operations team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 7646075,
+      "title": "Customer Experience Manager",
+      "company_name": "Slice",
+      "absolute_url": "https://job-boards.greenhouse.io/slice/jobs/7646075",
+      "updated_at": "2026-05-29T14:17:51-04:00",
+      "location": {
+        "name": "Skopje, North Macedonia"
+      },
+      "departments": [
+        {
+          "id": 7646076,
+          "name": "Phone Operations"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About Slice.&lt;/strong&gt; Now hiring a Customer Experience Manager on the Phone Operations team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}

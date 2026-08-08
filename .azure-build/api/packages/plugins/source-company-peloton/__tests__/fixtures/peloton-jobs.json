@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "id": 7831932,
+      "title": "Associate Manager, Marketing",
+      "company_name": "Peloton",
+      "absolute_url": "https://careers.onepeloton.com/en/all-jobs/?gh_jid=7831932",
+      "updated_at": "2026-04-28T01:12:29-04:00",
+      "first_published": "2026-03-12T09:00:00-04:00",
+      "location": { "name": "New York, New York" },
+      "departments": [{ "id": 4063442002, "name": "Marketing" }],
+      "offices": [{ "id": 21001, "name": "New York, New York" }],
+      "content": "&lt;p&gt;&lt;strong&gt;ABOUT THE ROLE&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;The Associate Manager, Marketing Web Strategy will be responsible for briefing, executing, reporting, and optimizing web experiences across the Peloton ecosystem.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;WHAT YOU&#39;LL DO&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Partner with cross-functional teams across Marketing, Product, and Engineering to deliver web experiences that drive Member acquisition.&lt;/p&gt;"
+    },
+    {
+      "id": 7842001,
+      "title": "Senior Full Stack Software Engineer, Device Services ",
+      "company_name": "Peloton",
+      "absolute_url": "https://careers.onepeloton.com/en/all-jobs/?gh_jid=7842001",
+      "updated_at": "2026-04-29T08:30:00-04:00",
+      "first_published": "2026-03-22T09:00:00-04:00",
+      "location": { "name": "Remote - United States" },
+      "departments": [{ "id": 4063450002, "name": "Software" }],
+      "offices": [{ "id": 21002, "name": "Remote - United States" }],
+      "content": "&lt;p&gt;&lt;strong&gt;ABOUT THE ROLE&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;The Device Services team owns the connected-device backend platform that powers the Peloton Bike, Tread, and Guide hardware fleet.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;WHAT YOU&#39;LL DO&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Design and build full-stack services in TypeScript and Go to operate millions of connected devices in production.&lt;/p&gt;"
+    }
+  ]
+}

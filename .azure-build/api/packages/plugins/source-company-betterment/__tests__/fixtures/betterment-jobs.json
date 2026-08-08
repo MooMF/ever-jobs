@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 6209414,
+      "title": "Business Development Representative ",
+      "company_name": "Betterment",
+      "absolute_url": "https://www.betterment.com/careers/current-openings/job?gh_jid=6209414&gh_jid=6209414",
+      "updated_at": "2026-04-25T10:00:00-07:00",
+      "location": { "name": "New York, NY or Remote, US" },
+      "departments": [{ "id": 1, "name": "Customer Experience " }],
+      "content": "&lt;p&gt;&lt;strong&gt;Business Development Representative&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Betterment is the robo-advisor platform pioneered around automated-ETF-portfolio-rebalancing-as-a-service &amp; goal-based investing.&lt;/p&gt;"
+    },
+    {
+      "id": 7851699,
+      "title": "Senior Software Engineer",
+      "company_name": "Betterment",
+      "absolute_url": "https://www.betterment.com/careers/current-openings/job?gh_jid=7851699&gh_jid=7851699",
+      "updated_at": "2026-04-26T10:00:00-07:00",
+      "location": { "name": "New York, NY" },
+      "departments": [{ "id": 2, "name": "Engineering" }],
+      "content": "&lt;p&gt;Lead Betterment's Engineering function across the Investing / Cash Reserve / Betterment at Work platforms.&lt;/p&gt;"
+    }
+  ]
+}

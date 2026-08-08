@@ -1,0 +1,55 @@
+{
+  "jobs": [
+    {
+      "id": 8548128002,
+      "title": "Billing Manager ",
+      "company_name": "AlertMedia",
+      "absolute_url": "https://job-boards.greenhouse.io/alertmedia/jobs/8548128002",
+      "updated_at": "2026-05-13T13:59:36-04:00",
+      "location": {
+        "name": "Remote, United States or Austin, TX HQ"
+      },
+      "departments": [
+        {
+          "id": 8548128003,
+          "name": "G&A "
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AlertMedia.&lt;/strong&gt; Now hiring a Billing Manager on the G&A team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8531942002,
+      "title": "Billing Manager",
+      "company_name": "AlertMedia",
+      "absolute_url": "https://job-boards.greenhouse.io/alertmedia/jobs/8531942002",
+      "updated_at": "2026-05-06T08:40:55-04:00",
+      "location": {
+        "name": "Austin, TX HQ"
+      },
+      "departments": [
+        {
+          "id": 8531942003,
+          "name": "G&A"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AlertMedia.&lt;/strong&gt; Now hiring a Billing Manager on the G&A team &amp; more.&lt;/p&gt;"
+    },
+    {
+      "id": 8573574002,
+      "title": "Commercial Counsel",
+      "company_name": "AlertMedia",
+      "absolute_url": "https://job-boards.greenhouse.io/alertmedia/jobs/8573574002",
+      "updated_at": "2026-06-01T13:44:26-04:00",
+      "location": {
+        "name": "Mexico City, Mexico"
+      },
+      "departments": [
+        {
+          "id": 8573574003,
+          "name": "G&A"
+        }
+      ],
+      "content": "&lt;p&gt;&lt;strong&gt;About AlertMedia.&lt;/strong&gt; Now hiring a Commercial Counsel on the G&A team &amp; more.&lt;/p&gt;"
+    }
+  ]
+}
