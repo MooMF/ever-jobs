@@ -2,392 +2,171 @@ param(
     [string]$Tag = "",
     [int]$WakeTimeoutSeconds = 240,
     [int]$PollSeconds = 10,
-    [switch]$NoCache
+    [switch]$NoCache,
+    [switch]$SkipUpdate
 )
 
 $ErrorActionPreference = "Stop"
 
-# ============================================================
-# Configuration
-# ============================================================
+. "$PSScriptRoot\EverJobs.Common.ps1"
 
-$RepoPath      = "C:\repos\EverJobs\ever-jobs"
-
-$ResourceGroup = "ever-jobs-rg"
-
-$AcrName       = "ca799bf66e13acr"
-$AcrServer     = "$AcrName.azurecr.io"
-
-$ApiApp        = "ever-jobs-api"
-$McpApp        = "ever-jobs-mcp"
-
-$ApiImage      = "ever-jobs-api"
-$McpImage      = "ever-jobs-mcp"
-
-$ApiDockerfile = "Dockerfile.api"
-$McpDockerfile = "Dockerfile.mcp"
-
-$ApiHealthUrl  = "https://ever-jobs-api.nicegrass-ebb7ee5d.uksouth.azurecontainerapps.io/health"
-$McpHealthUrl  = "https://ever-jobs-mcp.nicegrass-ebb7ee5d.uksouth.azurecontainerapps.io/health"
-
-# Generate a unique deployment tag unless supplied explicitly.
 if ([string]::IsNullOrWhiteSpace($Tag)) {
-    $Tag = Get-Date -Format "yyyyMMdd-HHmmss"
+    $Tag = Get-EverJobsTag
 }
 
-$ApiRemoteImage = "$AcrServer/$ApiImage`:$Tag"
-$McpRemoteImage = "$AcrServer/$McpImage`:$Tag"
+$startTime = Get-Date
 
-$StartTime = Get-Date
-$TotalSteps = 9
+$apiRemoteImage =
+    "$EverJobsAcrServer/$EverJobsApiImage`:$Tag"
+
+$mcpRemoteImage =
+    "$EverJobsAcrServer/$EverJobsMcpImage`:$Tag"
+
+Write-EverJobsHeader "EverJobs Full Azure Deployment"
+
+Write-Host "Tag: $Tag"
+Write-Host ""
 
 # ============================================================
-# Helpers
+# Docker
 # ============================================================
 
-function Write-Step {
-    param(
-        [int]$Number,
-        [int]$Total,
-        [string]$Message
-    )
+Write-Host "Checking Docker..."
 
-    Write-Host ""
-    Write-Host "============================================================"
-    Write-Host "[$Number/$Total] $Message"
-    Write-Host "============================================================"
-}
+Assert-EverJobsDocker
 
-function Assert-LastCommand {
-    param(
-        [string]$Message
-    )
+Write-Host "Docker is ready."
+
+# ============================================================
+# Repository
+# ============================================================
+
+if (-not $SkipUpdate) {
+
+    Write-EverJobsHeader "1. Update Repository"
+
+    & "$PSScriptRoot\Update-EverJobs.ps1"
 
     if ($LASTEXITCODE -ne 0) {
-        throw $Message
-    }
-}
-
-function Test-HealthEndpoint {
-    param(
-        [string]$Name,
-        [string]$Url
-    )
-
-    try {
-        $response = Invoke-WebRequest `
-            -Uri $Url `
-            -Method Get `
-            -TimeoutSec 15
-
-        if ($response.StatusCode -ge 200 -and $response.StatusCode -lt 300) {
-            Write-Host "$Name : READY ($($response.StatusCode))"
-            return $true
-        }
-
-        Write-Host "$Name : waiting ($($response.StatusCode))"
-        return $false
-    }
-    catch {
-        try {
-            $status = [int]$_.Exception.Response.StatusCode
-            Write-Host "$Name : waiting ($status)"
-        }
-        catch {
-            Write-Host "$Name : waiting..."
-        }
-
-        return $false
+        throw "Repository update failed."
     }
 }
 
 # ============================================================
-# Start
+# Build + push API
 # ============================================================
 
-Write-Host ""
-Write-Host "============================================================"
-Write-Host " EverJobs - Full Azure Deployment"
-Write-Host ""
-Write-Host " Tag : $Tag"
-Write-Host "============================================================"
+Write-EverJobsHeader "2. Build and Push API"
 
-# ============================================================
-# 0. Docker Desktop reminder
-# ============================================================
-
-Write-Host ""
-Write-Host "============================================================"
-Write-Host "[0/$TotalSteps] Docker Desktop"
-Write-Host "============================================================"
-Write-Host ""
-Write-Host "Make sure Docker Desktop is running."
-Write-Host ""
-Write-Host "Start Docker Desktop now if it is not already running."
-Write-Host ""
-
-Read-Host "Press ENTER once Docker Desktop is running"
-
-Write-Host ""
-Write-Host "Checking Docker engine..."
-
-docker info *> $null
-
-if ($LASTEXITCODE -ne 0) {
-    throw "Docker Desktop is not ready. Start Docker Desktop and run the script again."
+$apiBuildParams = @{
+    Tag = $Tag
 }
-
-Write-Host "Docker engine confirmed."
-
-# ============================================================
-# 1. Update repository
-# ============================================================
-
-Write-Step 1 $TotalSteps "Updating EverJobs repository"
-
-Set-Location $RepoPath
-
-Write-Host "Current branch:"
-git branch --show-current
-Assert-LastCommand "Unable to determine Git branch."
-
-Write-Host ""
-Write-Host "Local status:"
-git status --short
-Assert-LastCommand "Git status failed."
-
-Write-Host ""
-Write-Host "Fetching remote..."
-git fetch --prune
-Assert-LastCommand "Git fetch failed."
-
-Write-Host ""
-Write-Host "Pulling latest version..."
-git pull --ff-only
-Assert-LastCommand "Git pull failed. Check for local changes or divergent history."
-
-Write-Host ""
-Write-Host "Deploying commit:"
-git log -1 --oneline
-Assert-LastCommand "Unable to read Git commit."
-
-# ============================================================
-# 2. Confirm Docker
-# ============================================================
-
-Write-Step 2 $TotalSteps "Confirming Docker"
-
-docker info *> $null
-Assert-LastCommand "Docker is no longer available."
-
-Write-Host "Docker engine is running."
-
-# ============================================================
-# 3. Build API
-# ============================================================
-
-Write-Step 3 $TotalSteps "Building EverJobs API"
-
-$ApiBuildArgs = @(
-    "build",
-    "-f", $ApiDockerfile,
-    "-t", "$ApiImage`:$Tag"
-)
 
 if ($NoCache) {
-    $ApiBuildArgs += "--no-cache"
+    $apiBuildParams.NoCache = $true
 }
 
-$ApiBuildArgs += "."
-
-docker @ApiBuildArgs
-Assert-LastCommand "API Docker build failed."
-
-# ============================================================
-# 4. Build MCP
-# ============================================================
-
-Write-Step 4 $TotalSteps "Building EverJobs MCP"
-
-$McpBuildArgs = @(
-    "build",
-    "-f", $McpDockerfile,
-    "-t", "$McpImage`:$Tag"
-)
-
-if ($NoCache) {
-    $McpBuildArgs += "--no-cache"
-}
-
-$McpBuildArgs += "."
-
-docker @McpBuildArgs
-Assert-LastCommand "MCP Docker build failed."
-
-# ============================================================
-# 5. Azure login
-# ============================================================
-
-Write-Step 5 $TotalSteps "Checking Azure login"
-
-az account show *> $null
+& "$PSScriptRoot\Build-Push-EverJobsApi.ps1" `
+    @apiBuildParams
 
 if ($LASTEXITCODE -ne 0) {
-    Write-Host "Azure session not available."
-    Write-Host "Starting Azure login..."
-    Write-Host ""
-
-    az login
-    Assert-LastCommand "Azure login failed."
+    throw "API build/push failed."
 }
 
-$Subscription = az account show --query name -o tsv
-Assert-LastCommand "Unable to determine Azure subscription."
-
-Write-Host "Azure subscription: $Subscription"
-
 # ============================================================
-# 6. ACR login
+# Build + push MCP
 # ============================================================
 
-Write-Step 6 $TotalSteps "Logging into Azure Container Registry"
+Write-EverJobsHeader "3. Build and Push MCP"
 
-az acr login --name $AcrName
-Assert-LastCommand "ACR login failed."
+$mcpBuildParams = @{
+    Tag = $Tag
+}
 
-# ============================================================
-# 7. Tag and push
-# ============================================================
+if ($NoCache) {
+    $mcpBuildParams.NoCache = $true
+}
 
-Write-Step 7 $TotalSteps "Pushing API and MCP images"
+& "$PSScriptRoot\Build-Push-EverJobsMcp.ps1" `
+    @mcpBuildParams
 
-Write-Host ""
-Write-Host "Tagging API image..."
-
-docker tag `
-    "$ApiImage`:$Tag" `
-    $ApiRemoteImage
-
-Assert-LastCommand "Failed to tag API image."
-
-Write-Host "Pushing API image..."
-
-docker push $ApiRemoteImage
-Assert-LastCommand "Failed to push API image."
-
-Write-Host ""
-Write-Host "Tagging MCP image..."
-
-docker tag `
-    "$McpImage`:$Tag" `
-    $McpRemoteImage
-
-Assert-LastCommand "Failed to tag MCP image."
-
-Write-Host "Pushing MCP image..."
-
-docker push $McpRemoteImage
-Assert-LastCommand "Failed to push MCP image."
+if ($LASTEXITCODE -ne 0) {
+    throw "MCP build/push failed."
+}
 
 # ============================================================
-# 8. Deploy Container Apps
+# Azure
 # ============================================================
 
-Write-Step 8 $TotalSteps "Updating Azure Container Apps"
+Write-EverJobsHeader "4. Deploy Container Apps"
+
+Connect-EverJobsAzure
 
 Write-Host ""
 Write-Host "Deploying API..."
+Write-Host ""
 
 az containerapp update `
-    --name $ApiApp `
-    --resource-group $ResourceGroup `
-    --image $ApiRemoteImage
+    --name $EverJobsApiApp `
+    --resource-group $EverJobsResourceGroup `
+    --image $apiRemoteImage
 
-Assert-LastCommand "API Container App deployment failed."
+Assert-EverJobsLastCommand `
+    "API Container App deployment failed."
 
 Write-Host ""
 Write-Host "Deploying MCP..."
+Write-Host ""
 
 az containerapp update `
-    --name $McpApp `
-    --resource-group $ResourceGroup `
-    --image $McpRemoteImage
+    --name $EverJobsMcpApp `
+    --resource-group $EverJobsResourceGroup `
+    --image $mcpRemoteImage
 
-Assert-LastCommand "MCP Container App deployment failed."
+Assert-EverJobsLastCommand `
+    "MCP Container App deployment failed."
 
 # ============================================================
-# 9. Wake API + MCP
+# Wake
 # ============================================================
 
-Write-Step 9 $TotalSteps "Waking API and MCP"
+Write-EverJobsHeader "5. Wake and Verify"
 
-$WakeStart = Get-Date
+& "$PSScriptRoot\Wake-EverJobs.ps1" `
+    -TimeoutSeconds $WakeTimeoutSeconds `
+    -PollSeconds $PollSeconds
 
-$ApiReady = $false
-$McpReady = $false
-
-while (-not ($ApiReady -and $McpReady)) {
-
-    if (-not $ApiReady) {
-        $ApiReady = Test-HealthEndpoint `
-            -Name "API" `
-            -Url $ApiHealthUrl
-    }
-
-    if (-not $McpReady) {
-        $McpReady = Test-HealthEndpoint `
-            -Name "MCP" `
-            -Url $McpHealthUrl
-    }
-
-    if ($ApiReady -and $McpReady) {
-        break
-    }
-
-    $Elapsed = [int]((Get-Date) - $WakeStart).TotalSeconds
-
-    if ($Elapsed -ge $WakeTimeoutSeconds) {
-
-        Write-Host ""
-        Write-Host "API ready : $ApiReady"
-        Write-Host "MCP ready : $McpReady"
-
-        throw "EverJobs did not become healthy within $WakeTimeoutSeconds seconds."
-    }
-
-    Write-Host ""
-    Write-Host "Retrying in $PollSeconds seconds..."
-
-    Start-Sleep -Seconds $PollSeconds
+if ($LASTEXITCODE -ne 0) {
+    throw "EverJobs wake verification failed."
 }
 
 # ============================================================
 # Complete
 # ============================================================
 
-$TotalElapsed = [int]((Get-Date) - $StartTime).TotalSeconds
+$totalElapsed = [int](
+    (Get-Date) - $startTime
+).TotalSeconds
 
-Write-Host ""
-Write-Host "============================================================"
-Write-Host " EverJobs deployment complete"
-Write-Host "============================================================"
-Write-Host ""
+Write-EverJobsHeader "EverJobs Deployment Complete"
 
 Write-Host "Commit:"
+
+Set-EverJobsRepoLocation
+
 git log -1 --oneline
 
 Write-Host ""
 Write-Host "Images:"
-Write-Host "  API : $ApiRemoteImage"
-Write-Host "  MCP : $McpRemoteImage"
+Write-Host "  API : $apiRemoteImage"
+Write-Host "  MCP : $mcpRemoteImage"
 
 Write-Host ""
-Write-Host "Health:"
-Write-Host "  API : READY"
-Write-Host "  MCP : READY"
+Write-Host "Verification:"
+Write-Host "  MCP      : READY"
+Write-Host "  API      : REACHED THROUGH MCP"
+Write-Host "  LinkedIn : RESULTS RETURNED"
 
 Write-Host ""
-Write-Host "Total deployment time: $TotalElapsed seconds"
-Write-Host ""
-Write-Host "EverJobs is ready for searches."
+Write-Host "Total deployment time: $totalElapsed seconds"
 Write-Host ""

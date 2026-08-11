@@ -14,7 +14,7 @@ const API_URL = process.env.EVER_JOBS_API_URL ?? 'http://localhost:3001';
 function getClient(): AxiosInstance {
   return axios.create({
     baseURL: API_URL,
-    timeout: 60_000,
+    timeout: 150_000,
     headers: { 'Content-Type': 'application/json' },
   });
 }

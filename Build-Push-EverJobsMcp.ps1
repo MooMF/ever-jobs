@@ -13,22 +13,22 @@ if ([string]::IsNullOrWhiteSpace($Tag)) {
 
 Set-EverJobsRepoLocation
 
-Write-EverJobsHeader "Build and Push EverJobs API"
+Write-EverJobsHeader "Build and Push EverJobs MCP"
 
 Write-Host "Tag: $Tag"
 Write-Host ""
 
 Assert-EverJobsDocker
 
-$localImage  = "$EverJobsApiImage`:$Tag"
-$remoteImage = "$EverJobsAcrServer/$EverJobsApiImage`:$Tag"
+$localImage  = "$EverJobsMcpImage`:$Tag"
+$remoteImage = "$EverJobsAcrServer/$EverJobsMcpImage`:$Tag"
 
-Write-Host "Building API image..."
+Write-Host "Building MCP image..."
 Write-Host ""
 
 $buildArgs = @(
     "build",
-    "-f", $EverJobsApiDockerfile,
+    "-f", $EverJobsMcpDockerfile,
     "-t", $localImage
 )
 
@@ -41,30 +41,30 @@ $buildArgs += "."
 docker @buildArgs
 
 Assert-EverJobsLastCommand `
-    "API Docker build failed."
+    "MCP Docker build failed."
 
 Write-Host ""
 
 Connect-EverJobsAcr
 
 Write-Host ""
-Write-Host "Tagging API image..."
+Write-Host "Tagging MCP image..."
 
 docker tag `
     $localImage `
     $remoteImage
 
 Assert-EverJobsLastCommand `
-    "Unable to tag API image."
+    "Unable to tag MCP image."
 
 Write-Host ""
-Write-Host "Pushing API image..."
+Write-Host "Pushing MCP image..."
 
 docker push $remoteImage
 
 Assert-EverJobsLastCommand `
-    "Unable to push API image."
+    "Unable to push MCP image."
 
 Write-Host ""
-Write-Host "API image ready:"
+Write-Host "MCP image ready:"
 Write-Host "  $remoteImage"
