@@ -1,8 +1,0 @@
-{
-  "extends": "../../../tsconfig.base.json",
-  "compilerOptions": {
-    "outDir": "../../../dist/packages/source-canadajobbank",
-    "declaration": true
-  },
-  "include": ["src/**/*"]
-}

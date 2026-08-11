@@ -1,8 +1,0 @@
-{
-  "extends": "../../../tsconfig.base.json",
-  "compilerOptions": {
-    "outDir": "../../../dist/packages/source-ats-tempworks",
-    "declaration": true
-  },
-  "include": ["src/**/*"]
-}

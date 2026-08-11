@@ -1,8 +1,0 @@
-{
-  "extends": "../../../tsconfig.base.json",
-  "compilerOptions": {
-    "outDir": "../../../dist/packages/source-ats-workwise",
-    "declaration": true
-  },
-  "include": ["src/**/*"]
-}

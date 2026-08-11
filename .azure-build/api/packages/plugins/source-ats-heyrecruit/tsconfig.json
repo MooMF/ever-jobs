@@ -1,8 +1,0 @@
-{
-  "extends": "../../../tsconfig.base.json",
-  "compilerOptions": {
-    "outDir": "../../../dist/packages/source-ats-heyrecruit",
-    "declaration": true
-  },
-  "include": ["src/**/*"]
-}

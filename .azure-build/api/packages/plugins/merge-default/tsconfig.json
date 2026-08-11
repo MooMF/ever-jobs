@@ -1,8 +1,0 @@
-{
-  "extends": "../../../tsconfig.base.json",
-  "compilerOptions": {
-    "outDir": "../../../dist/packages/merge-default",
-    "declaration": true
-  },
-  "include": ["src/**/*"]
-}

@@ -1,8 +1,0 @@
-{
-  "extends": "../../../tsconfig.base.json",
-  "compilerOptions": {
-    "outDir": "../../../dist/packages/source-ats-rexx",
-    "declaration": true
-  },
-  "include": ["src/**/*"]
-}
