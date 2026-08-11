@@ -113,6 +113,50 @@ function Connect-EverJobsAzure {
     Write-Host "Azure subscription: $subscription"
 }
 
+function Assert-EverJobsTelemetryMount {
+
+    Write-Host ""
+    Write-Host "Verifying telemetry storage mount..."
+
+    $mountJson = az containerapp show `
+        --name $EverJobsApiApp `
+        --resource-group $EverJobsResourceGroup `
+        --query "{Volumes:properties.template.volumes,Mounts:properties.template.containers[0].volumeMounts}" `
+        -o json
+
+    Assert-EverJobsLastCommand `
+        "Unable to inspect API telemetry mount."
+
+    $mountInfo = $mountJson | ConvertFrom-Json
+
+    $volume = @($mountInfo.Volumes) |
+        Where-Object {
+            $_.name -eq "telemetry-volume" -and
+            $_.storageName -eq "telemetry" -and
+            $_.storageType -eq "AzureFile"
+        } |
+        Select-Object -First 1
+
+    $mount = @($mountInfo.Mounts) |
+        Where-Object {
+            $_.volumeName -eq "telemetry-volume" -and
+            $_.mountPath -eq "/app/telemetry"
+        } |
+        Select-Object -First 1
+
+    if (-not $volume) {
+        throw "Telemetry AzureFile volume is missing from EverJobs API."
+    }
+
+    if (-not $mount) {
+        throw "Telemetry volume is not mounted at /app/telemetry."
+    }
+
+    Write-Host "Telemetry volume : READY"
+    Write-Host "Mount path       : /app/telemetry"
+}
+
+
 function Connect-EverJobsAcr {
 
     Connect-EverJobsAzure

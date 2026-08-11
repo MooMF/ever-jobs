@@ -1,0 +1,57 @@
+﻿location: UK South
+name: ever-jobs-api
+
+properties:
+  managedEnvironmentId: /subscriptions/0f113c05-be72-4726-875f-d552cc55aac8/resourceGroups/ever-jobs-rg/providers/Microsoft.App/managedEnvironments/ever-jobs-env
+
+  configuration:
+    activeRevisionsMode: Single
+
+    ingress:
+      allowInsecure: false
+      external: false
+      targetPort: 3001
+      transport: Auto
+
+    registries:
+      - server: ca799bf66e13acr.azurecr.io
+        username: ca799bf66e13acr
+        passwordSecretRef: ca799bf66e13acrazurecrio-ca799bf66e13acr
+
+  template:
+    containers:
+      - name: ever-jobs-api
+        image: ca799bf66e13acr.azurecr.io/ever-jobs-api:20260811-030714
+        imageType: ContainerImage
+
+        env:
+          - name: PORT
+            value: "3001"
+          - name: EVER_JOBS_STORE
+            value: memory
+
+        resources:
+          cpu: 0.5
+          memory: 1Gi
+          ephemeralStorage: 2Gi
+
+        volumeMounts:
+          - volumeName: telemetry-volume
+            mountPath: /app/telemetry
+
+    scale:
+      minReplicas: 0
+      maxReplicas: 1
+      cooldownPeriod: 300
+      pollingInterval: 30
+
+      rules:
+        - name: http-scaler
+          http:
+            metadata:
+              concurrentRequests: "10"
+
+    volumes:
+      - name: telemetry-volume
+        storageName: telemetry
+        storageType: AzureFile

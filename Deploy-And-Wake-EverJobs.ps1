@@ -113,6 +113,8 @@ az containerapp update `
 
 Assert-EverJobsLastCommand `
     "API Container App deployment failed."
+	
+Assert-EverJobsTelemetryMount
 
 Write-Host ""
 Write-Host "Deploying MCP..."
@@ -125,6 +127,7 @@ az containerapp update `
 
 Assert-EverJobsLastCommand `
     "MCP Container App deployment failed."
+
 
 # ============================================================
 # Wake

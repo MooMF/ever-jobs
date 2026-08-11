@@ -63,6 +63,8 @@ az containerapp update `
 Assert-EverJobsLastCommand `
     "API Container App deployment failed."
 
+Assert-EverJobsTelemetryMount
+
 Write-Host ""
 Write-Host "API deployment complete."
 Write-Host "Image:"
