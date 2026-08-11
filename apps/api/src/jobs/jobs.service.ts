@@ -8,6 +8,7 @@ import { extractSalary, convertToAnnual, siteFromDomain, deriveSiteToken } from 
 import { ConfigService } from '@nestjs/config';
 import { PluginRegistry, CircuitBreakerInterceptor } from '@ever-jobs/plugin';
 import { MetricsService } from '../metrics/metrics.service';
+import { TelemetryService } from '../telemetry/telemetry.service';
 
 /**
  * Default ceiling on simultaneously-dispatched sources (Spec 5026).
@@ -117,6 +118,7 @@ export class JobsService implements OnModuleInit {
     private readonly registry: PluginRegistry,
     private readonly configService: ConfigService,
     private readonly metrics: MetricsService,
+	private readonly telemetry: TelemetryService,
     /**
      * Spec 005 / T04 — when {@link CircuitBreakerModule} is imported by
      * {@link JobsModule} this is bound and every per-site `scrape()` call
@@ -313,60 +315,118 @@ export class JobsService implements OnModuleInit {
    * unchanged from the prior inline closure.
    */
   private async scrapeOne(
-    site: Site,
-    scraper: IScraper,
-    input: ScraperInputDto,
-  ): Promise<JobResponseDto> {
-    // Resolve retry policy for this source
-    const globalRetry = this.configService.get('retry');
-    const perSourceRetry = globalRetry.perSource?.[site] || {};
+	  site: Site,
+	  scraper: IScraper,
+	  input: ScraperInputDto,
+	): Promise<JobResponseDto> {
+	  // Resolve retry policy for this source
+	  const globalRetry = this.configService.get('retry');
+	  const perSourceRetry = globalRetry.perSource?.[site] || {};
 
-    const scraperInput = new ScraperInputDto({
-      ...input,
-      retries: input.retries ?? perSourceRetry.retries ?? globalRetry.defaultRetries,
-      retryDelay: input.retryDelay ?? perSourceRetry.delayMs ?? globalRetry.defaultDelayMs,
-      retryBackoff: input.retryBackoff ?? perSourceRetry.backoff ?? globalRetry.defaultBackoff,
-      retryMaxDelay: input.retryMaxDelay ?? perSourceRetry.maxDelayMs ?? 30000,
-    });
+	  const scraperInput = new ScraperInputDto({
+		...input,
+		retries:
+		  input.retries ??
+		  perSourceRetry.retries ??
+		  globalRetry.defaultRetries,
+		retryDelay:
+		  input.retryDelay ??
+		  perSourceRetry.delayMs ??
+		  globalRetry.defaultDelayMs,
+		retryBackoff:
+		  input.retryBackoff ??
+		  perSourceRetry.backoff ??
+		  globalRetry.defaultBackoff,
+		retryMaxDelay:
+		  input.retryMaxDelay ??
+		  perSourceRetry.maxDelayMs ??
+		  30000,
+	  });
 
-    this.logger.log(`Starting search for ${site} (retries=${scraperInput.retries}, backoff=${scraperInput.retryBackoff})`);
-    const scraperStop = this.metrics.scraperDuration.startTimer({ site });
-    try {
-      // Spec 005 / T04 — wrap the per-source dispatch in the circuit
-      // breaker when bound. The interceptor short-circuits with
-      // `ERR_SOURCE_CIRCUIT_OPEN` once the breaker has tripped, which
-      // we surface as a `circuit_open` metric status (not `error`) so
-      // operators can distinguish "source down" from "we stopped
-      // calling source" on the dashboard.
-      const response = this.circuitBreaker
-        ? await this.circuitBreaker.wrap(site, () => scraper.scrape(scraperInput))
-        : await scraper.scrape(scraperInput);
-      scraperStop();
-      this.metrics.scraperRequestsTotal.inc({ site, status: 'success' });
-      // Tag each job with the site it came from
-      for (const job of response.jobs) {
-        job.site = site;
-      }
-      this.logger.log(`${site}: found ${response.jobs.length} jobs`);
-      return response;
-    } catch (err: any) {
-      scraperStop();
-      const isCircuitOpen = err?.code === ERR_SOURCE_CIRCUIT_OPEN;
-      this.metrics.scraperRequestsTotal.inc({
-        site,
-        status: isCircuitOpen ? 'circuit_open' : 'error',
-      });
-      if (isCircuitOpen) {
-        // Breaker short-circuits are an *expected* fan-out outcome
-        // for a degraded source — log at warn, not error, and keep
-        // the message terse so logs stay readable.
-        this.logger.warn(`${site}: skipped (circuit open)`);
-      } else {
-        this.logger.error(`${site} search failed: ${err.message}`);
-      }
-      throw err;
-    }
-  }
+	  this.logger.log(
+		`Starting search for ${site} (retries=${scraperInput.retries}, backoff=${scraperInput.retryBackoff})`,
+	  );
+
+	  const startedAt = Date.now();
+	  const scraperStop = this.metrics.scraperDuration.startTimer({ site });
+
+	  try {
+		// Execute the source scraper, optionally through the circuit breaker
+		const response = this.circuitBreaker
+		  ? await this.circuitBreaker.wrap(
+			  site,
+			  () => scraper.scrape(scraperInput),
+			)
+		  : await scraper.scrape(scraperInput);
+
+		scraperStop();
+
+		this.metrics.scraperRequestsTotal.inc({
+		  site,
+		  status: 'success',
+		});
+
+		// Tag each job with the site it came from
+		for (const job of response.jobs) {
+		  job.site = site;
+		}
+
+		// Fire-and-forget telemetry.
+		// TelemetryService is responsible for swallowing its own failures.
+		void this.telemetry.capture({
+		  timestamp: new Date().toISOString(),
+		  source: site,
+		  query: input.searchTerm,
+		  location: input.location,
+		  success: true,
+		  status: 'success',
+		  latencyMs: Date.now() - startedAt,
+		  resultCount: response.jobs.length,
+		  payload: response,
+		});
+
+		this.logger.log(
+		  `${site}: found ${response.jobs.length} jobs`,
+		);
+
+		return response;
+	  } catch (err: any) {
+		scraperStop();
+
+		const isCircuitOpen =
+		  err?.code === ERR_SOURCE_CIRCUIT_OPEN;
+
+		this.metrics.scraperRequestsTotal.inc({
+		  site,
+		  status: isCircuitOpen ? 'circuit_open' : 'error',
+		});
+
+		void this.telemetry.capture({
+		  timestamp: new Date().toISOString(),
+		  source: site,
+		  query: input.searchTerm,
+		  location: input.location,
+		  success: false,
+		  status: isCircuitOpen ? 'blocked' : 'failed',
+		  latencyMs: Date.now() - startedAt,
+		  resultCount: 0,
+		  error: err,
+		  payload: null,
+		});
+
+		if (isCircuitOpen) {
+		  this.logger.warn(
+			`${site}: skipped (circuit open)`,
+		  );
+		} else {
+		  this.logger.error(
+			`${site} search failed: ${err.message}`,
+		  );
+		}
+
+		throw err;
+	  }
+	}
 
   /**
    * Resolves `companyDomain` values to registered `Site` tokens.
