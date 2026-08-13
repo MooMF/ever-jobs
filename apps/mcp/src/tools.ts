@@ -427,20 +427,66 @@ export async function searchRemoteJobs(params: {
   source?: string;
   limit?: number;
 }): Promise<SearchResponse> {
-  const remoteSources = SOURCES.filter((s) => s.type === 'remote').map((s) => s.id);
-  const targetSource = params.source && remoteSources.includes(params.source)
-    ? params.source
-    : undefined;
+  const remoteSources = SOURCES
+    .filter((s) => s.type === 'remote')
+    .map((s) => s.id);
 
-  return searchJobs({
+  const limit = Math.min(params.limit ?? 25, 100);
+
+  if (params.source) {
+    const source = resolveSourceId(params.source);
+
+    if (!source || !remoteSources.includes(source)) {
+      throw new Error(`Source '${params.source}' is not a remote job source`);
+    }
+
+    return searchJobs({
+      query: params.query,
+      location: 'Remote',
+      source,
+      limit,
+      remoteOnly: true,
+    });
+  }
+
+  const results = await Promise.allSettled(
+    remoteSources.map((source) =>
+      searchJobs({
+        query: params.query,
+        location: 'Remote',
+        source,
+        limit,
+        remoteOnly: true,
+      }),
+    ),
+  );
+
+  const jobs: JobResult[] = [];
+  const sourcesSearched: string[] = [];
+  const seen = new Set<string>();
+
+  for (const result of results) {
+    if (result.status !== 'fulfilled') continue;
+
+    sourcesSearched.push(...result.value.sources_searched);
+
+    for (const job of result.value.jobs) {
+      const key = job.url || job.id;
+
+      if (seen.has(key)) continue;
+
+      seen.add(key);
+      jobs.push(job);
+    }
+  }
+
+  return {
+    total: Math.min(jobs.length, limit),
+    jobs: jobs.slice(0, limit),
+    sources_searched: [...new Set(sourcesSearched)],
     query: params.query,
-    location: 'Remote',
-    source: targetSource,
-    limit: params.limit ?? 25,
-    remoteOnly: true,
-  });
+  };
 }
-
 /**
  * Get salary insights: aggregate salary data from search results.
  */
