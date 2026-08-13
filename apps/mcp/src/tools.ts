@@ -6,6 +6,7 @@
  */
 
 import axios, { AxiosInstance } from 'axios';
+import sourcePolicy from './source-policy.json';
 
 // ── Configuration ──────────────────────────────────────────────────────
 
@@ -25,6 +26,7 @@ export interface JobSearchParams {
   query: string;
   location?: string;
   source?: string;
+  sources?: string[];
   company?: string;
   limit?: number;
   remoteOnly?: boolean;
@@ -310,11 +312,32 @@ export async function searchJobs(params: JobSearchParams): Promise<SearchRespons
   const client = getClient();
   const sourceId = resolveSourceId(params.source);
 
+  const sourceIds = [
+    ...new Set(
+      sourceId
+        ? [sourceId]
+        : (params.sources?.length
+          ? params.sources
+          : sourcePolicy.preferred
+        ).map((source) => resolveSourceId(source)!),
+    ),
+  ];
+
+  if (sourceIds.length === 0) {
+    throw new Error('No job sources are configured for this search');
+  }
+
+  if (sourceIds.length > 250) {
+    throw new Error(
+      `Search requested ${sourceIds.length} sources; maximum safe source count is 250`,
+    );
+  }
+
   try {
     const response = await client.post('/api/jobs/search', {
       searchTerm: params.query,
       location: params.location ?? '',
-      siteType: sourceId ? [sourceId] : undefined,
+      siteType: sourceIds,
       companySlug: params.company,
       resultsWanted: Math.min(params.limit ?? 20, 100),
       isRemote: params.remoteOnly ?? false,
@@ -343,7 +366,7 @@ export async function searchJobs(params: JobSearchParams): Promise<SearchRespons
     return {
       total: filteredJobs.length,
       jobs: filteredJobs,
-      sources_searched: sourceId ? [sourceId] : ['all'],
+      sources_searched: sourceIds,
       query: params.query,
     };
   } catch (err: any) {
@@ -427,16 +450,29 @@ export async function searchRemoteJobs(params: {
   source?: string;
   limit?: number;
 }): Promise<SearchResponse> {
-  const remoteSources = SOURCES
-    .filter((s) => s.type === 'remote')
-    .map((s) => s.id);
+  const remoteSources = [
+    ...new Set(
+      sourcePolicy.remote.map((source) => resolveSourceId(source)!),
+    ),
+  ];
+
+  for (const source of remoteSources) {
+    const sourceInfo = SOURCES.find((candidate) => candidate.id === source);
+
+    if (!sourceInfo || sourceInfo.type !== 'remote') {
+      throw new Error(
+        `Configured remote source '${source}' is not a valid remote job source`,
+      );
+    }
+  }
 
   const limit = Math.min(params.limit ?? 25, 100);
 
   if (params.source) {
     const source = resolveSourceId(params.source);
+    const sourceInfo = SOURCES.find((candidate) => candidate.id === source);
 
-    if (!source || !remoteSources.includes(source)) {
+    if (!source || !sourceInfo || sourceInfo.type !== 'remote') {
       throw new Error(`Source '${params.source}' is not a remote job source`);
     }
 
@@ -449,45 +485,14 @@ export async function searchRemoteJobs(params: {
     });
   }
 
-  const results = await Promise.allSettled(
-    remoteSources.map((source) =>
-      searchJobs({
-        query: params.query,
-        location: 'Remote',
-        source,
-        limit,
-        remoteOnly: true,
-      }),
-    ),
-  );
-
-  const jobs: JobResult[] = [];
-  const sourcesSearched: string[] = [];
-  const seen = new Set<string>();
-
-  for (const result of results) {
-    if (result.status !== 'fulfilled') continue;
-
-    sourcesSearched.push(...result.value.sources_searched);
-
-    for (const job of result.value.jobs) {
-      const key = job.url || job.id;
-
-      if (seen.has(key)) continue;
-
-      seen.add(key);
-      jobs.push(job);
-    }
-  }
-
-  return {
-    total: Math.min(jobs.length, limit),
-    jobs: jobs.slice(0, limit),
-    sources_searched: [...new Set(sourcesSearched)],
+  return searchJobs({
     query: params.query,
-  };
-}
-/**
+    location: 'Remote',
+    sources: remoteSources,
+    limit,
+    remoteOnly: true,
+  });
+}/**
  * Get salary insights: aggregate salary data from search results.
  */
 export async function getSalaryInsights(params: {
