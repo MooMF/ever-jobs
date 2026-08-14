@@ -350,7 +350,12 @@ export async function searchJobs(params: JobSearchParams): Promise<SearchRespons
       batches.push(sourceIds.slice(i, i + batchSize));
     }
 
-    const batchResults: SearchResponse[] = [];
+    // Preserve original batch position. Previously results were appended in
+    // completion order, allowing the fastest batch to dominate the final limit.
+    const batchResults: Array<SearchResponse | undefined> = new Array(
+      batches.length,
+    );
+
     let nextBatchIndex = 0;
 
     const worker = async (): Promise<void> => {
@@ -368,7 +373,7 @@ export async function searchJobs(params: JobSearchParams): Promise<SearchRespons
             sources: batch,
           });
 
-          batchResults.push(result);
+          batchResults[batchIndex] = result;
         } catch (err: any) {
           console.error(
             `Job search batch ${batchIndex + 1}/${batches.length} failed: ${err.message}`,
@@ -384,16 +389,21 @@ export async function searchJobs(params: JobSearchParams): Promise<SearchRespons
 
     await Promise.all(workers);
 
-    if (batchResults.length === 0) {
+    const successfulResults = batchResults.filter(
+      (result): result is SearchResponse => result !== undefined,
+    );
+
+    if (successfulResults.length === 0) {
       throw new Error(
         `Search failed: all ${batches.length} source batches failed`,
       );
     }
 
-    const jobs: JobResult[] = [];
+    // Merge all successful batches before applying the caller's final limit.
+    const jobsBySource = new Map<string, JobResult[]>();
     const seen = new Set<string>();
 
-    for (const result of batchResults) {
+    for (const result of successfulResults) {
       for (const job of result.jobs) {
         const key =
           job.url ||
@@ -403,16 +413,57 @@ export async function searchJobs(params: JobSearchParams): Promise<SearchRespons
 
         if (seen.has(key)) continue;
         seen.add(key);
-        jobs.push(job);
+
+        const source = job.source || 'unknown';
+
+        const sourceJobs = jobsBySource.get(source);
+
+        if (sourceJobs) {
+          sourceJobs.push(job);
+        } else {
+          jobsBySource.set(source, [job]);
+        }
+      }
+    }
+
+    // Apply the final result window only after every batch has completed.
+    // Round-robin across sources prevents one prolific source from filling
+    // the entire response while preserving each source's own result order.
+    const sourceOrder = sourceIds.filter((source) => jobsBySource.has(source));
+
+    for (const source of jobsBySource.keys()) {
+      if (!sourceOrder.includes(source)) {
+        sourceOrder.push(source);
       }
     }
 
     const limit = Math.min(params.limit ?? 20, 100);
-    const limitedJobs = jobs.slice(0, limit);
+    const selectedJobs: JobResult[] = [];
+
+    let sourceOffset = 0;
+    let addedInPass = true;
+
+    while (selectedJobs.length < limit && addedInPass) {
+      addedInPass = false;
+
+      for (const source of sourceOrder) {
+        if (selectedJobs.length >= limit) break;
+
+        const sourceJobs = jobsBySource.get(source);
+        const job = sourceJobs?.[sourceOffset];
+
+        if (!job) continue;
+
+        selectedJobs.push(job);
+        addedInPass = true;
+      }
+
+      sourceOffset++;
+    }
 
     return {
-      total: limitedJobs.length,
-      jobs: limitedJobs,
+      total: selectedJobs.length,
+      jobs: selectedJobs,
       sources_searched: sourceIds,
       query: params.query,
     };

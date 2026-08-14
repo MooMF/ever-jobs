@@ -28,3 +28,16 @@ telemetry/
 .azure-build/
 
 logs/
+
+# Local backup / ad-hoc test artifacts
+*.bak
+everjobs-*-filtered.txt
+mcp-wide-search-test.json
+wide-search-result.json
+
+# Local backup / patch / scratch files
+*.bak
+*.patch
+*.diff
+*.tmp
+*.log
