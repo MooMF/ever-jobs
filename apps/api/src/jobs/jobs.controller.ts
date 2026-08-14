@@ -1,5 +1,6 @@
 import {
   Controller,
+  Get,
   Post,
   Body,
   Logger,
@@ -8,6 +9,8 @@ import {
   StreamableFile,
   Optional,
   Inject,
+  BadRequestException,
+  NotFoundException,
 } from '@nestjs/common';
 import {
   ApiOperation,
@@ -223,6 +226,70 @@ export class JobsController {
    * Searches jobs then returns summary statistics, company intelligence,
    * and per-site comparison — a different response shape from /search.
    */
+  /**
+   * GET /api/jobs/details
+   *
+   * Return the full normalized job from a recent search.
+   */
+  @Get('details')
+  @ApiOperation({
+    summary: 'Get details for a job returned by a recent search',
+    description:
+      'Looks up a job by URL or Ever Jobs job ID. ' +
+      'When source is supplied, source + ID is preferred over ID alone.',
+  })
+  @ApiQuery({
+    name: 'url',
+    required: false,
+    description: 'Full job posting URL',
+  })
+  @ApiQuery({
+    name: 'id',
+    required: false,
+    description: 'Ever Jobs job ID',
+  })
+  @ApiQuery({
+    name: 'source',
+    required: false,
+    description: 'Source identifier such as linkedin or reed',
+  })
+  @ApiResponse({
+    status: 200,
+    description: 'Full normalized job details',
+  })
+  @ApiResponse({
+    status: 400,
+    description: 'Neither URL nor ID supplied',
+  })
+  @ApiResponse({
+    status: 404,
+    description: 'Job was not found in recent search results',
+  })
+  getJobDetails(
+    @Query('url') url?: string,
+    @Query('id') id?: string,
+    @Query('source') source?: string,
+  ): JobPostDto {
+    if (!url?.trim() && !id?.trim()) {
+      throw new BadRequestException(
+        'Either url or id must be provided',
+      );
+    }
+
+    const job = this.jobsService.findRecentJob({
+      url,
+      id,
+      source,
+    });
+
+    if (!job) {
+      throw new NotFoundException(
+        `Job not found${id ? `: ${id}` : ''}`,
+      );
+    }
+
+    return job;
+  }
   @Post('analyze')
   @ApiOperation({
     summary: 'Search and analyze jobs',

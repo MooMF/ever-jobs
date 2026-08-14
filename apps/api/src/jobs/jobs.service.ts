@@ -113,6 +113,13 @@ function withDeadline<T>(
 @Injectable()
 export class JobsService implements OnModuleInit {
   private readonly logger = new Logger(JobsService.name);
+  /**
+   * Bounded index of jobs returned by recent searches.
+   * Supports get_job_details without requiring each scraper to implement
+   * its own single-job lookup operation.
+   */
+  private readonly recentJobs: JobPostDto[] = [];
+  private readonly maxRecentJobs = 2500;
 
   constructor(
     private readonly registry: PluginRegistry,
@@ -305,6 +312,8 @@ export class JobsService implements OnModuleInit {
       return dateB - dateA;
     });
 
+    this.rememberRecentJobs(allJobs);
+
     this.logger.log(`Total aggregated jobs: ${allJobs.length}`);
     return allJobs;
   }
@@ -314,6 +323,79 @@ export class JobsService implements OnModuleInit {
    * the worker pool has a plain unit of work to schedule; the body is
    * unchanged from the prior inline closure.
    */
+  /**
+   * Find a job returned by a recent search.
+   *
+   * Lookup precedence:
+   * 1. Exact URL
+   * 2. Source + ID
+   * 3. ID
+   */
+  findRecentJob(params: {
+    url?: string;
+    id?: string;
+    source?: string;
+  }): JobPostDto | undefined {
+    const url = params.url?.trim();
+    const id = params.id?.trim();
+    const source = params.source?.trim().toLowerCase();
+
+    if (url) {
+      const byUrl = this.recentJobs.find(
+        (job) => job.jobUrl === url,
+      );
+
+      if (byUrl) {
+        return byUrl;
+      }
+    }
+
+    if (id && source) {
+      const bySourceAndId = this.recentJobs.find(
+        (job) =>
+          job.id === id &&
+          String(job.site ?? '').toLowerCase() === source,
+      );
+
+      if (bySourceAndId) {
+        return bySourceAndId;
+      }
+    }
+
+    if (id) {
+      return this.recentJobs.find(
+        (job) => job.id === id,
+      );
+    }
+
+    return undefined;
+  }
+
+  /**
+   * Remember jobs from successful searches.
+   * Newer observations replace older copies of the same job.
+   */
+  private rememberRecentJobs(jobs: JobPostDto[]): void {
+    for (const job of jobs) {
+      const existingIndex = this.recentJobs.findIndex(
+        (existing) =>
+          (!!job.jobUrl && existing.jobUrl === job.jobUrl) ||
+          (!!job.id &&
+            existing.id === job.id &&
+            existing.site === job.site),
+      );
+
+      if (existingIndex >= 0) {
+        this.recentJobs.splice(existingIndex, 1);
+      }
+
+      this.recentJobs.unshift(job);
+    }
+
+    if (this.recentJobs.length > this.maxRecentJobs) {
+      this.recentJobs.length = this.maxRecentJobs;
+    }
+  }
   private async scrapeOne(
 	  site: Site,
 	  scraper: IScraper,

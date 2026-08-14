@@ -333,6 +333,91 @@ export async function searchJobs(params: JobSearchParams): Promise<SearchRespons
     );
   }
 
+  const batchSize = Math.max(
+    1,
+    Math.min(sourcePolicy.search?.batchSize ?? 10, 50),
+  );
+
+  const batchConcurrency = Math.max(
+    1,
+    Math.min(sourcePolicy.search?.concurrency ?? 2, 8),
+  );
+
+  if (sourceIds.length > batchSize) {
+    const batches: string[][] = [];
+
+    for (let i = 0; i < sourceIds.length; i += batchSize) {
+      batches.push(sourceIds.slice(i, i + batchSize));
+    }
+
+    const batchResults: SearchResponse[] = [];
+    let nextBatchIndex = 0;
+
+    const worker = async (): Promise<void> => {
+      while (true) {
+        const batchIndex = nextBatchIndex++;
+
+        if (batchIndex >= batches.length) return;
+
+        const batch = batches[batchIndex];
+
+        try {
+          const result = await searchJobs({
+            ...params,
+            source: undefined,
+            sources: batch,
+          });
+
+          batchResults.push(result);
+        } catch (err: any) {
+          console.error(
+            `Job search batch ${batchIndex + 1}/${batches.length} failed: ${err.message}`,
+          );
+        }
+      }
+    };
+
+    const workers = Array.from(
+      { length: Math.min(batchConcurrency, batches.length) },
+      () => worker(),
+    );
+
+    await Promise.all(workers);
+
+    if (batchResults.length === 0) {
+      throw new Error(
+        `Search failed: all ${batches.length} source batches failed`,
+      );
+    }
+
+    const jobs: JobResult[] = [];
+    const seen = new Set<string>();
+
+    for (const result of batchResults) {
+      for (const job of result.jobs) {
+        const key =
+          job.url ||
+          (job.id
+            ? `${job.source}|${job.id}`
+            : `${job.source}|${job.company}|${job.title}|${job.location ?? ''}`);
+
+        if (seen.has(key)) continue;
+        seen.add(key);
+        jobs.push(job);
+      }
+    }
+
+    const limit = Math.min(params.limit ?? 20, 100);
+    const limitedJobs = jobs.slice(0, limit);
+
+    return {
+      total: limitedJobs.length,
+      jobs: limitedJobs,
+      sources_searched: sourceIds,
+      query: params.query,
+    };
+  }
+
   try {
     const response = await client.post('/api/jobs/search', {
       searchTerm: params.query,
@@ -358,7 +443,6 @@ export async function searchJobs(params: JobSearchParams): Promise<SearchRespons
       department: job.department ?? null,
     }));
 
-    // Filter remote-only if requested
     const filteredJobs = params.remoteOnly
       ? jobs.filter((j) => j.is_remote)
       : jobs;
@@ -389,6 +473,7 @@ export async function searchJobs(params: JobSearchParams): Promise<SearchRespons
 export async function getJobDetails(params: {
   jobUrl?: string;
   jobId?: string;
+  source?: string;
 }): Promise<JobDetailsResponse> {
   if (!params.jobUrl && !params.jobId) {
     throw new Error('Either job_url or job_id must be provided');
@@ -401,6 +486,7 @@ export async function getJobDetails(params: {
       params: {
         url: params.jobUrl,
         id: params.jobId,
+        source: params.source,
       },
     });
 

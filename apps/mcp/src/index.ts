@@ -109,6 +109,11 @@ function createServer(): Server {
               type: 'string',
               description: 'The Ever Jobs internal job ID (returned from search_jobs)',
             },
+            source: {
+              type: 'string',
+              description:
+                'Job source returned by search_jobs, for example "linkedin" or "reed".',
+            },
           },
           required: [],
         },
@@ -216,7 +221,8 @@ function createServer(): Server {
         case 'get_job_details': {
           const jobUrl = (args as any)?.job_url;
           const jobId = (args as any)?.job_id;
-          const result = await getJobDetails({ jobUrl, jobId });
+          const source = (args as any)?.source;
+          const result = await getJobDetails({ jobUrl, jobId, source });
           return {
             content: [{ type: 'text', text: JSON.stringify(result, null, 2) }],
           };
