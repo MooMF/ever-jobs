@@ -105,13 +105,13 @@ export class JobicyService implements IScraper {
 
     // Build compensation
     let compensation: CompensationDto | null = null;
-    const hasMin = raw.annualSalaryMin != null && raw.annualSalaryMin !== 0;
-    const hasMax = raw.annualSalaryMax != null && raw.annualSalaryMax !== 0;
+    const hasMin = raw.salaryMin != null && raw.salaryMin !== 0;
+    const hasMax = raw.salaryMax != null && raw.salaryMax !== 0;
     if (hasMin || hasMax) {
       compensation = new CompensationDto({
         interval: CompensationInterval.YEARLY,
-        minAmount: raw.annualSalaryMin ?? null,
-        maxAmount: raw.annualSalaryMax ?? null,
+        minAmount: raw.salaryMin ?? null,
+        maxAmount: raw.salaryMax ?? null,
         currency: raw.salaryCurrency ?? 'USD',
       });
     }
