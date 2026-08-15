@@ -10,17 +10,25 @@ param(
 
     [switch]$NoZip,
 
-    [string]$OutputDirectory = ".\logs",
+    [string]$OutputDirectory = "",
 
-    [string[]]$Apps = @(
-        "ever-jobs-api",
-        "ever-jobs-mcp"
-    )
+    [string[]]$Apps = @()
 )
 
 $ErrorActionPreference = "Stop"
 
 . "$PSScriptRoot\EverJobs.Common.ps1"
+
+if ([string]::IsNullOrWhiteSpace($OutputDirectory)) {
+    $OutputDirectory = $EverJobsLogDirectory
+}
+
+if ($Apps.Count -eq 0) {
+    $Apps = @(
+        $EverJobsApiApp,
+        $EverJobsMcpApp
+    )
+}
 
 # ============================================================
 # UTF-8
