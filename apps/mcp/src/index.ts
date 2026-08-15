@@ -57,7 +57,7 @@ function createServer(): Server {
           'DevOpsJobs, Functional Works, PowerToFly, Clojure Jobs, EcoJobs, ' +
           'TechCareers, JobsDB (Asia-Pacific), Sercanto (Europe), ' +
           'remote job boards, and 28+ ATS platforms (Greenhouse, Lever, Workday, Manatal, ' +
-          'Phenom, Bullhorn, Deel, etc.). Returns titles, companies, locations, and descriptions.',
+          'Phenom, Bullhorn, Deel, etc.). Returns a broad candidate pool with titles, companies, locations, and descriptions. Results are not guaranteed to be ordered by semantic relevance; the calling agent should perform the final relevance, location, seniority, and suitability sweep.',
         inputSchema: {
           type: 'object' as const,
           properties: {
@@ -83,7 +83,7 @@ function createServer(): Server {
             },
             limit: {
               type: 'number',
-              description: 'Maximum number of results to return (default: 20, max: 100)',
+              description: 'Maximum candidate results to return for agent relevance filtering (default: 100, max: 200)',
             },
             remote_only: {
               type: 'boolean',
@@ -209,7 +209,7 @@ function createServer(): Server {
             location: (args as any)?.location,
             source: (args as any)?.source,
             company: (args as any)?.company,
-            limit: (args as any)?.limit ?? 20,
+            limit: (args as any)?.limit ?? 100,
             remoteOnly: (args as any)?.remote_only ?? false,
           };
           const result = await searchJobs(params);

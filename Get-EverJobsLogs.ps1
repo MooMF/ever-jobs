@@ -1,157 +1,143 @@
+[CmdletBinding()]
 param(
     [int]$Days = 3,
 
-    [string]$ResourceGroup = "ever-jobs-rg",
+    [datetime]$Since,
 
-    [string]$Environment = "ever-jobs-env",
+    [datetime]$Until,
+
+    [switch]$Lightweight,
+
+    [switch]$NoZip,
+
+    [string]$OutputDirectory = ".\logs",
 
     [string[]]$Apps = @(
         "ever-jobs-api",
         "ever-jobs-mcp"
-    ),
-
-    [string]$OutputDirectory = ""
+    )
 )
 
 $ErrorActionPreference = "Stop"
 
-# ----------------------------------------------------------------------
-# UTF-8 output
-# ----------------------------------------------------------------------
+. "$PSScriptRoot\EverJobs.Common.ps1"
 
-[Console]::InputEncoding  = [System.Text.UTF8Encoding]::new()
-[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new()
-$OutputEncoding = [System.Text.UTF8Encoding]::new()
+# ============================================================
+# UTF-8
+# ============================================================
+
+[Console]::InputEncoding =
+    [System.Text.UTF8Encoding]::new()
+
+[Console]::OutputEncoding =
+    [System.Text.UTF8Encoding]::new()
+
+$OutputEncoding =
+    [System.Text.UTF8Encoding]::new()
 
 $env:PYTHONIOENCODING = "utf-8"
 $env:PYTHONUTF8 = "1"
 
-# ----------------------------------------------------------------------
-# Output paths
-# ----------------------------------------------------------------------
+# ============================================================
+# Azure session
+# ============================================================
 
-# Script lives in the repository root.
-if ([string]::IsNullOrWhiteSpace($OutputDirectory)) {
-    $OutputDirectory = Join-Path $PSScriptRoot "logs"
+Write-EverJobsHeader "EverJobs Log Export"
+
+Connect-EverJobsAzure
+
+# ============================================================
+# Resolve time window
+# ============================================================
+
+$nowUtc = (Get-Date).ToUniversalTime()
+
+if ($PSBoundParameters.ContainsKey("Until")) {
+    $untilUtc = $Until.ToUniversalTime()
+}
+else {
+    $untilUtc = $nowUtc
 }
 
-New-Item -ItemType Directory -Force -Path $OutputDirectory | Out-Null
-
-$Timestamp = Get-Date -Format "yyyyMMdd-HHmmss"
-
-$JsonFile = Join-Path $OutputDirectory "everjobs-$Timestamp.json"
-$TextFile = Join-Path $OutputDirectory "everjobs-$Timestamp.txt"
-
-# ----------------------------------------------------------------------
-# Find Log Analytics workspace
-# ----------------------------------------------------------------------
-
-Write-Host "Finding Log Analytics workspace..."
-
-$WorkspaceId = az containerapp env show `
-    --name $Environment `
-    --resource-group $ResourceGroup `
-    --query "properties.appLogsConfiguration.logAnalyticsConfiguration.customerId" `
-    -o tsv
-
-if ([string]::IsNullOrWhiteSpace($WorkspaceId)) {
-    throw "Could not determine Log Analytics workspace ID."
+if ($PSBoundParameters.ContainsKey("Since")) {
+    $sinceUtc = $Since.ToUniversalTime()
+}
+else {
+    $sinceUtc = $untilUtc.AddDays(-$Days)
 }
 
-Write-Host "Workspace: $WorkspaceId"
-
-# ----------------------------------------------------------------------
-# Build application filter
-# ----------------------------------------------------------------------
-
-$QuotedApps = $Apps | ForEach-Object { "`"$_`"" }
-$AppList = $QuotedApps -join ", "
-
-# ----------------------------------------------------------------------
-# Query Log Analytics
-# ----------------------------------------------------------------------
-
-$Query = @"
-ContainerAppConsoleLogs_CL
-| where TimeGenerated > ago(${Days}d)
-| where ContainerAppName_s in ($AppList)
-| project
-    TimeGenerated,
-    ContainerAppName_s,
-    RevisionName_s,
-    Log_s
-| order by TimeGenerated desc
-"@
-
-Write-Host "Downloading last $Days day(s) of logs..."
-
-$Json = az monitor log-analytics query `
-    --workspace $WorkspaceId `
-    --analytics-query $Query `
-    -o json
-
-if ($LASTEXITCODE -ne 0) {
-    throw "Azure Log Analytics query failed."
+if ($sinceUtc -ge $untilUtc) {
+    throw "Since must be earlier than Until."
 }
 
-if ([string]::IsNullOrWhiteSpace($Json)) {
-    throw "Azure Log Analytics returned no output."
+# ============================================================
+# Export
+# ============================================================
+
+$params = @{
+    FromUtc         = $sinceUtc
+    ToUtc           = $untilUtc
+    Apps            = $Apps
+    OutputDirectory = $OutputDirectory
 }
 
-# Write clean JSON without mixing Azure CLI stderr into the file.
-[System.IO.File]::WriteAllText(
-    $JsonFile,
-    $Json,
-    [System.Text.UTF8Encoding]::new($false)
-)
-
-# ----------------------------------------------------------------------
-# Generate human-readable text log
-# ----------------------------------------------------------------------
-
-$Rows = $Json | ConvertFrom-Json
-
-$Builder = [System.Text.StringBuilder]::new()
-
-[void]$Builder.AppendLine("EverJobs Azure Container Logs")
-[void]$Builder.AppendLine("============================")
-[void]$Builder.AppendLine("")
-[void]$Builder.AppendLine("Generated : $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')")
-[void]$Builder.AppendLine("Period    : Last $Days day(s)")
-[void]$Builder.AppendLine("Apps      : $($Apps -join ', ')")
-[void]$Builder.AppendLine("Workspace : $WorkspaceId")
-[void]$Builder.AppendLine("")
-
-foreach ($Row in @($Rows)) {
-
-    $Time = $Row.TimeGenerated
-    $App = $Row.ContainerAppName_s
-    $Revision = $Row.RevisionName_s
-    $Message = $Row.Log_s
-
-    [void]$Builder.AppendLine(
-        "[$Time] [$App] [$Revision]"
-    )
-
-    [void]$Builder.AppendLine($Message)
-    [void]$Builder.AppendLine("")
+if ($Lightweight) {
+    $params.Lightweight = $true
 }
 
-[System.IO.File]::WriteAllText(
-    $TextFile,
-    $Builder.ToString(),
-    [System.Text.UTF8Encoding]::new($false)
-)
+if ($NoZip) {
+    $params.NoZip = $true
+}
 
-# ----------------------------------------------------------------------
+$result = Export-EverJobsLogs @params
+
+# ============================================================
 # Summary
-# ----------------------------------------------------------------------
-
-$Count = @($Rows).Count
+# ============================================================
 
 Write-Host ""
-Write-Host "EverJobs logs downloaded."
+Write-Host "EverJobs logs exported."
 Write-Host ""
-Write-Host "Rows : $Count"
-Write-Host "JSON : $JsonFile"
-Write-Host "Text : $TextFile"
+
+Write-Host "Requested:"
+Write-Host "  From UTC : $($result.FromUtc.ToString('o'))"
+Write-Host "  To UTC   : $($result.ToUtc.ToString('o'))"
+
+Write-Host ""
+
+if ($result.ActualFirstUtc) {
+
+    Write-Host "Returned:"
+    Write-Host "  First UTC: $($result.ActualFirstUtc.ToString('o'))"
+    Write-Host "  Last UTC : $($result.ActualLastUtc.ToString('o'))"
+}
+else {
+    Write-Host "Returned:"
+    Write-Host "  No log rows found."
+}
+
+Write-Host ""
+Write-Host "Rows:"
+Write-Host "  Total       : $($result.Count)"
+Write-Host "  Diagnostic  : $($result.DiagnosticCount)"
+Write-Host "  Error-like  : $($result.ErrorCount)"
+Write-Host "  Warning     : $($result.WarningCount)"
+
+Write-Host ""
+Write-Host "Bundle:"
+Write-Host "  Directory   : $($result.Directory)"
+Write-Host "  Manifest    : $($result.Manifest)"
+Write-Host "  Query       : $($result.Query)"
+Write-Host "  Logs        : $($result.Logs)"
+Write-Host "  Diagnostics : $($result.Diagnostics)"
+
+if ($result.Json) {
+    Write-Host "  Raw JSON    : $($result.Json)"
+}
+
+if ($result.Zip) {
+    Write-Host "  ZIP         : $($result.Zip)"
+}
+else {
+    Write-Host "  ZIP         : disabled"
+}

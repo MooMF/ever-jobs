@@ -371,6 +371,10 @@ export async function searchJobs(params: JobSearchParams): Promise<SearchRespons
             ...params,
             source: undefined,
             sources: batch,
+
+            // Wide searches need a large GLOBAL candidate pool, not hundreds
+            // of records from every individual source.
+            limit: Math.min(Math.max(params.limit ?? 100, 1), 20),
           });
 
           batchResults[batchIndex] = result;
@@ -437,7 +441,7 @@ export async function searchJobs(params: JobSearchParams): Promise<SearchRespons
       }
     }
 
-    const limit = Math.min(params.limit ?? 20, 100);
+    const limit = Math.min(Math.max(params.limit ?? 100, 1), 200);
     const selectedJobs: JobResult[] = [];
 
     let sourceOffset = 0;
@@ -475,7 +479,7 @@ export async function searchJobs(params: JobSearchParams): Promise<SearchRespons
       location: params.location ?? '',
       siteType: sourceIds,
       companySlug: params.company,
-      resultsWanted: Math.min(params.limit ?? 20, 100),
+      resultsWanted: Math.min(Math.max(params.limit ?? 100, 1), 200),
       isRemote: params.remoteOnly ?? false,
     });
 

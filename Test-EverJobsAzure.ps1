@@ -6,18 +6,20 @@ param(
     [string]$McpUrl = "https://ever-jobs-mcp.nicegrass-ebb7ee5d.uksouth.azurecontainerapps.io/mcp",
     [string]$Query = "senior C# .NET developer technical lead",
     [string]$Location = "United Kingdom",
-    [int]$Limit = 20,
+    [int]$Limit = 100,
     [switch]$SkipColdStart,
     [int]$ScaleDownTimeoutSeconds = 900,
     [int]$PollSeconds = 10,
     [int]$SearchTimeoutSeconds = 300,
     [int]$DetailsTimeoutSeconds = 120,
     [int]$LogLookbackMinutes = 30,
-    [string]$OutputDirectory = ".\logs"
+	[switch]$FullLogs,
+	[string]$OutputDirectory = ".\logs"
 )
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
+. "$PSScriptRoot\EverJobs.Common.ps1"
 
 function Step([string]$Text) {
     Write-Host ""
@@ -123,44 +125,6 @@ function Workspace-Id {
     if ($LASTEXITCODE -ne 0 -or -not $ws) { throw "Cannot determine Log Analytics workspace" }
 
     $ws.Trim()
-}
-
-function Export-Logs([datetime]$FromUtc, [string]$Folder) {
-    $ws = Workspace-Id
-    $from = $FromUtc.ToString("yyyy-MM-ddTHH:mm:ssZ")
-
-    $query = @"
-ContainerAppConsoleLogs_CL
-| where TimeGenerated >= datetime($from)
-| where ContainerAppName_s in ("$ApiApp", "$McpApp")
-| project TimeGenerated, ContainerAppName_s, RevisionName_s, Log_s
-| order by TimeGenerated asc
-"@
-
-    $raw = az monitor log-analytics query `
-        --workspace $ws `
-        --analytics-query $query `
-        -o json
-
-    if ($LASTEXITCODE -ne 0) { throw "Log Analytics query failed" }
-
-    $jsonFile = Join-Path $Folder "everjobs-logs.json"
-    $txtFile  = Join-Path $Folder "everjobs-logs-filtered.txt"
-
-    $raw | Set-Content $jsonFile -Encoding utf8
-    $rows = $raw | ConvertFrom-Json
-
-    $rows |
-        Select-Object TimeGenerated, ContainerAppName_s, RevisionName_s, Log_s |
-        Format-Table -Wrap -AutoSize |
-        Out-String -Width 500 |
-        Set-Content $txtFile -Encoding utf8
-
-    [pscustomobject]@{
-        Count = @($rows).Count
-        Json  = $jsonFile
-        Text  = $txtFile
-    }
 }
 
 # ---- main ---------------------------------------------------------------
@@ -329,26 +293,107 @@ else {
 }
 
 Step "Download API + MCP logs"
+
 $from = $startedUtc.AddMinutes(-5)
-$lookback = (Get-Date).ToUniversalTime().AddMinutes(-$LogLookbackMinutes)
-if ($lookback -lt $from) { $from = $lookback }
+
+$lookback =
+    (Get-Date).
+    ToUniversalTime().
+    AddMinutes(-$LogLookbackMinutes)
+
+if ($lookback -lt $from) {
+    $from = $lookback
+}
+
+# Give Log Analytics a small ingestion cushion.
+$to =
+    (Get-Date).
+    ToUniversalTime().
+    AddMinutes(2)
 
 try {
-    $logs = Export-Logs $from $runDir
-    $summary.logs = [ordered]@{
-        success  = $true
-        rowCount = $logs.Count
-        jsonFile = $logs.Json
-        textFile = $logs.Text
+
+    $logParams = @{
+        FromUtc         = $from
+        ToUtc           = $to
+        Apps            = @(
+            $ApiApp,
+            $McpApp
+        )
+        OutputDirectory = $runDir
+        BaseName        = "azure-logs"
+        NoZip           = $true
     }
-    Write-Host ("Logs: {0} rows" -f $logs.Count)
+
+    # Test bundles are lightweight by default.
+    # -FullLogs includes raw Log Analytics JSON.
+    if (-not $FullLogs) {
+        $logParams.Lightweight = $true
+    }
+
+    $logs =
+        Export-EverJobsLogs @logParams
+
+    $summary.logs = [ordered]@{
+        success         = $true
+        mode            =
+            $(if ($FullLogs) {
+                "full"
+            }
+            else {
+                "lightweight"
+            })
+
+        rowCount        = $logs.Count
+        diagnosticRows = $logs.DiagnosticCount
+        errorRows      = $logs.ErrorCount
+        warningRows    = $logs.WarningCount
+
+        fromUtc         = $logs.FromUtc.ToString("o")
+        toUtc           = $logs.ToUtc.ToString("o")
+
+        actualFirstUtc  =
+            $(if ($logs.ActualFirstUtc) {
+                $logs.ActualFirstUtc.ToString("o")
+            }
+            else {
+                $null
+            })
+
+        actualLastUtc   =
+            $(if ($logs.ActualLastUtc) {
+                $logs.ActualLastUtc.ToString("o")
+            }
+            else {
+                $null
+            })
+
+        directory       = $logs.Directory
+        manifestFile    = $logs.Manifest
+        queryFile       = $logs.Query
+        textFile        = $logs.Logs
+        diagnosticsFile = $logs.Diagnostics
+        jsonFile        = $logs.Json
+    }
+
+    Write-Host (
+        "Logs: {0} rows; {1} diagnostic; {2} error-like" -f `
+        $logs.Count,
+        $logs.DiagnosticCount,
+        $logs.ErrorCount
+    )
 }
 catch {
+
     $summary.logs = [ordered]@{
         success = $false
         message = $_.Exception.Message
     }
-    Write-Warning ("Logs failed: {0}" -f $_.Exception.Message)
+
+    Write-Warning (
+        "Logs failed: {0}" -f
+        $_.Exception.Message
+    )
 }
 
 Step "Summary"

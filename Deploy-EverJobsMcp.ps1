@@ -1,7 +1,4 @@
-$path = ".\Deploy-EverJobsMcp.ps1"
-
-$content = @'
-param(
+﻿param(
     [string]$Tag = "",
     [switch]$NoCache,
     [switch]$SkipUpdate
@@ -21,7 +18,6 @@ Write-Host "Tag: $Tag"
 Write-Host ""
 
 if (-not $SkipUpdate) {
-
     Write-Host "Updating repository..."
     Write-Host ""
 
@@ -32,7 +28,6 @@ if (-not $SkipUpdate) {
     }
 }
 
-Write-Host ""
 Write-Host "Building and pushing MCP..."
 Write-Host ""
 
@@ -63,21 +58,9 @@ az containerapp update `
     --resource-group $EverJobsResourceGroup `
     --image $remoteImage
 
-Assert-EverJobsLastCommand `
-    "MCP Container App deployment failed."
+Assert-EverJobsLastCommand "MCP Container App deployment failed."
 
 Write-Host ""
 Write-Host "MCP deployment complete."
 Write-Host "Image:"
 Write-Host "  $remoteImage"
-'@
-
-$utf8 = New-Object System.Text.UTF8Encoding($false)
-
-[System.IO.File]::WriteAllText(
-    (Join-Path (Get-Location) "Deploy-EverJobsMcp.ps1"),
-    $content + "`r`n",
-    $utf8
-)
-
-Write-Host "Created: $path"
