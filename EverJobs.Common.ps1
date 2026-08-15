@@ -1,23 +1,69 @@
 $ErrorActionPreference = "Stop"
 
 # ============================================================
-# Repository
+# Repository-local defaults
 # ============================================================
 
-$EverJobsRepoPath = "C:\repos\EverJobs\ever-jobs"
+$EverJobsRepoPath = $PSScriptRoot
+$EverJobsLogDirectory = Join-Path $EverJobsRepoPath "logs"
 
 # ============================================================
-# Azure
+# Deployment-local configuration
 # ============================================================
 
-$EverJobsResourceGroup = "ever-jobs-rg"
-$EverJobsEnvironment   = "ever-jobs-env"
+$EverJobsResourceGroup = $null
+$EverJobsEnvironment = $null
+$EverJobsAcrName = $null
+$EverJobsApiApp = $null
+$EverJobsMcpApp = $null
+$EverJobsApiHealthUrl = $null
+$EverJobsMcpHealthUrl = $null
+$EverJobsMcpUrl = $null
 
-$EverJobsAcrName   = "ca799bf66e13acr"
+$EverJobsLocalConfigPath =
+    Join-Path $PSScriptRoot "EverJobs.Local.ps1"
+
+if (-not (Test-Path $EverJobsLocalConfigPath -PathType Leaf)) {
+    throw (
+        "Missing local EverJobs configuration: $EverJobsLocalConfigPath. " +
+        "Copy EverJobs.Local.example.ps1 to EverJobs.Local.ps1 and fill in " +
+        "the machine/Azure-specific values."
+    )
+}
+
+. $EverJobsLocalConfigPath
+
+$requiredLocalSettings = @(
+    "EverJobsResourceGroup",
+    "EverJobsEnvironment",
+    "EverJobsAcrName",
+    "EverJobsApiApp",
+    "EverJobsMcpApp",
+    "EverJobsApiHealthUrl",
+    "EverJobsMcpHealthUrl",
+    "EverJobsMcpUrl"
+)
+
+foreach ($settingName in $requiredLocalSettings) {
+    $settingValue = Get-Variable `
+        -Name $settingName `
+        -ValueOnly `
+        -ErrorAction SilentlyContinue
+
+    if ([string]::IsNullOrWhiteSpace([string]$settingValue)) {
+        throw "EverJobs local configuration value '$settingName' is missing."
+    }
+}
+
+if ([string]::IsNullOrWhiteSpace([string]$EverJobsRepoPath)) {
+    $EverJobsRepoPath = $PSScriptRoot
+}
+
+if ([string]::IsNullOrWhiteSpace([string]$EverJobsLogDirectory)) {
+    $EverJobsLogDirectory = Join-Path $EverJobsRepoPath "logs"
+}
+
 $EverJobsAcrServer = "$EverJobsAcrName.azurecr.io"
-
-$EverJobsApiApp = "ever-jobs-api"
-$EverJobsMcpApp = "ever-jobs-mcp"
 
 # ============================================================
 # Docker
@@ -28,19 +74,6 @@ $EverJobsMcpImage = "ever-jobs-mcp"
 
 $EverJobsApiDockerfile = "Dockerfile.api"
 $EverJobsMcpDockerfile = "Dockerfile.mcp"
-
-# ============================================================
-# Public endpoints
-# ============================================================
-
-$EverJobsApiHealthUrl =
-    "https://ever-jobs-api.nicegrass-ebb7ee5d.uksouth.azurecontainerapps.io/health"
-
-$EverJobsMcpHealthUrl =
-    "https://ever-jobs-mcp.nicegrass-ebb7ee5d.uksouth.azurecontainerapps.io/health"
-
-$EverJobsMcpUrl =
-    "https://ever-jobs-mcp.nicegrass-ebb7ee5d.uksouth.azurecontainerapps.io/mcp"
 
 # ============================================================
 # Wake probe
@@ -218,7 +251,7 @@ function Export-EverJobsLogs {
             $EverJobsMcpApp
         ),
 
-        [string]$OutputDirectory = ".\logs",
+        [string]$OutputDirectory = "",
 
         [string]$BaseName = "",
 
@@ -243,38 +276,38 @@ function Export-EverJobsLogs {
     }
 
     # Resolve output directory deterministically.
-	# Relative paths are always relative to the EverJobs repository,
-	# not the caller's current PowerShell location.
+    # Relative paths are always relative to the EverJobs repository,
+    # not the caller's current PowerShell location.
 
-	if ([string]::IsNullOrWhiteSpace($OutputDirectory)) {
-		$OutputDirectory = Join-Path $EverJobsRepoPath "logs"
-	}
-	elseif (-not [System.IO.Path]::IsPathRooted($OutputDirectory)) {
+    if ([string]::IsNullOrWhiteSpace($OutputDirectory)) {
+        $OutputDirectory = $EverJobsLogDirectory
+    }
+    elseif (-not [System.IO.Path]::IsPathRooted($OutputDirectory)) {
 
-		$relativePath = $OutputDirectory
+        $relativePath = $OutputDirectory
 
-		if ($relativePath.StartsWith(".\")) {
-			$relativePath = $relativePath.Substring(2)
-		}
-		elseif ($relativePath.StartsWith("./")) {
-			$relativePath = $relativePath.Substring(2)
-		}
+        if ($relativePath.StartsWith(".\")) {
+            $relativePath = $relativePath.Substring(2)
+        }
+        elseif ($relativePath.StartsWith("./")) {
+            $relativePath = $relativePath.Substring(2)
+        }
 
-		$OutputDirectory = Join-Path $EverJobsRepoPath $relativePath
-	}
+        $OutputDirectory = Join-Path $EverJobsRepoPath $relativePath
+    }
 
-	$OutputDirectory =
-		[System.IO.Path]::GetFullPath($OutputDirectory)
+    $OutputDirectory =
+        [System.IO.Path]::GetFullPath($OutputDirectory)
 
-	New-Item `
-		-ItemType Directory `
-		-Force `
-		-Path $OutputDirectory |
-		Out-Null
+    New-Item `
+        -ItemType Directory `
+        -Force `
+        -Path $OutputDirectory |
+        Out-Null
 
-	if (-not (Test-Path $OutputDirectory -PathType Container)) {
-		throw "Could not create log output directory: $OutputDirectory"
-	}
+    if (-not (Test-Path $OutputDirectory -PathType Container)) {
+        throw "Could not create log output directory: $OutputDirectory"
+    }
 
     if ([string]::IsNullOrWhiteSpace($BaseName)) {
         $BaseName = "everjobs-$(Get-Date -Format 'yyyyMMdd-HHmmss')"
@@ -291,16 +324,16 @@ function Export-EverJobsLogs {
     }
 
     New-Item `
-		-ItemType Directory `
-		-Force `
-		-Path $bundleDirectory |
-		Out-Null
+        -ItemType Directory `
+        -Force `
+        -Path $bundleDirectory |
+        Out-Null
 
-	if (-not (Test-Path $bundleDirectory -PathType Container)) {
-		throw "Could not create log bundle directory: $bundleDirectory"
-	}
+    if (-not (Test-Path $bundleDirectory -PathType Container)) {
+        throw "Could not create log bundle directory: $bundleDirectory"
+    }
 
-	if (Test-Path $zipFile) {
+    if (Test-Path $zipFile) {
         Remove-Item `
             -Path $zipFile `
             -Force
@@ -348,84 +381,84 @@ ContainerAppConsoleLogs_CL
 
     $logsEndpoint = "https://api.loganalytics.io"
 
-	$uri =
-		"$logsEndpoint/v1/workspaces/$WorkspaceId/query"
+    $uri =
+        "$logsEndpoint/v1/workspaces/$WorkspaceId/query"
 
-	$requestBody = @{
-		query    = $query
-		timespan = $timespan
-	} | ConvertTo-Json -Depth 10
+    $requestBody = @{
+        query    = $query
+        timespan = $timespan
+    } | ConvertTo-Json -Depth 10
 
-	$tempBodyFile =
-		Join-Path $env:TEMP "everjobs-log-query-$([guid]::NewGuid().ToString('N')).json"
+    $tempBodyFile =
+        Join-Path $env:TEMP "everjobs-log-query-$([guid]::NewGuid().ToString('N')).json"
 
-	try {
+    try {
 
-		[System.IO.File]::WriteAllText(
-			$tempBodyFile,
-			$requestBody,
-			[System.Text.UTF8Encoding]::new($false)
-		)
+        [System.IO.File]::WriteAllText(
+            $tempBodyFile,
+            $requestBody,
+            [System.Text.UTF8Encoding]::new($false)
+        )
 
-		$raw = az rest `
-			--method post `
-			--uri $uri `
-			--resource $logsEndpoint `
-			--headers "Content-Type=application/json" `
-			--body "@$tempBodyFile" `
-			--only-show-errors `
-			-o json
+        $raw = az rest `
+            --method post `
+            --uri $uri `
+            --resource $logsEndpoint `
+            --headers "Content-Type=application/json" `
+            --body "@$tempBodyFile" `
+            --only-show-errors `
+            -o json
 
-		Assert-EverJobsLastCommand `
-			"Log Analytics REST query failed."
-	}
-	finally {
+        Assert-EverJobsLastCommand `
+            "Log Analytics REST query failed."
+    }
+    finally {
 
-		if (Test-Path $tempBodyFile) {
-			Remove-Item $tempBodyFile -Force
-		}
-	}
+        if (Test-Path $tempBodyFile) {
+            Remove-Item $tempBodyFile -Force
+        }
+    }
 
-	if ([string]::IsNullOrWhiteSpace($raw)) {
-		throw "Log Analytics returned no output."
-	}
+    if ([string]::IsNullOrWhiteSpace($raw)) {
+        throw "Log Analytics returned no output."
+    }
 
-	$response = $raw | ConvertFrom-Json
+    $response = $raw | ConvertFrom-Json
 
-	# --------------------------------------------------------
-	# Convert Azure Logs Query API table response into rows
-	# --------------------------------------------------------
+    # --------------------------------------------------------
+    # Convert Azure Logs Query API table response into rows
+    # --------------------------------------------------------
 
-	$rows = @()
+    $rows = @()
 
-	if (
-		$response.tables -and
-		@($response.tables).Count -gt 0
-	) {
+    if (
+        $response.tables -and
+        @($response.tables).Count -gt 0
+    ) {
 
-		$table = @($response.tables)[0]
+        $table = @($response.tables)[0]
 
-		$columnNames =
-			@($table.columns) |
-			ForEach-Object {
-				$_.name
-			}
+        $columnNames =
+            @($table.columns) |
+            ForEach-Object {
+                $_.name
+            }
 
-		foreach ($values in @($table.rows)) {
+        foreach ($values in @($table.rows)) {
 
-			$row = [ordered]@{}
+            $row = [ordered]@{}
 
-			for (
-				$i = 0;
-				$i -lt $columnNames.Count;
-				$i++
-			) {
-				$row[$columnNames[$i]] = $values[$i]
-			}
+            for (
+                $i = 0;
+                $i -lt $columnNames.Count;
+                $i++
+            ) {
+                $row[$columnNames[$i]] = $values[$i]
+            }
 
-			$rows += [pscustomobject]$row
-		}
-	}
+            $rows += [pscustomobject]$row
+        }
+    }
 
     # --------------------------------------------------------
     # Validate result shape and time range
