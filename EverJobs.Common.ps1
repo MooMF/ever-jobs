@@ -5,7 +5,7 @@ $ErrorActionPreference = "Stop"
 # ============================================================
 
 $EverJobsRepoPath = $PSScriptRoot
-$EverJobsLogDirectory = Join-Path $EverJobsRepoPath "logs"
+$EverJobsLogDirectory = $null
 
 # ============================================================
 # Deployment-local configuration
