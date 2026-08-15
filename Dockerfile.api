@@ -17,14 +17,13 @@ RUN npm install \
     --legacy-peer-deps \
     --include=dev \
     --workspaces=false
-	
-RUN npx playwright install --with-deps chromium
 
 # Confirm the expected Nx version is actually present.
 RUN npm ls nx
 
 # Build with the locally installed Nx.
 RUN ./node_modules/.bin/nx build api
+
 
 FROM node:22-bookworm-slim AS runtime
 
@@ -39,7 +38,12 @@ COPY --from=build /app/packages ./packages
 COPY --from=build /app/dist ./dist
 COPY package*.json ./
 
-RUN echo "=== /app/package.json ===" \
+# Playwright browser + OS dependencies must exist in the runtime image.
+RUN npx playwright install --with-deps chromium
+
+RUN echo "=== Playwright browsers ===" \
+    && npx playwright install --list \
+    && echo "=== /app/package.json ===" \
     && head -20 /app/package.json \
     && echo "=== files ===" \
     && ls -la /app
