@@ -1,9 +1,9 @@
 [CmdletBinding()]
 param(
-    [string]$ResourceGroup = "ever-jobs-rg",
-    [string]$McpApp = "ever-jobs-mcp",
-    [string]$ApiApp = "ever-jobs-api",
-    [string]$McpUrl = "https://ever-jobs-mcp.nicegrass-ebb7ee5d.uksouth.azurecontainerapps.io/mcp",
+    [string]$ResourceGroup = "",
+    [string]$McpApp = "",
+    [string]$ApiApp = "",
+    [string]$McpUrl = "",
     [string]$Query = "senior C# .NET developer technical lead",
     [string]$Location = "United Kingdom",
     [int]$Limit = 100,
@@ -13,13 +13,33 @@ param(
     [int]$SearchTimeoutSeconds = 300,
     [int]$DetailsTimeoutSeconds = 120,
     [int]$LogLookbackMinutes = 30,
-	[switch]$FullLogs,
-	[string]$OutputDirectory = ".\logs"
+    [switch]$FullLogs,
+    [string]$OutputDirectory = ""
 )
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 . "$PSScriptRoot\EverJobs.Common.ps1"
+
+if ([string]::IsNullOrWhiteSpace($ResourceGroup)) {
+    $ResourceGroup = $EverJobsResourceGroup
+}
+
+if ([string]::IsNullOrWhiteSpace($McpApp)) {
+    $McpApp = $EverJobsMcpApp
+}
+
+if ([string]::IsNullOrWhiteSpace($ApiApp)) {
+    $ApiApp = $EverJobsApiApp
+}
+
+if ([string]::IsNullOrWhiteSpace($McpUrl)) {
+    $McpUrl = $EverJobsMcpUrl
+}
+
+if ([string]::IsNullOrWhiteSpace($OutputDirectory)) {
+    $OutputDirectory = $EverJobsLogDirectory
+}
 
 function Step([string]$Text) {
     Write-Host ""
@@ -240,11 +260,11 @@ if (@($search.jobs).Count -gt 0) {
 
         $isError = $false
 
-		if ($e.result.PSObject.Properties.Name -contains "isError") {
-			$isError = [bool]$e.result.isError
-		}
+        if ($e.result.PSObject.Properties.Name -contains "isError") {
+            $isError = [bool]$e.result.isError
+        }
 
-		if ($isError) {
+        if ($isError) {
             $summary.details = [ordered]@{
                 success    = $false
                 elapsedSec = [math]::Round($sw.Elapsed.TotalSeconds, 2)
