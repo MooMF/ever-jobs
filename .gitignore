@@ -8,6 +8,9 @@ dist/
 .env
 .env.local
 
+# Local EverJobs machine/deployment configuration
+EverJobs.Local.ps1
+
 # Transient working files for the company-source discovery/scaffold pipeline
 # (probe candidates, probe survivors, enrichment, numbering, assembled batch).
 # These are regenerated each scheduled run and must never be committed.
