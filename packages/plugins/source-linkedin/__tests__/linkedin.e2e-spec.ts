@@ -38,3 +38,21 @@ describe('LinkedInService (E2E)', () => {
     }
   });
 });
+
+
+describe('LinkedIn employment type parsing', () => {
+  it('maps LinkedIn Full-time criteria to the canonical fulltime type', () => {
+    const cheerio = require('cheerio');
+    const { parseJobType } = require('../src/linkedin.utils');
+    const { JobType } = require('@ever-jobs/models');
+    const $ = cheerio.load(
+      '<ul class="description__job-criteria-list"><li>' +
+      '<h3 class="description__job-criteria-subheader">Employment type</h3>' +
+      '<span class="description__job-criteria-text">Full-time</span>' +
+      '</li></ul>',
+    );
+    const parsed = parseJobType($, $('.description__job-criteria-list'));
+    expect(parsed).toEqual([JobType.FULL_TIME]);
+    expect(parsed).not.toContain(JobType.CONTRACT);
+  });
+});
