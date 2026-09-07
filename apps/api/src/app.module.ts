@@ -9,6 +9,7 @@ import { AppConfigModule } from './config/config.module';
 import { AppCacheModule } from './cache/cache.module';
 import { MetricsModule } from './metrics/metrics.module';
 import { MetricsInterceptor } from './metrics/metrics.interceptor';
+import { TelemetryModule } from './telemetry/telemetry.module';
 
 import { HealthModule } from './health/health.module';
 import { JobsModule } from './jobs/jobs.module';
@@ -38,6 +39,7 @@ const ACTIVE_STORE = resolveStoreBootstrap();
   imports: [
     // Global config (loads .env)
     AppConfigModule,
+	TelemetryModule,
 
     // Rate limiting (configurable via env vars)
     ThrottlerModule.forRootAsync({

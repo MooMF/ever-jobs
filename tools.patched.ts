@@ -6,7 +6,6 @@
  */
 
 import axios, { AxiosInstance } from 'axios';
-import sourcePolicy from './source-policy.json';
 
 // ── Configuration ──────────────────────────────────────────────────────
 
@@ -15,7 +14,7 @@ const API_URL = process.env.EVER_JOBS_API_URL ?? 'http://localhost:3001';
 function getClient(): AxiosInstance {
   return axios.create({
     baseURL: API_URL,
-    timeout: 150_000,
+    timeout: 60_000,
     headers: { 'Content-Type': 'application/json' },
   });
 }
@@ -26,11 +25,9 @@ export interface JobSearchParams {
   query: string;
   location?: string;
   source?: string;
-  sources?: string[];
   company?: string;
   limit?: number;
   remoteOnly?: boolean;
-  jobType?: string;
 }
 
 export interface JobResult {
@@ -45,8 +42,6 @@ export interface JobResult {
   source: string;
   salary: string | null;
   department: string | null;
-  job_type: string[] | null;
-  employment_type: string | null;
 }
 
 export interface SearchResponse {
@@ -69,8 +64,6 @@ export interface JobDetailsResponse {
   source: string;
   salary: string | null;
   department: string | null;
-  job_type: string[] | null;
-  employment_type: string | null;
   application_url: string | null;
 }
 
@@ -283,214 +276,19 @@ const SOURCES: SourceInfo[] = [
 // ── Tool Implementations ───────────────────────────────────────────────
 
 /**
- * Resolve user/tool-facing source aliases to the canonical source id expected
- * by the Ever Jobs API. Matching is deliberately separator-insensitive so
- * values such as "google_jobs", "Google Jobs", and "google-jobs" all
- * resolve to the catalogue entry whose API id is "google".
- */
-function resolveSourceId(source?: string): string | undefined {
-  if (!source) return undefined;
-
-  const normalise = (value: string): string =>
-    value.trim().toLowerCase().replace(/[^a-z0-9]/g, '');
-
-  const requested = normalise(source);
-  const match = SOURCES.find(
-    (candidate) =>
-      normalise(candidate.id) === requested ||
-      normalise(candidate.name) === requested,
-  );
-
-  if (!match) {
-    throw new Error(
-      `Unknown job source "${source}". Call list_sources to obtain a valid source id.`,
-    );
-  }
-
-  return match.id;
-}
-
-/**
  * Search for jobs via the Ever Jobs API.
  */
 export async function searchJobs(params: JobSearchParams): Promise<SearchResponse> {
   const client = getClient();
-  const sourceId = resolveSourceId(params.source);
-
-  const sourceIds = [
-    ...new Set(
-      sourceId
-        ? [sourceId]
-        : (params.sources?.length
-          ? params.sources
-          : sourcePolicy.preferred
-        ).map((source) => resolveSourceId(source)!),
-    ),
-  ];
-
-  if (sourceIds.length === 0) {
-    throw new Error('No job sources are configured for this search');
-  }
-
-  if (sourceIds.length > 250) {
-    throw new Error(
-      `Search requested ${sourceIds.length} sources; maximum safe source count is 250`,
-    );
-  }
-
-  const batchSize = Math.max(
-    1,
-    Math.min(sourcePolicy.search?.batchSize ?? 10, 50),
-  );
-
-  const batchConcurrency = Math.max(
-    1,
-    Math.min(sourcePolicy.search?.concurrency ?? 2, 8),
-  );
-
-  if (sourceIds.length > batchSize) {
-    const batches: string[][] = [];
-
-    for (let i = 0; i < sourceIds.length; i += batchSize) {
-      batches.push(sourceIds.slice(i, i + batchSize));
-    }
-
-    // Preserve original batch position. Previously results were appended in
-    // completion order, allowing the fastest batch to dominate the final limit.
-    const batchResults: Array<SearchResponse | undefined> = new Array(
-      batches.length,
-    );
-
-    let nextBatchIndex = 0;
-
-    const worker = async (): Promise<void> => {
-      while (true) {
-        const batchIndex = nextBatchIndex++;
-
-        if (batchIndex >= batches.length) return;
-
-        const batch = batches[batchIndex];
-
-        try {
-          const result = await searchJobs({
-            ...params,
-            source: undefined,
-            sources: batch,
-
-            // Wide searches need a large GLOBAL candidate pool, not hundreds
-            // of records from every individual source.
-            limit: Math.min(Math.max(params.limit ?? 100, 1), 20),
-          });
-
-          batchResults[batchIndex] = result;
-        } catch (err: any) {
-          console.error(
-            `Job search batch ${batchIndex + 1}/${batches.length} failed: ${err.message}`,
-          );
-        }
-      }
-    };
-
-    const workers = Array.from(
-      { length: Math.min(batchConcurrency, batches.length) },
-      () => worker(),
-    );
-
-    await Promise.all(workers);
-
-    const successfulResults = batchResults.filter(
-      (result): result is SearchResponse => result !== undefined,
-    );
-
-    if (successfulResults.length === 0) {
-      throw new Error(
-        `Search failed: all ${batches.length} source batches failed`,
-      );
-    }
-
-    // Merge all successful batches before applying the caller's final limit.
-    const jobsBySource = new Map<string, JobResult[]>();
-    const seen = new Set<string>();
-
-    for (const result of successfulResults) {
-      for (const job of result.jobs) {
-        const key =
-          job.url ||
-          (job.id
-            ? `${job.source}|${job.id}`
-            : `${job.source}|${job.company}|${job.title}|${job.location ?? ''}`);
-
-        if (seen.has(key)) continue;
-        seen.add(key);
-
-        const source = job.source || 'unknown';
-
-        const sourceJobs = jobsBySource.get(source);
-
-        if (sourceJobs) {
-          sourceJobs.push(job);
-        } else {
-          jobsBySource.set(source, [job]);
-        }
-      }
-    }
-
-    // Apply the final result window only after every batch has completed.
-    // Round-robin across sources prevents one prolific source from filling
-    // the entire response while preserving each source's own result order.
-    const sourceOrder = sourceIds.filter((source) => jobsBySource.has(source));
-
-    for (const source of jobsBySource.keys()) {
-      if (!sourceOrder.includes(source)) {
-        sourceOrder.push(source);
-      }
-    }
-
-    const limit = Math.min(Math.max(params.limit ?? 100, 1), 200);
-    const selectedJobs: JobResult[] = [];
-
-    let sourceOffset = 0;
-    let addedInPass = true;
-
-    while (selectedJobs.length < limit && addedInPass) {
-      addedInPass = false;
-
-      for (const source of sourceOrder) {
-        if (selectedJobs.length >= limit) break;
-
-        const sourceJobs = jobsBySource.get(source);
-        const job = sourceJobs?.[sourceOffset];
-
-        if (!job) continue;
-
-        selectedJobs.push(job);
-        addedInPass = true;
-      }
-
-      sourceOffset++;
-    }
-
-    return {
-      total: selectedJobs.length,
-      jobs: selectedJobs,
-      sources_searched: sourceIds,
-      query: params.query,
-    };
-  }
 
   try {
     const response = await client.post('/api/jobs/search', {
       searchTerm: params.query,
       location: params.location ?? '',
-      siteType: sourceIds,
+      siteType: params.source ? [params.source] : undefined,
       companySlug: params.company,
-      resultsWanted: Math.min(Math.max(params.limit ?? 100, 1), 200),
+      resultsWanted: Math.min(params.limit ?? 20, 100),
       isRemote: params.remoteOnly ?? false,
-      jobType: params.jobType,
-      // LinkedIn exposes authoritative employment type in the detail criteria
-      // block rather than the search card. Fetch it for typed searches so an
-      // explicit Full-time tag can never be mistaken for a contract downstream.
-      linkedinFetchDescription: sourceIds.includes('linkedin') && Boolean(params.jobType),
     });
 
     const data = response.data;
@@ -506,35 +304,17 @@ export async function searchJobs(params: JobSearchParams): Promise<SearchRespons
       source: job.site ?? '',
       salary: formatSalary(job.compensation),
       department: job.department ?? null,
-      job_type: Array.isArray(job.jobType ?? job.job_type)
-        ? (job.jobType ?? job.job_type)
-        : ((job.jobType ?? job.job_type) ? [job.jobType ?? job.job_type] : null),
-      employment_type: job.employmentType ?? job.employment_type ?? null,
     }));
 
-    let filteredJobs = params.remoteOnly
+    // Filter remote-only if requested
+    const filteredJobs = params.remoteOnly
       ? jobs.filter((j) => j.is_remote)
       : jobs;
-
-    if (params.jobType) {
-      const wanted = normaliseJobType(params.jobType);
-      filteredJobs = filteredJobs.filter((job) => {
-        const explicitTypes = [
-          ...(job.job_type ?? []),
-          ...(job.employment_type ? [job.employment_type] : []),
-        ].map(normaliseJobType).filter(Boolean);
-
-        // Preserve sources that do not expose employment type, but reject any
-        // explicit contradiction (e.g. LinkedIn says Full-time during a
-        // contract-only search).
-        return explicitTypes.length === 0 || explicitTypes.includes(wanted);
-      });
-    }
 
     return {
       total: filteredJobs.length,
       jobs: filteredJobs,
-      sources_searched: sourceIds,
+      sources_searched: params.source ? [params.source] : ['all'],
       query: params.query,
     };
   } catch (err: any) {
@@ -557,7 +337,6 @@ export async function searchJobs(params: JobSearchParams): Promise<SearchRespons
 export async function getJobDetails(params: {
   jobUrl?: string;
   jobId?: string;
-  source?: string;
 }): Promise<JobDetailsResponse> {
   if (!params.jobUrl && !params.jobId) {
     throw new Error('Either job_url or job_id must be provided');
@@ -570,7 +349,6 @@ export async function getJobDetails(params: {
       params: {
         url: params.jobUrl,
         id: params.jobId,
-        source: params.source,
       },
     });
 
@@ -588,10 +366,6 @@ export async function getJobDetails(params: {
       source: job.site ?? '',
       salary: formatSalary(job.compensation),
       department: job.department ?? null,
-      job_type: Array.isArray(job.jobType ?? job.job_type)
-        ? (job.jobType ?? job.job_type)
-        : ((job.jobType ?? job.job_type) ? [job.jobType ?? job.job_type] : null),
-      employment_type: job.employmentType ?? job.employment_type ?? null,
       application_url: job.applicationUrl ?? job.application_url ?? job.jobUrl ?? null,
     };
   } catch (err: any) {
@@ -624,49 +398,21 @@ export async function searchRemoteJobs(params: {
   source?: string;
   limit?: number;
 }): Promise<SearchResponse> {
-  const remoteSources = [
-    ...new Set(
-      sourcePolicy.remote.map((source) => resolveSourceId(source)!),
-    ),
-  ];
-
-  for (const source of remoteSources) {
-    const sourceInfo = SOURCES.find((candidate) => candidate.id === source);
-
-    if (!sourceInfo || sourceInfo.type !== 'remote') {
-      throw new Error(
-        `Configured remote source '${source}' is not a valid remote job source`,
-      );
-    }
-  }
-
-  const limit = Math.min(params.limit ?? 25, 100);
-
-  if (params.source) {
-    const source = resolveSourceId(params.source);
-    const sourceInfo = SOURCES.find((candidate) => candidate.id === source);
-
-    if (!source || !sourceInfo || sourceInfo.type !== 'remote') {
-      throw new Error(`Source '${params.source}' is not a remote job source`);
-    }
-
-    return searchJobs({
-      query: params.query,
-      location: 'Remote',
-      source,
-      limit,
-      remoteOnly: true,
-    });
-  }
+  const remoteSources = SOURCES.filter((s) => s.type === 'remote').map((s) => s.id);
+  const targetSource = params.source && remoteSources.includes(params.source)
+    ? params.source
+    : undefined;
 
   return searchJobs({
     query: params.query,
     location: 'Remote',
-    sources: remoteSources,
-    limit,
+    source: targetSource,
+    limit: params.limit ?? 25,
     remoteOnly: true,
   });
-}/**
+}
+
+/**
  * Get salary insights: aggregate salary data from search results.
  */
 export async function getSalaryInsights(params: {
@@ -786,10 +532,6 @@ export function compareSources(): {
 }
 
 // ── Helpers ────────────────────────────────────────────────────────────
-
-function normaliseJobType(value: string): string {
-  return value.trim().toLowerCase().replace(/[\s_-]/g, '');
-}
 
 function truncateDescription(desc: string | null | undefined): string | null {
   if (!desc) return null;

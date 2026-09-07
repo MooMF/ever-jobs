@@ -12,6 +12,7 @@ logs
 .env.local
 .env.*
 !.env.example
+EverJobs.Local.ps1
 coverage
 .vscode
 .idea

@@ -20,6 +20,7 @@ import {
   toDateOnly,
 } from '@ever-jobs/common';
 import { JOBICY_API_URL, JOBICY_HEADERS } from './jobicy.constants';
+import { JOBICY_LOCATION_SLUGS } from './jobicy.config';
 import { JobicyJob, JobicyApiResponse } from './jobicy.types';
 
 @SourcePlugin({
@@ -46,7 +47,16 @@ export class JobicyService implements IScraper {
     };
 
     if (input.location) {
-      params.geo = input.location;
+      const locationKey = input.location.trim().toLowerCase();
+      const geo = JOBICY_LOCATION_SLUGS[locationKey];
+
+      if (geo) {
+        params.geo = geo;
+      } else {
+        this.logger.warn(
+          `Unsupported Jobicy location "${input.location}"; omitting geo filter`,
+        );
+      }
     }
     if (input.searchTerm) {
       params.tag = input.searchTerm;
@@ -95,13 +105,13 @@ export class JobicyService implements IScraper {
 
     // Build compensation
     let compensation: CompensationDto | null = null;
-    const hasMin = raw.annualSalaryMin != null && raw.annualSalaryMin !== 0;
-    const hasMax = raw.annualSalaryMax != null && raw.annualSalaryMax !== 0;
+    const hasMin = raw.salaryMin != null && raw.salaryMin !== 0;
+    const hasMax = raw.salaryMax != null && raw.salaryMax !== 0;
     if (hasMin || hasMax) {
       compensation = new CompensationDto({
         interval: CompensationInterval.YEARLY,
-        minAmount: raw.annualSalaryMin ?? null,
-        maxAmount: raw.annualSalaryMax ?? null,
+        minAmount: raw.salaryMin ?? null,
+        maxAmount: raw.salaryMax ?? null,
         currency: raw.salaryCurrency ?? 'USD',
       });
     }

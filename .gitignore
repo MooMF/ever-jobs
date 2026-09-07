@@ -8,6 +8,9 @@ dist/
 .env
 .env.local
 
+# Local EverJobs machine/deployment configuration
+EverJobs.Local.ps1
+
 # Transient working files for the company-source discovery/scaffold pipeline
 # (probe candidates, probe survivors, enrichment, numbering, assembled batch).
 # These are regenerated each scheduled run and must never be committed.
@@ -23,3 +26,21 @@ dist/
 
 # Scratch workspace for scheduled-run discovery/enrichment (never committed)
 tmp/
+
+telemetry/
+.azure-build/
+
+logs/
+
+# Local backup / ad-hoc test artifacts
+*.bak
+everjobs-*-filtered.txt
+mcp-wide-search-test.json
+wide-search-result.json
+
+# Local backup / patch / scratch files
+*.bak
+*.patch
+*.diff
+*.tmp
+*.log

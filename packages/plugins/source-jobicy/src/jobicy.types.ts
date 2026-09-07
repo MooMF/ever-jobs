@@ -15,9 +15,10 @@ export interface JobicyJob {
   jobExcerpt: string;
   jobDescription: string;
   pubDate: string;
-  annualSalaryMin?: number | null;
-  annualSalaryMax?: number | null;
+  salaryMin?: number | null;
+  salaryMax?: number | null;
   salaryCurrency?: string | null;
+  salaryPeriod?: string | null;
 }
 
 /**

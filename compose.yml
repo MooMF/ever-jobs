@@ -1,0 +1,20 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: ever-jobs-api
+    ports:
+      - "3001:3001"
+    restart: unless-stopped
+
+  mcp:
+    build:
+      context: .
+      dockerfile: Dockerfile.mcp
+    container_name: ever-jobs-mcp
+    ports:
+      - "3002:3002"
+    depends_on:
+      - api
+    restart: unless-stopped
