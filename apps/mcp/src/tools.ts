@@ -30,6 +30,7 @@ export interface JobSearchParams {
   company?: string;
   limit?: number;
   remoteOnly?: boolean;
+  jobType?: string;
 }
 
 export interface JobResult {
@@ -44,6 +45,8 @@ export interface JobResult {
   source: string;
   salary: string | null;
   department: string | null;
+  job_type: string[] | null;
+  employment_type: string | null;
 }
 
 export interface SearchResponse {
@@ -66,6 +69,8 @@ export interface JobDetailsResponse {
   source: string;
   salary: string | null;
   department: string | null;
+  job_type: string[] | null;
+  employment_type: string | null;
   application_url: string | null;
 }
 
@@ -481,6 +486,11 @@ export async function searchJobs(params: JobSearchParams): Promise<SearchRespons
       companySlug: params.company,
       resultsWanted: Math.min(Math.max(params.limit ?? 100, 1), 200),
       isRemote: params.remoteOnly ?? false,
+      jobType: params.jobType,
+      // LinkedIn exposes authoritative employment type in the detail criteria
+      // block rather than the search card. Fetch it for typed searches so an
+      // explicit Full-time tag can never be mistaken for a contract downstream.
+      linkedinFetchDescription: sourceIds.includes('linkedin') && Boolean(params.jobType),
     });
 
     const data = response.data;
@@ -496,11 +506,30 @@ export async function searchJobs(params: JobSearchParams): Promise<SearchRespons
       source: job.site ?? '',
       salary: formatSalary(job.compensation),
       department: job.department ?? null,
+      job_type: Array.isArray(job.jobType ?? job.job_type)
+        ? (job.jobType ?? job.job_type)
+        : ((job.jobType ?? job.job_type) ? [job.jobType ?? job.job_type] : null),
+      employment_type: job.employmentType ?? job.employment_type ?? null,
     }));
 
-    const filteredJobs = params.remoteOnly
+    let filteredJobs = params.remoteOnly
       ? jobs.filter((j) => j.is_remote)
       : jobs;
+
+    if (params.jobType) {
+      const wanted = normaliseJobType(params.jobType);
+      filteredJobs = filteredJobs.filter((job) => {
+        const explicitTypes = [
+          ...(job.job_type ?? []),
+          ...(job.employment_type ? [job.employment_type] : []),
+        ].map(normaliseJobType).filter(Boolean);
+
+        // Preserve sources that do not expose employment type, but reject any
+        // explicit contradiction (e.g. LinkedIn says Full-time during a
+        // contract-only search).
+        return explicitTypes.length === 0 || explicitTypes.includes(wanted);
+      });
+    }
 
     return {
       total: filteredJobs.length,
@@ -559,6 +588,10 @@ export async function getJobDetails(params: {
       source: job.site ?? '',
       salary: formatSalary(job.compensation),
       department: job.department ?? null,
+      job_type: Array.isArray(job.jobType ?? job.job_type)
+        ? (job.jobType ?? job.job_type)
+        : ((job.jobType ?? job.job_type) ? [job.jobType ?? job.job_type] : null),
+      employment_type: job.employmentType ?? job.employment_type ?? null,
       application_url: job.applicationUrl ?? job.application_url ?? job.jobUrl ?? null,
     };
   } catch (err: any) {
@@ -753,6 +786,10 @@ export function compareSources(): {
 }
 
 // ── Helpers ────────────────────────────────────────────────────────────
+
+function normaliseJobType(value: string): string {
+  return value.trim().toLowerCase().replace(/[\s_-]/g, '');
+}
 
 function truncateDescription(desc: string | null | undefined): string | null {
   if (!desc) return null;
