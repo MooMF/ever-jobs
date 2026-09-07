@@ -89,6 +89,11 @@ function createServer(): Server {
               type: 'boolean',
               description: 'If true, filter to remote-friendly positions only',
             },
+            job_type: {
+              type: 'string',
+              enum: ['fulltime', 'parttime', 'contract', 'temporary', 'internship'],
+              description: 'Employment type filter. Explicit source metadata is authoritative; contradictory jobs are excluded.',
+            },
           },
           required: ['query'],
         },
@@ -211,6 +216,7 @@ function createServer(): Server {
             company: (args as any)?.company,
             limit: (args as any)?.limit ?? 100,
             remoteOnly: (args as any)?.remote_only ?? false,
+            jobType: (args as any)?.job_type,
           };
           const result = await searchJobs(params);
           return {
